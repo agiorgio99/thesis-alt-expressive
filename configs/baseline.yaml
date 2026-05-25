@@ -1,0 +1,57 @@
+# ═════════════════════════════════════════════════════════════════════════════
+#  baseline.yaml — example experiment config (Phase 1: baseline reproduction)
+#
+#  This file is parsed into the typed dataclasses in src/alt/config.py.
+#  Any field here can also be overridden on the command line, e.g.:
+#       python scripts/run_pipeline.py --config configs/baseline.yaml \
+#              --set asr.model_name=whisper_small asr.device=cpu
+#
+#  To run a different model for a subtask, change the *model_name* / *aligner*
+#  fields below — no code edits needed.
+# ═════════════════════════════════════════════════════════════════════════════
+
+# ── Experiment identity ──────────────────────────────────────────────────────
+experiment_name: baseline_whisper_largev3   # used to name the results folder
+
+# ── Filesystem paths ─────────────────────────────────────────────────────────
+paths:
+  dataset_root: data/GTSinger_English       # root folder of the chosen dataset
+  results_dir:  results                     # where CSVs / plots are written
+  work_dir:     data/_work                  # scratch: 16 kHz WAVs, MFA corpus...
+
+# ── Dataset selection ────────────────────────────────────────────────────────
+data:
+  name: gtsinger          # registry key -> picks the DatasetAdapter
+  language: english       # dataset-specific filter (GTSinger English subset)
+  limit: null             # null = all utterances; set an int for a quick test
+
+# ── ASR sub-task ─────────────────────────────────────────────────────────────
+asr:
+  enabled: true
+  model_name: whisper_largev3   # registry key: whisper_small | whisper_largev2 |
+                                #   whisper_largev3 | wav2vec2 | fireredasr
+  device: cuda                  # cuda | cpu  (per-subtask device choice)
+  batch_size: 8
+  language: en
+  extra: {}                     # free-form model-specific kwargs
+
+# ── Forced-alignment sub-task ────────────────────────────────────────────────
+alignment:
+  enabled: true
+  aligner: mfa                  # registry key: mfa | sofa
+  device: cpu                   # MFA is CPU-only; SOFA can use cuda
+  extra:
+    acoustic_model: english_mfa     # MFA pretrained model name
+    dictionary:     english_mfa     # MFA pretrained dictionary name
+
+# ── Pitch-tracking sub-task ──────────────────────────────────────────────────
+pitch:
+  enabled: true
+  model_capacity: tiny          # CREPE: tiny | small | medium | large | full
+  device: cuda
+  step_ms: 10                   # F0 frame step in milliseconds
+
+# ── Evaluation ───────────────────────────────────────────────────────────────
+evaluation:
+  stratify_by: [technique, singer_id]   # produce per-group metric breakdowns
+  hallucination_threshold: 1.0          # WER >= this counts as a hallucination

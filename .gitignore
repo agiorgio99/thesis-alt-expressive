@@ -1,0 +1,32 @@
+# ── Large data assets (never commit; download separately) ────────────────────
+data/
+!data/.gitkeep
+
+# ── Generated experiment outputs ─────────────────────────────────────────────
+results/*
+!results/.gitkeep
+outputs/
+*.TextGrid
+*.lab
+
+# ── Model weight caches ──────────────────────────────────────────────────────
+*.pt
+*.ckpt
+*.safetensors
+checkpoints/
+whisper_weights/
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ── Editors / OS ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
