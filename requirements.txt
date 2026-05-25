@@ -1,0 +1,42 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# thesis-alt-expressive — Python dependencies
+#
+# Install:  pip install -r requirements.txt
+#
+# NOTE: some subtask tools live outside pip and must be installed separately:
+#   - MFA  (Montreal Forced Aligner) : conda install -c conda-forge montreal-forced-aligner
+#   - SOFA (Singing-Oriented Forced Aligner) : git clone https://github.com/qiuqiao/SOFA
+#   - FireRedASR : git clone https://github.com/FireRedTeam/FireRedASR
+#   - ffmpeg : system package (apt install ffmpeg / brew install ffmpeg)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core numerics / data handling ────────────────────────────────────────────
+numpy
+pandas
+pyyaml                 # YAML experiment-config parsing
+
+# ── Audio I/O and signal processing ──────────────────────────────────────────
+librosa
+soundfile
+
+# ── Deep-learning framework + ASR models ─────────────────────────────────────
+torch
+torchaudio
+transformers           # Whisper (HF) + wav2vec2 model classes
+datasets               # used later for Phase 3 fine-tuning
+
+# ── Evaluation ───────────────────────────────────────────────────────────────
+jiwer                  # WER computation
+g2p_en                 # grapheme-to-phoneme for PER
+
+# ── Forced alignment helpers ─────────────────────────────────────────────────
+praatio                # read/write TextGrid files
+tgt                    # alternative TextGrid parser (optional)
+
+# ── Pitch tracking ───────────────────────────────────────────────────────────
+crepe                  # CNN-based F0 estimator (pulls in tensorflow)
+
+# ── Plotting + progress ──────────────────────────────────────────────────────
+matplotlib
+seaborn
+tqdm
