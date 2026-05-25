@@ -1,0 +1,52 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# thesis-alt-expressive — Conda environment
+#
+# Create:   conda env create -f environment.yml
+# Activate: conda activate thesis-alt
+# Update:   conda env update -f environment.yml --prune
+#
+# Notes:
+#   - PyTorch ≥ 2.6 with CUDA 12.8 is required for RTX 5080 (Blackwell).
+#   - MFA (Montreal Forced Aligner) must be in its own separate env:
+#       conda create -n aligner -c conda-forge montreal-forced-aligner
+#   - ffmpeg is installed via conda here; no system-level apt install needed.
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: thesis-alt
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11        # 3.11 for best compatibility with tensorflow (crepe)
+  - pip
+  - setuptools          # provides pkg_resources, required by crepe's legacy build
+
+  # ── Core numerics / data handling ─────────────────────────────────────────
+  - numpy
+  - pandas
+  - pyyaml
+
+  # ── Audio I/O and signal processing ───────────────────────────────────────
+  - librosa
+  - ffmpeg              # replaces system-level apt install ffmpeg
+
+  # ── Plotting + progress ────────────────────────────────────────────────────
+  - matplotlib
+  - seaborn
+  - tqdm
+
+  # ── pip-only packages ──────────────────────────────────────────────────────
+  - pip:
+    - --extra-index-url https://download.pytorch.org/whl/cu128
+    - torch>=2.6
+    - torchaudio
+    - soundfile               # audio I/O (pip name; conda-forge name is inconsistent)
+    - transformers        # Whisper (HF) + wav2vec2
+    - datasets            # Phase 3 fine-tuning
+    - jiwer               # WER computation
+    - g2p_en              # grapheme-to-phoneme for PER
+    - praatio             # TextGrid I/O
+    - tgt                 # alternative TextGrid parser
+    - torchcrepe          # CNN-based F0 estimator, PyTorch-native (replaces crepe which is abandoned and pulls tensorflow)
