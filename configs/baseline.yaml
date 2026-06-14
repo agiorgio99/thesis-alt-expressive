@@ -15,7 +15,7 @@ experiment_name: baseline_whisper_largev3   # used to name the results folder
 
 # ── Filesystem paths ─────────────────────────────────────────────────────────
 paths:
-  dataset_root: data/GTSinger_English       # root folder of the chosen dataset
+  dataset_root: data/GTSinger/English        # root folder of the chosen dataset
   results_dir:  results                     # where CSVs / plots are written
   work_dir:     data/_work                  # scratch: 16 kHz WAVs, MFA corpus...
 

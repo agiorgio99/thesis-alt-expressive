@@ -48,6 +48,15 @@ def _get_g2p():
     """
     global _g2p
     if _g2p is None:
+        import nltk
+        # NLTK ≥ 3.9 renamed the tagger to averaged_perceptron_tagger_eng;
+        # older versions use averaged_perceptron_tagger. Download both silently.
+        for resource in ("averaged_perceptron_tagger_eng",
+                         "averaged_perceptron_tagger", "cmudict"):
+            try:
+                nltk.download(resource, quiet=True)
+            except Exception:
+                pass
         from g2p_en import G2p          # imported lazily — heavy NLTK dependency
         _g2p = G2p()
     return _g2p

@@ -16,6 +16,37 @@ import numpy as np
 from .audio import TARGET_SR, load_audio
 
 
+def _stub_torchaudio() -> None:
+    """Register a no-op torchaudio stub before torchcrepe is imported.
+
+    torchcrepe imports torchaudio at module load time (for its own audio-loading
+    helper), but we load audio ourselves with librosa and pass tensors directly
+    to torchcrepe.predict(), so torchaudio is never actually called.
+    Stubbing it avoids the broken .so linkage without losing any functionality.
+    """
+    import sys
+    import types
+
+    if "torchaudio" in sys.modules:
+        return
+
+    class _Stub(types.ModuleType):
+        """Auto-creates child sub-modules on attribute access; callable no-op."""
+        def __getattr__(self, name: str) -> "_Stub":
+            child = _Stub(f"{self.__name__}.{name}")
+            sys.modules[child.__name__] = child
+            setattr(self, name, child)
+            return child
+        def __call__(self, *args, **kwargs):
+            return None
+
+    root = _Stub("torchaudio")
+    sys.modules["torchaudio"] = root
+
+
+_stub_torchaudio()
+
+
 @dataclass
 class F0Contour:
     """A CREPE F0 estimate for one audio file.
@@ -61,20 +92,30 @@ class CrepeExtractor:
             An ``F0Contour``, or ``None`` if extraction failed.
         """
         try:
-            import crepe
+            import torch
+            import torchcrepe
             audio, _ = load_audio(audio_path, sr=TARGET_SR)
-            time, freq, conf, _ = crepe.predict(
-                audio, TARGET_SR,
-                model_capacity=self.model_capacity,
-                step_size=self.step_ms,
-                viterbi=True,
-                verbose=0,
+            audio_t = torch.tensor(audio, dtype=torch.float32).unsqueeze(0)
+            hop = int(TARGET_SR * self.step_ms / 1000)
+            pitch, periodicity = torchcrepe.predict(
+                audio_t, TARGET_SR,
+                hop_length=hop,
+                fmin=32.7, fmax=1975.5,
+                model=self.model_capacity,
+                decoder=torchcrepe.decode.viterbi,
+                return_periodicity=True,
+                batch_size=512,
+                device=self.device,
+                pad=True,
             )
+            freq = pitch.squeeze(0).cpu().numpy()
+            conf = periodicity.squeeze(0).cpu().numpy()
+            time = np.arange(len(freq)) * self.step_ms / 1000.0
             f0_voiced = freq.copy()
             f0_voiced[conf <= self.conf_threshold] = np.nan
             return F0Contour(time, freq, conf, f0_voiced)
         except Exception as exc:
-            print(f"  [CREPE] failed on {audio_path}: {exc}")
+            print(f"  [pitch] failed on {audio_path}: {exc}")
             return None
 
     @staticmethod

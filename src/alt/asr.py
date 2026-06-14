@@ -78,13 +78,26 @@ class ASRModel(ABC):
         if not self._loaded:
             self.load()
         hyps: list[str] = []
-        for i in range(0, len(audio_paths), self.batch_size):
+        n_total = len(audio_paths)
+        n_batches = (n_total + self.batch_size - 1) // self.batch_size
+        try:
+            from tqdm import tqdm
+            bar = tqdm(range(0, n_total, self.batch_size), total=n_batches,
+                       desc=f"ASR {self.__class__.__name__}", unit="batch",
+                       postfix={"utt": f"0/{n_total}"})
+        except ImportError:
+            bar = range(0, n_total, self.batch_size)
+        done = 0
+        for i in bar:
             batch = audio_paths[i:i + self.batch_size]
             try:
                 hyps.extend(self._transcribe_batch(batch))
             except Exception as exc:                  # keep the run alive
                 print(f"  [ASR] batch {i // self.batch_size} failed: {exc}")
                 hyps.extend([""] * len(batch))
+            done += len(batch)
+            if hasattr(bar, "set_postfix"):
+                bar.set_postfix({"utt": f"{done}/{n_total}"})
         return hyps
 
     def unload(self) -> None:
