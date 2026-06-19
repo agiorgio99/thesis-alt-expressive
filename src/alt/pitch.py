@@ -32,6 +32,8 @@ def _stub_torchaudio() -> None:
 
     class _Stub(types.ModuleType):
         """Auto-creates child sub-modules on attribute access; callable no-op."""
+        __file__ = "/dev/null"   # prevents _Stub leaking into os.stat/__file__ checks
+        __path__: list = []
         def __getattr__(self, name: str) -> "_Stub":
             child = _Stub(f"{self.__name__}.{name}")
             sys.modules[child.__name__] = child
@@ -42,9 +44,6 @@ def _stub_torchaudio() -> None:
 
     root = _Stub("torchaudio")
     sys.modules["torchaudio"] = root
-
-
-_stub_torchaudio()
 
 
 @dataclass
@@ -93,6 +92,7 @@ class CrepeExtractor:
         """
         try:
             import torch
+            _stub_torchaudio()
             import torchcrepe
             audio, _ = load_audio(audio_path, sr=TARGET_SR)
             audio_t = torch.tensor(audio, dtype=torch.float32).unsqueeze(0)

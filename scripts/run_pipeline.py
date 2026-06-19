@@ -48,7 +48,7 @@ def parse_args() -> argparse.Namespace:
         "--set", nargs="*", default=[], metavar="key=value",
         help="Override config fields, e.g. --set asr.device=cpu data.limit=10")
     parser.add_argument(
-        "--stage", choices=["all", "dataset", "asr", "alignment", "pitch"],
+        "--stage", choices=["all", "dataset", "asr", "alignment", "pitch", "report"],
         default="all", help="Run only one stage instead of the full pipeline.")
     return parser.parse_args()
 
@@ -63,6 +63,13 @@ def main() -> None:
         pipeline.run()
         return
 
+    from alt.report import make_report
+
+    if args.stage == "report":
+        make_report(pipeline.out_dir)
+        print(f"\n=== Report written to: {pipeline.out_dir} ===")
+        return
+
     # Single-stage runs: the dataset must always be loaded first.
     pipeline.load_dataset()
     if args.stage == "asr":
@@ -71,6 +78,7 @@ def main() -> None:
         pipeline.run_alignment()
     elif args.stage == "pitch":
         pipeline.run_pitch()
+        make_report(pipeline.out_dir)
     print(f"\n=== Stage '{args.stage}' done. Results in: {pipeline.out_dir} ===")
 
 

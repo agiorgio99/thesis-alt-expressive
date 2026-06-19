@@ -25,6 +25,7 @@ from .dataset import Utterance, get_dataset
 from .metrics import (aggregate_asr, aggregate_tbe, score_asr,
                       stratified_asr, time_boundary_error)
 from .pitch import CrepeExtractor
+from .report import make_report
 
 
 def _iter(items, desc: str):
@@ -81,11 +82,11 @@ class Pipeline:
         return self.utterances
 
     # ── Stage 1: ASR ─────────────────────────────────────────────────────────
-    def run_asr(self) -> pd.DataFrame | None:
-        """Run the configured ASR model and score WER/PER.
+    def run_asr(self) -> list[pd.DataFrame] | None:
+        """Run every configured ASR model in sequence and score WER/PER.
 
         Returns:
-            A per-utterance DataFrame with hypotheses and scores, or ``None``
+            A list of per-utterance DataFrames (one per model), or ``None``
             if the ASR stage is disabled.
         """
         cfg = self.cfg.asr
@@ -93,43 +94,45 @@ class Pipeline:
             print("[asr] disabled — skipping")
             return None
 
-        print(f"[asr] model={cfg.model_name}  device={cfg.device}")
-        model = get_asr_model(cfg.model_name, device=cfg.device,
-                              batch_size=cfg.batch_size, language=cfg.language,
-                              **cfg.extra)
-        # Only score utterances that actually have ground-truth lyrics.
         scored_utts = [u for u in self.utterances if u.text.strip()]
         paths = [u.audio_path for u in scored_utts]
-
-        hypotheses = model.transcribe(paths)
-        model.unload()
-
-        df = pd.DataFrame({
-            "utt_id": [u.utt_id for u in scored_utts],
-            "singer_id": [u.singer_id for u in scored_utts],
-            "technique": [u.technique for u in scored_utts],
-            "group": [u.group for u in scored_utts],
-            "text": [u.text for u in scored_utts],
-            "hypothesis": hypotheses,
-        })
-        df = score_asr(df, ref_col="text", hyp_col="hypothesis")
-        df.to_csv(self.out_dir / f"asr_{cfg.model_name}.csv", index=False)
-
-        # Headline + stratified summaries.
         thr = self.cfg.evaluation.hallucination_threshold
-        overall = aggregate_asr(df, thr)
-        print(f"[asr] WER={overall['wer']:.3f}  PER={overall['per']:.3f}  "
-              f"halluc={overall['hallucination_rate']:.3f}  n={overall['n']}")
-        pd.DataFrame([overall]).to_csv(
-            self.out_dir / f"asr_{cfg.model_name}_summary.csv", index=False)
+        results = []
 
-        for col in self.cfg.evaluation.stratify_by:
-            strat = stratified_asr(df, col, thr)
-            if not strat.empty:
-                strat.to_csv(
-                    self.out_dir / f"asr_{cfg.model_name}_by_{col}.csv",
-                    index=False)
-        return df
+        for model_name in cfg.model_names:
+            print(f"\n[asr] model={model_name}  device={cfg.device}")
+            model = get_asr_model(model_name, device=cfg.device,
+                                  batch_size=cfg.batch_size, language=cfg.language,
+                                  **cfg.extra)
+            hypotheses = model.transcribe(paths)
+            model.unload()
+
+            df = pd.DataFrame({
+                "utt_id":    [u.utt_id    for u in scored_utts],
+                "singer_id": [u.singer_id for u in scored_utts],
+                "technique": [u.technique for u in scored_utts],
+                "group":     [u.group     for u in scored_utts],
+                "text":      [u.text      for u in scored_utts],
+                "hypothesis": hypotheses,
+            })
+            df = score_asr(df, ref_col="text", hyp_col="hypothesis")
+            df.to_csv(self.out_dir / f"asr_{model_name}.csv", index=False)
+
+            overall = aggregate_asr(df, thr)
+            print(f"[asr] WER={overall['wer']:.3f}  PER={overall['per']:.3f}  "
+                  f"halluc={overall['hallucination_rate']:.3f}  n={overall['n']}")
+            pd.DataFrame([overall]).to_csv(
+                self.out_dir / f"asr_{model_name}_summary.csv", index=False)
+
+            for col in self.cfg.evaluation.stratify_by:
+                strat = stratified_asr(df, col, thr)
+                if not strat.empty:
+                    strat.to_csv(
+                        self.out_dir / f"asr_{model_name}_by_{col}.csv",
+                        index=False)
+            results.append(df)
+
+        return results
 
     # ── Stage 2: alignment ───────────────────────────────────────────────────
     def run_alignment(self) -> pd.DataFrame | None:
@@ -229,4 +232,5 @@ class Pipeline:
         self.run_asr()
         self.run_alignment()
         self.run_pitch()
+        make_report(self.out_dir)
         print(f"\n=== Done. Results in: {self.out_dir} ===")

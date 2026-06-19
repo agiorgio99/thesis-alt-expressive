@@ -61,15 +61,15 @@ class ASRConfig:
     """Automatic-speech-recognition subtask options.
 
     Attributes:
-        enabled:    Run the ASR stage at all.
-        model_name: Registry key picking the ASRModel implementation.
-        device:     "cuda" or "cpu" — chosen independently of other subtasks.
-        batch_size: Utterances processed per inference batch.
-        language:   Decoding language hint passed to the model.
-        extra:      Free-form model-specific keyword arguments.
+        enabled:     Run the ASR stage at all.
+        model_names: Registry keys of ASR models to benchmark (run in sequence).
+        device:      "cuda" or "cpu" — chosen independently of other subtasks.
+        batch_size:  Utterances processed per inference batch.
+        language:    Decoding language hint passed to the model.
+        extra:       Free-form model-specific keyword arguments.
     """
     enabled: bool = True
-    model_name: str = "whisper_largev3"
+    model_names: list[str] = field(default_factory=lambda: ["whisper_largev3"])
     device: str = "cuda"
     batch_size: int = 8
     language: str = "en"

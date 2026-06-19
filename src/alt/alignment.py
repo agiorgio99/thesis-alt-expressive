@@ -191,11 +191,14 @@ class MFAAligner(Aligner):
         Raises:
             RuntimeError: If the subprocess exits with a non-zero code.
         """
+        import os
         mfa_bin = self.extra.get("mfa_bin", "mfa")
         cmd = [mfa_bin, *map(str, args)]
         print("  $ " + " ".join(cmd))
+        env = os.environ.copy()
+        env["PATH"] = str(Path(mfa_bin).parent) + ":" + env.get("PATH", "")
         proc = subprocess.run(cmd, stdout=subprocess.PIPE,
-                              stderr=subprocess.STDOUT, text=True)
+                              stderr=subprocess.STDOUT, text=True, env=env)
         if proc.returncode != 0:
             raise RuntimeError(
                 f"MFA failed (rc={proc.returncode}):\n{proc.stdout[-2000:]}")
