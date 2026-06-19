@@ -1,57 +1,55 @@
 # ═════════════════════════════════════════════════════════════════════════════
-#  baseline.yaml — example experiment config (Phase 1: baseline reproduction)
-#
-#  This file is parsed into the typed dataclasses in src/alt/config.py.
-#  Any field here can also be overridden on the command line, e.g.:
-#       python scripts/run_pipeline.py --config configs/baseline.yaml \
-#              --set asr.model_name=whisper_small asr.device=cpu
-#
-#  To run a different model for a subtask, change the *model_name* / *aligner*
-#  fields below — no code edits needed.
+#  baseline.yaml — Phase 1 baseline: all ASR models on GTSinger English
 # ═════════════════════════════════════════════════════════════════════════════
 
-# ── Experiment identity ──────────────────────────────────────────────────────
-experiment_name: baseline_whisper_largev3   # used to name the results folder
+experiment_name: baseline_english
 
-# ── Filesystem paths ─────────────────────────────────────────────────────────
 paths:
-  dataset_root: data/GTSinger/English        # root folder of the chosen dataset
-  results_dir:  results                     # where CSVs / plots are written
-  work_dir:     data/_work                  # scratch: 16 kHz WAVs, MFA corpus...
+  dataset_root: data/GTSinger/English
+  results_dir:  results
+  work_dir:     data/_work
 
-# ── Dataset selection ────────────────────────────────────────────────────────
 data:
-  name: gtsinger          # registry key -> picks the DatasetAdapter
-  language: english       # dataset-specific filter (GTSinger English subset)
+  name: gtsinger
+  language: english
   limit: null             # null = all utterances; set an int for a quick test
 
-# ── ASR sub-task ─────────────────────────────────────────────────────────────
+# ── ASR — all models run in sequence, each gets its own CSV ──────────────────
 asr:
   enabled: true
-  model_name: whisper_largev3   # registry key: whisper_small | whisper_largev2 |
-                                #   whisper_largev3 | wav2vec2 | fireredasr
-  device: cuda                  # cuda | cpu  (per-subtask device choice)
+  model_names:
+    - whisper_largev3
+    - whisper_largev2
+    - whisper_small
+    - wav2vec2
+    # - fireredasr      # uncomment after setting repo_dir/model_dir below
+  device: cuda
   batch_size: 8
   language: en
-  extra: {}                     # free-form model-specific kwargs
+  extra: {}
+  # For FireRedASR, replace extra above with:
+  # extra:
+  #   repo_dir:  /path/to/FireRedASR
+  #   model_dir: /path/to/FireRedASR-AED-L
 
-# ── Forced-alignment sub-task ────────────────────────────────────────────────
+# ── Forced alignment ─────────────────────────────────────────────────────────
 alignment:
   enabled: true
-  aligner: mfa                  # registry key: mfa | sofa
-  device: cpu                   # MFA is CPU-only; SOFA can use cuda
+  aligner: mfa
+  device: cpu
   extra:
-    acoustic_model: english_mfa     # MFA pretrained model name
-    dictionary:     english_mfa     # MFA pretrained dictionary name
+    acoustic_model: english_mfa
+    dictionary:     english_mfa
+    mfa_bin:        /home/antonello/miniforge3/envs/aligner/bin/mfa
 
-# ── Pitch-tracking sub-task ──────────────────────────────────────────────────
+# ── Pitch tracking ───────────────────────────────────────────────────────────
 pitch:
   enabled: true
-  model_capacity: tiny          # CREPE: tiny | small | medium | large | full
+  model_capacity: full    # torchcrepe only has tiny and full; full = best accuracy
   device: cuda
-  step_ms: 10                   # F0 frame step in milliseconds
+  step_ms: 10
 
 # ── Evaluation ───────────────────────────────────────────────────────────────
 evaluation:
-  stratify_by: [technique, singer_id]   # produce per-group metric breakdowns
-  hallucination_threshold: 1.0          # WER >= this counts as a hallucination
+  stratify_by: [technique, singer_id]
+  hallucination_threshold: 1.0
