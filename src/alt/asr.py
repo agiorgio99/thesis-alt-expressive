@@ -233,6 +233,21 @@ def _whisper_largev3(**kw: Any) -> WhisperHF:
     return WhisperHF(model_id="openai/whisper-large-v3", **kw)
 
 
+@register_asr("whisper_finetuned")
+def _whisper_finetuned(**kw: Any) -> WhisperHF:
+    """Factory for a locally fine-tuned Whisper checkpoint.
+
+    Pass the checkpoint path via ``asr.extra.model_id`` in the config, e.g.::
+
+        asr:
+          model_names: [whisper_finetuned]
+          extra:
+            model_id: results/finetune_whisper/best_model
+    """
+    model_id = kw.pop("model_id", "results/finetune_whisper/best_model")
+    return WhisperHF(model_id=model_id, **kw)
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 #  wav2vec 2.0 (HuggingFace transformers, CTC)
 # ─────────────────────────────────────────────────────────────────────────────
