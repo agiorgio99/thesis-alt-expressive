@@ -16,6 +16,7 @@ Add a new dataset in three steps:
 
 from __future__ import annotations
 
+import json
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -141,6 +142,32 @@ def get_dataset(name: str, root: str | Path, language: str = "english",
 # ─────────────────────────────────────────────────────────────────────────────
 #  Helper: read ground-truth word lyrics from a TextGrid
 # ─────────────────────────────────────────────────────────────────────────────
+def lyrics_from_json(json_path: str | Path) -> str:
+    """Extract word-level transcript from a GTSinger JSON annotation file.
+
+    Used as a fallback when no TextGrid is available (e.g. augmented files).
+
+    Args:
+        json_path: Path to a GTSinger ``.json`` annotation file.
+
+    Returns:
+        Space-joined non-silence words, or "" if the file is missing/unreadable.
+    """
+    json_path = Path(json_path)
+    if not json_path.exists():
+        return ""
+    try:
+        with open(json_path, encoding="utf-8") as fh:
+            data = json.load(fh)
+        words = [
+            w["word"] for w in data
+            if isinstance(w, dict) and w.get("word") not in ("<SP>", None, "")
+        ]
+        return " ".join(words)
+    except Exception:
+        return ""
+
+
 def lyrics_from_textgrid(tg_path: str | Path) -> str:
     """Extract the word-tier transcript from a TextGrid file.
 
@@ -240,7 +267,8 @@ class GTSingerAdapter(DatasetAdapter):
 
             tg_path = wav.with_suffix(".TextGrid")
             json_path = wav.with_suffix(".json")
-            lyrics = clean_text(lyrics_from_textgrid(tg_path))
+            lyrics = (clean_text(lyrics_from_textgrid(tg_path))
+                      or clean_text(lyrics_from_json(json_path)))
 
             utt_id = (f"{singer_id}__{technique}__{group}"
                       f"__{song.replace(' ', '_')}__{wav.stem}")

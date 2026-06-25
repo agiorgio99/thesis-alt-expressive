@@ -1,0 +1,44 @@
+# ═════════════════════════════════════════════════════════════════════════════
+#  augmented_eval.yaml
+#  Run pre-trained Whisper large-v3 on the WORLD-augmented technique groups.
+#  Purpose: establish how well (or poorly) the untuned model handles
+#  WORLD-resynthesised expressive singing — the pre-fine-tuning baseline for
+#  the augmented data.
+#
+#  Run:
+#    python scripts/run_pipeline.py --config configs/augmented_eval.yaml --stage asr
+#
+#  Results land in:  results/augmented_eval/asr_whisper_largev3*.csv
+#  Compare against:  results/baseline_english/asr_whisper_largev3_by_technique.csv
+# ═════════════════════════════════════════════════════════════════════════════
+
+experiment_name: augmented_eval
+
+paths:
+  dataset_root: data/GTSinger_Augmented/English
+  results_dir:  results
+  work_dir:     data/_work
+
+data:
+  name: gtsinger
+  language: english
+  limit: null
+
+asr:
+  enabled: true
+  model_names:
+    - whisper_largev3
+  device: cuda
+  batch_size: 8
+  language: en
+  extra: {}
+
+alignment:
+  enabled: false
+
+pitch:
+  enabled: false
+
+evaluation:
+  stratify_by: [technique, singer_id, group]
+  hallucination_threshold: 1.0

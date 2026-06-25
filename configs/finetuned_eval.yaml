@@ -1,0 +1,43 @@
+# ═════════════════════════════════════════════════════════════════════════════
+#  finetuned_eval.yaml
+#  Evaluate the fine-tuned Whisper checkpoint on the ORIGINAL GTSinger
+#  technique groups — the same test set as the Phase 1 baseline.
+#
+#  Run AFTER finetune_whisper.py has completed:
+#    python scripts/run_pipeline.py --config configs/finetuned_eval.yaml --stage asr
+#
+#  Results land in:  results/finetuned_eval/asr_whisper_finetuned*.csv
+#  Compare against:  results/baseline_english/asr_whisper_largev3_by_technique.csv
+# ═════════════════════════════════════════════════════════════════════════════
+
+experiment_name: finetuned_eval
+
+paths:
+  dataset_root: data/GTSinger/English
+  results_dir:  results
+  work_dir:     data/_work
+
+data:
+  name: gtsinger
+  language: english
+  limit: null
+
+asr:
+  enabled: true
+  model_names:
+    - whisper_finetuned
+  device: cuda
+  batch_size: 8
+  language: en
+  extra:
+    model_id: results/finetune_whisper/best_model   # written by finetune_whisper.py
+
+alignment:
+  enabled: false
+
+pitch:
+  enabled: false
+
+evaluation:
+  stratify_by: [technique, singer_id]
+  hallucination_threshold: 1.0

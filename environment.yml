@@ -44,9 +44,11 @@ dependencies:
     - torchaudio
     - soundfile               # audio I/O (pip name; conda-forge name is inconsistent)
     - transformers        # Whisper (HF) + wav2vec2
+    - accelerate>=1.1.0 
     - datasets            # Phase 3 fine-tuning
     - jiwer               # WER computation
     - g2p_en              # grapheme-to-phoneme for PER
     - praatio             # TextGrid I/O
     - tgt                 # alternative TextGrid parser
     - torchcrepe          # CNN-based F0 estimator, PyTorch-native (replaces crepe which is abandoned and pulls tensorflow)
+    - pyworld               # WORLD vocoder (for F0 + spectral envelope + aperiodicity)
