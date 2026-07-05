@@ -64,13 +64,29 @@ class DatasetAdapter(ABC):
         root:     Root folder of the dataset on disk.
         language: Language subset filter (corpus-specific meaning).
         limit:    If set, keep only the first N utterances (smoke tests).
+        manifest: Optional path to a JSON file listing audio_path strings.
+                  When provided, only utterances whose ``audio_path`` appears
+                  in that list are returned.  Used to restrict evaluation to a
+                  shared held-out test split across fine-tuning experiments.
     """
 
     def __init__(self, root: str | Path, language: str = "english",
-                 limit: int | None = None) -> None:
+                 limit: int | None = None,
+                 manifest: str | None = None) -> None:
         self.root = Path(root)
         self.language = language
         self.limit = limit
+        self._manifest_paths: set[str] | None = None
+        if manifest:
+            mpath = Path(manifest)
+            if mpath.exists():
+                with open(mpath, encoding="utf-8") as fh:
+                    self._manifest_paths = set(json.load(fh))
+            else:
+                raise FileNotFoundError(
+                    f"Manifest file not found: {mpath}\n"
+                    "Run finetune_whisper.py first to generate it."
+                )
 
     @abstractmethod
     def list_utterances(self) -> list[Utterance]:
@@ -81,6 +97,20 @@ class DatasetAdapter(ABC):
             ``self.limit`` before returning.
         """
         raise NotImplementedError
+
+    def _apply_manifest(self, items: list[Utterance]) -> list[Utterance]:
+        """Filter utterances to only those listed in the manifest (if set).
+
+        Args:
+            items: The full list of utterances.
+
+        Returns:
+            Only the utterances whose ``audio_path`` is in the manifest,
+            or ``items`` unchanged when no manifest was configured.
+        """
+        if self._manifest_paths is None:
+            return items
+        return [u for u in items if u.audio_path in self._manifest_paths]
 
     def _apply_limit(self, items: list[Utterance]) -> list[Utterance]:
         """Truncate a list of utterances to ``self.limit`` if one is set.
@@ -117,7 +147,8 @@ def register_dataset(name: str) -> Callable[[type[DatasetAdapter]], type[Dataset
 
 
 def get_dataset(name: str, root: str | Path, language: str = "english",
-                limit: int | None = None) -> DatasetAdapter:
+                limit: int | None = None,
+                manifest: str | None = None) -> DatasetAdapter:
     """Instantiate the dataset adapter registered under ``name``.
 
     Args:
@@ -125,6 +156,8 @@ def get_dataset(name: str, root: str | Path, language: str = "english",
         root:     Dataset root folder.
         language: Language subset filter.
         limit:    Optional cap on the number of utterances.
+        manifest: Optional path to a JSON manifest of audio_path strings;
+                  when set, the adapter returns only those utterances.
 
     Returns:
         A ready-to-use ``DatasetAdapter`` instance.
@@ -136,7 +169,8 @@ def get_dataset(name: str, root: str | Path, language: str = "english",
         raise KeyError(
             f"Unknown dataset {name!r}. Registered: {sorted(DATASET_REGISTRY)}"
         )
-    return DATASET_REGISTRY[name](root=root, language=language, limit=limit)
+    return DATASET_REGISTRY[name](root=root, language=language, limit=limit,
+                                  manifest=manifest)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -285,6 +319,7 @@ class GTSingerAdapter(DatasetAdapter):
                 extra={"song": song, "group_folder": group_folder},
             ))
 
+        records = self._apply_manifest(records)
         return self._apply_limit(records)
 
 

@@ -70,9 +70,12 @@ class Pipeline:
             The list of ``Utterance`` records (also stored on ``self``).
         """
         cfg = self.cfg.data
-        print(f"[dataset] adapter={cfg.name}  root={self.cfg.paths.dataset_root}")
+        manifest = getattr(cfg, "manifest", None)
+        print(f"[dataset] adapter={cfg.name}  root={self.cfg.paths.dataset_root}"
+              + (f"  manifest={manifest}" if manifest else ""))
         adapter = get_dataset(cfg.name, root=self.cfg.paths.dataset_root,
-                              language=cfg.language, limit=cfg.limit)
+                              language=cfg.language, limit=cfg.limit,
+                              manifest=manifest)
         self.utterances = adapter.list_utterances()
         print(f"[dataset] loaded {len(self.utterances)} utterances")
 

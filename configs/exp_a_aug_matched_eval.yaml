@@ -1,0 +1,62 @@
+# ═════════════════════════════════════════════════════════════════════════════
+#  exp_a_aug_matched_eval.yaml
+#
+#  Experiment A — size-matched augmented-only fine-tune.
+#
+#  Training used:
+#    • aug_train  (90% of all augmented technique WAVs)
+#    • N extra augmented items drawn from aug_val, where N = len(train_orig)
+#  → Total training samples == Experiment 1 (mixed), so the WER comparison
+#    isolates data *quality* (real vs synthetic) not data *quantity*.
+#
+#  Test set: same shared 30% held-out original manifest as Exp 1 & 2.
+#
+#  Prerequisites
+#  ─────────────
+#  1. Run fine-tuning:
+#       python scripts/finetune_whisper.py \
+#           --mode aug_matched \
+#           --aug-src  data/GTSinger_Augmented/English \
+#           --orig-src data/GTSinger/English \
+#           --freeze-encoder --gradient-checkpointing \
+#           --batch-size 4 --grad-accum 4 --optim adamw_8bit
+#
+#  2. Run evaluation (this config):
+#       python scripts/run_pipeline.py \
+#           --config configs/exp_a_aug_matched_eval.yaml --stage asr
+#
+#  Results → results/exp_a_aug_matched_eval/
+# ═════════════════════════════════════════════════════════════════════════════
+
+experiment_name: exp_a_aug_matched_eval
+
+paths:
+  dataset_root: data/GTSinger/English
+  results_dir:  results
+  work_dir:     data/_work
+
+data:
+  name:     gtsinger
+  language: english
+  limit:    null
+  manifest: results/shared_test_manifest.json
+
+asr:
+  enabled: true
+  model_names:
+    - whisper_finetuned
+  device: cuda
+  batch_size: 8
+  language: en
+  extra:
+    model_id: results/finetune_whisper_aug_matched/best_model
+
+alignment:
+  enabled: false
+
+pitch:
+  enabled: false
+
+evaluation:
+  stratify_by: [technique, singer_id]
+  hallucination_threshold: 1.0

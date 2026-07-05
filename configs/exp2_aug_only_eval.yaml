@@ -1,0 +1,69 @@
+# ═════════════════════════════════════════════════════════════════════════════
+#  exp2_aug_only_eval.yaml
+#
+#  Evaluate the Experiment-2 fine-tuned checkpoint on the shared held-out test
+#  set (30 % of original GTSinger technique utterances).
+#
+#  Training for this experiment used:
+#    • ALL augmented technique WAVs  (NO original samples in training)
+#
+#  The test set is the same 30 % of original data used in experiment 1, so
+#  WER figures are directly comparable across both experiments.
+#
+#  Prerequisites
+#  ─────────────
+#  1. Run fine-tuning (exp 1 first to generate the manifest, then exp 2):
+#       python scripts/finetune_whisper.py \
+#           --mode mixed \
+#           --aug-src  data/GTSinger_Augmented/English \
+#           --orig-src data/GTSinger/English
+#
+#       python scripts/finetune_whisper.py \
+#           --mode aug_only \
+#           --aug-src  data/GTSinger_Augmented/English \
+#           --orig-src data/GTSinger/English
+#
+#  2. Run evaluation (this config):
+#       python scripts/run_pipeline.py \
+#           --config configs/exp2_aug_only_eval.yaml --stage asr
+#
+#  Results → results/exp2_aug_only_eval/asr_whisper_finetuned_aug_only*.csv
+#
+#  Compare with:
+#    results/exp1_mixed_eval/asr_whisper_finetuned_mixed_by_technique.csv
+# ═════════════════════════════════════════════════════════════════════════════
+
+experiment_name: exp2_aug_only_eval
+
+paths:
+  dataset_root: data/GTSinger/English
+  results_dir:  results
+  work_dir:     data/_work
+
+data:
+  name:     gtsinger
+  language: english
+  limit:    null
+  # Restrict evaluation to the shared held-out 30 % test split.
+  # This file is written by finetune_whisper.py (both modes, same seed).
+  manifest: results/shared_test_manifest.json
+
+asr:
+  enabled: true
+  model_names:
+    - whisper_finetuned
+  device: cuda
+  batch_size: 8
+  language: en
+  extra:
+    model_id: results/finetune_whisper_aug_only/best_model
+
+alignment:
+  enabled: false
+
+pitch:
+  enabled: false
+
+evaluation:
+  stratify_by: [technique, singer_id]
+  hallucination_threshold: 1.0

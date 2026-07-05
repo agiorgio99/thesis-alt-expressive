@@ -2,26 +2,44 @@
 """
 finetune_whisper.py
 ───────────────────
-Fine-tune openai/whisper-large-v3 on the WORLD-augmented GTSinger technique
-groups produced by build_augmented_dataset.py.
+Fine-tune openai/whisper-large-v3 on a controlled train/test split designed
+for two comparative experiments:
 
-Training data : GTSinger_Augmented technique group WAVs  (~4 000 files)
-Validation    : random 10% holdout from the same pool (stratified by technique)
-Best model    : saved to  results/finetune_whisper/best_model/
-               (loadable with --set asr.extra.model_id=... in the pipeline)
+  Experiment 1 (--mode mixed)
+      Train: ALL augmented technique WAVs  +  20 % of original technique WAVs
+      Test : held-out 30 % of original technique WAVs  (saved as manifest)
 
-After training run the evaluation step:
-  python scripts/run_pipeline.py \\
-      --config configs/finetuned_eval.yaml --stage asr
+  Experiment 2 (--mode aug_only)
+      Train: ALL augmented technique WAVs  (no original samples)
+      Test : the SAME held-out 30 % manifest as experiment 1
+
+Both experiments evaluate against the identical test split, so WER differences
+are solely attributable to whether original samples were included in training.
+
+The test-set manifest is saved to:
+    results/shared_test_manifest.json
+and is referenced by the evaluation configs:
+    configs/exp1_mixed_eval.yaml
+    configs/exp2_aug_only_eval.yaml
 
 Usage
 ─────
-  python scripts/finetune_whisper.py                       # defaults
-  python scripts/finetune_whisper.py --epochs 5 --lr 5e-6
-  python scripts/finetune_whisper.py --batch-size 4 --grad-accum 2
-  python scripts/finetune_whisper.py --dry-run             # list items only
+  # Experiment 1 — mixed original + augmented
   python scripts/finetune_whisper.py \\
-      --train-src data/GTSinger_Augmented/English          # custom data root
+      --mode mixed \\
+      --aug-src  data/GTSinger_Augmented/English \\
+      --orig-src data/GTSinger/English
+
+  # Experiment 2 — augmented only (re-uses the manifest written by exp 1)
+  python scripts/finetune_whisper.py \\
+      --mode aug_only \\
+      --aug-src  data/GTSinger_Augmented/English \\
+      --orig-src data/GTSinger/English
+
+  # Quick sanity check (no training)
+  python scripts/finetune_whisper.py --mode mixed --dry-run \\
+      --aug-src data/GTSinger_Augmented/English \\
+      --orig-src data/GTSinger/English
 """
 
 from __future__ import annotations
@@ -46,17 +64,18 @@ sys.path.insert(0, str(REPO / "src"))
 SR = 16_000
 MODEL_ID = "openai/whisper-large-v3"
 
-# Folder names that carry augmented technique audio (not control/speech).
 TECHNIQUE_GROUPS = {
     "Vibrato_Group", "Breathy_Group", "Glissando_Group",
     "Pharyngeal_Group", "Falsetto_Group", "Mixed_Voice_Group",
 }
 
+# Shared manifest path — written by either experiment run, consumed by both.
+DEFAULT_MANIFEST = str(REPO / "results/shared_test_manifest.json")
+
 
 # ── Transcript extraction ─────────────────────────────────────────────────────
 
 def lyrics_from_json(json_path: Path) -> str:
-    """Join non-silence words from a GTSinger JSON annotation."""
     try:
         with open(json_path, encoding="utf-8") as fh:
             data = json.load(fh)
@@ -70,8 +89,8 @@ def lyrics_from_json(json_path: Path) -> str:
 
 # ── Data collection ───────────────────────────────────────────────────────────
 
-def collect_items(aug_root: Path) -> list[tuple[str, str]]:
-    """Return (wav_path, transcript) pairs from augmented technique groups."""
+def collect_augmented_items(aug_root: Path) -> list[tuple[str, str]]:
+    """(wav_path, transcript) pairs from augmented technique groups."""
     items: list[tuple[str, str]] = []
     for wav in sorted(aug_root.rglob("*.wav")):
         if wav.parent.name not in TECHNIQUE_GROUPS:
@@ -86,14 +105,70 @@ def collect_items(aug_root: Path) -> list[tuple[str, str]]:
     return items
 
 
-def train_val_split(
-    items: list[tuple[str, str]], val_frac: float = 0.1, seed: int = 42
-) -> tuple[list, list]:
-    """Stratified train/val split by technique (parent-parent folder name)."""
+def collect_original_items(orig_root: Path) -> list[tuple[str, str, str, str]]:
+    """(wav_path, transcript, singer_id, technique) from original technique groups."""
+    items: list[tuple[str, str, str, str]] = []
+    for wav in sorted(orig_root.rglob("*.wav")):
+        if wav.parent.name not in TECHNIQUE_GROUPS:
+            continue
+        json_path = wav.with_suffix(".json")
+        if not json_path.exists():
+            continue
+        text = lyrics_from_json(json_path).strip()
+        if not text:
+            continue
+        # Layout: <orig_root>/<singer>/<technique_folder>/<song>/<group>/<file>
+        singer_id = wav.parent.parent.parent.parent.name
+        technique = wav.parent.parent.parent.name
+        items.append((str(wav), text, singer_id, technique))
+    return items
+
+
+# ── Splits ────────────────────────────────────────────────────────────────────
+
+def split_for_experiments(
+    orig_items: list[tuple],
+    test_frac: float = 0.30,
+    orig_train_frac: float = 0.20,
+    seed: int = 42,
+) -> tuple[list[tuple[str, str]], list[tuple[str, str]]]:
+    """Stratified split of original items by technique.
+
+    Returns:
+        train_orig — ~orig_train_frac of total, used in exp1 training
+        test       — ~test_frac of total, held out for evaluation in both exps
+    The remaining ~(1 - test_frac - orig_train_frac) of original items are
+    intentionally discarded so that exp1 trains on less-than-all original data.
+    """
     rng = random.Random(seed)
     by_tech: dict[str, list] = {}
-    for item in items:
-        tech = Path(item[0]).parent.parent.parent.name   # {Singer}/{Tech}/{Song}/GRP/file
+    for item in orig_items:
+        tech = item[3]  # technique folder name
+        by_tech.setdefault(tech, []).append(item)
+
+    train_orig: list[tuple[str, str]] = []
+    test: list[tuple[str, str]] = []
+
+    for group in by_tech.values():
+        rng.shuffle(group)
+        n_test  = round(len(group) * test_frac)
+        n_train = round(len(group) * orig_train_frac)
+        test.extend((p, t) for p, t, *_ in group[:n_test])
+        train_orig.extend((p, t) for p, t, *_ in group[n_test: n_test + n_train])
+
+    rng.shuffle(train_orig)
+    rng.shuffle(test)
+    return train_orig, test
+
+
+def aug_val_split(
+    aug_items: list[tuple[str, str]], val_frac: float = 0.10, seed: int = 42
+) -> tuple[list, list]:
+    """Stratified train/val split of augmented items by technique group folder."""
+    rng = random.Random(seed)
+    by_tech: dict[str, list] = {}
+    for item in aug_items:
+        tech = Path(item[0]).parent.parent.parent.name  # technique folder
         by_tech.setdefault(tech, []).append(item)
 
     train, val = [], []
@@ -111,8 +186,6 @@ def train_val_split(
 # ── PyTorch Dataset ───────────────────────────────────────────────────────────
 
 class WhisperDataset:
-    """Lazy-loading dataset: reads audio + tokenises transcript on demand."""
-
     def __init__(self, items: list[tuple[str, str]], processor: Any) -> None:
         self.items = items
         self.processor = processor
@@ -146,35 +219,25 @@ class WhisperDataset:
 
 @dataclass
 class DataCollatorSpeechSeq2SeqWithPadding:
-    """Pads a batch of (input_features, labels) to the same length.
-
-    Standard HuggingFace recipe for Whisper fine-tuning:
-    https://huggingface.co/blog/fine-tune-whisper
-    """
     processor: Any
     decoder_start_token_id: int
-    input_dtype: Any = None   # torch dtype — cast features so generate() sees right dtype
+    input_dtype: Any = None
 
     def __call__(self, features: list[dict]) -> dict:
         import torch
 
-        # Pad log-mel features (all already [80, T] from the feature extractor).
         input_batch = [{"input_features": f["input_features"]} for f in features]
         batch = self.processor.feature_extractor.pad(
             input_batch, return_tensors="pt"
         )
-        # Cast to model dtype so encoder sees matching types in both train and
-        # generate() (which runs outside the bf16 autocast context).
         if self.input_dtype is not None:
             batch["input_features"] = batch["input_features"].to(self.input_dtype)
 
-        # Pad token-id labels; mask padding with -100 so loss ignores it.
         label_batch = [{"input_ids": f["labels"]} for f in features]
         labels = self.processor.tokenizer.pad(label_batch, return_tensors="pt")
         label_ids = labels["input_ids"].masked_fill(
             labels.attention_mask.ne(1), -100
         )
-        # Strip leading BOS token added by the tokenizer (Whisper adds its own).
         if (label_ids[:, 0] == self.decoder_start_token_id).all().cpu().item():
             label_ids = label_ids[:, 1:]
 
@@ -185,7 +248,6 @@ class DataCollatorSpeechSeq2SeqWithPadding:
 # ── WER metric ────────────────────────────────────────────────────────────────
 
 def make_compute_metrics(processor: Any):
-    """Return a compute_metrics function compatible with Seq2SeqTrainer."""
     try:
         import evaluate
         metric = evaluate.load("wer")
@@ -213,7 +275,7 @@ def make_compute_metrics(processor: Any):
     return compute_metrics
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# ── CLI ───────────────────────────────────────────────────────────────────────
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
@@ -221,37 +283,73 @@ def parse_args() -> argparse.Namespace:
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     p.add_argument(
-        "--train-src",
+        "--mode",
+        choices=["mixed", "aug_only", "aug_matched", "orig_only"],
+        required=True,
+        help=(
+            "mixed       — train on ALL augmented + 20%% of original        (exp 1)\n"
+            "aug_only    — train on ALL augmented only                      (exp 2)\n"
+            "aug_matched — ALL augmented + N extra aug items, N=len(train_orig), "
+            "same total size as mixed  (exp A: fair comparison)\n"
+            "orig_only   — 20%% original only, no augmented                 (exp B)"
+        ),
+    )
+    p.add_argument(
+        "--aug-src",
         default=str(REPO / "data/GTSinger_Augmented/English"),
         help="Root of augmented dataset (default: data/GTSinger_Augmented/English)",
     )
     p.add_argument(
+        "--orig-src",
+        default=str(REPO / "data/GTSinger/English"),
+        help="Root of ORIGINAL GTSinger English (default: data/GTSinger/English). "
+             "Used to build the shared test split and (in mixed mode) train_orig.",
+    )
+    p.add_argument(
+        "--manifest",
+        default=DEFAULT_MANIFEST,
+        help=f"Where to write/read the shared test manifest (default: {DEFAULT_MANIFEST})",
+    )
+    p.add_argument(
         "--out-dir",
-        default=str(REPO / "results/finetune_whisper"),
-        help="Output directory for checkpoints (default: results/finetune_whisper)",
+        default=None,
+        help="Output directory for checkpoints. Defaults to "
+             "results/finetune_whisper_<mode>/",
     )
     p.add_argument(
         "--model-id", default=MODEL_ID,
-        help=f"HuggingFace model id to fine-tune (default: {MODEL_ID})",
+        help=f"HuggingFace model id (default: {MODEL_ID})",
     )
-    p.add_argument("--epochs",     type=int,   default=3,    help="Training epochs (default: 3)")
-    p.add_argument("--batch-size", type=int,   default=8,    help="Per-device batch size (default: 8)")
-    p.add_argument("--grad-accum", type=int,   default=1,    help="Gradient accumulation steps (default: 1)")
-    p.add_argument("--lr",         type=float, default=1e-5, help="Learning rate (default: 1e-5)")
-    p.add_argument("--warmup",     type=int,   default=500,  help="Warmup steps (default: 500)")
-    p.add_argument("--eval-steps", type=int,   default=500,  help="Eval + save every N steps (default: 500)")
-    p.add_argument("--val-frac",   type=float, default=0.10, help="Validation fraction (default: 0.10)")
-    p.add_argument("--seed",       type=int,   default=42,   help="Random seed (default: 42)")
+    p.add_argument("--test-frac",       type=float, default=0.30,
+                   help="Fraction of original data held out as test (default: 0.30)")
+    p.add_argument("--orig-train-frac", type=float, default=0.20,
+                   help="Fraction of original data used for training in mixed mode (default: 0.20)")
+    p.add_argument("--val-frac",        type=float, default=0.10,
+                   help="Fraction of augmented data used for validation (default: 0.10)")
+    p.add_argument("--epochs",          type=int,   default=3)
+    p.add_argument("--batch-size",      type=int,   default=8)
+    p.add_argument("--grad-accum",      type=int,   default=1)
+    p.add_argument("--lr",              type=float, default=1e-5)
+    p.add_argument("--warmup",          type=int,   default=500)
+    p.add_argument("--eval-steps",      type=int,   default=500)
+    p.add_argument("--seed",            type=int,   default=42)
     p.add_argument(
         "--gradient-checkpointing", action="store_true",
-        help="Enable gradient checkpointing to save GPU memory (disables KV-cache)",
+        help="Enable gradient checkpointing (saves GPU memory, disables KV-cache)",
     )
     p.add_argument(
         "--freeze-encoder", action="store_true",
-        help="Freeze all encoder parameters — only decoder weights are updated. "
-             "Cuts trainable params and optimizer memory by ~50%%. "
-             "Academically justified: the acoustic encoder already generalises; "
-             "the decoder benefits most from domain adaptation.",
+        help="Freeze encoder weights — only decoder is updated",
+    )
+    p.add_argument(
+        "--optim",
+        default="adamw_torch",
+        help=(
+            "HuggingFace optimizer name passed to Seq2SeqTrainingArguments. "
+            "Use 'adamw_8bit' (requires bitsandbytes) to cut optimizer-state "
+            "GPU memory from ~12 GB to ~3 GB for Whisper large-v3. "
+            "(default: adamw_torch)"
+        ),
     )
     p.add_argument(
         "--dry-run", action="store_true",
@@ -260,39 +358,99 @@ def parse_args() -> argparse.Namespace:
     return p.parse_args()
 
 
+# ── Main ──────────────────────────────────────────────────────────────────────
+
 def main() -> None:
     args = parse_args()
 
-    train_src = Path(args.train_src)
-    out_dir   = Path(args.out_dir)
-    best_dir  = out_dir / "best_model"
+    aug_root  = Path(args.aug_src)
+    orig_root = Path(args.orig_src)
+    out_dir   = Path(args.out_dir) if args.out_dir else (
+        REPO / f"results/finetune_whisper_{args.mode}"
+    )
+    best_dir      = out_dir / "best_model"
+    manifest_path = Path(args.manifest)
 
-    if not train_src.exists():
-        print(f"[ERROR] Training data not found: {train_src}")
-        print("  Run build_augmented_dataset.py first.")
+    # ── Validate sources ──────────────────────────────────────────────────────
+    for p, label in [(aug_root, "--aug-src"), (orig_root, "--orig-src")]:
+        if not p.exists():
+            print(f"[ERROR] {label} not found: {p}")
+            sys.exit(1)
+
+    # ── Collect augmented items ───────────────────────────────────────────────
+    print(f"Scanning augmented data: {aug_root}")
+    aug_items = collect_augmented_items(aug_root)
+    if not aug_items:
+        print("[ERROR] No WAV+JSON pairs found in augmented technique groups.")
         sys.exit(1)
+    print(f"  Augmented items: {len(aug_items)}")
 
-    # ── Collect items ─────────────────────────────────────────────────────────
-    print(f"Scanning {train_src} …")
-    all_items = collect_items(train_src)
-    if not all_items:
-        print("[ERROR] No WAV+JSON pairs found in technique groups.")
+    # ── Collect original items and build shared split ─────────────────────────
+    print(f"\nScanning original data: {orig_root}")
+    orig_items = collect_original_items(orig_root)
+    if not orig_items:
+        print("[ERROR] No WAV+JSON pairs found in original technique groups.")
         sys.exit(1)
+    print(f"  Original items: {len(orig_items)}")
 
-    train_items, val_items = train_val_split(all_items, args.val_frac, args.seed)
-    print(f"  Total items : {len(all_items)}")
-    print(f"  Train       : {len(train_items)}")
-    print(f"  Val         : {len(val_items)}")
+    train_orig, test_items = split_for_experiments(
+        orig_items,
+        test_frac=args.test_frac,
+        orig_train_frac=args.orig_train_frac,
+        seed=args.seed,
+    )
+    print(f"  → Test set   : {len(test_items):4d}  ({args.test_frac:.0%} of original)")
+    print(f"  → Train orig : {len(train_orig):4d}  ({args.orig_train_frac:.0%} of original, exp1 only)")
+    print(f"  → Unused orig: {len(orig_items) - len(test_items) - len(train_orig):4d}  (intentionally discarded)")
 
-    # Technique breakdown
+    # Save test manifest (overwrite — deterministic with same seed)
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(manifest_path, "w", encoding="utf-8") as fh:
+        json.dump([p for p, _ in test_items], fh, indent=2)
+    print(f"\nTest manifest saved → {manifest_path}")
+
+    # ── Build training set based on mode ─────────────────────────────────────
+    aug_train, aug_val = aug_val_split(aug_items, val_frac=args.val_frac, seed=args.seed)
+
+    if args.mode == "mixed":
+        train_items = aug_train + train_orig
+        random.Random(args.seed).shuffle(train_items)
+        val_items   = aug_val
+        mode_label  = "ALL augmented + 20% original"
+    elif args.mode == "aug_only":
+        train_items = aug_train
+        val_items   = aug_val
+        mode_label  = "ALL augmented only (no original)"
+    elif args.mode == "aug_matched":
+        # Top up aug_train with N aug_val items so total == len(mixed train).
+        # N = len(train_orig) so the only variable vs exp1 is data quality.
+        n_orig      = len(train_orig)
+        extra_aug   = aug_val[:n_orig]
+        val_items   = aug_val[n_orig:] or aug_val   # keep at least some val
+        train_items = aug_train + extra_aug
+        random.Random(args.seed).shuffle(train_items)
+        mode_label  = (f"ALL augmented + {n_orig} extra aug items "
+                       f"(size-matched to mixed, total={len(train_items)})")
+    else:  # orig_only
+        train_items = train_orig
+        val_items   = aug_val   # proxy val set for checkpoint selection
+        mode_label  = "20% original only (no augmented data)"
+
+    # ── Summary ───────────────────────────────────────────────────────────────
+    print(f"\nMode            : {args.mode}  ({mode_label})")
+    print(f"Train           : {len(train_items)}")
+    print(f"Val             : {len(val_items)}")
+    print(f"Test (held-out) : {len(test_items)}  [not used during training]")
+
     def _tech_counts(items):
         from collections import Counter
         return Counter(Path(p).parent.parent.parent.name for p, _ in items)
-    print(f"  Train breakdown: {dict(_tech_counts(train_items))}")
-    print(f"  Val   breakdown: {dict(_tech_counts(val_items))}")
+
+    print(f"Train breakdown : {dict(_tech_counts(train_items))}")
+    print(f"Val   breakdown : {dict(_tech_counts(val_items))}")
 
     if args.dry_run:
-        print("[DRY RUN] Exiting without training.")
+        print("\n[DRY RUN] Exiting without training.")
         return
 
     # ── Load model + processor ────────────────────────────────────────────────
@@ -304,26 +462,21 @@ def main() -> None:
         WhisperProcessor,
     )
 
-    # Detect precision BEFORE loading so we can pass torch_dtype to from_pretrained.
-    # This ensures the model lives in one dtype throughout (train + eval/generate).
-    # Without this, the Trainer casts weights to bf16 during training but the
-    # generation call in eval sees float32 inputs against half-precision encoder
-    # weights → dtype mismatch RuntimeError.
-    has_cuda = torch.cuda.is_available()
-    use_bf16 = has_cuda and torch.cuda.is_bf16_supported()
-    use_fp16 = has_cuda and not use_bf16
-    torch_dtype = torch.bfloat16 if use_bf16 else (torch.float16 if use_fp16 else torch.float32)
-    print(f"\nLoading processor + model: {args.model_id}")
-    print(f"  Mixed precision  : {'bf16' if use_bf16 else 'fp16' if use_fp16 else 'fp32'}")
+    has_cuda   = torch.cuda.is_available()
+    use_bf16   = has_cuda and torch.cuda.is_bf16_supported()
+    use_fp16   = has_cuda and not use_bf16
+    torch_dtype = (torch.bfloat16 if use_bf16 else
+                   torch.float16  if use_fp16 else torch.float32)
     device = "cuda" if has_cuda else "cpu"
+
+    print(f"\nLoading processor + model: {args.model_id}")
+    print(f"  Mixed precision: {'bf16' if use_bf16 else 'fp16' if use_fp16 else 'fp32'}")
 
     processor = WhisperProcessor.from_pretrained(args.model_id, language="en", task="transcribe")
     model = WhisperForConditionalGeneration.from_pretrained(
         args.model_id, torch_dtype=torch_dtype
     ).to(device)
 
-    # Standard Whisper fine-tuning setup: disable forced decoder tokens so the
-    # model learns to predict the language/task tokens from data.
     model.config.forced_decoder_ids = None
     model.config.suppress_tokens    = []
     if args.gradient_checkpointing:
@@ -337,8 +490,8 @@ def main() -> None:
 
     total_params     = sum(p.numel() for p in model.parameters())
     trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
-    print(f"  Total params     : {total_params / 1e6:.0f} M")
-    print(f"  Trainable params : {trainable_params / 1e6:.0f} M  ({100*trainable_params/total_params:.1f}%)")
+    print(f"  Total params    : {total_params / 1e6:.0f} M")
+    print(f"  Trainable params: {trainable_params / 1e6:.0f} M  ({100*trainable_params/total_params:.1f}%)")
 
     # ── Datasets ──────────────────────────────────────────────────────────────
     train_ds = WhisperDataset(train_items, processor)
@@ -349,6 +502,7 @@ def main() -> None:
         decoder_start_token_id=model.config.decoder_start_token_id,
         input_dtype=torch_dtype,
     )
+
     training_args = Seq2SeqTrainingArguments(
         output_dir                  = str(out_dir),
         per_device_train_batch_size = args.batch_size,
@@ -358,6 +512,7 @@ def main() -> None:
         num_train_epochs            = args.epochs,
         fp16                        = use_fp16,
         bf16                        = use_bf16,
+        optim                       = args.optim,
         eval_strategy               = "steps",
         eval_steps                  = args.eval_steps,
         save_strategy               = "steps",
@@ -368,51 +523,46 @@ def main() -> None:
         predict_with_generate       = True,
         generation_max_length       = 225,
         logging_steps               = 50,
-        report_to                   = "none",   # disable wandb/tensorboard
+        report_to                   = "none",
         seed                        = args.seed,
         dataloader_num_workers      = min(4, os.cpu_count() or 1),
-        remove_unused_columns       = False,    # our Dataset returns custom keys
+        remove_unused_columns       = False,
     )
 
-    # ── Trainer ───────────────────────────────────────────────────────────────
     trainer = Seq2SeqTrainer(
-        model              = model,
-        args               = training_args,
-        train_dataset      = train_ds,
-        eval_dataset       = val_ds,
-        data_collator      = collator,
-        compute_metrics    = make_compute_metrics(processor),
-        processing_class   = processor.feature_extractor,
+        model           = model,
+        args            = training_args,
+        train_dataset   = train_ds,
+        eval_dataset    = val_ds,
+        data_collator   = collator,
+        compute_metrics = make_compute_metrics(processor),
+        processing_class= processor.feature_extractor,
     )
 
     # ── Train ─────────────────────────────────────────────────────────────────
     print(f"\nStarting training — output: {out_dir}")
     trainer.train()
 
-    # ── Save best model ───────────────────────────────────────────────────────
-    print(f"\nSaving best model to {best_dir}")
+    print(f"\nSaving best model → {best_dir}")
     trainer.save_model(str(best_dir))
     processor.save_pretrained(str(best_dir))
 
-    # ── Final validation WER ──────────────────────────────────────────────────
     print("\nFinal evaluation on validation set …")
     metrics = trainer.evaluate()
-    wer = metrics.get("eval_wer", "N/A")
-    print(f"  Validation WER: {wer}")
+    print(f"  Validation WER: {metrics.get('eval_wer', 'N/A')}")
 
     print(f"""
-═══════════════════════════════════════════════════════
-Fine-tuning complete.
-Best model saved to: {best_dir}
+═══════════════════════════════════════════════════════════════
+Fine-tuning complete  [{args.mode}]
+Best model   → {best_dir}
+Test manifest→ {manifest_path}
 
-To evaluate on the original GTSinger test set, run:
+Evaluate on the shared test set:
   python scripts/run_pipeline.py \\
-      --config configs/finetuned_eval.yaml --stage asr
-
-To compare with the baseline:
-  results/baseline_english/asr_whisper_largev3_by_technique.csv
-  results/finetuned_eval/asr_whisper_finetuned_by_technique.csv
-═══════════════════════════════════════════════════════
+      --config configs/exp1_mixed_eval.yaml --stage asr   # exp 1
+  python scripts/run_pipeline.py \\
+      --config configs/exp2_aug_only_eval.yaml --stage asr  # exp 2
+═══════════════════════════════════════════════════════════════
 """)
 
 

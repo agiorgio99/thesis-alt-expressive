@@ -1,0 +1,53 @@
+# ═════════════════════════════════════════════════════════════════════════════
+#  exp_c_baseline_eval.yaml
+#
+#  Experiment C — vanilla Whisper large-v3 baseline (no fine-tuning).
+#
+#  No training required. Runs openai/whisper-large-v3 as released on the
+#  shared 30% held-out test set, providing the essential reference point:
+#  how much does ANY fine-tuning (augmented or original) improve over the
+#  off-the-shelf model on expressive singing?
+#
+#  Test set: same shared 30% held-out original manifest as all other experiments.
+#
+#  Prerequisites
+#  ─────────────
+#  Only Experiment 1 (mixed) must have been run first to generate the manifest.
+#
+#  Run evaluation:
+#       python scripts/run_pipeline.py \
+#           --config configs/exp_c_baseline_eval.yaml --stage asr
+#
+#  Results → results/exp_c_baseline_eval/
+# ═════════════════════════════════════════════════════════════════════════════
+
+experiment_name: exp_c_baseline_eval
+
+paths:
+  dataset_root: data/GTSinger/English
+  results_dir:  results
+  work_dir:     data/_work
+
+data:
+  name:     gtsinger
+  language: english
+  limit:    null
+  manifest: results/shared_test_manifest.json
+
+asr:
+  enabled: true
+  model_names:
+    - whisper_largev3
+  device: cuda
+  batch_size: 8
+  language: en
+
+alignment:
+  enabled: false
+
+pitch:
+  enabled: false
+
+evaluation:
+  stratify_by: [technique, singer_id]
+  hallucination_threshold: 1.0
