@@ -1,0 +1,64 @@
+# ═════════════════════════════════════════════════════════════════════════════
+#  exp_b_orig_only_eval.yaml
+#
+#  Experiment B — original-data-only fine-tune (no augmentation).
+#
+#  Training used:
+#    • train_orig only (20% of original technique WAVs, same split as Exp 1)
+#    • No augmented samples
+#  → Isolates the contribution of real original samples alone.
+#    Comparing Exp B vs Exp 1 (mixed) shows how much the augmented data adds
+#    on top of the real samples.
+#    Comparing Exp B vs Exp 2 (aug_only) shows real vs synthetic head-to-head.
+#
+#  Test set: same shared 30% held-out original manifest as all other experiments.
+#
+#  Prerequisites
+#  ─────────────
+#  1. Run fine-tuning:
+#       python scripts/finetune_whisper.py \
+#           --mode orig_only \
+#           --aug-src  data/GTSinger_Augmented/English \
+#           --orig-src data/GTSinger/English \
+#           --freeze-encoder --gradient-checkpointing \
+#           --batch-size 4 --grad-accum 4 --optim adamw_8bit
+#
+#  2. Run evaluation (this config):
+#       python scripts/run_pipeline.py \
+#           --config configs/exp_b_orig_only_eval.yaml --stage asr
+#
+#  Results → results/exp_b_orig_only_eval/
+# ═════════════════════════════════════════════════════════════════════════════
+
+experiment_name: exp_b_orig_only_eval
+
+paths:
+  dataset_root: data/GTSinger/English
+  results_dir:  results
+  work_dir:     data/_work
+
+data:
+  name:     gtsinger
+  language: english
+  limit:    null
+  manifest: results/shared_test_manifest.json
+
+asr:
+  enabled: true
+  model_names:
+    - whisper_finetuned
+  device: cuda
+  batch_size: 8
+  language: en
+  extra:
+    model_id: results/finetune_whisper_orig_only/best_model
+
+alignment:
+  enabled: false
+
+pitch:
+  enabled: false
+
+evaluation:
+  stratify_by: [technique, singer_id]
+  hallucination_threshold: 1.0

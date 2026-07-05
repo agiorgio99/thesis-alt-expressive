@@ -1,18 +1,14 @@
-# ── Large data assets (never commit; download separately) ────────────────────
+# ── Datasets (download separately) ───────────────────────────────────────────
 data/
 !data/.gitkeep
 
-# ── Generated experiment outputs ─────────────────────────────────────────────
-results/*
-!results/.gitkeep
-outputs/
-*.TextGrid
-*.lab
+# ── Fine-tuned model checkpoints (heavy: safetensors + optimizer states) ─────
+results/finetune_whisper_*/
 
-# ── Model weight caches ──────────────────────────────────────────────────────
+# ── Model weight formats ──────────────────────────────────────────────────────
+*.safetensors
 *.pt
 *.ckpt
-*.safetensors
 checkpoints/
 whisper_weights/
 

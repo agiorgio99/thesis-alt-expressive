@@ -50,10 +50,15 @@ class DataConfig:
         name:     Registry key picking the DatasetAdapter (e.g. "gtsinger").
         language: Dataset-specific language filter.
         limit:    If set, keep only the first N utterances (fast smoke tests).
+        manifest: Optional path to a JSON file containing a list of audio_path
+                  strings. When set, the dataset adapter keeps only those
+                  utterances whose audio_path appears in the list — used to
+                  restrict evaluation to the shared held-out test split.
     """
     name: str = "gtsinger"
     language: str = "english"
     limit: int | None = None
+    manifest: str | None = None
 
 
 @dataclass
