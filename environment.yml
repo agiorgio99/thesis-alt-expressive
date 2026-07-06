@@ -41,12 +41,17 @@ dependencies:
   - pip:
     - --extra-index-url https://download.pytorch.org/whl/cu128
     - torch>=2.6
-    - torchaudio
+    # torchaudio is intentionally NOT installed: torchcrepe imports it at
+    # module load time, but src/alt/pitch.py._stub_torchaudio() registers a
+    # no-op stub before that import (we load audio via librosa instead), so
+    # the real package is never needed and its .so linkage is avoided.
     - soundfile               # audio I/O (pip name; conda-forge name is inconsistent)
     - transformers        # Whisper (HF) + wav2vec2
-    - accelerate>=1.1.0 
+    - accelerate>=1.1.0
     - datasets            # Phase 3 fine-tuning
+    - bitsandbytes        # 8-bit AdamW optimizer (--optim adamw_8bit) for the Phase 3 controlled fine-tuning experiments
     - jiwer               # WER computation
+    - nltk                # tokenizer data required by g2p_en (auto-downloaded on first use, see src/alt/text.py)
     - g2p_en              # grapheme-to-phoneme for PER
     - praatio             # TextGrid I/O
     - tgt                 # alternative TextGrid parser
