@@ -1,4 +1,4 @@
-# thesis-alt-expressive
+# ExpressiveALT: Technique-Specific Data Augmentation and Whisper Fine-Tuning for Automatic Lyrics Transcription on Expressive Singing
 
 Automatic Lyric Transcription (ALT) for expressive singing. A modular,
 config-driven pipeline covering all three phases of the thesis:
