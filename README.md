@@ -185,6 +185,47 @@ python scripts/finetune_whisper.py --mode aug_matched \
     --freeze-encoder --gradient-checkpointing --optim adamw_8bit
 ```
 
+### CLAP embedding analysis — is the augmented audio *acoustically* right?
+
+WER measures whether Whisper understood the augmented audio; it says nothing
+about whether a WORLD-resynthesised "vibrato" clip actually *sounds* like
+vibrato. CLAP (Contrastive Language-Audio Pretraining) embeds audio in a joint
+audio/text space, turning that into a geometric question: do the augmented
+clips land where the real technique recordings live, and does augmentation
+push a neutral control clip in the same direction the real technique does?
+
+```bash
+pip install scikit-learn tabulate           # tabulate only for the markdown report
+
+# 1. Embed both trees (controls are symlinked, so they are de-duplicated)
+python scripts/clap_embed.py \
+    --roots data/GTSinger/English data/GTSinger_Augmented/English \
+    --out results/clap --device cuda --batch-size 16
+
+# 2. Run the analysis (7 sections + figures + CLAP_ANALYSIS.md)
+python scripts/clap_analysis.py --emb-dir results/clap --projection tsne
+
+# Smoke test first (200 utterances per root, CPU)
+python scripts/clap_embed.py --roots data/GTSinger/English --limit 200 \
+    --device cpu --out results/clap_smoke
+```
+
+Outputs land in `results/clap/analysis/`:
+
+| Metric | Question it answers | Good result |
+|---|---|---|
+| `direction_score` | Does augmentation displace a control clip the same way the real technique does? | → 1.0 |
+| `magnitude_ratio` | Does it displace it by the right amount? | → 1.0 |
+| `fd_ratio_aug_over_control` | Fréchet(real, aug) / Fréchet(real, control) | < 1.0 |
+| `auc_mean` | Can a classifier tell real from augmented? | → 0.5 |
+| probe `aug->real` accuracy | Does a technique classifier trained on synthetic audio generalise to real audio? | ≫ chance |
+| `purity_aug_query` | Are an augmented clip's nearest real neighbours the same technique? | → `purity_real_query` |
+| `zeroshot_accuracy` | Does CLAP's *text* encoder call the augmented clip by the right technique name? | ≈ real-audio accuracy |
+
+Restrict the analysis to the shared Phase-3 test split with
+`--manifest results/shared_test_manifest.json` so the embedding distances line
+up 1:1 with the reported WER numbers.
+
 Results are written to `results/<experiment_name>/` as CSV files
 (`inventory.csv`, `asr_<model>.csv`, per-technique / per-singer breakdowns,
 `alignment_<aligner>_tbe.csv`, `pitch_f0_stats.csv`) plus an HTML report.
