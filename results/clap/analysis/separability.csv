@@ -1,0 +1,7 @@
+technique,n,auc_mean,auc_std
+breathy,900,1.0,0.0
+glissando,1125,1.0,0.0
+mixed_falsetto,623,,
+pharyngeal,1396,1.0,0.0
+vibrato,1208,1.0,0.0
+ALL,5252,1.0,0.0
