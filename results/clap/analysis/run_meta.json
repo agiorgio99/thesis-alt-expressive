@@ -1,8 +1,9 @@
 {
   "model": "laion/larger_clap_music_and_speech",
-  "n_total": 7764,
+  "n_total": 9018,
   "n_real": 3777,
   "n_aug": 3987,
   "n_control": 1254,
+  "n_resynth": 1254,
   "dim": 512
 }

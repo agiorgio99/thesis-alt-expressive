@@ -602,6 +602,182 @@ def paired_shift(df: pd.DataFrame, emb: np.ndarray) -> pd.DataFrame:
 # ─────────────────────────────────────────────────────────────────────────────
 #  Figures
 # ─────────────────────────────────────────────────────────────────────────────
+def technique_detectability(df: pd.DataFrame, emb: np.ndarray,
+                            n_splits: int = 4) -> pd.DataFrame:
+    """Can CLAP tell a REAL technique take from its REAL control take?
+
+    This is the validity check the rest of the analysis presupposes. Both
+    populations are genuine recordings of the same phrase by the same singer
+    in the same session; the only systematic difference is the technique. If
+    the AUC here were ~0.5, CLAP would be blind to vocal technique and every
+    augmentation number below would be uninterpretable. Splits are song-
+    disjoint so the classifier cannot memorise lyric content, falling back to
+    singer-disjoint if there are too few songs.
+
+    Note that a high AUC can coexist with a high ``cos_real_control`` in
+    ``centroid_geometry``: the technique displacement is small in norm but
+    highly consistent in direction, which is exactly what a linear classifier
+    picks up and a cosine between centroids understates.
+
+    Args:
+        df:       Metadata table.
+        emb:      ``(N, D)`` embedding matrix.
+        n_splits: Number of group-disjoint CV folds.
+
+    Returns:
+        One row per technique plus an ``ALL`` row, with mean/std ROC-AUC.
+    """
+    if not _SKLEARN:
+        return pd.DataFrame()
+
+    def _auc(idx: np.ndarray) -> tuple[float, float, str]:
+        sub = df.iloc[idx]
+        y = (sub["group"].to_numpy() == "technique").astype(int)
+        if len(np.unique(y)) < 2:
+            return float("nan"), float("nan"), "-"
+        for col in ("song", "singer_id"):
+            g = sub[col].to_numpy()
+            k = min(n_splits, len(np.unique(g)))
+            if k < 2:
+                continue
+            x = StandardScaler().fit_transform(emb[idx])
+            scores = []
+            for tr, te in GroupKFold(n_splits=k).split(x, y, groups=g):
+                if len(np.unique(y[tr])) < 2 or len(np.unique(y[te])) < 2:
+                    continue
+                clf = LogisticRegression(max_iter=2000, C=1.0)
+                clf.fit(x[tr], y[tr])
+                scores.append(roc_auc_score(y[te], clf.predict_proba(x[te])[:, 1]))
+            if scores:
+                return float(np.mean(scores)), float(np.std(scores)), col
+        return float("nan"), float("nan"), "-"
+
+    real = (df["origin"] == "real") & df["group"].isin(["technique", "control"])
+    rows = []
+    for tech in sorted(t for t in df["technique"].unique() if t != "none"):
+        idx = np.where(real & (df["technique"] == tech))[0]
+        m, s, by = _auc(idx)
+        rows.append({"technique": tech, "n": len(idx),
+                     "auc_real_tech_vs_control": m, "auc_std": s, "split_by": by})
+    idx = np.where(real)[0]
+    m, s, by = _auc(idx)
+    rows.append({"technique": "ALL", "n": len(idx),
+                 "auc_real_tech_vs_control": m, "auc_std": s, "split_by": by})
+    return pd.DataFrame(rows)
+
+
+def vocoder_axis(df: pd.DataFrame, emb: np.ndarray) -> np.ndarray | None:
+    """Estimate the single direction along which resynthesis displaces audio.
+
+    Uses the WORLD passthrough population when it is available (the clean
+    estimate: identical content, artefact only) and otherwise falls back to
+    the global augmented-minus-control difference, which additionally absorbs
+    whatever the transformations have in common.
+
+    Returns:
+        A unit vector, or ``None`` if neither population is present.
+    """
+    i_ctrl = np.where(df["group"] == "control")[0]
+    if len(i_ctrl) == 0:
+        return None
+    i_res = np.where(df["origin"] == "resynth")[0]
+    src = i_res if len(i_res) else np.where(df["origin"] == "aug")[0]
+    if len(src) == 0:
+        return None
+    return unit(emb[src].mean(0) - emb[i_ctrl].mean(0))
+
+
+def artefact_controlled(df: pd.DataFrame, emb: np.ndarray) -> pd.DataFrame:
+    """Re-run the displacement geometry with the resynthesis artefact removed.
+
+    Two corrections are reported side by side:
+
+    * ``*_vs_resynth`` — direction and magnitude measured from the WORLD
+      passthrough centroid instead of the raw control centroid. This is the
+      principled correction: it asks what the *transformation* did, given that
+      the resynthesis was going to happen regardless. Only produced when the
+      passthrough population is present.
+    * ``*_debiased`` — the same quantities after projecting out the single
+      vocoder direction from every embedding. Cruder, but available without
+      re-synthesising anything.
+
+    Args:
+        df:  Metadata table.
+        emb: ``(N, D)`` embedding matrix.
+
+    Returns:
+        One row per technique, empty if no reference population exists.
+    """
+    v = vocoder_axis(df, emb)
+    if v is None:
+        return pd.DataFrame()
+    ed = emb - np.outer(emb @ v, v)
+    ed /= np.maximum(np.linalg.norm(ed, axis=1, keepdims=True), 1e-8)
+    has_res = bool((df["origin"] == "resynth").sum())
+
+    rows = []
+    for tech in sorted(t for t in df["technique"].unique() if t != "none"):
+        sel = df["technique"] == tech
+        i_real = np.where(sel & (df["origin"] == "real")
+                          & (df["group"] == "technique"))[0]
+        i_aug = np.where(sel & (df["origin"] == "aug"))[0]
+        i_ctrl = np.where(sel & (df["group"] == "control"))[0]
+        i_res = np.where(sel & (df["origin"] == "resynth"))[0]
+        if not (len(i_real) and len(i_aug) and len(i_ctrl)):
+            continue
+
+        row = {"technique": tech}
+        if has_res and len(i_res):
+            c_real, c_aug = unit(emb[i_real].mean(0)), unit(emb[i_aug].mean(0))
+            c_ctrl, c_res = unit(emb[i_ctrl].mean(0)), unit(emb[i_res].mean(0))
+            d_real, d_aug = c_real - c_ctrl, c_aug - c_res
+            row["direction_vs_resynth"] = cos(d_aug, d_real)
+            row["magnitude_vs_resynth"] = float(
+                np.linalg.norm(d_aug) / max(np.linalg.norm(d_real), 1e-8))
+            row["fd_real_resynth"] = frechet_distance(emb[i_real], emb[i_res])
+            row["cos_real_resynth"] = cos(c_real, c_res)
+
+        c_real, c_aug = unit(ed[i_real].mean(0)), unit(ed[i_aug].mean(0))
+        c_ctrl = unit(ed[i_ctrl].mean(0))
+        d_real, d_aug = c_real - c_ctrl, c_aug - c_ctrl
+        row["direction_debiased"] = cos(d_aug, d_real)
+        row["magnitude_debiased"] = float(
+            np.linalg.norm(d_aug) / max(np.linalg.norm(d_real), 1e-8))
+        rows.append(row)
+
+    out = pd.DataFrame(rows)
+    if not out.empty:
+        out.attrs["axis_source"] = "resynth" if has_res else "aug-minus-control"
+    return out
+
+
+def separability_debiased(df: pd.DataFrame, emb: np.ndarray,
+                          n_splits: int = 3) -> pd.DataFrame:
+    """Real-vs-augmented AUC before and after removing the vocoder axis.
+
+    The gap between the two columns is the share of the separability that is
+    attributable to resynthesis rather than to the technique transformations.
+
+    Args:
+        df:       Metadata table.
+        emb:      ``(N, D)`` embedding matrix.
+        n_splits: Number of singer-disjoint CV folds.
+
+    Returns:
+        A one-row-per-technique table, empty if the vocoder axis is unavailable.
+    """
+    v = vocoder_axis(df, emb)
+    if v is None or not _SKLEARN:
+        return pd.DataFrame()
+    ed = emb - np.outer(emb @ v, v)
+    ed /= np.maximum(np.linalg.norm(ed, axis=1, keepdims=True), 1e-8)
+    raw = separability(df, emb, n_splits).rename(
+        columns={"auc_mean": "auc_raw"})[["technique", "n", "auc_raw"]]
+    deb = separability(df, ed, n_splits).rename(
+        columns={"auc_mean": "auc_debiased"})[["technique", "auc_debiased"]]
+    return raw.merge(deb, on="technique")
+
+
 def plot_projection(df: pd.DataFrame, emb: np.ndarray, out_path: Path,
                     method: str = "tsne", max_points: int = 4000) -> None:
     """Scatter the embeddings in 2-D, coloured by technique, shaped by origin.
@@ -777,10 +953,42 @@ def write_report(out_dir: Path, tables: dict[str, pd.DataFrame],
     L.append(f"- Model: `{meta['model']}`")
     L.append(f"- Utterances embedded: {meta['n_total']} "
              f"(real {meta['n_real']}, augmented {meta['n_aug']}, "
-             f"control {meta['n_control']})")
+             f"control {meta['n_control']}, "
+             f"WORLD passthrough {meta.get('n_resynth', 0)})")
     L.append(f"- Embedding dim: {meta['dim']}\n")
+    if not meta.get("n_resynth"):
+        L.append("> **No WORLD passthrough control in this run.** Absolute "
+                 "distances below conflate the technique transformation with "
+                 "the resynthesis artefact. Run "
+                 "`scripts/clap_world_passthrough.py` and re-run against the "
+                 "enlarged embedding set to separate them; section 4b falls "
+                 "back to an approximate axis-removal in the meantime.\n")
 
     L.append("## How to read this\n")
+    L.append("- **auc_real_tech_vs_control** — validity check, section 0. Real "
+             "technique takes vs their real control takes: same singer, same "
+             "phrase, same session, technique the only systematic difference. "
+             "**Near 0.5 would mean CLAP is blind to technique and nothing "
+             "below is interpretable; high values license the rest.** A high "
+             "AUC alongside a high `cos_real_control` is not a contradiction: "
+             "the technique displacement is small in norm but consistent in "
+             "direction.")
+    L.append("- **direction_vs_resynth / magnitude_vs_resynth** — section 4b. "
+             "The same geometry measured from the WORLD passthrough centroid "
+             "rather than the raw control, i.e. what the *transformation* "
+             "contributed once resynthesis is taken as given. These are the "
+             "numbers to quote if the passthrough population is present.")
+    L.append("- **auc_debiased** — separability after projecting out the single "
+             "vocoder direction. The drop from `auc_raw` is the share of the "
+             "real-vs-augmented separability owed to resynthesis rather than "
+             "to the technique models. **Values well below 0.5 do not mean the "
+             "populations are inversely separable**: with group-disjoint folds "
+             "they mean the residual separating direction flips sign from fold "
+             "to fold, i.e. nothing stable is left. Read them as 0.5-equivalent. "
+             "Note also that when the axis is estimated from `aug - control` "
+             "rather than from the passthrough, it removes some genuine "
+             "technique signal along with the artefact, so these are a lower "
+             "bound on what survives.")
     L.append("- **direction_score** — cosine between the displacement "
              "augmentation applies to a control clip and the displacement that "
              "separates real technique recordings from control. **1.0 = the "
@@ -805,9 +1013,12 @@ def write_report(out_dir: Path, tables: dict[str, pd.DataFrame],
              "test and MMD as a distribution-free confirmation.\n")
 
     titles = {
+        "detectability": "0. Validity check — can CLAP see technique on REAL audio?",
         "geometry": "1–2. Centroid geometry and displacement direction",
         "distances": "3. Distribution distances (Fréchet / MMD)",
         "separability": "4. Real vs augmented separability (singer-disjoint AUC)",
+        "artefact_controlled": "4b. Geometry with the resynthesis artefact removed",
+        "separability_debiased": "4c. Separability before/after removing the vocoder axis",
         "probe": "5. Cross-domain technique probe",
         "knn": "6. kNN retrieval purity against real audio",
         "zeroshot": "7. Zero-shot text prompting",
@@ -881,8 +1092,15 @@ def main() -> None:
     tables["distances"] = distribution_distances(
         df, emb, args.pca_dim if args.pca_dim > 0 else None)
 
+    print("[0] technique detectability on real audio (validity check) …")
+    tables["detectability"] = technique_detectability(df, emb)
+
     print("[4] real vs aug separability …")
     tables["separability"] = separability(df, emb)
+
+    print("[4b] artefact-controlled geometry …")
+    tables["artefact_controlled"] = artefact_controlled(df, emb)
+    tables["separability_debiased"] = separability_debiased(df, emb)
 
     print("[5] cross-domain technique probe …")
     tables["probe"], _ = transfer_probe(df, emb, out_dir)
@@ -929,6 +1147,7 @@ def main() -> None:
         "n_real": int((df["origin"] == "real").sum()),
         "n_aug": int((df["origin"] == "aug").sum()),
         "n_control": int((df["group"] == "control").sum()),
+        "n_resynth": int((df["origin"] == "resynth").sum()),
         "dim": int(emb.shape[1]),
     }
     (out_dir / "run_meta.json").write_text(json.dumps(meta, indent=2))
