@@ -226,6 +226,40 @@ Restrict the analysis to the shared Phase-3 test split with
 `--manifest results/shared_test_manifest.json` so the embedding distances line
 up 1:1 with the reported WER numbers.
 
+#### The WORLD passthrough control
+
+Every augmented clip carries the technique transformation *and* the WORLD
+analysis/resynthesis artefact. The artefact dominates the embedding, so
+`fd_ratio`, `magnitude_ratio` and the real-vs-augmented AUC conflate the two.
+`clap_world_passthrough.py` supplies the missing reference: each control clip
+put through `wav2world` → `synthesize` with **nothing modified**. Any distance
+between real audio and that population is pure vocoder.
+
+```bash
+# 1. Resynthesise the controls, embed them, merge into results/clap in place
+python scripts/clap_world_passthrough.py --device cuda
+
+# 2. Re-run the analysis over all four populations
+python scripts/clap_analysis.py --emb-dir results/clap --projection tsne
+```
+
+Re-running step 1 is safe: passthrough rows from an earlier run are replaced
+rather than appended.
+
+The new rows use `origin="resynth"` / `group="control_resynth"`, which every
+pre-existing section ignores, so the numbers already reported do not move.
+Sections gained:
+
+| Section | Question |
+|---|---|
+| 0 `detectability.csv` | Can CLAP separate a *real* technique take from its *real* control take? Near 0.5 would invalidate everything below. |
+| 4b `artefact_controlled.csv` | Direction and magnitude measured from the passthrough centroid — what the transformation contributed, resynthesis taken as given. |
+| 4c `separability_debiased.csv` | Real-vs-aug AUC before and after removing the vocoder axis; the gap is the artefact's share. |
+
+Sections 4b and 4c fall back to an approximate axis-removal (`aug − control`)
+when the passthrough population is absent, so they report something useful
+even before step 1 is run.
+
 Results are written to `results/<experiment_name>/` as CSV files
 (`inventory.csv`, `asr_<model>.csv`, per-technique / per-singer breakdowns,
 `alignment_<aligner>_tbe.csv`, `pitch_f0_stats.csv`) plus an HTML report.
