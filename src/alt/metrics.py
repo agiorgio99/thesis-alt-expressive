@@ -25,33 +25,40 @@ from .text import clean_text, text_to_phonemes
 # ─────────────────────────────────────────────────────────────────────────────
 #  ASR metrics
 # ─────────────────────────────────────────────────────────────────────────────
-def score_pair(reference: str, hypothesis: str) -> dict[str, Any]:
+def score_pair(reference: str, hypothesis: str, language: str = "english") -> dict[str, Any]:
     """Score one (reference, hypothesis) transcript pair.
 
     Args:
         reference:  Ground-truth lyrics.
         hypothesis: ASR output.
+        language:   Dataset language. PER (phoneme error rate) is only computed
+            for English — ``text_to_phonemes`` uses an English-only g2p
+            backend (``g2p_en``), so PER is left ``None`` for every other
+            language rather than silently scoring garbage phonemes.
 
     Returns:
         A dict with ``wer``, ``per``, ``sub``/``del``/``ins`` counts and
         ``n_ref`` (reference word count). ``wer``/``per`` are ``None`` when the
-        reference is empty.
+        reference is empty; ``per`` is also ``None`` for non-English languages.
     """
     from jiwer import process_words
     from jiwer import wer as jiwer_wer
 
-    ref = clean_text(reference)
-    hyp = clean_text(hypothesis)
+    ref = clean_text(reference, language)
+    hyp = clean_text(hypothesis, language)
 
     if not ref:
         return {"wer": None, "per": None, "sub": 0, "del": 0, "ins": 0, "n_ref": 0}
 
     measures = process_words(ref, hyp)
-    ref_ph = text_to_phonemes(ref)
-    hyp_ph = text_to_phonemes(hyp)
+    per = None
+    if language.lower() == "english":
+        ref_ph = text_to_phonemes(ref)
+        hyp_ph = text_to_phonemes(hyp)
+        per = jiwer_wer(ref_ph, hyp_ph) if ref_ph else None
     return {
         "wer": jiwer_wer(ref, hyp),
-        "per": jiwer_wer(ref_ph, hyp_ph) if ref_ph else None,
+        "per": per,
         "sub": measures.substitutions,
         "del": measures.deletions,
         "ins": measures.insertions,
@@ -60,19 +67,21 @@ def score_pair(reference: str, hypothesis: str) -> dict[str, Any]:
 
 
 def score_asr(df: pd.DataFrame, ref_col: str = "text",
-              hyp_col: str = "hypothesis") -> pd.DataFrame:
+              hyp_col: str = "hypothesis", language: str = "english") -> pd.DataFrame:
     """Add per-utterance WER/PER columns to an ASR results DataFrame.
 
     Args:
-        df:      DataFrame with one row per utterance.
-        ref_col: Column holding ground-truth lyrics.
-        hyp_col: Column holding ASR hypotheses.
+        df:       DataFrame with one row per utterance.
+        ref_col:  Column holding ground-truth lyrics.
+        hyp_col:  Column holding ASR hypotheses.
+        language: Dataset language, forwarded to ``score_pair`` (gates PER to
+            English-only and picks the right text-normalisation character set).
 
     Returns:
         A copy of ``df`` with added columns: ``wer``, ``per``, ``wer_sub``,
         ``wer_del``, ``wer_ins``, ``wer_n_ref``.
     """
-    rows = [score_pair(str(r.get(ref_col, "")), str(r.get(hyp_col, "")))
+    rows = [score_pair(str(r.get(ref_col, "")), str(r.get(hyp_col, "")), language)
             for _, r in df.iterrows()]
     out = df.copy()
     out["wer"] = [r["wer"] for r in rows]

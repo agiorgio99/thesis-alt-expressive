@@ -57,8 +57,32 @@ except ImportError:
 # ── Constants ─────────────────────────────────────────────────────────────────
 SR       = 16_000
 FRAME_MS = 5.0
-VOWELS   = {"AA","AE","AH","AO","AW","AY","EH","ER","EY",
-            "IH","IY","OW","OY","UH","UW"}
+# Per-language vowel-phone sets, used by augment_vibrato/augment_glissando to
+# find the sung/vowel-bearing portion of each word. English uses ARPAbet
+# (stress digits stripped before lookup — see ph.rstrip("012") below). Every
+# other language uses GTSinger's IPA-based phone alphabet, matched as
+# complete strings (diacritics/length marks included, e.g. "aː", "ɛ̃") since
+# there is no stress-digit suffix to strip for those languages. Built from a
+# 300-file per-language sample of the real `ph` annotations in
+# data/GTSinger/<Language> — see CLAUDE_UPDATES.md for how these were derived
+# and what to double-check if a language sounds wrong after augmenting.
+VOWELS_BY_LANGUAGE: dict[str, set[str]] = {
+    "english": {"AA","AE","AH","AO","AW","AY","EH","ER","EY",
+                "IH","IY","OW","OY","UH","UW"},
+    "chinese": {  # pinyin finals (rimes) — the vowel-bearing part of the syllable
+        "a","ai","an","ang","ao","e","ei","en","eng","er","i","ia","ian",
+        "iang","iao","ie","in","ing","iong","iou","o","ong","ou","u","ua",
+        "uai","uan","uang","uei","uen","uo","v","van","ve","vn",
+    },
+    "french": {"a","e","i","o","u","y","ø","œ","ɑ","ɑ̃","ɔ","ɔ̃","ə","ɛ","ɛ̃"},
+    "german": {"a","aj","aw","aː","eː","iː","oː","uː","yː","øː","ə","ɛ",
+               "ɪ","ɔ","ɔʏ","ɐ","œ","ʊ","ʏ"},
+    "italian": {"a","e","i","o","u","ɔ","ɛ"},
+    "japanese": {"a","aː","e","eː","i","iː","i̥","o","oː","ɨ","ɨː","ɨ̥","ɯ","ɯ̥"},
+    "korean": {"e","eː","i","iː","o","oː","u","uː","ɐ","ɛ","ɛː","ɨ","ɨː","ʌ","ʌː"},
+    "russian": {"a","e","i","o","u","æ","ɐ","ə","ɛ","ɨ","ɪ","ɵ","ʉ","ʊ"},
+    "spanish": {"a","e","i","o","u"},
+}
 TECH_CODE = {
     "mix": "1", "falsetto": "2", "breathy": "3",
     "pharyngeal": "4", "glissando": "5", "vibrato": "6",
@@ -136,12 +160,13 @@ CURVE_FNS = {"cosine": cosine_curve, "ease_out": ease_out_curve}
 
 # ── Utterance-level augmentation functions ────────────────────────────────────
 
-def augment_vibrato(f0, sp, ap, meta, params):
+def augment_vibrato(f0, sp, ap, meta, params, vowels=None):
     """
     Sinusoidal F0 modulation on all vowels with note_dur >= 0.3 s.
     Params: rate_hz, extent_st, onset_ratio (fraction of vowel duration before
     vibrato starts — avoids attack wobble).
     """
+    vowels = vowels if vowels is not None else VOWELS_BY_LANGUAGE["english"]
     rate_hz     = params["rate_hz"]
     extent_st   = params["extent_st"]
     onset_ratio = params.get("onset_ratio", 0.15)
@@ -158,7 +183,7 @@ def augment_vibrato(f0, sp, ap, meta, params):
             continue
         word_modified = False
         for ph, ps, pe in zip(w["ph"], w["ph_start"], w["ph_end"]):
-            if ph.rstrip("012") not in VOWELS:
+            if ph.rstrip("012") not in vowels:
                 continue
             v_dur = float(pe) - float(ps)
             if v_dur < 0.2:
@@ -181,10 +206,12 @@ def augment_vibrato(f0, sp, ap, meta, params):
     return world_synthesize(f0_out, sp, ap), update_labels(meta, affected, "vibrato")
 
 
-def augment_breathy(f0, sp, ap, meta, params):
+def augment_breathy(f0, sp, ap, meta, params, vowels=None):
     """
     Push aperiodicity toward 1 on all non-SP words, reduce amplitude slightly.
     Params: alpha (0→0.5), amp (amplitude multiplier 0.84→0.92).
+    ``vowels`` is accepted for a uniform augment_fn(...) calling convention
+    across techniques but unused — this transform operates on whole words.
     """
     alpha = params["alpha"]
     amp   = params.get("amp", 1.0)
@@ -204,7 +231,7 @@ def augment_breathy(f0, sp, ap, meta, params):
     return wav_aug, update_labels(meta, affected, "breathy")
 
 
-def augment_glissando(f0, sp, ap, meta, params):
+def augment_glissando(f0, sp, ap, meta, params, vowels=None):
     """
     Descending glissando on every vowel long enough (>= min_vowel_dur).
     Pitch starts at the note frequency and descends by delta_st semitones,
@@ -212,6 +239,7 @@ def augment_glissando(f0, sp, ap, meta, params):
     Arithmetic is done in semitone space for perceptual uniformity.
     Params: delta_st, curve ('cosine' | 'ease_out'), min_vowel_dur.
     """
+    vowels = vowels if vowels is not None else VOWELS_BY_LANGUAGE["english"]
     delta_st      = params["delta_st"]
     curve_fn      = CURVE_FNS[params.get("curve", "cosine")]
     min_vowel_dur = params.get("min_vowel_dur", 0.15)
@@ -228,7 +256,7 @@ def augment_glissando(f0, sp, ap, meta, params):
         note_hz = midi_to_hz(int(notes[0]))
         word_modified = False
         for ph, ps, pe in zip(w["ph"], w["ph_start"], w["ph_end"]):
-            if ph.rstrip("012") not in VOWELS:
+            if ph.rstrip("012") not in vowels:
                 continue
             if float(pe) - float(ps) < min_vowel_dur:
                 continue
@@ -258,11 +286,13 @@ def _pharyngeal_filter(n_bins: int, gamma: float) -> np.ndarray:
     return (boost * attn).astype(np.float64)
 
 
-def augment_pharyngeal(f0, sp, ap, meta, params):
+def augment_pharyngeal(f0, sp, ap, meta, params, vowels=None):
     """
     Spectral envelope filter (Gaussian boost at 400 Hz, HF attenuation above 3 kHz)
     plus optional F0 depression and slight aperiodicity increase.
     Params: gamma (filter depth), press_st (F0 depression in st), ap_add.
+    ``vowels`` is accepted for a uniform augment_fn(...) calling convention
+    across techniques but unused — this transform operates on whole words.
     """
     gamma    = params["gamma"]
     press_st = params.get("press_st", 0.0)
@@ -291,11 +321,13 @@ def augment_pharyngeal(f0, sp, ap, meta, params):
     return world_synthesize(f0_out, sp_out, ap_out), update_labels(meta, affected, "pharyngeal")
 
 
-def augment_falsetto(f0, sp, ap, meta, params):
+def augment_falsetto(f0, sp, ap, meta, params, vowels=None):
     """
     F0 shift up by shift_st semitones (capped at 9 for WORLD stability) and
     aperiodicity increase (beta parameter pushes ap toward 1).
     Params: shift_st, beta.
+    ``vowels`` is accepted for a uniform augment_fn(...) calling convention
+    across techniques but unused — this transform operates on whole words.
     """
     shift_st = min(params["shift_st"], 9)
     beta     = params.get("beta", 0.15)
@@ -380,12 +412,13 @@ def _process_utterance(args_tuple):
     Process one control WAV → list of (wav_path, json_path) output pairs.
     Returns (n_ok, n_err, list_of_skipped_messages).
     """
-    ctrl_wav_str, out_tech_dir_str, cfg_key, dry_run = args_tuple
+    ctrl_wav_str, out_tech_dir_str, cfg_key, dry_run, language = args_tuple
     ctrl_wav      = Path(ctrl_wav_str)
     out_tech_dir  = Path(out_tech_dir_str)
     cfg           = TECHNIQUE_CONFIG[cfg_key]
     params_list   = cfg["params"]
     augment_fn    = cfg["augment_fn"]
+    vowels        = VOWELS_BY_LANGUAGE[language]
 
     ctrl_json = ctrl_wav.with_suffix(".json")
     if not ctrl_json.exists():
@@ -419,7 +452,7 @@ def _process_utterance(args_tuple):
             n_ok += 1
             continue
         try:
-            wav_aug, meta_aug = augment_fn(f0, sp, ap, meta, params)
+            wav_aug, meta_aug = augment_fn(f0, sp, ap, meta, params, vowels)
             sf.write(out_wav, wav_aug, SR)
             with open(out_json, "w") as fh:
                 json.dump(meta_aug, fh, indent=2)
@@ -455,6 +488,12 @@ def main():
     parser.add_argument(
         "--dst", default="data/GTSinger_Augmented/English",
         help="Output directory (default: data/GTSinger_Augmented/English)",
+    )
+    parser.add_argument(
+        "--language", default="english", choices=list(VOWELS_BY_LANGUAGE.keys()),
+        help="Dataset language — selects the vowel-phone set used by the "
+             "vibrato/glissando transforms to find sung vowels (default: english). "
+             "Must match --src's actual language.",
     )
     parser.add_argument(
         "--techniques", nargs="+", default=list(TECHNIQUE_CONFIG.keys()),
@@ -536,6 +575,7 @@ def main():
                         str(out_tech),
                         tech_dir.name,
                         args.dry_run,
+                        args.language,
                     ))
 
     n_tasks = len(tasks)

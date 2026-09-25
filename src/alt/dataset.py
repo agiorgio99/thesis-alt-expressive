@@ -233,7 +233,7 @@ def lyrics_from_textgrid(tg_path: str | Path) -> str:
 # ─────────────────────────────────────────────────────────────────────────────
 @register_dataset("gtsinger")
 class GTSingerAdapter(DatasetAdapter):
-    """Adapter for the GTSinger corpus (English subset).
+    """Adapter for the GTSinger corpus (any of its 9 languages).
 
     Expected on-disk layout (one WAV per leaf folder)::
 
@@ -242,7 +242,12 @@ class GTSingerAdapter(DatasetAdapter):
                                                                  XXXX.json
 
     The adapter is robust to an extra nesting level inside the root (zip
-    archives sometimes add one).
+    archives sometimes add one) and selects the language via ``self.language``
+    (from ``DataConfig.language``, e.g. "english", "chinese", "russian"...).
+    Folder naming and technique coverage were verified identical across all 9
+    GTSinger languages (same 5 technique-folder names, same singer-ID pattern
+    ``<2-3 letter code>-<Range>-<n>``) — only the language folder name and
+    singer-ID prefix differ per language.
     """
 
     # GTSinger folder names -> coarse pipeline group label.
@@ -257,10 +262,13 @@ class GTSingerAdapter(DatasetAdapter):
         "Breathy": "breathy", "Glissando": "glissando", "Vibrato": "vibrato",
         "Mixed_Voice_and_Falsetto": "mixed_falsetto", "Pharyngeal": "pharyngeal",
     }
-    _SINGER_HINTS = ("EN-Alto-1", "EN-Alto-2", "EN-Tenor-1")
 
-    def _find_english_root(self, base: Path) -> Path:
+    def _find_language_root(self, base: Path) -> Path:
         """Locate the real corpus root, tolerating one extra nesting folder.
+
+        Matches a folder named exactly ``self.language`` (case-insensitive) —
+        GTSinger's language folders are named "Chinese", "English", "French",
+        "German", "Italian", "Japanese", "Korean", "Russian", "Spanish".
 
         Args:
             base: The configured dataset root.
@@ -269,9 +277,7 @@ class GTSingerAdapter(DatasetAdapter):
             The folder that directly contains the per-singer directories.
         """
         for p in sorted(base.rglob("*")):
-            if p.is_dir() and any(h in p.name for h in self._SINGER_HINTS):
-                return p.parent
-            if p.is_dir() and p.name.lower() == "english":
+            if p.is_dir() and p.name.lower() == self.language.lower():
                 return p
         return base
 
@@ -281,10 +287,10 @@ class GTSingerAdapter(DatasetAdapter):
         Returns:
             A list of ``Utterance`` objects (truncated to ``self.limit``).
         """
-        english_root = self._find_english_root(self.root)
+        lang_root = self._find_language_root(self.root)
         records: list[Utterance] = []
 
-        wav_files = [w for w in english_root.rglob("*.wav")
+        wav_files = [w for w in lang_root.rglob("*.wav")
                      if not w.name.startswith(".")]
         for wav in sorted(wav_files):
             group_folder = wav.parent.name
@@ -301,8 +307,8 @@ class GTSingerAdapter(DatasetAdapter):
 
             tg_path = wav.with_suffix(".TextGrid")
             json_path = wav.with_suffix(".json")
-            lyrics = (clean_text(lyrics_from_textgrid(tg_path))
-                      or clean_text(lyrics_from_json(json_path)))
+            lyrics = (clean_text(lyrics_from_textgrid(tg_path), self.language)
+                      or clean_text(lyrics_from_json(json_path), self.language))
 
             utt_id = (f"{singer_id}__{technique}__{group}"
                       f"__{song.replace(' ', '_')}__{wav.stem}")

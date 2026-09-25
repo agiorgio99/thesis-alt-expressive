@@ -20,14 +20,31 @@ SKIP_LABELS: set[str] = {
 _g2p = None
 
 
-def clean_text(text: str) -> str:
+# Per-language character classes kept during normalisation. The English/Latin
+# default now keeps common accented letters too (é, ü, ñ...) — the old
+# ``[^a-z ]`` filter silently deleted them, corrupting WER for French, German,
+# Spanish and Italian even though they're Latin-script.
+_KEEP_CHARS: dict[str, str] = {
+    "chinese":  r"^一-鿿 ",
+    "japanese": r"^぀-ヿ一-鿿 ",
+    "korean":   r"^가-힣 ",
+    "russian":  r"^а-яё ",
+}
+_DEFAULT_KEEP_CHARS = r"^a-zàâäåæçèéêëìíîïñòóôöùúûüÿœ "  # Latin-script default
+
+
+def clean_text(text: str, language: str = "english") -> str:
     """Normalise a transcript line for WER/PER scoring.
 
     Steps: strip angle-bracket tokens (``<AP>``, ``<SP>``...), lowercase, keep
-    only ``a-z`` and spaces, collapse whitespace.
+    only the script-appropriate characters for ``language`` plus spaces,
+    collapse whitespace.
 
     Args:
         text: Raw transcript or hypothesis string (any type tolerated).
+        language: Dataset language (lowercase name, e.g. "english", "chinese").
+            Selects which character class survives normalisation; unrecognised
+            languages fall back to the accented-Latin default.
 
     Returns:
         The normalised lowercase string, or "" if the input was not a string.
@@ -36,7 +53,8 @@ def clean_text(text: str) -> str:
         return ""
     text = re.sub(r"<[^>]+>", "", text)      # remove <AP>, <SP>, XML-style tokens
     text = text.lower()
-    text = re.sub(r"[^a-z ]", "", text)      # keep letters + spaces only
+    keep = _KEEP_CHARS.get(language.lower(), _DEFAULT_KEEP_CHARS)
+    text = re.sub(f"[{keep}]", "", text)
     return re.sub(r"\s+", " ", text).strip()
 
 

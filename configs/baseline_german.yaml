@@ -1,0 +1,56 @@
+# ═════════════════════════════════════════════════════════════════════════════
+#  baseline_german.yaml — Phase 1 baseline (WER only) on GTSinger German
+#
+#  Scope decision (see plan / CLAUDE_UPDATES.md): alignment (MFA) and pitch
+#  (CREPE) stay English-only for the multilingual extension — MFA needs a
+#  separately-sourced acoustic model + dictionary per language, which is out
+#  of scope here. Only WER is computed for German.
+#
+#  NOTE: dataset_root assumes the downloaded GTSinger tree names this
+#  language's folder "German" (matching the English/ convention already in
+#  this repo) — verify against the actual download and adjust if different.
+# ═════════════════════════════════════════════════════════════════════════════
+
+experiment_name: baseline_german
+
+paths:
+  dataset_root: data/GTSinger/German
+  results_dir:  results
+  work_dir:     data/_work
+
+data:
+  name: gtsinger
+  language: german
+  limit: null             # null = all utterances; set an int for a quick test
+
+# ── ASR — all models run in sequence, each gets its own CSV ──────────────────
+asr:
+  enabled: true
+  model_names:
+    - whisper_largev3
+    - whisper_largev2
+    - whisper_small
+    # wav2vec2 is English-only (fine-tuned on English ASR) — omitted here.
+  device: cuda
+  batch_size: 8
+  language: de
+  extra: {}
+
+# ── Forced alignment — disabled for the multilingual extension ───────────────
+alignment:
+  enabled: false
+  aligner: mfa
+  device: cpu
+  extra: {}
+
+# ── Pitch tracking — disabled for the multilingual extension ─────────────────
+pitch:
+  enabled: false
+  model_capacity: full
+  device: cuda
+  step_ms: 10
+
+# ── Evaluation ───────────────────────────────────────────────────────────────
+evaluation:
+  stratify_by: [technique, singer_id]
+  hallucination_threshold: 1.0

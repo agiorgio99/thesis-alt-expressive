@@ -118,7 +118,8 @@ class Pipeline:
                 "text":      [u.text      for u in scored_utts],
                 "hypothesis": hypotheses,
             })
-            df = score_asr(df, ref_col="text", hyp_col="hypothesis")
+            df = score_asr(df, ref_col="text", hyp_col="hypothesis",
+                           language=self.cfg.data.language)
             df.to_csv(self.out_dir / f"asr_{model_name}.csv", index=False)
 
             overall = aggregate_asr(df, thr)

@@ -320,6 +320,13 @@ def parse_args() -> argparse.Namespace:
         "--model-id", default=MODEL_ID,
         help=f"HuggingFace model id (default: {MODEL_ID})",
     )
+    p.add_argument(
+        "--language", default="en",
+        help="Whisper ISO-639-1 language code for the processor's decoder "
+             "prompt (default: en). Must match the dataset's actual language "
+             "— e.g. zh/ja/ko/ru/es/fr/de/it — or the fine-tuned model's "
+             "language token will be wrong.",
+    )
     p.add_argument("--test-frac",       type=float, default=0.30,
                    help="Fraction of original data held out as test (default: 0.30)")
     p.add_argument("--orig-train-frac", type=float, default=0.20,
@@ -472,7 +479,7 @@ def main() -> None:
     print(f"\nLoading processor + model: {args.model_id}")
     print(f"  Mixed precision: {'bf16' if use_bf16 else 'fp16' if use_fp16 else 'fp32'}")
 
-    processor = WhisperProcessor.from_pretrained(args.model_id, language="en", task="transcribe")
+    processor = WhisperProcessor.from_pretrained(args.model_id, language=args.language, task="transcribe")
     model = WhisperForConditionalGeneration.from_pretrained(
         args.model_id, torch_dtype=torch_dtype
     ).to(device)
