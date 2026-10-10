@@ -106,6 +106,19 @@ def build(demo: gr.Blocks) -> None:
             p = json.loads(params_json or "{}")
         except json.JSONDecodeError as e:
             return None, None, f"⚠️ Invalid JSON: {e}"
+        # Fill parameters the engine needs but the editor lacks (e.g. the
+        # editor still holds another engine's preset) from its typical preset,
+        # and drop keys this engine does not know.
+        presets = ENGINES[eng].presets(grp, lang)
+        note = ""
+        if presets:
+            base = presets[len(presets) // 2]
+            unknown = sorted(set(p) - set(base))
+            missing = sorted(set(base) - set(p))
+            p = {**base, **{k: v for k, v in p.items() if k in base}}
+            if missing or unknown:
+                note = (f" · ⚠️ parameters adjusted for {eng}: "
+                        f"filled {missing or '–'}, ignored {unknown or '–'}")
         try:
             res = augment(eng, ctrl, grp, p, lang)
         except Exception as e:  # surface engine errors in the UI, not a traceback
@@ -114,12 +127,16 @@ def build(demo: gr.Blocks) -> None:
         fig = close(plot_clip(wav, res.sr, res.meta,
                               title=f"{eng} → {grp} {json.dumps(p)}"))
         return (res.sr, wav.astype(np.float32)), fig, \
-            f"✅ {eng} · {res.sr // 1000} kHz · {len(wav) / res.sr:.1f} s"
+            f"✅ {eng} · {res.sr // 1000} kHz · {len(wav) / res.sr:.1f} s{note}"
 
     picker.tech_folder.change(on_tech, [picker.tech_folder, engine], [group, engine_info])
     engine.change(on_tech, [picker.tech_folder, engine], [group, engine_info])
     group.change(on_group, [group, engine, picker.language], preset)
     preset.change(on_preset, [group, engine, picker.language, preset], params)
+    # Switching engine or language keeps the same group/preset names, so their
+    # change events do not fire: reload the editor explicitly.
+    for comp in (engine, picker.language):
+        comp.change(on_preset, [group, engine, picker.language, preset], params)
     gr.on([picker.stem.change, group.change], on_clip, picker.inputs + [group],
           [ctrl_audio, ctrl_plot, real_audio, real_plot])
     generate.click(on_generate, picker.inputs + [group, engine, params],

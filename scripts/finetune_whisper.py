@@ -25,6 +25,18 @@ Song-disjoint split
     song — real or augmented, any singer, any technique — is kept out of every
     training and validation pool.
 
+Recipe mode (--mode recipe) — the ablation used from 2026-10 on
+    Three song-disjoint sets per language: the fixed test songs (above), a
+    REAL validation set (--val-song-frac of the corpus, whole songs, technique
+    takes only; drives checkpoint selection) and the training songs (the
+    rest). The training set is composed explicitly, so every effect can be
+    isolated:
+      R   real technique takes        --real-frac (share of the corpus; 1 = all)
+      C   real control takes          --with-control
+      A   augmented takes             --with-aug  (from --aug-src; --aug-max caps)
+    No real training-song clip is discarded unless --real-frac < 1. Validation
+    songs are removed from R, C and A, like test songs.
+
 The test-set manifest is saved per language (default):
     results/splits/test_manifest_<lang>.json      (list of audio paths)
     results/splits/test_manifest_<lang>.songs.json (test songs + split stats)
@@ -159,6 +171,63 @@ def collect_original_items(orig_root: Path, language: str = "english",
         technique = wav.parent.parent.parent.name
         items.append((str(wav), text, singer_id, technique, song_key(wav)))
     return items
+
+
+def collect_control_items(orig_root: Path, language: str = "english",
+                          ) -> list[tuple[str, str, str, str, str]]:
+    """(wav_path, transcript, singer_id, technique, song_key) of the real
+    Control_Group takes (same phrases sung without the technique)."""
+    items: list[tuple[str, str, str, str, str]] = []
+    for wav in sorted(orig_root.rglob("Control_Group/*.wav")):
+        json_path = wav.with_suffix(".json")
+        if not json_path.exists():
+            continue
+        text = lyrics_from_json(json_path, language).strip()
+        if not text:
+            continue
+        items.append((str(wav), text, wav.parents[3].name, wav.parents[2].name,
+                      song_key(wav)))
+    return items
+
+
+def select_val_songs(pool_items: list[tuple], n_total: int, val_song_frac: float,
+                     seed: int) -> set[str]:
+    """Pick whole validation songs from the non-test pool.
+
+    Reuses the technique-balanced song selection of the test split, aiming at
+    ``val_song_frac`` of the WHOLE corpus (so the share is comparable across
+    languages), with a different seed stream than the test split.
+
+    Args:
+        pool_items:    Original technique items of the non-test songs.
+        n_total:       Number of original technique items in the corpus.
+        val_song_frac: Target share of the corpus held out for validation.
+        seed:          Base seed.
+
+    Returns:
+        The validation song keys.
+    """
+    frac_of_pool = min(0.5, val_song_frac * n_total / max(len(pool_items), 1))
+    _, _, val_songs = split_for_experiments(pool_items, test_frac=frac_of_pool,
+                                            orig_train_frac=0.0, seed=seed + 1)
+    return val_songs
+
+
+def stratified_take(items: list[tuple], n: int, seed: int) -> list[tuple]:
+    """Up to ``n`` items, stratified by technique (item[3]), seeded."""
+    if n >= len(items):
+        return list(items)
+    rng = random.Random(seed)
+    by_tech: dict[str, list] = {}
+    for it in items:
+        by_tech.setdefault(it[3], []).append(it)
+    out: list[tuple] = []
+    for tech in sorted(by_tech):
+        g = by_tech[tech][:]
+        rng.shuffle(g)
+        out += g[:round(n * len(g) / len(items))]
+    rng.shuffle(out)
+    return out[:n]
 
 
 # ── Splits ────────────────────────────────────────────────────────────────────
@@ -390,14 +459,16 @@ def parse_args() -> argparse.Namespace:
     )
     p.add_argument(
         "--mode",
-        choices=["mixed", "aug_only", "aug_matched", "orig_only"],
+        choices=["mixed", "aug_only", "aug_matched", "orig_only", "recipe"],
         default=None,
         help=(
             "mixed       — train on ALL augmented + 20%% of original        (exp 1)\n"
             "aug_only    — train on ALL augmented only                      (exp 2)\n"
             "aug_matched — ALL augmented + N extra aug items, N=len(train_orig), "
             "same total size as mixed  (exp A: fair comparison)\n"
-            "orig_only   — 20%% original only, no augmented                 (exp B)"
+            "orig_only   — 20%% original only, no augmented                 (exp B)\n"
+            "recipe      — explicit R / C / A composition with a real, "
+            "song-disjoint validation set (see --real-frac, --with-control, --with-aug)"
         ),
     )
     p.add_argument(
@@ -473,6 +544,32 @@ def parse_args() -> argparse.Namespace:
             "(default: adamw_torch)"
         ),
     )
+    # ── Recipe mode ──────────────────────────────────────────────────────────
+    p.add_argument("--run-name", default=None,
+                   help="Recipe run name; output defaults to "
+                        "results/finetune/<lang>/<run-name>/")
+    p.add_argument("--real-frac", type=float, default=1.0,
+                   help="Recipe: real technique takes used for training, as a share "
+                        "of the WHOLE corpus (1.0 = every training-song take; "
+                        "0.2 = the low-resource setting)")
+    p.add_argument("--with-control", action="store_true",
+                   help="Recipe: also train on the real Control_Group takes")
+    p.add_argument("--with-aug", action="store_true",
+                   help="Recipe: also train on the augmented takes of --aug-src")
+    p.add_argument("--aug-max", type=int, default=None,
+                   help="Recipe: cap the augmented items (random, stratified) — "
+                        "e.g. to match two augmentation engines in size")
+    p.add_argument("--val-song-frac", type=float, default=0.10,
+                   help="Recipe: share of the corpus held out as REAL validation "
+                        "songs (default 0.10)")
+    p.add_argument("--val-max", type=int, default=300,
+                   help="Recipe: cap on validation clips (generation is slow)")
+    p.add_argument("--warmup-ratio", type=float, default=None,
+                   help="Warmup as a share of all optimiser steps (recipe default "
+                        "0.1; overrides --warmup)")
+    p.add_argument("--keep-checkpoints", action="store_true",
+                   help="Keep intermediate checkpoint-* folders (default: removed "
+                        "after training in recipe mode; best_model is kept)")
     p.add_argument(
         "--split-only", action="store_true",
         help="Only build and save the song-disjoint test manifest for "
@@ -503,7 +600,11 @@ def main() -> None:
     # English keeps the historical output folder names (used by the configs);
     # other languages get a language suffix so runs never overwrite each other.
     suffix    = "" if args.language == "en" else f"_{args.language}"
+    if args.mode == "recipe" and not args.run_name:
+        sys.exit("--run-name is required with --mode recipe")
     out_dir   = Path(args.out_dir) if args.out_dir else (
+        REPO / "results" / "finetune" / args.language / args.run_name
+        if args.mode == "recipe" else
         REPO / f"results/finetune_whisper_{args.mode}{suffix}"
     )
     best_dir      = out_dir / "best_model"
@@ -513,7 +614,8 @@ def main() -> None:
     # ── Validate sources ──────────────────────────────────────────────────────
     # --split-only needs only the original data (the test set is built from it).
     sources = [(orig_root, "--orig-src")]
-    if not args.split_only:
+    need_aug = not args.split_only and (args.mode != "recipe" or args.with_aug)
+    if need_aug:
         sources.insert(0, (aug_root, "--aug-src"))
     for p, label in sources:
         if not p.exists():
@@ -522,7 +624,7 @@ def main() -> None:
 
     # ── Collect augmented items ───────────────────────────────────────────────
     aug_items: list[tuple[str, str]] = []
-    if not args.split_only:
+    if need_aug:
         print(f"Scanning augmented data: {aug_root}")
         aug_items = collect_augmented_items(aug_root, language)
         if not aug_items:
@@ -584,6 +686,85 @@ def main() -> None:
         print("\n[SPLIT ONLY] Exiting without building training data.")
         return
 
+    if args.mode == "recipe":
+        train_items, val_items, mode_label = build_recipe(
+            args, orig_items, orig_root, language, aug_items, test_songs)
+    else:
+        train_items, val_items, mode_label = build_legacy_modes(
+            args, aug_items, train_orig, test_songs)
+
+    # ── Summary ───────────────────────────────────────────────────────────────
+    print(f"\nMode            : {args.mode}  ({mode_label})")
+    print(f"Train           : {len(train_items)}")
+    print(f"Val             : {len(val_items)}")
+    print(f"Test (held-out) : {len(test_items)}  [not used during training]")
+
+    def _tech_counts(items):
+        return Counter(Path(p).parent.parent.parent.name for p, _ in items)
+
+    print(f"Train breakdown : {dict(_tech_counts(train_items))}")
+    print(f"Val   breakdown : {dict(_tech_counts(val_items))}")
+
+    if args.dry_run:
+        print("\n[DRY RUN] Exiting without training.")
+        return
+    train_and_save(args, train_items, val_items, out_dir, best_dir, manifest_path,
+                   language, metric)
+
+
+def build_recipe(args, orig_items, orig_root, language, aug_items, test_songs):
+    """Compose train / real validation sets for ``--mode recipe``.
+
+    Returns:
+        ``(train_items, val_items, label)`` — items are (wav, text) pairs.
+    """
+    n_total = len(orig_items)
+    pool = [it for it in orig_items if it[4] not in test_songs]
+    val_songs = select_val_songs(pool, n_total, args.val_song_frac, args.seed)
+    held = test_songs | val_songs
+    val_all = [it for it in pool if it[4] in val_songs]
+    val_items = [(p, t) for p, t, *_ in stratified_take(val_all, args.val_max, args.seed)]
+    train_pool = [it for it in pool if it[4] not in val_songs]
+    print(f"  → Val songs  : {len(val_songs)} songs, {len(val_all)} real technique takes "
+          f"(using {len(val_items)})")
+    print(f"  → Train pool : {len(train_pool)} real technique takes "
+          f"(nothing discarded at --real-frac 1)")
+
+    parts, label = [], []
+    n_real = min(len(train_pool), round(n_total * args.real_frac))
+    real = stratified_take(train_pool, n_real, args.seed)
+    parts += [(p, t) for p, t, *_ in real]
+    label.append(f"R{args.real_frac:g}={len(real)}")
+    if args.with_control:
+        ctrl = [it for it in collect_control_items(orig_root, language) if it[4] not in held]
+        parts += [(p, t) for p, t, *_ in ctrl]
+        label.append(f"C={len(ctrl)}")
+    if args.with_aug:
+        aug = [(p, t) for p, t in aug_items if song_key(Path(p)) not in held]
+        if args.aug_max is not None and len(aug) > args.aug_max:
+            tagged = [(p, t, "", Path(p).parent.name, "") for p, t in aug]
+            aug = [(p, t) for p, t, *_ in stratified_take(tagged, args.aug_max, args.seed)]
+        parts += aug
+        label.append(f"A={len(aug)}")
+
+    # Leakage guards: no test or validation song on the training side.
+    train_songs = {song_key(Path(p)) for p, _ in parts}
+    assert not (train_songs & test_songs), "song leakage train ↔ test"
+    assert not (train_songs & val_songs), "song leakage train ↔ validation"
+    random.Random(args.seed).shuffle(parts)
+    # Record the validation songs next to the test manifest.
+    val_path = REPO / "results" / "splits" / f"val_songs_{args.language}.json"
+    with open(val_path, "w", encoding="utf-8") as fh:
+        json.dump(sorted(val_songs), fh, indent=2, ensure_ascii=False)
+    return parts, val_items, " + ".join(label) + f"  (real val: {len(val_items)})"
+
+
+def build_legacy_modes(args, aug_items, train_orig, test_songs):
+    """Training / validation sets of the original four experiment modes.
+
+    Returns:
+        ``(train_items, val_items, label)``.
+    """
     # ── Remove test songs from the augmented pool ─────────────────────────────
     # Augmented variants are synthesised from each song's Control_Group, so a
     # test song's variants carry the test lyrics. Drop them from BOTH training
@@ -628,22 +809,12 @@ def main() -> None:
         val_items   = aug_val   # proxy val set for checkpoint selection
         mode_label  = "20% original only (no augmented data)"
 
-    # ── Summary ───────────────────────────────────────────────────────────────
-    print(f"\nMode            : {args.mode}  ({mode_label})")
-    print(f"Train           : {len(train_items)}")
-    print(f"Val             : {len(val_items)}")
-    print(f"Test (held-out) : {len(test_items)}  [not used during training]")
+    return train_items, val_items, mode_label
 
-    def _tech_counts(items):
-        return Counter(Path(p).parent.parent.parent.name for p, _ in items)
 
-    print(f"Train breakdown : {dict(_tech_counts(train_items))}")
-    print(f"Val   breakdown : {dict(_tech_counts(val_items))}")
-
-    if args.dry_run:
-        print("\n[DRY RUN] Exiting without training.")
-        return
-
+def train_and_save(args, train_items, val_items, out_dir, best_dir, manifest_path,
+                   language, metric) -> None:
+    """Fine-tune Whisper on ``train_items``, select on ``val_items``, save best."""
     # ── Load model + processor ────────────────────────────────────────────────
     import torch
     from transformers import (
@@ -694,20 +865,32 @@ def main() -> None:
         input_dtype=torch_dtype,
     )
 
+    # Step budget: warm up over a share of all steps (fixed 500 steps would
+    # exceed a whole small run), evaluate / save twice per epoch.
+    steps_per_epoch = max(1, -(-len(train_items) // (args.batch_size * args.grad_accum)))
+    total_steps = steps_per_epoch * args.epochs
+    warmup_ratio = args.warmup_ratio if args.warmup_ratio is not None else \
+        (0.1 if args.mode == "recipe" else None)
+    warmup_steps = int(warmup_ratio * total_steps) if warmup_ratio is not None else args.warmup
+    eval_steps = max(25, steps_per_epoch // 2) if args.mode == "recipe" else args.eval_steps
+    print(f"  Steps: {total_steps} ({steps_per_epoch}/epoch) · warmup {warmup_steps} · "
+          f"eval every {eval_steps}")
+
     training_args = Seq2SeqTrainingArguments(
         output_dir                  = str(out_dir),
         per_device_train_batch_size = args.batch_size,
         gradient_accumulation_steps = args.grad_accum,
         learning_rate               = args.lr,
-        warmup_steps                = args.warmup,
+        warmup_steps                = warmup_steps,
         num_train_epochs            = args.epochs,
         fp16                        = use_fp16,
         bf16                        = use_bf16,
         optim                       = args.optim,
         eval_strategy               = "steps",
-        eval_steps                  = args.eval_steps,
+        eval_steps                  = eval_steps,
         save_strategy               = "steps",
-        save_steps                  = args.eval_steps,
+        save_steps                  = eval_steps,
+        save_total_limit            = 2,        # best + latest (disk: ~9 GB each)
         load_best_model_at_end      = True,
         metric_for_best_model       = metric,   # CER for zh/ja/ko, else WER
         greater_is_better           = False,
@@ -737,11 +920,21 @@ def main() -> None:
     print(f"\nSaving best model → {best_dir}")
     trainer.save_model(str(best_dir))
     processor.save_pretrained(str(best_dir))
+    # Trainer state (loss / validation curves) next to the model.
+    trainer.state.save_to_json(str(out_dir / "trainer_state.json"))
 
     print("\nFinal evaluation on validation set …")
     metrics = trainer.evaluate()
     print(f"  Validation WER: {metrics.get('eval_wer', 'N/A')}  "
           f"CER: {metrics.get('eval_cer', 'N/A')}  (selection metric: {metric.upper()})")
+
+    if args.mode == "recipe" and not args.keep_checkpoints:
+        import shutil
+        for ck in out_dir.glob("checkpoint-*"):
+            shutil.rmtree(ck, ignore_errors=True)
+        with open(out_dir / "val_metrics.json", "w") as fh:
+            json.dump(metrics, fh, indent=2)
+        print(f"Removed intermediate checkpoints; kept {best_dir}")
 
     print(f"""
 ═══════════════════════════════════════════════════════════════
