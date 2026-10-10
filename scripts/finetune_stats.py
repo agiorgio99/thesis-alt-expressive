@@ -55,9 +55,18 @@ def load_run(iso: str, run: str) -> pd.DataFrame | None:
     if not preds.exists() or not inv.exists():
         return None
     df = pd.read_csv(preds)
-    songs = pd.read_csv(inv)[["utt_id", "audio_path"]]
-    songs["song"] = songs["audio_path"].map(lambda p: song_key(Path(p)))
-    return df.merge(songs[["utt_id", "song"]], on="utt_id", how="left")
+    inv = pd.read_csv(inv, keep_default_na=False)
+    # utt_id is NOT unique (Falsetto_Group and Mixed_Voice_Group takes of one
+    # song share it), so rows are matched by position: the pipeline scores the
+    # inventory's utterances with non-empty lyrics, in inventory order.
+    inv = inv[inv["text"].astype(str).str.strip() != ""].reset_index(drop=True)
+    assert len(inv) == len(df) and (inv["utt_id"] == df["utt_id"]).all(), \
+        f"inventory / predictions misaligned in {d}"
+    df["audio_path"] = inv["audio_path"]
+    df["song"] = df["audio_path"].map(lambda p: song_key(Path(p)))
+    # Unique clip key for pairing runs.
+    df["utt_id"] = df["audio_path"]
+    return df
 
 
 def song_bootstrap(values: pd.Series, songs: pd.Series, rng: np.random.Generator) -> tuple:
