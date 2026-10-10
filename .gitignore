@@ -1,16 +1,30 @@
-# ── Datasets (download separately) ───────────────────────────────────────────
+# ── Datasets (download separately — see REPRODUCE.md) ───────────────────────
 data/
 !data/.gitkeep
 
-# ── Fine-tuned model checkpoints (heavy: safetensors + optimizer states) ─────
-results/finetune_whisper_*/
+# ── Fine-tuned models / training runs (GBs: weights + optimizer states) ─────
+# Covers results/finetune_whisper/ as well as results/finetune_whisper_<mode>[_<lang>]/
+results/finetune_whisper*/
 
-# ── Model weight formats ──────────────────────────────────────────────────────
+# ── Model weights & large binary artefacts ───────────────────────────────────
 *.safetensors
 *.pt
+*.pth
+*.bin
 *.ckpt
+*.onnx
 checkpoints/
 whisper_weights/
+*.zip
+*.tar
+*.tar.gz
+
+# ── Regenerable / bulky pipeline outputs ─────────────────────────────────────
+# HTML reports embed every plot and the full per-utterance table (7–30 MB
+# each); rebuild them with:  python scripts/run_pipeline.py --config <cfg> --stage report
+results/**/report.html
+# Console logs of long runs (progress bars, not results)
+results/logs/
 
 # ── Python ───────────────────────────────────────────────────────────────────
 __pycache__/
@@ -21,8 +35,17 @@ venv/
 env/
 .ipynb_checkpoints/
 
-# ── Editors / OS ─────────────────────────────────────────────────────────────
+# ── Editors / OS / local tooling ─────────────────────────────────────────────
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+.claude/settings.local.json
+
+# ── Private working notes & one-off utilities (kept local on purpose) ────────
+CLAUDE_UPDATES.md
+scripts/compute_audio_hours.py
+scripts/count_all_utterances.py
+
+# ── App runtime cache (rebuilt with: python -m app.state --rebuild) ──────────
+app/cache/

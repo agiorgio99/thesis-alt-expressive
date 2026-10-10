@@ -1,0 +1,45 @@
+{
+  "language": "korean",
+  "seed": 42,
+  "test_frac_target": 0.3,
+  "n_original": 1263,
+  "n_test": 378,
+  "test_songs": [
+    "all with you",
+    "breathe",
+    "coverme",
+    "eight",
+    "fine",
+    "hcilthbyrtoil",
+    "love wins all",
+    "strawberrymoon",
+    "when this rain stop",
+    "내 손을 잡아",
+    "눈, 코, 입",
+    "또 한 번 사랑해",
+    "매일 그대와",
+    "사랑이 그렇게",
+    "안녕",
+    "야신",
+    "여자이니까",
+    "일년을 하루 같이",
+    "좋은 날",
+    "총맞은것처럼",
+    "향기만 남아",
+    "흐느껴 울다"
+  ],
+  "test_by_technique": {
+    "Breathy": 59,
+    "Glissando": 58,
+    "Mixed_Voice_and_Falsetto": 138,
+    "Pharyngeal": 62,
+    "Vibrato": 61
+  },
+  "all_by_technique": {
+    "Breathy": 196,
+    "Glissando": 194,
+    "Mixed_Voice_and_Falsetto": 462,
+    "Pharyngeal": 206,
+    "Vibrato": 205
+  }
+}

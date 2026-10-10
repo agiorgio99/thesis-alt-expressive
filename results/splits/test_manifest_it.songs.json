@@ -1,0 +1,37 @@
+{
+  "language": "italian",
+  "seed": 42,
+  "test_frac_target": 0.3,
+  "n_original": 1037,
+  "n_test": 316,
+  "test_songs": [
+    "batti batti",
+    "bella ciao",
+    "gioia dell'amore",
+    "lascia ch'io pianga",
+    "le violette",
+    "mattinata",
+    "mi chiamano mimi",
+    "o cessate di piagarmi",
+    "o sole che sorgi da gange",
+    "quanto è doloroso",
+    "soave sia il vento",
+    "sogno",
+    "tristezza",
+    "volta la terrea fronte alle stelle"
+  ],
+  "test_by_technique": {
+    "Breathy": 52,
+    "Glissando": 52,
+    "Mixed_Voice_and_Falsetto": 144,
+    "Pharyngeal": 24,
+    "Vibrato": 44
+  },
+  "all_by_technique": {
+    "Breathy": 170,
+    "Glissando": 177,
+    "Mixed_Voice_and_Falsetto": 464,
+    "Pharyngeal": 77,
+    "Vibrato": 149
+  }
+}

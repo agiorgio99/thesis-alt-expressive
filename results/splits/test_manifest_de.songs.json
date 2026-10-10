@@ -1,0 +1,43 @@
+{
+  "language": "german",
+  "seed": 42,
+  "test_frac_target": 0.3,
+  "n_original": 1959,
+  "n_test": 592,
+  "test_songs": [
+    "auf dem wasser zu singen",
+    "das leben ist so schön",
+    "der gartner",
+    "dies blidnis ist bezaubernd schön",
+    "edelweiss",
+    "frühlingsglaube",
+    "gute nacht",
+    "halt",
+    "ich will immer wieder dieses fieber spür‘n",
+    "in mir klingt ein lied",
+    "kleine kinder, kleine sorgen",
+    "lass mich in dein leben",
+    "liebe heisst schmerz",
+    "morgen",
+    "nacht und träume",
+    "nehmt abschied brüder",
+    "o lieb",
+    "schlaflied",
+    "standchen",
+    "verborgenheit"
+  ],
+  "test_by_technique": {
+    "Breathy": 68,
+    "Glissando": 73,
+    "Mixed_Voice_and_Falsetto": 312,
+    "Pharyngeal": 68,
+    "Vibrato": 71
+  },
+  "all_by_technique": {
+    "Breathy": 226,
+    "Glissando": 245,
+    "Mixed_Voice_and_Falsetto": 1022,
+    "Pharyngeal": 228,
+    "Vibrato": 238
+  }
+}

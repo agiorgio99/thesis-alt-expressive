@@ -1,0 +1,44 @@
+{
+  "language": "spanish",
+  "seed": 42,
+  "test_frac_target": 0.3,
+  "n_original": 1649,
+  "n_test": 495,
+  "test_songs": [
+    "a gritos de esperanza",
+    "aire",
+    "amar y querer",
+    "angel",
+    "asilohare",
+    "deseos de cosas imposibles",
+    "hell",
+    "historia de amor",
+    "la de la mala suerte",
+    "la gata bajo la lluvia",
+    "laedaddehielo",
+    "me faltas",
+    "no hay nadie más",
+    "no llores por mi argentina",
+    "no puedo quitar mis ojos de ti",
+    "otrolado",
+    "poco",
+    "por una cabeza",
+    "quién fuera",
+    "solamente una vez",
+    "wrecking ball"
+  ],
+  "test_by_technique": {
+    "Breathy": 62,
+    "Glissando": 63,
+    "Mixed_Voice_and_Falsetto": 252,
+    "Pharyngeal": 57,
+    "Vibrato": 61
+  },
+  "all_by_technique": {
+    "Breathy": 212,
+    "Glissando": 208,
+    "Mixed_Voice_and_Falsetto": 844,
+    "Pharyngeal": 187,
+    "Vibrato": 198
+  }
+}

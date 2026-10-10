@@ -51,9 +51,14 @@ dependencies:
     - datasets            # Phase 3 fine-tuning
     - bitsandbytes        # 8-bit AdamW optimizer (--optim adamw_8bit) for the Phase 3 controlled fine-tuning experiments
     - jiwer               # WER computation
+    - opencc              # Traditional → Simplified Chinese before CER scoring
     - nltk                # tokenizer data required by g2p_en (auto-downloaded on first use, see src/alt/text.py)
     - g2p_en              # grapheme-to-phoneme for PER
     - praatio             # TextGrid I/O
     - tgt                 # alternative TextGrid parser
     - torchcrepe          # CNN-based F0 estimator, PyTorch-native (replaces crepe which is abandoned and pulls tensorflow)
     - pyworld               # WORLD vocoder (for F0 + spectral envelope + aperiodicity)
+    - praat-parselmouth   # Praat PSOLA engine for pitch-based technique augmentation
+    - gradio              # local showcase / listening-test app (app/)
+    - pytest              # tests/
+    - tabulate            # markdown tables in generated reports

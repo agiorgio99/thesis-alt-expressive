@@ -26,6 +26,7 @@ from .metrics import (aggregate_asr, aggregate_tbe, score_asr,
                       stratified_asr, time_boundary_error)
 from .pitch import CrepeExtractor
 from .report import make_report
+from .text import primary_metric
 
 
 def _iter(items, desc: str):
@@ -122,14 +123,23 @@ class Pipeline:
                            language=self.cfg.data.language)
             df.to_csv(self.out_dir / f"asr_{model_name}.csv", index=False)
 
-            overall = aggregate_asr(df, thr)
-            print(f"[asr] WER={overall['wer']:.3f}  PER={overall['per']:.3f}  "
-                  f"halluc={overall['hallucination_rate']:.3f}  n={overall['n']}")
+            # Headline metric: CER for character-level languages (zh/ja/ko),
+            # WER otherwise — also drives the hallucination flag.
+            metric = primary_metric(self.cfg.data.language)
+            overall = aggregate_asr(df, thr, metric)
+
+            def _fmt(v: float | None) -> str:
+                """Format an optional metric value for the console log."""
+                return "n/a" if v is None else f"{v:.3f}"
+
+            print(f"[asr] metric={metric.upper()}  WER={_fmt(overall['wer'])}  "
+                  f"CER={_fmt(overall['cer'])}  PER={_fmt(overall['per'])}  "
+                  f"halluc={_fmt(overall['hallucination_rate'])}  n={overall['n']}")
             pd.DataFrame([overall]).to_csv(
                 self.out_dir / f"asr_{model_name}_summary.csv", index=False)
 
             for col in self.cfg.evaluation.stratify_by:
-                strat = stratified_asr(df, col, thr)
+                strat = stratified_asr(df, col, thr, metric)
                 if not strat.empty:
                     strat.to_csv(
                         self.out_dir / f"asr_{model_name}_by_{col}.csv",

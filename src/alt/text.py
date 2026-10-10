@@ -32,13 +32,80 @@ _KEEP_CHARS: dict[str, str] = {
 }
 _DEFAULT_KEEP_CHARS = r"^a-zàâäåæçèéêëìíîïñòóôöùúûüÿœ "  # Latin-script default
 
+# Languages whose GTSinger annotations are character/syllable-level: the JSON
+# "word" field holds one hanzi / kana / hangul syllable, so the space-joined
+# reference has no real word boundaries. For these, WER is meaningless (every
+# character counts as a "word" in the reference but not in the hypothesis) and
+# CER — computed with whitespace removed — is the headline metric instead.
+CHAR_LEVEL_LANGUAGES: set[str] = {"chinese", "japanese", "korean"}
+
+# Whisper ISO-639-1 codes → the lowercase language names used by the dataset
+# adapter and ``clean_text``. Lets scripts that take a Whisper code (e.g.
+# ``finetune_whisper.py --language zh``) reuse the language-aware helpers.
+ISO_TO_LANGUAGE: dict[str, str] = {
+    "en": "english", "zh": "chinese", "ja": "japanese", "ko": "korean",
+    "ru": "russian", "es": "spanish", "fr": "french", "de": "german",
+    "it": "italian",
+}
+
+
+def primary_metric(language: str = "english") -> str:
+    """Return the headline error metric for a dataset language.
+
+    Args:
+        language: Lowercase language name (e.g. "english", "chinese").
+
+    Returns:
+        ``"cer"`` for character-level languages (Chinese/Japanese/Korean),
+        ``"wer"`` otherwise.
+    """
+    return "cer" if language.lower() in CHAR_LEVEL_LANGUAGES else "wer"
+
+
+def join_words(words: list[str], language: str = "english") -> str:
+    """Join annotation words into a transcript string for ``language``.
+
+    Character-level languages are joined without separators (natural script
+    form, which is also what Whisper emits); all others are space-joined.
+
+    Args:
+        words:    Annotation words, already stripped of silence/breath tokens.
+        language: Lowercase language name.
+
+    Returns:
+        The joined transcript.
+    """
+    sep = "" if language.lower() in CHAR_LEVEL_LANGUAGES else " "
+    return sep.join(words)
+
+
+# Lazily created OpenCC Traditional→Simplified converter (Chinese only).
+_t2s = None
+
+
+def _to_simplified(text: str) -> str:
+    """Convert Traditional Chinese characters to Simplified with OpenCC.
+
+    Args:
+        text: Any string; non-Chinese characters pass through unchanged.
+
+    Returns:
+        The Simplified-Chinese form of ``text``.
+    """
+    global _t2s
+    if _t2s is None:
+        import opencc                    # imported lazily — Chinese-only need
+        _t2s = opencc.OpenCC("t2s")
+    return _t2s.convert(text)
+
 
 def clean_text(text: str, language: str = "english") -> str:
     """Normalise a transcript line for WER/PER scoring.
 
-    Steps: strip angle-bracket tokens (``<AP>``, ``<SP>``...), lowercase, keep
-    only the script-appropriate characters for ``language`` plus spaces,
-    collapse whitespace.
+    Steps: strip angle-bracket tokens (``<AP>``, ``<SP>``...), convert
+    Traditional to Simplified characters (Chinese only), lowercase, keep only
+    the script-appropriate characters for ``language`` plus spaces, collapse
+    whitespace.
 
     Args:
         text: Raw transcript or hypothesis string (any type tolerated).
@@ -52,6 +119,11 @@ def clean_text(text: str, language: str = "english") -> str:
     if not isinstance(text, str):
         return ""
     text = re.sub(r"<[^>]+>", "", text)      # remove <AP>, <SP>, XML-style tokens
+    if language.lower() == "chinese":
+        # GTSinger Chinese lyrics are Simplified, but Whisper often decodes
+        # Mandarin in Traditional characters (也許 vs 也许). Map everything to
+        # Simplified so script choice is not counted as recognition error.
+        text = _to_simplified(text)
     text = text.lower()
     keep = _KEEP_CHARS.get(language.lower(), _DEFAULT_KEEP_CHARS)
     text = re.sub(f"[{keep}]", "", text)

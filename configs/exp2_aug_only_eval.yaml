@@ -46,7 +46,11 @@ data:
   limit:    null
   # Restrict evaluation to the shared held-out 30 % test split.
   # This file is written by finetune_whisper.py (both modes, same seed).
-  manifest: results/shared_test_manifest.json
+  # Song-disjoint test split (whole songs held out across singers and
+  # techniques), written by scripts/finetune_whisper.py --language en.
+  # The old utterance-level split (results/shared_test_manifest.json) is kept
+  # only to reproduce results produced before 2026-09-25.
+  manifest: results/splits/test_manifest_en.json
 
 asr:
   enabled: true

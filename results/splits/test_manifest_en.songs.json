@@ -1,0 +1,39 @@
+{
+  "language": "english",
+  "seed": 42,
+  "test_frac_target": 0.3,
+  "n_original": 1422,
+  "n_test": 437,
+  "test_songs": [
+    "all i ask",
+    "all of me",
+    "call me maybe",
+    "easy on me",
+    "edelweiss",
+    "innocence",
+    "let her go",
+    "love story",
+    "love stroy",
+    "make it shine",
+    "my heart will go on",
+    "safe and sound",
+    "shallow",
+    "tell me that you love me",
+    "unconditionally",
+    "you belong with me"
+  ],
+  "test_by_technique": {
+    "Breathy": 69,
+    "Glissando": 70,
+    "Mixed_Voice_and_Falsetto": 99,
+    "Pharyngeal": 106,
+    "Vibrato": 93
+  },
+  "all_by_technique": {
+    "Breathy": 225,
+    "Glissando": 225,
+    "Mixed_Voice_and_Falsetto": 321,
+    "Pharyngeal": 349,
+    "Vibrato": 302
+  }
+}

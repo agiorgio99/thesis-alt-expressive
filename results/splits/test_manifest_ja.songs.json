@@ -1,0 +1,37 @@
+{
+  "language": "japanese",
+  "seed": 42,
+  "test_frac_target": 0.3,
+  "n_original": 1168,
+  "n_test": 345,
+  "test_songs": [
+    "first love",
+    "voyage",
+    "いつも何度でも",
+    "この夜を止めてよ",
+    "さよならの夏~コクリコ坂から",
+    "さよならの夏~コクリコ坂から~",
+    "なきむし",
+    "テルーの呗 (歌集バージョン)",
+    "君をのせて",
+    "心做し",
+    "愛してる",
+    "祈りのメロディ",
+    "美しきもの",
+    "行かないで"
+  ],
+  "test_by_technique": {
+    "Breathy": 43,
+    "Glissando": 40,
+    "Mixed_Voice_and_Falsetto": 198,
+    "Pharyngeal": 33,
+    "Vibrato": 31
+  },
+  "all_by_technique": {
+    "Breathy": 141,
+    "Glissando": 137,
+    "Mixed_Voice_and_Falsetto": 672,
+    "Pharyngeal": 115,
+    "Vibrato": 103
+  }
+}

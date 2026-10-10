@@ -81,7 +81,11 @@ class DatasetAdapter(ABC):
             mpath = Path(manifest)
             if mpath.exists():
                 with open(mpath, encoding="utf-8") as fh:
-                    self._manifest_paths = set(json.load(fh))
+                    # Store resolved absolute paths so relative and absolute
+                    # manifest entries both match (see ``_apply_manifest``).
+                    self._manifest_paths = {
+                        str(Path(p).resolve()) for p in json.load(fh)
+                    }
             else:
                 raise FileNotFoundError(
                     f"Manifest file not found: {mpath}\n"
@@ -104,13 +108,18 @@ class DatasetAdapter(ABC):
         Args:
             items: The full list of utterances.
 
+        Paths are compared after ``Path.resolve()``, so a manifest written
+        with absolute paths still matches utterances listed relative to the
+        working directory (and vice versa).
+
         Returns:
             Only the utterances whose ``audio_path`` is in the manifest,
             or ``items`` unchanged when no manifest was configured.
         """
         if self._manifest_paths is None:
             return items
-        return [u for u in items if u.audio_path in self._manifest_paths]
+        return [u for u in items
+                if str(Path(u.audio_path).resolve()) in self._manifest_paths]
 
     def _apply_limit(self, items: list[Utterance]) -> list[Utterance]:
         """Truncate a list of utterances to ``self.limit`` if one is set.

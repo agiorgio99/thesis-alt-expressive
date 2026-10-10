@@ -1,0 +1,2 @@
+n,metric,wer,cer,per,hallucination_rate,wer_no_halluc,singer_id
+2419,wer,0.43946438023649653,0.22582059595755213,,0.10872261264985532,0.3615274697036058,RU-Alto-1

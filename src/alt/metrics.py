@@ -19,7 +19,7 @@ from typing import Any
 import numpy as np
 import pandas as pd
 
-from .text import clean_text, text_to_phonemes
+from .text import CHAR_LEVEL_LANGUAGES, clean_text, text_to_phonemes
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -37,10 +37,14 @@ def score_pair(reference: str, hypothesis: str, language: str = "english") -> di
             language rather than silently scoring garbage phonemes.
 
     Returns:
-        A dict with ``wer``, ``per``, ``sub``/``del``/``ins`` counts and
-        ``n_ref`` (reference word count). ``wer``/``per`` are ``None`` when the
-        reference is empty; ``per`` is also ``None`` for non-English languages.
+        A dict with ``wer``, ``cer``, ``per``, ``sub``/``del``/``ins`` counts
+        and ``n_ref`` (reference word count). ``wer``/``cer``/``per`` are
+        ``None`` when the reference is empty; ``per`` is also ``None`` for
+        non-English languages. For character-level languages (see
+        ``CHAR_LEVEL_LANGUAGES``) ``wer`` is still reported but is not
+        meaningful — use ``cer`` as the headline metric there.
     """
+    from jiwer import cer as jiwer_cer
     from jiwer import process_words
     from jiwer import wer as jiwer_wer
 
@@ -48,7 +52,18 @@ def score_pair(reference: str, hypothesis: str, language: str = "english") -> di
     hyp = clean_text(hypothesis, language)
 
     if not ref:
-        return {"wer": None, "per": None, "sub": 0, "del": 0, "ins": 0, "n_ref": 0}
+        return {"wer": None, "cer": None, "per": None,
+                "sub": 0, "del": 0, "ins": 0, "n_ref": 0}
+
+    # CER: for character-level languages whitespace carries no information
+    # (references are space-joined characters, hypotheses are unspaced), so it
+    # is removed on both sides; elsewhere spaces are kept as characters, which
+    # is the standard jiwer CER definition.
+    if language.lower() in CHAR_LEVEL_LANGUAGES:
+        ref_c, hyp_c = ref.replace(" ", ""), hyp.replace(" ", "")
+    else:
+        ref_c, hyp_c = ref, hyp
+    cer = jiwer_cer(ref_c, hyp_c)
 
     measures = process_words(ref, hyp)
     per = None
@@ -58,6 +73,7 @@ def score_pair(reference: str, hypothesis: str, language: str = "english") -> di
         per = jiwer_wer(ref_ph, hyp_ph) if ref_ph else None
     return {
         "wer": jiwer_wer(ref, hyp),
+        "cer": cer,
         "per": per,
         "sub": measures.substitutions,
         "del": measures.deletions,
@@ -78,13 +94,14 @@ def score_asr(df: pd.DataFrame, ref_col: str = "text",
             English-only and picks the right text-normalisation character set).
 
     Returns:
-        A copy of ``df`` with added columns: ``wer``, ``per``, ``wer_sub``,
-        ``wer_del``, ``wer_ins``, ``wer_n_ref``.
+        A copy of ``df`` with added columns: ``wer``, ``cer``, ``per``,
+        ``wer_sub``, ``wer_del``, ``wer_ins``, ``wer_n_ref``.
     """
     rows = [score_pair(str(r.get(ref_col, "")), str(r.get(hyp_col, "")), language)
             for _, r in df.iterrows()]
     out = df.copy()
     out["wer"] = [r["wer"] for r in rows]
+    out["cer"] = [r["cer"] for r in rows]
     out["per"] = [r["per"] for r in rows]
     out["wer_sub"] = [r["sub"] for r in rows]
     out["wer_del"] = [r["del"] for r in rows]
@@ -94,55 +111,76 @@ def score_asr(df: pd.DataFrame, ref_col: str = "text",
 
 
 def aggregate_asr(df: pd.DataFrame,
-                  hallucination_threshold: float = 1.0) -> dict[str, Any]:
+                  hallucination_threshold: float = 1.0,
+                  metric: str = "wer") -> dict[str, Any]:
     """Aggregate scored ASR rows into headline metrics.
 
     Args:
         df:                      DataFrame already passed through ``score_asr``.
-        hallucination_threshold: WER >= this value counts as a hallucination.
+        hallucination_threshold: ``metric`` >= this value counts as a
+            hallucination.
+        metric:                  Headline error metric (``"wer"`` or
+            ``"cer"``, see ``text.primary_metric``). Drives the hallucination
+            flag and the ``<metric>_no_halluc`` field, so character-level
+            languages are not judged on their meaningless WER.
 
     Returns:
-        A dict with ``n``, ``wer``, ``per``, ``hallucination_rate`` and
-        ``wer_no_halluc`` (mean WER excluding hallucinated utterances). Rates
-        are fractions in [0, 1]; multiply by 100 for percentages.
+        A dict with ``n``, ``metric``, ``wer``, ``cer``, ``per``,
+        ``hallucination_rate`` and ``<metric>_no_halluc`` (mean headline
+        metric excluding hallucinated utterances). ``per`` is ``None`` when no
+        utterance has a PER (non-English). Rates are fractions in [0, 1];
+        multiply by 100 for percentages.
     """
-    scored = df.dropna(subset=["wer"])
+    def _mean(frame: pd.DataFrame, col: str) -> float | None:
+        """Mean of ``col`` ignoring NaN/None; ``None`` if nothing to average."""
+        if col not in frame.columns:
+            return None
+        vals = pd.to_numeric(frame[col], errors="coerce").dropna()
+        return float(vals.mean()) if not vals.empty else None
+
+    scored = df.dropna(subset=[metric])
     if scored.empty:
-        return {"n": 0, "wer": None, "per": None,
-                "hallucination_rate": None, "wer_no_halluc": None}
-    halluc = scored["wer"] >= hallucination_threshold
+        return {"n": 0, "metric": metric, "wer": None, "cer": None, "per": None,
+                "hallucination_rate": None, f"{metric}_no_halluc": None}
+    halluc = scored[metric] >= hallucination_threshold
     clean = scored[~halluc]
     return {
         "n": int(len(scored)),
-        "wer": float(scored["wer"].mean()),
-        "per": float(scored["per"].dropna().mean()),
+        "metric": metric,
+        "wer": _mean(scored, "wer"),
+        "cer": _mean(scored, "cer"),
+        "per": _mean(scored, "per"),
         "hallucination_rate": float(halluc.mean()),
-        "wer_no_halluc": float(clean["wer"].mean()) if not clean.empty else None,
+        f"{metric}_no_halluc": _mean(clean, metric),
     }
 
 
 def stratified_asr(df: pd.DataFrame, by: str,
-                   hallucination_threshold: float = 1.0) -> pd.DataFrame:
+                   hallucination_threshold: float = 1.0,
+                   metric: str = "wer") -> pd.DataFrame:
     """Break ASR metrics down by a metadata column (technique, singer, ...).
 
     Args:
         df:                      DataFrame already passed through ``score_asr``.
         by:                      Column to group by (e.g. "technique").
-        hallucination_threshold: WER >= this value counts as a hallucination.
+        hallucination_threshold: ``metric`` >= this value counts as a
+            hallucination.
+        metric:                  Headline error metric, forwarded to
+            ``aggregate_asr`` and used for sorting.
 
     Returns:
         One row per group with the same fields as ``aggregate_asr`` plus the
-        grouping value, sorted by descending WER.
+        grouping value, sorted by descending headline metric.
     """
     if by not in df.columns:
         return pd.DataFrame()
     rows = []
     for value, group in df.groupby(by):
-        agg = aggregate_asr(group, hallucination_threshold)
+        agg = aggregate_asr(group, hallucination_threshold, metric)
         agg[by] = value
         rows.append(agg)
     result = pd.DataFrame(rows)
-    return result.sort_values("wer", ascending=False, na_position="last")
+    return result.sort_values(metric, ascending=False, na_position="last")
 
 
 # ─────────────────────────────────────────────────────────────────────────────

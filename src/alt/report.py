@@ -18,6 +18,7 @@ import io
 import re
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 import matplotlib
 matplotlib.use("Agg")
@@ -229,39 +230,55 @@ def _build_asr(out_dir: Path) -> str:
 
         inner = ""
 
-        # Summary tile
+        # Headline metric: read from the summary (CER for zh/ja/ko, WER
+        # otherwise); summaries written before CER existed default to WER.
+        metric = "wer"
         if summary_path.exists():
             s = pd.read_csv(summary_path).iloc[0]
-            inner += f"""
-<div class="metric-tiles">
-  <div class="tile"><span class="tile-val">{s['wer']:.3f}</span><span class="tile-lbl">WER</span></div>
-  <div class="tile"><span class="tile-val">{s['per']:.3f}</span><span class="tile-lbl">PER</span></div>
-  <div class="tile"><span class="tile-val">{s.get('hallucination_rate', 0):.1%}</span><span class="tile-lbl">Hallucination rate</span></div>
-  <div class="tile"><span class="tile-val">{int(s['n'])}</span><span class="tile-lbl">Utterances</span></div>
-</div>\n"""
+            if isinstance(s.get("metric"), str):
+                metric = s["metric"]
+        label = metric.upper()
+
+        def _tile(value: Any, name: str, fmt: str = "{:.3f}") -> str:
+            """One metric tile; shows "n/a" for missing values (e.g. PER)."""
+            shown = "n/a" if value is None or pd.isna(value) else fmt.format(value)
+            return (f'  <div class="tile"><span class="tile-val">{shown}</span>'
+                    f'<span class="tile-lbl">{name}</span></div>\n')
+
+        # Summary tile
+        if summary_path.exists():
+            inner += '\n<div class="metric-tiles">\n'
+            inner += _tile(s.get(metric), label)
+            if metric != "wer":
+                inner += _tile(s.get("wer"), "WER (not meaningful here)")
+            inner += _tile(s.get("per"), "PER")
+            inner += _tile(s.get("hallucination_rate", 0), "Hallucination rate", "{:.1%}")
+            inner += _tile(int(s["n"]), "Utterances", "{}")
+            inner += "</div>\n"
 
         inner += '<div class="flex-row">\n'
 
-        # Bar chart: WER by technique
+        # Bar chart: headline metric by technique
         if by_tech_path.exists():
             bt = pd.read_csv(by_tech_path)
-            inner += _grouped_bar(bt, "technique", "wer",
-                                  "WER by technique", "WER",
+            inner += _grouped_bar(bt, "technique", metric,
+                                  f"{label} by technique", label,
                                   TECH_COLORS)
 
-        # Bar chart: WER by singer
+        # Bar chart: headline metric by singer
         if by_singer_path.exists():
-            bs = pd.read_csv(by_singer_path).sort_values("wer")
-            inner += _bar(bs["singer_id"].tolist(), bs["wer"].tolist(),
-                          None, "WER by singer", "Singer", "WER",
+            bs = pd.read_csv(by_singer_path).sort_values(metric)
+            inner += _bar(bs["singer_id"].tolist(), bs[metric].tolist(),
+                          None, f"{label} by singer", "Singer", label,
                           ylim=(0, 1.05))
 
-        # Histogram: per-utterance WER
+        # Histogram: per-utterance headline metric
         if per_utt_path.exists():
             du = pd.read_csv(per_utt_path)
-            inner += _hist(du["wer"].dropna().tolist(),
-                           "WER distribution (per utterance)", "WER",
-                           color="#4C72B0")
+            if metric in du.columns:
+                inner += _hist(du[metric].dropna().tolist(),
+                               f"{label} distribution (per utterance)", label,
+                               color="#4C72B0")
 
         inner += "</div>\n"
 
@@ -269,10 +286,11 @@ def _build_asr(out_dir: Path) -> str:
         if per_utt_path.exists():
             du = pd.read_csv(per_utt_path)
             show = [c for c in ["utt_id", "singer_id", "technique", "group",
-                                "text", "hypothesis", "wer", "per"] if c in du.columns]
+                                "text", "hypothesis", "wer", "cer", "per"]
+                    if c in du.columns]
             inner += _subsection(
                 "Per-utterance results",
-                _df_html(du[show], {"wer": "{:.3f}", "per": "{:.3f}"}),
+                _df_html(du[show], {"wer": "{:.3f}", "cer": "{:.3f}", "per": "{:.3f}"}),
             )
 
         content += _subsection(f"Model: {model}", inner)

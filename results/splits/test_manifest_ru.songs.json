@@ -1,0 +1,30 @@
+{
+  "language": "russian",
+  "seed": 42,
+  "test_frac_target": 0.3,
+  "n_original": 961,
+  "n_test": 292,
+  "test_songs": [
+    "аня облонская 2",
+    "извольте, королева",
+    "мальчик мой",
+    "метель",
+    "свободна и счастье",
+    "туда",
+    "я теряю тебя"
+  ],
+  "test_by_technique": {
+    "Breathy": 38,
+    "Glissando": 36,
+    "Mixed_Voice_and_Falsetto": 146,
+    "Pharyngeal": 32,
+    "Vibrato": 40
+  },
+  "all_by_technique": {
+    "Breathy": 128,
+    "Glissando": 122,
+    "Mixed_Voice_and_Falsetto": 464,
+    "Pharyngeal": 109,
+    "Vibrato": 138
+  }
+}
