@@ -1,0 +1,130 @@
+group,feature,family,n_languages,spread_ratio,between_lang_ratio
+Breathy_Group,ap_1k_3k,real,9,1.0,1.0
+Breathy_Group,ap_1k_3k,v1,9,0.5191558342911952,0.4456994126982032
+Breathy_Group,ap_1k_3k,world_v2,9,0.3431865365578671,0.47579426151845605
+Breathy_Group,ap_1k_3k,world_v2 sampled,9,0.43624236623644536,0.5552706953063082
+Breathy_Group,ap_1k_3k,world_v2 tails,9,0.4712213854785808,0.43316096523155356
+Breathy_Group,ap_5k_8k,real,9,1.0,1.0
+Breathy_Group,ap_5k_8k,v1,9,0.8122330603921497,1.079365300853213
+Breathy_Group,ap_5k_8k,world_v2,9,0.4183202649257176,0.7354322648794931
+Breathy_Group,ap_5k_8k,world_v2 sampled,9,0.6175236957005127,0.8154435923128552
+Breathy_Group,ap_5k_8k,world_v2 tails,9,0.7395198812797891,0.5530876797557563
+Breathy_Group,h1h2_db,real,9,1.0,1.0
+Breathy_Group,h1h2_db,v1,9,0.18026775906580822,0.1681047709347341
+Breathy_Group,h1h2_db,world_v2,9,0.47965180727856793,1.0256305474934062
+Breathy_Group,h1h2_db,world_v2 sampled,9,0.7464108708112192,1.0882176480193295
+Breathy_Group,h1h2_db,world_v2 tails,9,0.9243633256738653,1.0052567189449357
+Breathy_Group,level_db,real,9,1.0,1.0
+Breathy_Group,level_db,v1,9,0.15665796114290295,0.1393994344956917
+Breathy_Group,level_db,world_v2,9,0.4914207608762236,0.9615817733760603
+Breathy_Group,level_db,world_v2 sampled,9,0.6815452579955137,1.3510150210975027
+Breathy_Group,level_db,world_v2 tails,9,0.8187695997419178,1.0798023448127323
+Breathy_Group,tilt_db_oct,real,9,1.0,1.0
+Breathy_Group,tilt_db_oct,v1,9,0.14882198309771685,0.32138497478388756
+Breathy_Group,tilt_db_oct,world_v2,9,0.17254214855382094,1.0580696454096692
+Breathy_Group,tilt_db_oct,world_v2 sampled,9,0.20149984025216258,1.140663766708366
+Breathy_Group,tilt_db_oct,world_v2 tails,9,0.23918204493118211,0.9961009966716343
+Falsetto_Group,ap_5k_8k,psola,9,0.3851090560202216,0.41623474790915044
+Falsetto_Group,ap_5k_8k,psola sampled,9,0.40289160610291846,0.4528338048850809
+Falsetto_Group,ap_5k_8k,real,9,1.0,1.0
+Falsetto_Group,ap_5k_8k,v1,9,0.758961995664433,1.3541081655591218
+Falsetto_Group,ap_5k_8k,world_v2,9,0.48440312144449676,0.8299298025315216
+Falsetto_Group,ap_5k_8k,world_v2 sampled,9,0.7116042109282555,0.7823088862821858
+Falsetto_Group,ap_5k_8k,world_v2 tails,9,0.7955166467147144,0.9060808302832892
+Falsetto_Group,f0_cents,psola,9,0.6660802442470348,0.643420058574215
+Falsetto_Group,f0_cents,psola sampled,9,0.9323154922411039,0.6351433827709058
+Falsetto_Group,f0_cents,real,9,1.0,1.0
+Falsetto_Group,f0_cents,v1,9,0.6279231232381155,0.0021912293749210246
+Falsetto_Group,f0_cents,world_v2,9,0.6672158408780441,0.6408302890923151
+Falsetto_Group,f0_cents,world_v2 sampled,9,0.9340422495608219,0.6120237840289676
+Falsetto_Group,f0_cents,world_v2 tails,9,1.0685292705211633,0.6807663703919657
+Falsetto_Group,h1h2_db,psola,9,0.7636390662575002,0.3095363518127142
+Falsetto_Group,h1h2_db,psola sampled,9,0.7654530850891835,0.3113231040882712
+Falsetto_Group,h1h2_db,real,9,1.0,1.0
+Falsetto_Group,h1h2_db,v1,9,0.8891822472945503,0.36004321205381357
+Falsetto_Group,h1h2_db,world_v2,9,0.9069259892903516,0.8100512229039158
+Falsetto_Group,h1h2_db,world_v2 sampled,9,0.9881738099010585,0.7319236107175489
+Falsetto_Group,h1h2_db,world_v2 tails,9,1.0462112047632561,0.8292567992158386
+Falsetto_Group,tilt_db_oct,psola,9,0.20860918458225022,0.16431004409149338
+Falsetto_Group,tilt_db_oct,psola sampled,9,0.19629073917971315,0.1438313136549043
+Falsetto_Group,tilt_db_oct,real,9,1.0,1.0
+Falsetto_Group,tilt_db_oct,v1,9,0.17462625977866197,0.22740412858927664
+Falsetto_Group,tilt_db_oct,world_v2,9,0.34215489168671537,1.017597467188118
+Falsetto_Group,tilt_db_oct,world_v2 sampled,9,0.45039621690465964,1.041213895370249
+Falsetto_Group,tilt_db_oct,world_v2 tails,9,0.5026141650716915,1.0180071054223336
+Glissando_Group,glide_cents,psola,9,0.8285697437239474,1.4176266398943154
+Glissando_Group,glide_cents,psola sampled,9,0.9882520962753478,1.4027477221880185
+Glissando_Group,glide_cents,real,9,1.0,1.0
+Glissando_Group,glide_cents,v1,9,0.7891480161640962,1.8987269773794953
+Glissando_Group,glide_cents,world_v2,9,0.8676698866098093,1.3711224943865008
+Glissando_Group,glide_cents,world_v2 sampled,9,0.9850559142931842,1.3467387543367095
+Glissando_Group,glide_cents,world_v2 tails,9,1.0756421015367288,1.4021471245853359
+Glissando_Group,glide_dur_s,psola,9,0.8959276018099547,1.4624866823143026
+Glissando_Group,glide_dur_s,psola sampled,9,0.8959276018099547,1.4624866823143026
+Glissando_Group,glide_dur_s,real,9,1.0,1.0
+Glissando_Group,glide_dur_s,v1,9,0.8959276018099547,1.4624866823143026
+Glissando_Group,glide_dur_s,world_v2,9,0.8959276018099547,1.4624866823143026
+Glissando_Group,glide_dur_s,world_v2 sampled,9,0.8959276018099547,1.4624866823143026
+Glissando_Group,glide_dur_s,world_v2 tails,9,0.8959276018099547,1.4624866823143026
+Mixed_Voice_Group,ap_5k_8k,real,9,1.0,1.0
+Mixed_Voice_Group,ap_5k_8k,world_v2,9,0.403285195958871,0.6887502631917234
+Mixed_Voice_Group,ap_5k_8k,world_v2 sampled,9,0.6216121412455243,0.7455289736832544
+Mixed_Voice_Group,ap_5k_8k,world_v2 tails,9,0.753359117055156,0.7769816580061321
+Mixed_Voice_Group,f0_cents,real,9,1.0,1.0
+Mixed_Voice_Group,f0_cents,world_v2,9,0.3001615030220898,0.7962069766028441
+Mixed_Voice_Group,f0_cents,world_v2 sampled,9,0.9053372766771499,1.0625813642431756
+Mixed_Voice_Group,f0_cents,world_v2 tails,9,1.1274185969735646,1.2612016080747794
+Mixed_Voice_Group,h1h2_db,real,9,1.0,1.0
+Mixed_Voice_Group,h1h2_db,world_v2,9,0.5253040929108239,1.1140348775221376
+Mixed_Voice_Group,h1h2_db,world_v2 sampled,9,0.9041039127602086,1.164376945714099
+Mixed_Voice_Group,h1h2_db,world_v2 tails,9,1.049087978561068,1.3246777136578238
+Mixed_Voice_Group,tilt_db_oct,real,9,1.0,1.0
+Mixed_Voice_Group,tilt_db_oct,world_v2,9,0.19791211377714532,0.9917199549107069
+Mixed_Voice_Group,tilt_db_oct,world_v2 sampled,9,0.28092840179383743,0.9129747069551825
+Mixed_Voice_Group,tilt_db_oct,world_v2 tails,9,0.3167039724591492,0.9246068269487177
+Pharyngeal_Group,ap_5k_8k,real,9,1.0,1.0
+Pharyngeal_Group,ap_5k_8k,v1,9,0.6218807923393879,0.8419249354400653
+Pharyngeal_Group,ap_5k_8k,world_v2,9,0.4652868787479554,0.689726318804095
+Pharyngeal_Group,ap_5k_8k,world_v2 sampled,9,0.5780774636827254,0.7517434476756253
+Pharyngeal_Group,ap_5k_8k,world_v2 tails,9,0.665322517193619,0.5995800843384014
+Pharyngeal_Group,f0_cents,real,9,1.0,1.0
+Pharyngeal_Group,f0_cents,v1,9,0.5933343924661247,0.07889237098194089
+Pharyngeal_Group,f0_cents,world_v2,9,0.20083738282786995,0.9895489191031911
+Pharyngeal_Group,f0_cents,world_v2 sampled,9,0.683149986051203,1.5857016392695553
+Pharyngeal_Group,f0_cents,world_v2 tails,9,1.0408078689609435,2.4251226669140182
+Pharyngeal_Group,h1h2_db,real,9,1.0,1.0
+Pharyngeal_Group,h1h2_db,v1,9,0.24846418165981665,0.13942938591463472
+Pharyngeal_Group,h1h2_db,world_v2,9,0.5128710464740575,1.0971643418559878
+Pharyngeal_Group,h1h2_db,world_v2 sampled,9,0.8903654424796477,1.1796319702117335
+Pharyngeal_Group,h1h2_db,world_v2 tails,9,0.9747662334032248,1.6414865579057598
+Pharyngeal_Group,level_db,real,9,1.0,1.0
+Pharyngeal_Group,level_db,v1,9,0.18347152704877293,0.06530837733443864
+Pharyngeal_Group,level_db,world_v2,9,0.42484437712222833,1.0355329325580973
+Pharyngeal_Group,level_db,world_v2 sampled,9,0.655189402632269,1.1683521318171084
+Pharyngeal_Group,level_db,world_v2 tails,9,0.8378131455471419,1.157065678416248
+Pharyngeal_Group,tilt_db_oct,real,9,1.0,1.0
+Pharyngeal_Group,tilt_db_oct,v1,9,0.19983142993728142,0.07672673465050116
+Pharyngeal_Group,tilt_db_oct,world_v2,9,0.2463395221330522,1.2404499991088462
+Pharyngeal_Group,tilt_db_oct,world_v2 sampled,9,0.3355915500539684,1.0727996386002687
+Pharyngeal_Group,tilt_db_oct,world_v2 tails,9,0.4516026089754681,1.3620917680939717
+Vibrato_Group,vib_extent_cents,psola,8,0.6567749547770778,0.6954446853245448
+Vibrato_Group,vib_extent_cents,psola sampled,8,0.7898167662898801,0.6539141646052824
+Vibrato_Group,vib_extent_cents,real,9,1.0,1.0
+Vibrato_Group,vib_extent_cents,v1,8,2.2395768169354477,0.2476583427084202
+Vibrato_Group,vib_extent_cents,world_v2,8,0.6566759863328855,0.686735030007058
+Vibrato_Group,vib_extent_cents,world_v2 sampled,8,0.787419918555236,0.7116844359772306
+Vibrato_Group,vib_extent_cents,world_v2 tails,8,0.7997474846311772,0.7993806923756599
+Vibrato_Group,vib_onset_s,psola,8,0.5299165732529134,1.0842146238389228
+Vibrato_Group,vib_onset_s,psola sampled,8,0.9400197195442599,1.050724439170664
+Vibrato_Group,vib_onset_s,real,9,1.0,1.0
+Vibrato_Group,vib_onset_s,v1,8,0.5566406768527322,0.8324059719183917
+Vibrato_Group,vib_onset_s,world_v2,8,0.5472176113151972,0.7686767541259879
+Vibrato_Group,vib_onset_s,world_v2 sampled,8,1.0045464504820338,1.026824918913293
+Vibrato_Group,vib_onset_s,world_v2 tails,8,0.5862507779852408,0.8449863821963752
+Vibrato_Group,vib_rate_hz,psola,8,0.7832977118430978,0.8434533093014502
+Vibrato_Group,vib_rate_hz,psola sampled,8,0.9671896367762198,0.7800310352300186
+Vibrato_Group,vib_rate_hz,real,9,1.0,1.0
+Vibrato_Group,vib_rate_hz,v1,8,0.9156816009094905,0.630550093159737
+Vibrato_Group,vib_rate_hz,world_v2,8,0.7901414197229425,0.8922447708521
+Vibrato_Group,vib_rate_hz,world_v2 sampled,8,0.9738872751811755,0.4781475729766497
+Vibrato_Group,vib_rate_hz,world_v2 tails,8,0.9334728306843739,1.310749625840474

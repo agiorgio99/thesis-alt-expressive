@@ -1,0 +1,10 @@
+431 pairs · engines ['legacy', 'world_v2', 'psola'] · modes ['quartile', 'sampled', 'tails']
+  50/431  263s
+  100/431  545s
+  150/431  800s
+  200/431  1063s
+  250/431  1470s
+  300/431  1760s
+  350/431  2063s
+  400/431  2300s
+43981 rows, 0 errors, 2545s → /home/antonello/Desktop/thesis-alt-expressive/results/distributions/engine_features.parquet
