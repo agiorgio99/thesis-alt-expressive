@@ -44,6 +44,7 @@ Thumbs.db
 
 # ── Private working notes & one-off utilities (kept local on purpose) ────────
 CLAUDE_UPDATES.md
+HANDOFF.md
 scripts/compute_audio_hours.py
 scripts/count_all_utterances.py
 
