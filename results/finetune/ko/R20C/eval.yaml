@@ -1,0 +1,28 @@
+experiment_name: test_eval
+paths:
+  dataset_root: data/GTSinger/Korean
+  results_dir: results/finetune/ko/R20C
+  work_dir: data/_work
+data:
+  name: gtsinger
+  language: korean
+  limit: null
+  manifest: results/splits/test_manifest_ko.json
+asr:
+  enabled: true
+  model_names:
+  - whisper_finetuned
+  device: cuda
+  batch_size: 8
+  language: ko
+  extra:
+    model_id: /home/antonello/Desktop/thesis-alt-expressive/results/finetune/ko/R20C/best_model
+alignment:
+  enabled: false
+pitch:
+  enabled: false
+evaluation:
+  stratify_by:
+  - technique
+  - singer_id
+  hallucination_threshold: 1.0

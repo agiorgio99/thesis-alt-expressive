@@ -15,6 +15,10 @@ Runs per language (same test set, same real validation songs, same seed):
   RCA_v1  RC + augmented with v1, size-capped to RCA's A       calibrated vs hand-set
   R20C    20 % of the corpus as real technique takes + C       low-resource setting
   R20CA   R20C + augmented                                     low-resource + synthesis
+  C       real control takes only (no real technique take)     zero-resource reference
+  CA      C + augmented (v2)                                   can synthesis replace
+                                                               missing technique data?
+  CA_v1   C + augmented with v1, size-capped to CA's A         calibrated vs hand-set
 
 Resumable: a finished training (best_model/) or evaluation (test predictions)
 is never redone, so the script can simply be restarted after an interruption.
@@ -54,7 +58,7 @@ from alt.text import ISO_TO_LANGUAGE  # noqa: E402
 
 # Smallest languages first after English, so complete results arrive early.
 LANG_ORDER = ["en", "ru", "it", "ja", "ko", "fr", "es", "de", "zh"]
-RUN_ORDER = ["E0", "R", "RC", "RCA", "RCA_v1", "R20C", "R20CA"]
+RUN_ORDER = ["E0", "R", "RC", "RCA", "RCA_v1", "R20C", "R20CA", "C", "CA", "CA_v1"]
 # Common training settings (fit a 16 GB GPU with whisper-large-v3).
 TRAIN_FLAGS = ["--optim", "adamw_8bit", "--gradient-checkpointing",
                "--epochs", "3", "--batch-size", "8", "--seed", "42"]
@@ -81,6 +85,15 @@ def recipe_flags(run: str, aug: dict[str, Path]) -> tuple[list[str], str | None]
     if run == "R20CA":
         return ["--real-frac", "0.2", "--with-control", "--with-aug",
                 "--aug-src", str(aug["v2"])], "v2"
+    # Zero-resource runs: no real technique take at all (--real-frac 0).
+    if run == "C":
+        return ["--real-frac", "0", "--with-control"], None
+    if run == "CA":
+        return ["--real-frac", "0", "--with-control", "--with-aug",
+                "--aug-src", str(aug["v2"])], "v2"
+    if run == "CA_v1":
+        return ["--real-frac", "0", "--with-control", "--with-aug",
+                "--aug-src", str(aug["v1"])], "v1"
     raise ValueError(run)
 
 
@@ -182,7 +195,7 @@ def main() -> None:
             if not (best / "config.json").exists():
                 if needs and not args.dry_run:
                     wait_for(aug[needs] / ".complete", log)
-                if run == "RCA_v1" and not args.dry_run:
+                if run in ("RCA_v1", "CA_v1") and not args.dry_run:
                     # Same amount of augmented data as RCA: only quality differs.
                     n_v2 = n_aug_for_training(aug["v2"], iso)
                     flags += ["--aug-max", str(n_v2)]

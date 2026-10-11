@@ -16,9 +16,17 @@ Per language, the planned comparisons (same test clips, paired):
   RCA    vs RC      does augmented technique data add anything?  ← key question
   RCA    vs RCA_v1  calibrated (v2) vs hand-set (v1) augmentation
   R20CA  vs R20C    the same in the low-resource setting
+  CA     vs C       the same with NO real technique take (zero-resource)
+  CA     vs CA_v1   v2 vs v1 in the zero-resource setting
+  RC     vs CA      how far synthesis is from real technique takes
 
 reported as mean difference (song-bootstrap 95 % CI) and a Wilcoxon
 signed-rank p-value on per-clip errors, Holm-corrected within each language.
+
+Whisper sometimes loops ("아 아 아 …"), giving one clip an error of 20–40 that
+dominates a language mean. Means are therefore also reported with each
+clip's error capped at 1 ("_clip" columns; a loop counts as one fully wrong
+phrase); the Wilcoxon test is rank-based and unaffected.
 
 Outputs: results/finetune/summary.md, summary.csv, comparisons.csv
 
@@ -42,9 +50,9 @@ from alt.augment.pairing import song_key  # noqa: E402
 from alt.text import ISO_TO_LANGUAGE, primary_metric  # noqa: E402
 
 FT = REPO / "results" / "finetune"
-RUNS = ["E0", "R", "RC", "RCA", "RCA_v1", "R20C", "R20CA"]
+RUNS = ["E0", "R", "RC", "RCA", "RCA_v1", "R20C", "R20CA", "C", "CA", "CA_v1"]
 COMPARISONS = [("R", "E0"), ("RC", "R"), ("RCA", "RC"), ("RCA", "RCA_v1"),
-               ("R20CA", "R20C")]
+               ("R20CA", "R20C"), ("CA", "C"), ("CA", "CA_v1"), ("RC", "CA")]
 N_BOOT = 2000
 
 
@@ -100,9 +108,14 @@ def main() -> None:
         for run, df in runs.items():
             v = df[metric].astype(float)
             lo, hi = song_bootstrap(v, df["song"], rng)
+            # Same statistics with per-clip error capped at 1 (loop-robust).
+            vc = v.clip(upper=1.0)
+            lo_c, hi_c = song_bootstrap(vc, df["song"], rng)
             rows.append({"language": iso, "run": run, "metric": metric, "n": len(df),
                          "mean": v.mean(), "ci_low": lo, "ci_high": hi,
-                         "median": v.median(), "halluc_rate": (v > 1.0).mean()})
+                         "mean_clip": vc.mean(), "ci_low_clip": lo_c, "ci_high_clip": hi_c,
+                         "median": v.median(), "halluc_rate": (v > 1.0).mean(),
+                         "n_over_1": int((v > 1.0).sum())})
         lang_comps = []
         for a, b in COMPARISONS:
             if a not in runs or b not in runs:
@@ -111,11 +124,15 @@ def main() -> None:
                 runs[b][["utt_id", metric]], on="utt_id", suffixes=("_a", "_b"))
             diff = m[f"{metric}_a"] - m[f"{metric}_b"]
             lo, hi = song_bootstrap(diff, m["song"], rng)
+            diff_c = m[f"{metric}_a"].clip(upper=1.0) - m[f"{metric}_b"].clip(upper=1.0)
+            lo_c, hi_c = song_bootstrap(diff_c, m["song"], rng)
             p = wilcoxon(m[f"{metric}_a"], m[f"{metric}_b"], zero_method="zsplit").pvalue \
                 if (diff != 0).any() else 1.0
             lang_comps.append({"language": iso, "comparison": f"{a} vs {b}",
                                "metric": metric, "n": len(m), "mean_diff": diff.mean(),
                                "ci_low": lo, "ci_high": hi,
+                               "mean_diff_clip": diff_c.mean(), "ci_low_clip": lo_c,
+                               "ci_high_clip": hi_c,
                                "a_better_share": (diff < 0).mean(),
                                "b_better_share": (diff > 0).mean(), "p_wilcoxon": p})
         for c, p_adj in zip(lang_comps, holm([c["p_wilcoxon"] for c in lang_comps])):
@@ -132,13 +149,23 @@ def main() -> None:
           "metric = CER for zh/ja/ko, WER otherwise (lower is better). CI = 95 % "
           "bootstrap over test songs. Runs: E0 no fine-tuning · R real technique "
           "takes · RC + real control takes · RCA + augmented (v2) · RCA_v1 + "
-          "augmented (v1, same amount) · R20C / R20CA low-resource (20 % real).", ""]
+          "augmented (v1, same amount) · R20C / R20CA low-resource (20 % real) · "
+          "C / CA / CA_v1 zero-resource (control takes only, ± augmented).", ""]
     if not summ.empty:
         summ["cell"] = summ.apply(
             lambda r: f"{r['mean']:.3f} [{r.ci_low:.3f}–{r.ci_high:.3f}]", axis=1)
         t = summ.pivot(index="language", columns="run", values="cell")
         md += ["## Mean error per run", "",
                t.reindex(columns=[r for r in RUNS if r in t.columns]).to_markdown(), ""]
+        summ["cell_clip"] = summ.apply(
+            lambda r: f"{r.mean_clip:.3f} [{r.ci_low_clip:.3f}–{r.ci_high_clip:.3f}]", axis=1)
+        tc = summ.pivot(index="language", columns="run", values="cell_clip")
+        md += ["## Mean error per run, per-clip error capped at 1", "",
+               "Robust to Whisper repetition loops (one looping clip can reach "
+               "an error of 30). Clips with error > 1 per run:", "",
+               summ.pivot(index="language", columns="run", values="n_over_1")
+               .reindex(columns=[r for r in RUNS if r in tc.columns]).to_markdown(), "",
+               tc.reindex(columns=[r for r in RUNS if r in tc.columns]).to_markdown(), ""]
         med = summ.pivot(index="language", columns="run", values="median")
         md += ["## Median error per run", "",
                med.reindex(columns=[r for r in RUNS if r in med.columns]).round(3)
@@ -147,11 +174,14 @@ def main() -> None:
         show = comp.assign(
             diff=comp.apply(lambda r: f"{r.mean_diff:+.3f} [{r.ci_low:+.3f}, {r.ci_high:+.3f}]",
                             axis=1),
+            diff_capped=comp.apply(
+                lambda r: f"{r.mean_diff_clip:+.3f} [{r.ci_low_clip:+.3f}, {r.ci_high_clip:+.3f}]",
+                axis=1),
             p=comp["p_holm"].map(lambda p: f"{p:.3g}"))
         md += ["## Paired comparisons (A − B; negative = A better)", "",
                "p = Wilcoxon signed-rank on per-clip errors, Holm-corrected within "
                "each language.", "",
-               show[["language", "comparison", "n", "diff", "a_better_share",
+               show[["language", "comparison", "n", "diff", "diff_capped", "a_better_share",
                      "b_better_share", "p"]].round(2).to_markdown(index=False), ""]
     (FT / "summary.md").write_text("\n".join(md), encoding="utf-8")
     print(f"→ {FT / 'summary.md'}")

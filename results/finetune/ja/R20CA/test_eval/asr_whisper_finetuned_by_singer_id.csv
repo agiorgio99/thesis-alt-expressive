@@ -1,0 +1,3 @@
+n,metric,wer,cer,per,hallucination_rate,cer_no_halluc,singer_id
+22,cer,1.0,0.2579392610313663,,0.0,0.2579392610313663,JA-Tenor-1
+323,cer,1.0,0.1631138964403415,,0.0,0.1631138964403415,JA-Soprano-1

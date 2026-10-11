@@ -1,0 +1,28 @@
+experiment_name: test_eval
+paths:
+  dataset_root: data/GTSinger/Russian
+  results_dir: results/finetune/ru/R20CA
+  work_dir: data/_work
+data:
+  name: gtsinger
+  language: russian
+  limit: null
+  manifest: results/splits/test_manifest_ru.json
+asr:
+  enabled: true
+  model_names:
+  - whisper_finetuned
+  device: cuda
+  batch_size: 8
+  language: ru
+  extra:
+    model_id: /home/antonello/Desktop/thesis-alt-expressive/results/finetune/ru/R20CA/best_model
+alignment:
+  enabled: false
+pitch:
+  enabled: false
+evaluation:
+  stratify_by:
+  - technique
+  - singer_id
+  hallucination_threshold: 1.0

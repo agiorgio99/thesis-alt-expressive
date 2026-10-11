@@ -5,6 +5,9 @@ data/
 # ── Fine-tuned models / training runs (GBs: weights + optimizer states) ─────
 # Covers results/finetune_whisper/ as well as results/finetune_whisper_<mode>[_<lang>]/
 results/finetune_whisper*/
+# Ablation-matrix models (results/finetune/<iso>/<run>/best_model/); only the
+# test predictions, val metrics and trainer state are kept in git.
+results/finetune/*/*/best_model/
 
 # ── Model weights & large binary artefacts ───────────────────────────────────
 *.safetensors
@@ -50,3 +53,5 @@ scripts/count_all_utterances.py
 
 # ── App runtime cache (rebuilt with: python -m app.state --rebuild) ──────────
 app/cache/
+# Cache of WAV durations written by scripts/paper_stats.py
+results/paper/clip_durations.csv

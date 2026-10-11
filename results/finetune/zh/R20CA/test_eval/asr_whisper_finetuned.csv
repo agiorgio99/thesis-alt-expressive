@@ -1,0 +1,1232 @@
+utt_id,singer_id,technique,group,text,hypothesis,wer,cer,per,wer_sub,wer_del,wer_ins,wer_n_ref
+ZH-Alto-1__breathy__technique__云烟成雨__0000,ZH-Alto-1,breathy,technique,你 的 晚 安 是 下 意 识 的 恻 隐,你的午安是下意识的侧影,1.0,0.2727272727272727,,1,10,0,11
+ZH-Alto-1__breathy__technique__云烟成雨__0001,ZH-Alto-1,breathy,technique,我 留 至 夜 深 治 疗 失 眠 梦 呓 那 封 手 写 信,我流尽夜深只料失眠梦影拿风手写信,1.0,0.4375,,1,15,0,16
+ZH-Alto-1__breathy__technique__云烟成雨__0002,ZH-Alto-1,breathy,technique,留 在 行 李 箱 底 来 不 及 赋 予 它 旅 途 的 意 义,留在心里想听来不及赋予他旅途的意义,1.0,0.29411764705882354,,1,16,0,17
+ZH-Alto-1__breathy__technique__云烟成雨__0003,ZH-Alto-1,breathy,technique,若 一 切 都 已 云 烟 成 雨 我 能 否 变 成 淤 泥 再 一 次 沾 染 你,若一切都以云烟成雨我能否变成雨你再一次加热你,1.0,0.22727272727272727,,1,21,0,22
+ZH-Alto-1__breathy__technique__云烟成雨__0004,ZH-Alto-1,breathy,technique,若 生 命 如 同 过 场 电 影 哦 让 我,若生命如同过场电影哦让我,1.0,0.0,,1,11,0,12
+ZH-Alto-1__breathy__technique__云烟成雨__0005,ZH-Alto-1,breathy,technique,再 一 次 甜 梦 里 惊 醒,再一次天梦里清醒,1.0,0.25,,1,7,0,8
+ZH-Alto-1__breathy__technique__云烟成雨__0006,ZH-Alto-1,breathy,technique,我 多 想 再 见 你 哪 怕 匆 匆 一 眼 就 别 离,我多想再见你哪怕匆匆一眼就别离,1.0,0.0,,1,14,0,15
+ZH-Alto-1__breathy__technique__云烟成雨__0007,ZH-Alto-1,breathy,technique,路 灯 下 昏 黄 的 剪 影 越 走 越 漫 长 的 林 径,路灯下昏黄的剪影越走越漫长的林青,1.0,0.0625,,1,15,0,16
+ZH-Alto-1__breathy__technique__云烟成雨__0008,ZH-Alto-1,breathy,technique,我 多 想 再 见 你 至 少 玩 笑 话 还 能 说 起,我多想再见你至少玩笑话还能说起,1.0,0.0,,1,14,0,15
+ZH-Alto-1__breathy__technique__云烟成雨__0009,ZH-Alto-1,breathy,technique,街 巷 初 次 落 叶 的 秋 分 渐 行 渐 远 去 的 我 们,写上诸瓷落叶的秋分渐行渐远去的我们,1.0,0.23529411764705882,,1,16,0,17
+ZH-Alto-1__breathy__technique__匆匆那年__0000,ZH-Alto-1,breathy,technique,匆 匆 那 年 我 们 究 竟 说 了 几 遍 再 见 之 后 再 拖 延 可 惜 谁 有 没 有 爱 过 不 是 一 场 七 情 上 面 的 雄 辩,从从那年我们就经说了几遍再见之后再拖延可惜谁又没有爱过不是一场寂静上面的熊天,1.0,0.23684210526315788,,1,37,0,38
+ZH-Alto-1__breathy__technique__匆匆那年__0001,ZH-Alto-1,breathy,technique,匆 匆 那 年 我 们 一 时 匆 忙 搁 下 难 以 承 受 的 诺 言 只 有 等 别 人 兑 现,匆匆那年我们一时匆忙聊下那一成熟的诺言只有等别人兑现,1.0,0.19230769230769232,,1,25,0,26
+ZH-Alto-1__breathy__technique__匆匆那年__0002,ZH-Alto-1,breathy,technique,不 怪 那 吻 痕 还 没 积 累 成 茧 拥 抱 着 冬 眠 也 没 能 羽 化 再 成 仙,不快那温恨还没积累成千拥抱着冬眠也没能愈花再浅,1.0,0.3333333333333333,,1,23,0,24
+ZH-Alto-1__breathy__technique__匆匆那年__0003,ZH-Alto-1,breathy,technique,不 怪 这 一 段 情 没 空 反 复 再 排 练 是 岁 月 宽 容 恩 赐 反 悔 的 时 间,不怪这一段情没能反复再排练是岁月宽容恩赐返回的时间,1.0,0.12,,1,24,0,25
+ZH-Alto-1__breathy__technique__匆匆那年__0004,ZH-Alto-1,breathy,technique,如 果 再 见 不 能 红 着 眼 是 否 还 能 红 着 脸,如果在前不能红着眼是否还能红着脸,1.0,0.125,,1,15,0,16
+ZH-Alto-1__breathy__technique__匆匆那年__0005,ZH-Alto-1,breathy,technique,就 像 那 年 匆 促 刻 下 永 远 一 起 那 样 美 丽 的 谣 言 如 果 过 去 还 值 得 眷 恋,就像那天从祖阁下永远一起那样美丽的耀眼如果过去还值得眷恋,1.0,0.21428571428571427,,1,27,0,28
+ZH-Alto-1__breathy__technique__匆匆那年__0006,ZH-Alto-1,breathy,technique,别 太 快 冰 释 前 嫌 谁 甘 心 就 这 样 彼 此 无 挂 也 无 牵,别太快平视前现谁甘心就这样彼此无关也无间,1.0,0.25,,1,19,0,20
+ZH-Alto-1__breathy__technique__匆匆那年__0007,ZH-Alto-1,breathy,technique,我 们 要 互 相 亏 欠 要 不 然 凭 何 怀 缅,我们要互相亏欠要不然平和怀念,1.0,0.21428571428571427,,1,13,0,14
+ZH-Alto-1__breathy__technique__匆匆那年__0008,ZH-Alto-1,breathy,technique,匆 匆 那 年 我 们 见 过 太 少 世 面 只 爱 看 同 一 张 脸 那 么 莫 名 其 妙 那 么 讨 人 欢 喜 闹 起 来 又 太 讨 厌,匆匆那年我们见过太少失眠只爱看同一张脸那么莫名其妙那么讨人欢喜闹起来又太讨厌,1.0,0.05263157894736842,,1,37,0,38
+ZH-Alto-1__breathy__technique__匆匆那年__0009,ZH-Alto-1,breathy,technique,相 爱 那 年 活 该 匆 匆 因 为 我 们 不 懂 顽 固 的 诺 言 只 是 分 手 的 前 言,相爱那年活该匆匆因云我们不懂顽固的诺言只是分手的前言,1.0,0.038461538461538464,,1,25,0,26
+ZH-Alto-1__breathy__technique__匆匆那年__0010,ZH-Alto-1,breathy,technique,不 怪 那 天 太 冷 泪 滴 水 成 冰 春 风 也 一 样 没 吹 进 顽 固 的 照 片,不怪那天太冷泪滴水成冰春风也一样没吹进凝固的脚边,1.0,0.125,,1,23,0,24
+ZH-Alto-1__breathy__technique__匆匆那年__0011,ZH-Alto-1,breathy,technique,不 怪 每 一 个 人 没 能 完 整 爱 一 遍 是 岁 月 善 意 留 下,不怪每一个人没能完整海边是岁月山一落下,1.0,0.3,,1,19,0,20
+ZH-Alto-1__breathy__technique__匆匆那年__0012,ZH-Alto-1,breathy,technique,残 缺 的 悬 念,残缺的宣念,1.0,0.2,,1,4,0,5
+ZH-Alto-1__breathy__technique__可乐__0000,ZH-Alto-1,breathy,technique,可 惜 在 遇 见 我 那 天 你 并 不 快 乐,可惜在遇见我那天你并不快乐,1.0,0.0,,1,12,0,13
+ZH-Alto-1__breathy__technique__可乐__0001,ZH-Alto-1,breathy,technique,可 能 是 因 为 我 们 相 遇 的 太 晚 了,可能是因为我们相遇的太晚了,1.0,0.0,,1,12,0,13
+ZH-Alto-1__breathy__technique__可乐__0002,ZH-Alto-1,breathy,technique,可 是 我 要 走 了 可 温 暖 要 走 了,可是我要走了可温暖要走了,1.0,0.0,,1,11,0,12
+ZH-Alto-1__breathy__technique__可乐__0003,ZH-Alto-1,breathy,technique,可 否 有 另 一 个 我 在 你 身 后 给 予 快 乐,可否有另一个我在你身边给予快乐,1.0,0.06666666666666667,,1,14,0,15
+ZH-Alto-1__breathy__technique__可乐__0004,ZH-Alto-1,breathy,technique,可 当 我 牵 着 你 的 手 傻 乎 乎 地 乐,可当我牵着你的手下呼呼的了,1.0,0.38461538461538464,,1,12,0,13
+ZH-Alto-1__breathy__technique__可乐__0005,ZH-Alto-1,breathy,technique,渴 望 的 爱 情 终 于 在 我 生 命 出 现 了,渴望的爱情终于在我生命出现了,1.0,0.0,,1,13,0,14
+ZH-Alto-1__breathy__technique__可乐__0006,ZH-Alto-1,breathy,technique,可 时 间 倒 数 了 可 你 的 答 案 停 住 了,可时间倒数了可你的答案停住了,1.0,0.0,,1,13,0,14
+ZH-Alto-1__breathy__technique__可乐__0007,ZH-Alto-1,breathy,technique,可 想 到 你 的 脸 我 还 是 很 快 乐,可想到你的脸我还是很快乐,1.0,0.0,,1,11,0,12
+ZH-Alto-1__breathy__technique__可乐__0008,ZH-Alto-1,breathy,technique,可 能 你 不 快 乐 可 惜 你 不 快 乐,可能你不快乐可惜你不快乐,1.0,0.0,,1,11,0,12
+ZH-Alto-1__breathy__technique__可乐__0009,ZH-Alto-1,breathy,technique,可 能 是 我 的 爱 情 它 来 的 太 晚 了,可能是我的爱情它来得太晚了,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__breathy__technique__可乐__0010,ZH-Alto-1,breathy,technique,可 他 给 了 你 些 什 么 你 不 是 不 是 真 快 乐,可他给了你些什么你不是不是真快乐,1.0,0.0,,1,15,0,16
+ZH-Alto-1__breathy__technique__可乐__0011,ZH-Alto-1,breathy,technique,可 要 听 我 的 话 别 再 为 他 犯 傻 了,可要听我的话别再为他犯傻了,1.0,0.0,,1,12,0,13
+ZH-Alto-1__breathy__technique__可乐__0012,ZH-Alto-1,breathy,technique,可 能 你 不 快 乐 可 我 要 你 快 乐,可能你不快乐可我要你快乐,1.0,0.0,,1,11,0,12
+ZH-Alto-1__breathy__technique__可乐__0013,ZH-Alto-1,breathy,technique,可 能 是 我 的 爱 情 它 来 的 太 晚 了,可能是我的爱情它来得太晚了,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__breathy__technique__可乐__0014,ZH-Alto-1,breathy,technique,可 我 只 想 对 你 说 我 绝 对 不 退 出 了,可我只想对你说我绝对不退出了,1.0,0.0,,1,13,0,14
+ZH-Alto-1__breathy__technique__可乐__0015,ZH-Alto-1,breathy,technique,可 以 让 你 快 乐 是 我 的 快 乐,可以让你溃然是我的快乐,1.0,0.18181818181818182,,1,10,0,11
+ZH-Alto-1__breathy__technique__失落沙洲__0000,ZH-Alto-1,breathy,technique,又 来 到 这 个 港 口 没 有 原 因 的 拘 留,又来到这个港口没有五月影的支流,1.0,0.35714285714285715,,1,13,0,14
+ZH-Alto-1__breathy__technique__失落沙洲__0001,ZH-Alto-1,breathy,technique,我 的 心 乘 着 斑 驳 的 轻 舟,我的心乘着斑驳的青秋,1.0,0.2,,1,9,0,10
+ZH-Alto-1__breathy__technique__失落沙洲__0002,ZH-Alto-1,breathy,technique,寻 找 失 落 的 沙 洲 随 时 间 的 海 浪 漂 流,寻找失落的沙洲随时间的海浪漂流,1.0,0.0,,1,14,0,15
+ZH-Alto-1__breathy__technique__失落沙洲__0003,ZH-Alto-1,breathy,technique,我 用 力 张 开 双 手 拥 抱 那 么 多,我用力张开双手拥抱那么多,1.0,0.0,,1,11,0,12
+ZH-Alto-1__breathy__technique__失落沙洲__0004,ZH-Alto-1,breathy,technique,起 起 落 落 想 念 的 还 是 你 望 着 我 的 眼 波,起起落落想念的还是你望着我的眼波,1.0,0.0,,1,15,0,16
+ZH-Alto-1__breathy__technique__失落沙洲__0005,ZH-Alto-1,breathy,technique,又 回 到 这 个 尽 头 我 也 想 再 往 前 走,又回到这个尽头我也想再往前走,1.0,0.0,,1,13,0,14
+ZH-Alto-1__breathy__technique__失落沙洲__0006,ZH-Alto-1,breathy,technique,只 是 越 看 见 海 阔 天 空,只是越看见海阔天空,1.0,0.0,,1,8,0,9
+ZH-Alto-1__breathy__technique__失落沙洲__0007,ZH-Alto-1,breathy,technique,越 遗 憾 没 有 你 分 享 我 的 感 动,愿意还没有你分享我的感动,1.0,0.25,,1,11,0,12
+ZH-Alto-1__glissando__technique__修炼爱情__0000,ZH-Alto-1,glissando,technique,凭 什 么 要 失 望 藏 眼 泪 到 心 脏,凭什么要虚妄藏眼泪到心脏,1.0,0.16666666666666666,,1,11,0,12
+ZH-Alto-1__glissando__technique__修炼爱情__0001,ZH-Alto-1,glissando,technique,往 事 不 会 说 谎 别 跟 它 为 难,往事不会说谎别跟他为难,1.0,0.09090909090909091,,1,10,0,11
+ZH-Alto-1__glissando__technique__修炼爱情__0002,ZH-Alto-1,glissando,technique,我 们 两 人 之 间 不 需 要 这 样 我 想,我们两人之间不需要这样我想,1.0,0.0,,1,12,0,13
+ZH-Alto-1__glissando__technique__修炼爱情__0003,ZH-Alto-1,glissando,technique,修 炼 爱 情 的 心 酸 学 会 放 好 以 前 的 渴 望,修炼爱情的心酸学会放好以前的渴望,1.0,0.0,,1,15,0,16
+ZH-Alto-1__glissando__technique__修炼爱情__0004,ZH-Alto-1,glissando,technique,我 们 那 些 信 仰 要 忘 记 多 难,我们那些信仰要忘记多难,1.0,0.0,,1,10,0,11
+ZH-Alto-1__glissando__technique__修炼爱情__0005,ZH-Alto-1,glissando,technique,远 距 离 的 欣 赏 近 距 离 的 迷 惘 谁 说 太 阳 会 找 到 月 亮,远距离的欣赏近距离的迷惘谁说大阳会照到月亮,1.0,0.09523809523809523,,1,20,0,21
+ZH-Alto-1__glissando__technique__修炼爱情__0006,ZH-Alto-1,glissando,technique,别 人 有 的 爱 我 们 不 可 能 模 仿,别人有的爱我们不可能模仿,1.0,0.0,,1,11,0,12
+ZH-Alto-1__glissando__technique__修炼爱情__0007,ZH-Alto-1,glissando,technique,修 炼 爱 情 的 悲 欢 我 们 这 些 努 力 不 简 单,收敛爱情的悲欢我们这些努力不简单,1.0,0.125,,1,15,0,16
+ZH-Alto-1__glissando__technique__修炼爱情__0008,ZH-Alto-1,glissando,technique,快 乐 炼 成 泪 水 是 一 种 勇 敢,快乐恋成泪水时依旧勇敢,1.0,0.36363636363636365,,1,10,0,11
+ZH-Alto-1__glissando__technique__修炼爱情__0009,ZH-Alto-1,glissando,technique,几 年 前 的 幻 想 几 年 后 的 原 谅 为 一 张 脸 去 养 一 身 伤,几年前的幻想几年后的月亮唯一降临去洋溢山乡,1.0,0.42857142857142855,,1,20,0,21
+ZH-Alto-1__glissando__technique__修炼爱情__0010,ZH-Alto-1,glissando,technique,别 讲 想 念 我 我 会 受 不 了 这 样,别讲想念我我会受不了这样,1.0,0.0,,1,11,0,12
+ZH-Alto-1__glissando__technique__修炼爱情__0011,ZH-Alto-1,glissando,technique,记 忆 它 真 嚣 张 路 灯 把 痛 点 亮,骑它正嚣张路灯把痛点亮,1.0,0.25,,1,11,0,12
+ZH-Alto-1__glissando__technique__修炼爱情__0012,ZH-Alto-1,glissando,technique,情 人 一 起 看 过 多 少 次 月 亮,情人一起看过多少次月亮,1.0,0.0,,1,10,0,11
+ZH-Alto-1__glissando__technique__修炼爱情__0013,ZH-Alto-1,glissando,technique,它 在 天 空 看 过 多 少 次 遗 忘 多 少 心 慌,他在天空看过多少次遗忘多少希望,1.0,0.2,,1,14,0,15
+ZH-Alto-1__glissando__technique__平凡的一天__0000,ZH-Alto-1,glissando,technique,这 是 最 平 凡 的 一 天 啊 你 也 想 念 吗,这是最平凡的一天啊你也想念吗,1.0,0.0,,1,13,0,14
+ZH-Alto-1__glissando__technique__平凡的一天__0001,ZH-Alto-1,glissando,technique,不 追 不 赶 慢 慢 走 回 家 就 这 样 虚 度 着 年 华,不追不赶慢慢走回家就这样虚度着年华,1.0,0.0,,1,16,0,17
+ZH-Alto-1__glissando__technique__平凡的一天__0002,ZH-Alto-1,glissando,technique,没 牵 挂 只 有 晚 风 轻 拂 着 脸 颊,没牵挂只有晚风轻拂着脸颊,1.0,0.0,,1,11,0,12
+ZH-Alto-1__glissando__technique__平凡的一天__0003,ZH-Alto-1,glissando,technique,这 是 最 完 美 的 一 天 啊 你 也 想 要 吗,这是最完美的一天啊你也想要吗,1.0,0.0,,1,13,0,14
+ZH-Alto-1__glissando__technique__平凡的一天__0004,ZH-Alto-1,glissando,technique,生 活 可 以 不 那 么 复 杂 就 这 样 虚 度 着 年 华,生活可以不那么复杂就这样虚度着年华,1.0,0.0,,1,16,0,17
+ZH-Alto-1__glissando__technique__平凡的一天__0005,ZH-Alto-1,glissando,technique,没 牵 挂 只 有 晚 风 轻 拂 着 脸 颊,没牵挂只有晚风轻拂着脸颊,1.0,0.0,,1,11,0,12
+ZH-Alto-1__glissando__technique__平凡的一天__0006,ZH-Alto-1,glissando,technique,总 有 一 天 我 们 会 找 到 她,总有一天我们会找到它,1.0,0.1,,1,9,0,10
+ZH-Alto-1__glissando__technique__彩虹__0000,ZH-Alto-1,glissando,technique,哪 里 有 彩 虹 告 诉 我 能 不 能 把 我 的 愿 望 还 给 我,哪里有彩虹告诉我能不能把我的愿望还给我,1.0,0.0,,1,18,0,19
+ZH-Alto-1__glissando__technique__彩虹__0001,ZH-Alto-1,glissando,technique,为 什 么 天 这 么 安 静 所 有 的 云 都 跑 到 我 这 里,为什么天这么很景所有的云都跑到我这里,1.0,0.1111111111111111,,1,17,0,18
+ZH-Alto-1__glissando__technique__彩虹__0002,ZH-Alto-1,glissando,technique,有 没 有 口 罩 一 个 给 我 释 怀 说 了 太 多 就 成 真 不 了,有没有口罩一个给我释怀说了太多就成长不了,1.0,0.05,,1,19,0,20
+ZH-Alto-1__glissando__technique__彩虹__0003,ZH-Alto-1,glissando,technique,也 许 时 间 是 一 种 解 药 也 是 我 现 在 正 服 下 的 毒 药,也许时间是一种解药也是我现在征服下的毒药,1.0,0.05,,1,19,0,20
+ZH-Alto-1__glissando__technique__彩虹__0004,ZH-Alto-1,glissando,technique,看 不 见 你 的 笑 我 怎 么 睡 得 着,看不见你的笑我怎么睡得着,1.0,0.0,,1,11,0,12
+ZH-Alto-1__glissando__technique__彩虹__0005,ZH-Alto-1,glissando,technique,你 的 声 音 这 么 近 我 却 抱 不 到,你的声音怎么紧我却抱不到,1.0,0.16666666666666666,,1,11,0,12
+ZH-Alto-1__glissando__technique__彩虹__0006,ZH-Alto-1,glissando,technique,没 有 地 球 太 阳 还 是 会 绕,没有地球太阳还是会绕,1.0,0.0,,1,9,0,10
+ZH-Alto-1__glissando__technique__彩虹__0007,ZH-Alto-1,glissando,technique,没 有 理 由 我 也 能 自 己 走,没有理由我也能自己讲,1.0,0.1,,1,9,0,10
+ZH-Alto-1__glissando__technique__彩虹__0008,ZH-Alto-1,glissando,technique,你 要 离 开 我 知 道 很 简 单,你要离开我知道很简单,1.0,0.0,,1,9,0,10
+ZH-Alto-1__glissando__technique__彩虹__0009,ZH-Alto-1,glissando,technique,你 说 依 赖 是 我 们 的 阻 碍,你说依赖是我们的阻碍,1.0,0.0,,1,9,0,10
+ZH-Alto-1__glissando__technique__彩虹__0010,ZH-Alto-1,glissando,technique,就 算 放 开 但 能 不 能 别 没 收 我 的 爱,就算放开但能不能别没收我的爱,1.0,0.0,,1,13,0,14
+ZH-Alto-1__glissando__technique__彩虹__0011,ZH-Alto-1,glissando,technique,当 作 我 最 后 才 明 白,当作我最后才明白,1.0,0.0,,1,7,0,8
+ZH-Alto-1__glissando__technique__日不落__0000,ZH-Alto-1,glissando,technique,天 空 的 雾 来 的 漫 不 经 心 河 水 像 油 画 一 样 安 静,天空的雾来得漫不经心河水像油画一样安静,1.0,0.05263157894736842,,1,18,0,19
+ZH-Alto-1__glissando__technique__日不落__0001,ZH-Alto-1,glissando,technique,和 平 鸽 慵 懒 步 伐 押 着 韵 心 偷 偷 的 放 晴 祈 祷 你 像 英 勇 的 禁 卫 军,和平隔永烂步伐压着云心偷偷的放晴祈祷你像英勇的警卫军,1.0,0.23076923076923078,,1,25,0,26
+ZH-Alto-1__glissando__technique__日不落__0002,ZH-Alto-1,glissando,technique,动 也 不 动 的 守 护 爱 情 你 在 回 忆 里 留 下 的 脚 印 是 我 爱 的 风 景,懂也不懂的守护爱情你在回忆里留下的脚印是我爱的风景,1.0,0.08,,1,24,0,25
+ZH-Alto-1__glissando__technique__日不落__0003,ZH-Alto-1,glissando,technique,爱 的 巴 士 总 是 走 了 又 停 微 笑 望 着 广 场 上 人 群,爱的巴士总是走了又停微笑望着广场上人群,1.0,0.0,,1,18,0,19
+ZH-Alto-1__glissando__technique__日不落__0004,ZH-Alto-1,glissando,technique,我 要 把 爱 全 部 装 进 行 李 陪 我 一 起 旅 行,我要把爱全都装进行李陪我一起旅行,1.0,0.0625,,1,15,0,16
+ZH-Alto-1__glissando__technique__没那么简单__0000,ZH-Alto-1,glissando,technique,没 那 么 简 单 就 能 找 到 聊 得 来 的 伴,没那么简单就能找到聊得来的伴,1.0,0.0,,1,13,0,14
+ZH-Alto-1__glissando__technique__没那么简单__0001,ZH-Alto-1,glissando,technique,尤 其 是 在 看 过 了 那 么 多 的 背 叛,尤其是在看过了那么多的背叛,1.0,0.0,,1,12,0,13
+ZH-Alto-1__glissando__technique__没那么简单__0002,ZH-Alto-1,glissando,technique,总 是 不 安 只 好 强 悍,总是不安只好悄喊,1.0,0.25,,1,7,0,8
+ZH-Alto-1__glissando__technique__没那么简单__0003,ZH-Alto-1,glissando,technique,谁 谋 杀 了 我 的 浪 漫,谁谋杀了我的浪漫,1.0,0.0,,1,7,0,8
+ZH-Alto-1__glissando__technique__没那么简单__0004,ZH-Alto-1,glissando,technique,没 那 么 简 单 就 能 去 爱 别 的 全 不 看,没那么简单就能去爱别的全不堪,1.0,0.07142857142857142,,1,13,0,14
+ZH-Alto-1__glissando__technique__没那么简单__0005,ZH-Alto-1,glissando,technique,变 得 实 际 也 许 好 也 许 坏 各 一 伴,变得实际也许好也许坏搁一半,1.0,0.15384615384615385,,1,12,0,13
+ZH-Alto-1__glissando__technique__没那么简单__0006,ZH-Alto-1,glissando,technique,不 爱 孤 单 已 久 也 习 惯,不爱孤单依旧也习惯,1.0,0.2222222222222222,,1,8,0,9
+ZH-Alto-1__glissando__technique__没那么简单__0007,ZH-Alto-1,glissando,technique,不 用 担 心 谁 也 不 用 被 谁 管,不用担心谁也不用被谁管,1.0,0.0,,1,10,0,11
+ZH-Alto-1__glissando__technique__没那么简单__0008,ZH-Alto-1,glissando,technique,感 觉 快 了 就 忙 东 忙 西 感 觉 累 了 就 放 空 自 己,感觉快乐就忙东忙西感觉累了就放空自己,1.0,0.05555555555555555,,1,17,0,18
+ZH-Alto-1__glissando__technique__没那么简单__0009,ZH-Alto-1,glissando,technique,别 人 说 的 话 随 便 听 一 听 自 己 做 决 定,别人说的话随便听一听自己做决定,1.0,0.0,,1,14,0,15
+ZH-Alto-1__glissando__technique__没那么简单__0010,ZH-Alto-1,glissando,technique,不 想 拥 有 太 多 情 绪 一 杯 红 酒 配 电 影,不想拥有太多情绪一杯红酒配电影,1.0,0.0,,1,14,0,15
+ZH-Alto-1__glissando__technique__没那么简单__0011,ZH-Alto-1,glissando,technique,在 周 末 晚 上 关 上 了 手 机 舒 服 窝 在 沙 发 里,在折磨晚上关上了手机束缚我在沙发里,1.0,0.29411764705882354,,1,16,0,17
+ZH-Alto-1__glissando__technique__没那么简单__0012,ZH-Alto-1,glissando,technique,相 爱 没 有 那 么 容 易 每 个 人 有 她 的 脾 气,相爱没有那么容易每个人有他的脾气,1.0,0.0625,,1,15,0,16
+ZH-Alto-1__glissando__technique__没那么简单__0013,ZH-Alto-1,glissando,technique,过 了 爱 做 梦 的 年 纪 轰 轰 烈 烈 不 如 平 静,过了爱做梦的年纪轰轰烈烈不如脾气,1.0,0.125,,1,15,0,16
+ZH-Alto-1__glissando__technique__没那么简单__0014,ZH-Alto-1,glissando,technique,幸 福 没 有 那 么 容 易 才 会 让 人 特 别 着 迷,幸福没有那么容易才会让人特别着迷,1.0,0.0,,1,15,0,16
+ZH-Alto-1__glissando__technique__没那么简单__0015,ZH-Alto-1,glissando,technique,什 么 都 不 懂 的 年 纪 曾 经 最 掏 心,什么都不懂的年纪曾经最疼心,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__glissando__technique__没那么简单__0016,ZH-Alto-1,glissando,technique,所 以 最 开 心 曾 经,所以最开心曾经,1.0,0.0,,1,6,0,7
+ZH-Alto-1__glissando__technique__没那么简单__0017,ZH-Alto-1,glissando,technique,相 爱 没 有 那 么 容 易 每 个 人 有 她 的 脾 气,相爱没有那么容易每个人有他的脾气,1.0,0.0625,,1,15,0,16
+ZH-Alto-1__glissando__technique__没那么简单__0018,ZH-Alto-1,glissando,technique,过 了 爱 做 梦 的 年 纪 轰 轰 烈 烈 不 如 平 静,过了爱做梦的年纪轰轰烈烈不如平静,1.0,0.0,,1,15,0,16
+ZH-Alto-1__glissando__technique__没那么简单__0019,ZH-Alto-1,glissando,technique,幸 福 没 有 那 么 容 易 才 会 让 人 特 别 着 迷,幸福没有那么容易才会让人特别着迷,1.0,0.0,,1,15,0,16
+ZH-Alto-1__glissando__technique__没那么简单__0020,ZH-Alto-1,glissando,technique,什 么 都 不 懂 的 年 纪 曾 经 最 掏 心,什么都不懂的年纪曾经最调性,1.0,0.15384615384615385,,1,12,0,13
+ZH-Alto-1__glissando__technique__没那么简单__0021,ZH-Alto-1,glissando,technique,所 以 最 开 心 曾 经 想 念 最 伤 心,所以最开心曾经想念最伤心,1.0,0.0,,1,11,0,12
+ZH-Alto-1__glissando__technique__没那么简单__0022,ZH-Alto-1,glissando,technique,但 却 最 动 心 的 记 忆,但却在同行的记忆,1.0,0.375,,1,7,0,8
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0000,ZH-Alto-1,mixed_falsetto,technique,不 再 看 天 上 太 阳 透 过 云 彩 的 光,不再看天上太阳透过云彩的光,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0001,ZH-Alto-1,mixed_falsetto,technique,不 再 找 约 定 了 的 天 堂,不再找约定了的天堂,1.0,0.0,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0002,ZH-Alto-1,mixed_falsetto,technique,不 再 叹 你 说 过 的 人 间 世 事 无 常,不再疼你说过的人间世事无常,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0003,ZH-Alto-1,mixed_falsetto,technique,借 不 到 的 三 寸 日 光,借不到的三寸日光,1.0,0.0,,1,7,0,8
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0004,ZH-Alto-1,mixed_falsetto,technique,不 再 看 天 上 太 阳 透 过 云 彩 的 光,不再看天上太阳透过云彩的光,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0005,ZH-Alto-1,mixed_falsetto,technique,不 再 找 约 定 了 的 天 堂,不再找约定了的天堂,1.0,0.0,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0006,ZH-Alto-1,mixed_falsetto,technique,不 再 叹 你 说 过 的 人 间 世 事 无 常,不再贪你说过的人间世事无常,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0007,ZH-Alto-1,mixed_falsetto,technique,借 不 到 的 三 寸 日 光,接不到的三寸日光,1.0,0.125,,1,7,0,8
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0008,ZH-Alto-1,mixed_falsetto,technique,不 再 看 天 上 太 阳 透 过 云 彩 的 光,不再看天上太阳透过云彩的光,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0009,ZH-Alto-1,mixed_falsetto,technique,不 再 找 约 定 了 的 天 堂,不再找约定了的天堂,1.0,0.0,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0010,ZH-Alto-1,mixed_falsetto,technique,不 再 叹 你 说 过 的 人 间 世 事 无 常,不再等你说过的人间世事无常,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0011,ZH-Alto-1,mixed_falsetto,technique,借 不 到 的 三 寸 日 光,接不到的三寸日光,1.0,0.125,,1,7,0,8
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0012,ZH-Alto-1,mixed_falsetto,technique,那 天 堂 是 我 爱 过 你 的 地 方,那天堂是我爱过你的地方,1.0,0.0,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0000,ZH-Alto-1,mixed_falsetto,technique,不 再 看 天 上 太 阳 透 过 云 彩 的 光,不再看天上太阳透过云彩的光,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0001,ZH-Alto-1,mixed_falsetto,technique,不 再 找 约 定 了 的 天 堂,不再超越定了的天堂,1.0,0.2222222222222222,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0002,ZH-Alto-1,mixed_falsetto,technique,不 再 叹 你 说 过 的 人 间 世 事 无 常,不再疼你说过的人间世事无常,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0003,ZH-Alto-1,mixed_falsetto,technique,借 不 到 的 三 寸 日 光,接不到的三寸日光,1.0,0.125,,1,7,0,8
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0004,ZH-Alto-1,mixed_falsetto,technique,不 再 看 天 上 太 阳 透 过 云 彩 的 光,不再看天上太阳透过云彩的光,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0005,ZH-Alto-1,mixed_falsetto,technique,不 再 找 约 定 了 的 天 堂,不再找约定了的天堂,1.0,0.0,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0006,ZH-Alto-1,mixed_falsetto,technique,不 再 叹 你 说 过 的 人 间 世 事 无 常,不再疼你说过的人间世事无常,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0007,ZH-Alto-1,mixed_falsetto,technique,借 不 到 的 三 寸 日 光,接不到的三寸日光,1.0,0.125,,1,7,0,8
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0008,ZH-Alto-1,mixed_falsetto,technique,不 再 看 天 上 太 阳 透 过 云 彩 的 光,不再看天上太阳透过云彩的光,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0009,ZH-Alto-1,mixed_falsetto,technique,不 再 找 约 定 了 的 天 堂,不再找约定了的天堂,1.0,0.0,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0010,ZH-Alto-1,mixed_falsetto,technique,不 再 叹 你 说 过 的 人 间 世 事 无 常,不再疼你说过的人间世事无常,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0011,ZH-Alto-1,mixed_falsetto,technique,借 不 到 的 三 寸 日 光,接不到的三寸日光,1.0,0.125,,1,7,0,8
+ZH-Alto-1__mixed_falsetto__technique__三寸天堂__0012,ZH-Alto-1,mixed_falsetto,technique,那 天 堂 是 我 爱 过 你 的 地 方,那天当时我爱过你的地方,1.0,0.18181818181818182,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0000,ZH-Alto-1,mixed_falsetto,technique,修 炼 爱 情 的 心 酸 学 会 放 好 以 前 的 渴 望,修炼爱情的心酸学会放好以前的渴望,1.0,0.0,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0001,ZH-Alto-1,mixed_falsetto,technique,我 们 那 些 信 仰 要 忘 记 多 难,我们那些信仰要忘记多难,1.0,0.0,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0002,ZH-Alto-1,mixed_falsetto,technique,远 距 离 的 欣 赏 近 距 离 的 迷 惘 谁 说 太 阳 会 找 到 月 亮,与远距离的心像近距离的迷惘谁说太阳会找到月亮,1.0,0.14285714285714285,,1,20,0,21
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0003,ZH-Alto-1,mixed_falsetto,technique,别 人 有 的 爱 我 们 不 可 能 模 仿,别人有的爱我们不可能模仿,1.0,0.0,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0004,ZH-Alto-1,mixed_falsetto,technique,修 炼 爱 情 的 悲 欢 我 们 这 些 努 力 不 简 单,修炼爱情的悲欢我们这些努力不简单,1.0,0.0,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0005,ZH-Alto-1,mixed_falsetto,technique,快 乐 炼 成 泪 水 是 一 种 勇 敢 几 年 前 的 幻 想,快乐连场泪水是一种勇敢几年前的幻想,1.0,0.11764705882352941,,1,16,0,17
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0006,ZH-Alto-1,mixed_falsetto,technique,几 年 后 的 原 谅 为 一 张 脸 去 养 一 身 伤 别 讲 想 念 我 我 会 受 不 了 这 样,几年后的月亮回忆照亮去痒痒伤伤别讲想念我我会受不了这样,1.0,0.3333333333333333,,1,26,0,27
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0000,ZH-Alto-1,mixed_falsetto,technique,修 炼 爱 情 的 心 酸 学 会 放 好 以 前 的 渴 望,修炼爱情的心酸学会放好以前的渴望,1.0,0.0,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0001,ZH-Alto-1,mixed_falsetto,technique,我 们 那 些 信 仰 要 忘 记 多 难,我们那时信仰要忘记多难,1.0,0.09090909090909091,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0002,ZH-Alto-1,mixed_falsetto,technique,远 距 离 的 欣 赏 近 距 离 的 迷 惘 谁 说 太 阳 会 找 到 月 亮,语言剧里的欣赏情剧里的迷惘谁说太阳会照到月亮,1.0,0.38095238095238093,,1,20,0,21
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0003,ZH-Alto-1,mixed_falsetto,technique,别 人 有 的 爱 我 们 不 可 能 模 仿,别人有的爱我们不可能模仿,1.0,0.0,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0004,ZH-Alto-1,mixed_falsetto,technique,修 炼 爱 情 的 悲 欢 我 们 这 些 努 力 不 简 单,收敛爱情的悲欢我们这些努力不简单,1.0,0.125,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0005,ZH-Alto-1,mixed_falsetto,technique,快 乐 炼 成 泪 水 是 一 种 勇 敢 几 年 前 的 幻 想,快乐连成泪水是一种勇敢几年前的幻想,1.0,0.058823529411764705,,1,16,0,17
+ZH-Alto-1__mixed_falsetto__technique__修炼爱情__0006,ZH-Alto-1,mixed_falsetto,technique,几 年 后 的 原 谅 为 一 张 脸 去 养 一 身 伤 别 讲 想 念 我 我 会 受 不 了 这 样,几年后的月亮为一张脸去仰衣闪伤别讲想念我我会受不了这样,1.0,0.18518518518518517,,1,26,0,27
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0000,ZH-Alto-1,mixed_falsetto,technique,匆 匆 那 年 我 们 究 竟 说 了 几 遍 再 见 之 后 再 拖 延 可 惜 谁 有 没 有 爱 过 不 是 一 场 七 情 上 面 的 雄 辩,匆匆大念我们就轻说了几遍则坚持后再多言可惜谁有没有爱过不是一场气气上面的熊变,1.0,0.34210526315789475,,1,37,0,38
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0001,ZH-Alto-1,mixed_falsetto,technique,匆 匆 那 年 我 们 一 时 匆 忙 搁 下 难 以 承 受 的 诺 言 只 有 等 别 人 兑 现,匆匆的年我们一时匆忙聊下难以承受的诺言只有等别人兑现,1.0,0.07692307692307693,,1,25,0,26
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0002,ZH-Alto-1,mixed_falsetto,technique,不 怪 那 吻 痕 还 没 积 累 成 茧,不管那温恨还没积累成简,1.0,0.36363636363636365,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0003,ZH-Alto-1,mixed_falsetto,technique,拥 抱 着 冬 眠 也 没 能 羽 化 再 成 仙,拥抱着冬眠夜美的羽化在墙上,1.0,0.46153846153846156,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0004,ZH-Alto-1,mixed_falsetto,technique,不 怪 这 一 段 情 没 空 反 复 再 排 练,不怪这一段情美空反复在白凉,1.0,0.3076923076923077,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0005,ZH-Alto-1,mixed_falsetto,technique,是 岁 月 宽 容 恩 赐 反 悔 的 时 间,十岁月宽容恩赐返回了时间,1.0,0.3333333333333333,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0006,ZH-Alto-1,mixed_falsetto,technique,如 果 再 见 不 能 红 着 眼 是 否 还 能 红 着 脸,如果在前不能红着眼是否还能红着脸,1.0,0.125,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0007,ZH-Alto-1,mixed_falsetto,technique,就 像 那 年 匆 促 刻 下 永 远 一 起 那 样 美 丽 的 谣 言 如 果 过 去 还 值 得 眷 恋,就像那年从左刻下又圆一起那样美丽的谣言如果过去还值得眷恋,1.0,0.14285714285714285,,1,27,0,28
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0008,ZH-Alto-1,mixed_falsetto,technique,别 太 快 冰 释 前 嫌 谁 甘 心 就 这 样 彼 此 无 挂 也 无 牵,别太快必须牵线谁甘心就这样彼此无关也无欠,1.0,0.3,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0009,ZH-Alto-1,mixed_falsetto,technique,我 们 要 互 相 亏 欠 要 不 然 凭 何 怀 缅,我们要互相亏欠要不然平和怀念,1.0,0.21428571428571427,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0010,ZH-Alto-1,mixed_falsetto,technique,匆 匆 那 年 我 们 见 过 太 少 世 面 只 爱 看 同 一 张 脸 那 么 莫 名 其 妙 那 么 讨 人 欢 喜 闹 起 来 又 太 讨 厌,匆匆那年我们见过太少失眠只愿开通一张脸那么莫名其妙那么刁人欢喜闹起来又太讨厌,1.0,0.15789473684210525,,1,37,0,38
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0011,ZH-Alto-1,mixed_falsetto,technique,相 爱 那 年 活 该 匆 匆 因 为 我 们 不 懂 顽 固 的 诺 言 只 是 分 手 的 前 言,相爱那年活该匆匆以为我们不同顽固的诺言只是分手的前言,1.0,0.07692307692307693,,1,25,0,26
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0012,ZH-Alto-1,mixed_falsetto,technique,不 怪 那 天 太 冷 泪 滴 水 成 冰,不快的脸太冷泪滴水成冰,1.0,0.2727272727272727,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0013,ZH-Alto-1,mixed_falsetto,technique,春 风 也 一 样 没 吹 进 顽 固 的 照 片,春风也一样没吹清凝固的脚片,1.0,0.23076923076923078,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0014,ZH-Alto-1,mixed_falsetto,technique,不 怪 每 一 个 人 没 能 完 整 爱 一 遍,不怪每一个人没能完整爱一遍,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0015,ZH-Alto-1,mixed_falsetto,technique,是 岁 月 善 意 留 下 残 缺 的 悬 念,是岁月像一落下残缺的悬念,1.0,0.25,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0016,ZH-Alto-1,mixed_falsetto,technique,如 果 再 见 不 能 红 着 眼 是 否 还 能 红 着 脸,如果在线不能红着眼是否还能红着脸,1.0,0.125,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0017,ZH-Alto-1,mixed_falsetto,technique,就 像 那 年 匆 促 刻 下 永 远 一 起 那 样 美 丽 的 谣 言 如 果 过 去 还 值 得 眷 恋,就像那年从左搁下又和一起那样美丽的谣言如果过去还值得眷恋,1.0,0.17857142857142858,,1,27,0,28
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0018,ZH-Alto-1,mixed_falsetto,technique,别 太 快 冰 释 前 嫌 谁 甘 心 就 这 样 彼 此 无 挂 也 无 牵,别太快避世间险谁甘心就这样彼此无关也无欠,1.0,0.3,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0019,ZH-Alto-1,mixed_falsetto,technique,我 们 要 互 相 亏 欠 我 们 要 藕 断 丝 连,我们要互相亏欠我们要殴断思念,1.0,0.21428571428571427,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0000,ZH-Alto-1,mixed_falsetto,technique,匆 匆 那 年 我 们 究 竟 说 了 几 遍 再 见 之 后 再 拖 延 可 惜 谁 有 没 有 爱 过 不 是 一 场 七 情 上 面 的 雄 辩,匆匆那年我们究竟说了几遍再见之后再拖延可惜谁又没有爱过不是一场凄凄笑面的胸边,1.0,0.15789473684210525,,1,37,0,38
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0001,ZH-Alto-1,mixed_falsetto,technique,匆 匆 那 年 我 们 一 时 匆 忙 搁 下 难 以 承 受 的 诺 言 只 有 等 别 人 兑 现,匆匆那年我们一时匆忙了下难以承受的诺言只有等别人推荐,1.0,0.11538461538461539,,1,25,0,26
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0002,ZH-Alto-1,mixed_falsetto,technique,不 怪 那 吻 痕 还 没 积 累 成 茧,不怪那吻痕还没积累成茧,1.0,0.0,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0003,ZH-Alto-1,mixed_falsetto,technique,拥 抱 着 冬 眠 也 没 能 羽 化 再 成 仙,拥抱着冬眠夜没能与花再呈现,1.0,0.38461538461538464,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0004,ZH-Alto-1,mixed_falsetto,technique,不 怪 这 一 段 情 没 空 反 复 再 排 练,不怪这一段青梅空反复在排练,1.0,0.23076923076923078,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0005,ZH-Alto-1,mixed_falsetto,technique,是 岁 月 宽 容 恩 赐 反 悔 的 时 间,是岁月宽容恩赐反悔的时间,1.0,0.0,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0006,ZH-Alto-1,mixed_falsetto,technique,如 果 再 见 不 能 红 着 眼 是 否 还 能 红 着 脸,如果在身不能红着眼是否还能红着脸,1.0,0.125,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0007,ZH-Alto-1,mixed_falsetto,technique,就 像 那 年 匆 促 刻 下 永 远 一 起 那 样 美 丽 的 谣 言 如 果 过 去 还 值 得 眷 恋,就像那年从祖刻下永远一起那样美丽的耀眼如果过去还值得眷恋,1.0,0.14285714285714285,,1,27,0,28
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0008,ZH-Alto-1,mixed_falsetto,technique,别 太 快 冰 释 前 嫌 谁 甘 心 就 这 样 彼 此 无 挂 也 无 牵,别太怪鄙视前线谁甘心就这样彼此无关也无欠,1.0,0.3,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0009,ZH-Alto-1,mixed_falsetto,technique,我 们 要 互 相 亏 欠 要 不 然 凭 何 怀 缅,我们要互相亏欠要不然平和怀念,1.0,0.21428571428571427,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0010,ZH-Alto-1,mixed_falsetto,technique,匆 匆 那 年 我 们 见 过 太 少 世 面 只 爱 看 同 一 张 脸 那 么 莫 名 其 妙 那 么 讨 人 欢 喜 闹 起 来 又 太 讨 厌,匆匆那年我们见过太少失眠只爱看同一张脸那么莫名其妙那么讨人欢喜闹起来又太讨厌,1.0,0.05263157894736842,,1,37,0,38
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0011,ZH-Alto-1,mixed_falsetto,technique,相 爱 那 年 活 该 匆 匆 因 为 我 们 不 懂 顽 固 的 诺 言 只 是 分 手 的 前 言,相爱那天活该匆匆因为我们不懂顽固的诺言只是分手的前言,1.0,0.038461538461538464,,1,25,0,26
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0012,ZH-Alto-1,mixed_falsetto,technique,不 怪 那 天 太 冷 泪 滴 水 成 冰,不怪那天太冷泪滴水成冰,1.0,0.0,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0013,ZH-Alto-1,mixed_falsetto,technique,春 风 也 一 样 没 吹 进 顽 固 的 照 片,春风也一样没吹进凝固的脚边,1.0,0.23076923076923078,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0014,ZH-Alto-1,mixed_falsetto,technique,不 怪 每 一 个 人 没 能 完 整 爱 一 遍,不怪每一个人没能翻成爱一遍,1.0,0.15384615384615385,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0015,ZH-Alto-1,mixed_falsetto,technique,是 岁 月 善 意 落 下 残 缺 的 释 念,是岁月山一落下残缺的十年,1.0,0.3333333333333333,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0016,ZH-Alto-1,mixed_falsetto,technique,如 果 再 见 不 能 红 着 眼 是 否 还 能 红 着 脸,如果再见不能红着眼是否还能红着脸,1.0,0.0,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0017,ZH-Alto-1,mixed_falsetto,technique,就 像 那 年 匆 促 刻 下 永 远 一 起 那 样 美 丽 的 谣 言 如 果 过 去 还 值 得 眷 恋,就像那年从祖克夏永远一起那样美丽的谣言如果过去还记得眷恋,1.0,0.17857142857142858,,1,27,0,28
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0018,ZH-Alto-1,mixed_falsetto,technique,别 太 快 冰 释 前 嫌 谁 甘 心 就 这 样 彼 此 无 挂 也 无 牵,别太快遇试前线谁甘心就这样彼此无挂也无欠,1.0,0.2,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__匆匆那年__0019,ZH-Alto-1,mixed_falsetto,technique,我 们 要 互 相 亏 欠 我 们 要 藕 断 丝 连,我们要互相亏欠我们要藕断四裂,1.0,0.14285714285714285,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0000,ZH-Alto-1,mixed_falsetto,technique,我 是 只 化 身 孤 岛 的 蓝 鲸 有 着 最 巨 大 的 身 影,我是只化身孤岛的蓝青有着最巨大的声音,1.0,0.16666666666666666,,1,17,0,18
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0001,ZH-Alto-1,mixed_falsetto,technique,鱼 虾 在 身 侧 穿 行 也 有 飞 鸟 在 背 上 停,雨下在深侧穿行也有飞鸟在北上听,1.0,0.3333333333333333,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0002,ZH-Alto-1,mixed_falsetto,technique,我 路 过 太 多 太 美 的 奇 景 如 同 伊 甸 般 的 仙 境,我路过太多太美的寂静如同一点般的陷阱,1.0,0.3333333333333333,,1,17,0,18
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0003,ZH-Alto-1,mixed_falsetto,technique,而 大 海 太 平 太 静 多 少 故 事 无 人 倾 听,而大海太平太静多少故事无人倾听,1.0,0.0,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0004,ZH-Alto-1,mixed_falsetto,technique,我 爱 地 中 海 的 天 晴 爱 西 伯 利 亚 的 雪 景,我爱地球海的线性爱惜玻利亚的雪景,1.0,0.3125,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0005,ZH-Alto-1,mixed_falsetto,technique,爱 万 丈 高 空 的 鹰 爱 肚 皮 下 的 藻 荇 我 在 尽 心 尽 力 地 多 情 直 到 那 一 天,爱顽长高空的影爱肚皮下的造型我在清醒里的多情直到那一天,1.0,0.35714285714285715,,1,27,0,28
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0006,ZH-Alto-1,mixed_falsetto,technique,你 的 衣 衫 破 旧 而 歌 声 却 温 柔 陪 我 漫 无 目 的 的 四 处 漂 流,你的衣裳破旧和歌声却温柔陪我漫无目的地四处漂流,1.0,0.13043478260869565,,1,22,0,23
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0007,ZH-Alto-1,mixed_falsetto,technique,我 的 背 脊 如 荒 丘 而 你 却 微 笑 摆 首 把 它 当 成 整 个 宇 宙,我的背景如光球而你却微笑白首把她当成整个宇宙,1.0,0.22727272727272727,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0008,ZH-Alto-1,mixed_falsetto,technique,你 与 太 阳 挥 手 也 同 海 鸥 问 候 陪 我 爱 天 爱 地 的 四 处 风 流,你与太阳挥手夜童还有问候陪我爱天爱地的四处风流,1.0,0.17391304347826086,,1,22,0,23
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0009,ZH-Alto-1,mixed_falsetto,technique,只 是 遗 憾 你 终 于 无 法 躺 在 我 胸 口 欣 赏 夜 空 最 辽 阔 的,只是遗憾你终究无法躺在我胸口心像夜空最落魄的,1.0,0.22727272727272727,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0010,ZH-Alto-1,mixed_falsetto,technique,不 朽 把 星 子 放 入 眸,不休把心自放入梦,1.0,0.5,,1,7,0,8
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0011,ZH-Alto-1,mixed_falsetto,technique,我 是 只 化 身 孤 岛 的 蓝 鲸 有 着 最 巨 大 的 身 影,我是只花生孤岛的蓝青有着最巨大的声音,1.0,0.2777777777777778,,1,17,0,18
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0012,ZH-Alto-1,mixed_falsetto,technique,鱼 虾 在 身 侧 穿 行 也 有 飞 鸟 在 背 上 停,雨下在顺侧穿行也有飞鸟在北上顶,1.0,0.3333333333333333,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0013,ZH-Alto-1,mixed_falsetto,technique,我 有 着 太 冷 太 清 的 天 性 对 天 上 的 她 动 过 情,我有着太冷太清的天性对天上的打动过情,1.0,0.05555555555555555,,1,17,0,18
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0014,ZH-Alto-1,mixed_falsetto,technique,而 云 朵 太 远 太 轻 辗 转 之 后 各 安 天 命,耳鸣躲太远太近辗转只好隔岸天明,1.0,0.6,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0015,ZH-Alto-1,mixed_falsetto,technique,我 未 入 过 繁 华 之 景 未 听 过 喧 嚣 的 声 音,我未入我繁华之境未听过喧嚣的声音,1.0,0.125,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0016,ZH-Alto-1,mixed_falsetto,technique,未 见 过 太 多 生 灵 未 有 过 滚 烫 心 情 所 以 也 未 觉 大 洋 正 中 有 多 么 安 静,未签过太多圣灵未游过滚烫心情所以也未觉大洋城中有多么安静,1.0,0.14285714285714285,,1,27,0,28
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0017,ZH-Alto-1,mixed_falsetto,technique,你 的 指 尖 轻 柔 抚 摸 过 我 所 有 风 浪 冲 撞 出 的 丑 陋 疮 口,你的指尖轻柔抚摸过我所有风浪冲撞出的丘陋窗口,1.0,0.09090909090909091,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0018,ZH-Alto-1,mixed_falsetto,technique,你 眼 中 有 春 与 秋 胜 过 我 见 过 爱 过 的 一 切 山 川 与 河 流,你眼中有春与秋胜过我见过爱过的一切山川与河流,1.0,0.0,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0019,ZH-Alto-1,mixed_falsetto,technique,曾 以 为 我 肩 头 是 那 么 的 宽 厚 足 够 撑 起 海 底 的 那 座 琼 楼,曾以为我前头是那么的宽厚足够撑起海底的那座恐龙,1.0,0.13043478260869565,,1,22,0,23
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0020,ZH-Alto-1,mixed_falsetto,technique,而 在 你 到 来 之 后 它 显 得 如 此 清 瘦 我 想 给 你 能 奔 跑 的 岸 头 让 你 如 同 王 后,而在你到来之后它显得如此轻松我想给你能奔跑的案头让你如同往后,1.0,0.13333333333333333,,1,29,0,30
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0000,ZH-Alto-1,mixed_falsetto,technique,我 是 只 化 身 孤 岛 的 蓝 鲸 有 着 最 巨 大 的 身 影,我是只画上孤岛的蓝鲸有着最巨大的声音,1.0,0.2222222222222222,,1,17,0,18
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0001,ZH-Alto-1,mixed_falsetto,technique,鱼 虾 在 身 侧 穿 行 也 有 飞 鸟 在 背 上 停,雨下在身侧穿行也有飞鸟在北上听,1.0,0.26666666666666666,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0002,ZH-Alto-1,mixed_falsetto,technique,我 路 过 太 多 太 美 的 奇 景 如 同 伊 甸 般 的 仙 境,我路过太多太美的奇景如同一点般的陷阱,1.0,0.2222222222222222,,1,17,0,18
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0003,ZH-Alto-1,mixed_falsetto,technique,而 大 海 太 平 太 静 多 少 故 事 无 人 倾 听,而大海太平太近多少故事无人倾听,1.0,0.06666666666666667,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0004,ZH-Alto-1,mixed_falsetto,technique,我 爱 地 中 海 的 天 晴 爱 西 伯 利 亚 的 雪 景,我爱地中海的天气爱西伯利亚的雪景,1.0,0.0625,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0005,ZH-Alto-1,mixed_falsetto,technique,爱 万 丈 高 空 的 鹰 爱 肚 皮 下 的 藻 荇 我 在 尽 心 尽 力 地 多 情 直 到 那 一 天,爱完整高空的影爱肚皮下的造型我在即兴经历的脱气直到那一天,1.0,0.42857142857142855,,1,27,0,28
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0006,ZH-Alto-1,mixed_falsetto,technique,你 的 衣 衫 破 旧 而 歌 声 却 温 柔 陪 我 漫 无 目 的 的 四 处 漂 流,你的音箱破旧而歌声却温柔陪我漫无目的地四处漂流,1.0,0.13043478260869565,,1,22,0,23
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0007,ZH-Alto-1,mixed_falsetto,technique,我 的 背 脊 如 荒 丘 而 你 却 微 笑 摆 首 把 它 当 作 整 个 宇 宙,我的悲剧如荒丑而你却微笑摆手把它当成整颗宇宙,1.0,0.2727272727272727,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0008,ZH-Alto-1,mixed_falsetto,technique,你 与 太 阳 挥 手 也 同 海 鸥 问 候 陪 我 爱 天 爱 地 的 四 处 风 流,你用太阳挥手夜童还有问候陪我爱天爱地的四处风流,1.0,0.21739130434782608,,1,22,0,23
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0009,ZH-Alto-1,mixed_falsetto,technique,只 是 遗 憾 你 终 于 无 法 躺 在 我 胸 口 欣 赏 夜 空 最 辽 阔 的,只是遗憾你终究无法躺在我胸口欣赏夜空最辽阔的,1.0,0.045454545454545456,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0010,ZH-Alto-1,mixed_falsetto,technique,不 朽 把 星 子 放 入 眸,不休把心自放入梦,1.0,0.5,,1,7,0,8
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0011,ZH-Alto-1,mixed_falsetto,technique,我 是 只 化 身 孤 岛 的 蓝 鲸 有 着 最 巨 大 的 身 影,我是句花生孤岛的蓝鲸有着最巨大的声音,1.0,0.2777777777777778,,1,17,0,18
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0012,ZH-Alto-1,mixed_falsetto,technique,鱼 虾 在 身 侧 穿 行 也 有 飞 鸟 在 背 上 停,雨笑在身侧穿行也有飞鸟在背上听,1.0,0.2,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0013,ZH-Alto-1,mixed_falsetto,technique,我 有 着 太 冷 太 清 的 天 性 对 天 上 的 她 动 过 情,我有着太冷太紧的天性对天上的他动过情,1.0,0.1111111111111111,,1,17,0,18
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0014,ZH-Alto-1,mixed_falsetto,technique,而 云 朵 太 远 太 轻 辗 转 之 后 各 安 天 命,耳铃拖太远太近辗转之后隔岸天明,1.0,0.4666666666666667,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0015,ZH-Alto-1,mixed_falsetto,technique,我 未 入 过 繁 华 之 景 未 听 过 喧 嚣 的 声 音,我未入过繁华之境未听过喧嚣的声音,1.0,0.0625,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0016,ZH-Alto-1,mixed_falsetto,technique,未 见 过 太 多 生 灵 未 有 过 滚 烫 心 情 所 以 也 未 觉 大 洋 正 中 有 多 么 安 静,未见过太多神灵未游过滚烫心情所以也未觉大洋城中有多么安静,1.0,0.10714285714285714,,1,27,0,28
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0017,ZH-Alto-1,mixed_falsetto,technique,你 的 指 尖 轻 柔 抚 摸 过 我 所 有 风 浪 冲 撞 出 的 丑 陋 疮 口,你的指尖轻柔抚摸过我所有风浪冲撞出的丑陋窗口,1.0,0.045454545454545456,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0018,ZH-Alto-1,mixed_falsetto,technique,你 眼 中 有 春 与 秋 胜 过 我 见 过 爱 过 的 一 切 山 川 与 河 流,你眼中有春与秋胜过我见过爱过的一切山川与河流,1.0,0.0,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0019,ZH-Alto-1,mixed_falsetto,technique,曾 以 为 我 肩 头 是 那 么 的 宽 厚 足 够 撑 起 海 底 的 那 座 琼 楼,苍蝇握握肩头是那么的宽厚足够撑起海底的那座琼楼,1.0,0.17391304347826086,,1,22,0,23
+ZH-Alto-1__mixed_falsetto__technique__化身孤岛的鲸__0020,ZH-Alto-1,mixed_falsetto,technique,而 在 你 到 来 之 后 它 显 得 如 此 清 瘦 我 想 给 你 能 奔 跑 的 岸 头 让 你 如 同 王 后,而在你到来之后它显得如此轻松我想给你的门泡的暗筒让你如同往后,1.0,0.26666666666666666,,1,29,0,30
+ZH-Alto-1__mixed_falsetto__technique__南山南__0000,ZH-Alto-1,mixed_falsetto,technique,你 在 南 方 的 艳 阳 里 大 雪 纷 飞,你在南方鸽烟洋里大雪纷飞,1.0,0.25,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__南山南__0001,ZH-Alto-1,mixed_falsetto,technique,我 在 北 方 的 寒 夜 里 四 季 如 春 如 果 天 黑 之 前 来 得 及,我在北方的海野里四季如春如果天黑之前来得及,1.0,0.09523809523809523,,1,20,0,21
+ZH-Alto-1__mixed_falsetto__technique__南山南__0002,ZH-Alto-1,mixed_falsetto,technique,我 要 忘 了 你 的 眼 睛 穷 极 一 生 做 不 完 一 场 梦,我要忘了你的眼睛重启一生做不完一场梦,1.0,0.1111111111111111,,1,17,0,18
+ZH-Alto-1__mixed_falsetto__technique__南山南__0000,ZH-Alto-1,mixed_falsetto,technique,你 在 南 方 的 艳 阳 里 大 雪 纷 飞,你在南方的艳阳里大雪纷飞,1.0,0.0,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__南山南__0001,ZH-Alto-1,mixed_falsetto,technique,我 在 北 方 的 寒 夜 里 四 季 如 春 如 果 天 黑 之 前 来 得 及,我在北方的寒夜里四季如春如果天黑之前来得及,1.0,0.0,,1,20,0,21
+ZH-Alto-1__mixed_falsetto__technique__南山南__0002,ZH-Alto-1,mixed_falsetto,technique,我 要 忘 了 你 的 眼 睛 穷 极 一 生 做 不 完 一 场 梦,我要忘了你的眼睛重启一生做不完一场梦,1.0,0.1111111111111111,,1,17,0,18
+ZH-Alto-1__mixed_falsetto__technique__可乐__0000,ZH-Alto-1,mixed_falsetto,technique,可 惜 在 遇 见 我 那 天 你 并 不 快 乐,可惜在遇见我那天你并不快乐,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__可乐__0001,ZH-Alto-1,mixed_falsetto,technique,可 能 是 因 为 我 们 相 遇 的 太 晚 了,可能是因为我们相遇的太晚了,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__可乐__0002,ZH-Alto-1,mixed_falsetto,technique,可 是 我 要 走 了 可 温 暖 要 走 了,可是我要走了可温暖要走了,1.0,0.0,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__可乐__0003,ZH-Alto-1,mixed_falsetto,technique,可 否 有 另 一 个 我 在 你 身 后 给 予 快 乐,可否有另一个我在你身边给予快乐,1.0,0.06666666666666667,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__可乐__0004,ZH-Alto-1,mixed_falsetto,technique,可 当 我 牵 着 你 的 手 傻 乎 乎 地 乐,可当我牵着你的手傻呼呼的了,1.0,0.3076923076923077,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__可乐__0005,ZH-Alto-1,mixed_falsetto,technique,渴 望 的 爱 情 终 于 在 我 生 命 出 现 了,渴望的爱情终于在我生命出现了,1.0,0.0,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__可乐__0006,ZH-Alto-1,mixed_falsetto,technique,可 时 间 倒 数 了 可 你 的 答 案 停 住 了,可时间倒数了可你的答案停住了,1.0,0.0,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__可乐__0007,ZH-Alto-1,mixed_falsetto,technique,可 想 到 你 的 脸 我 还 是 很 快 乐,可想到你的脸我还是很快乐,1.0,0.0,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__可乐__0008,ZH-Alto-1,mixed_falsetto,technique,可 能 你 不 快 乐 可 我 要 你 快 乐,可能你不快乐可我要你快乐,1.0,0.0,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__可乐__0009,ZH-Alto-1,mixed_falsetto,technique,可 能 是 我 的 爱 情 它 来 的 太 晚 了,可能是我的爱情它来得太晚了,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__可乐__0010,ZH-Alto-1,mixed_falsetto,technique,可 他 给 了 你 些 什 么 你 是 不 是 真 快 乐,可他给了你些什么你是不是真快乐,1.0,0.0,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__可乐__0011,ZH-Alto-1,mixed_falsetto,technique,可 要 听 我 的 话 别 再 为 他 犯 傻 了,可要听我的话别再为他犯傻了,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__可乐__0012,ZH-Alto-1,mixed_falsetto,technique,可 能 你 不 快 乐 可 我 要 你 快 乐,可能你不快乐可我要你快乐,1.0,0.0,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__可乐__0013,ZH-Alto-1,mixed_falsetto,technique,可 能 是 我 的 爱 情 它 来 的 太 晚 了,可能是我的爱情它来得太晚了,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__可乐__0014,ZH-Alto-1,mixed_falsetto,technique,可 我 只 想 对 你 说 我 绝 对 不 退 出 了,可我只想对你说我绝对不退出了,1.0,0.0,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__可乐__0015,ZH-Alto-1,mixed_falsetto,technique,可 以 让 你 快 乐 是 我 的 快 乐,可以让你快乐是我的快乐,1.0,0.0,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__可乐__0000,ZH-Alto-1,mixed_falsetto,technique,可 惜 在 遇 见 我 那 天 你 并 不 快 乐,可惜在遇见我那天你并不快乐,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__可乐__0001,ZH-Alto-1,mixed_falsetto,technique,可 能 是 因 为 我 们 相 遇 的 太 晚 了,可能是因为我们相遇的太晚了,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__可乐__0002,ZH-Alto-1,mixed_falsetto,technique,可 是 我 要 走 了 可 温 暖 要 走 了,可是我要走了可我能要走了,1.0,0.16666666666666666,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__可乐__0003,ZH-Alto-1,mixed_falsetto,technique,可 否 有 另 一 个 我 在 你 身 后 给 予 快 乐,可否有另一个我在你身边给予快乐,1.0,0.06666666666666667,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__可乐__0004,ZH-Alto-1,mixed_falsetto,technique,可 当 我 牵 着 你 的 手 傻 乎 乎 地 乐,可当我牵着你的手下呼呼的了,1.0,0.38461538461538464,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__可乐__0005,ZH-Alto-1,mixed_falsetto,technique,渴 望 的 爱 情 终 于 在 我 生 命 出 现 了,渴望的爱情终于在我生命出现了,1.0,0.0,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__可乐__0006,ZH-Alto-1,mixed_falsetto,technique,可 时 间 倒 数 了 可 你 的 答 案 停 住 了,可时间倒数了可你的答案停止了,1.0,0.07142857142857142,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__可乐__0007,ZH-Alto-1,mixed_falsetto,technique,可 想 到 你 的 脸 我 还 是 很 快 乐,可想到你的脸我还是很快乐,1.0,0.0,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__可乐__0008,ZH-Alto-1,mixed_falsetto,technique,可 能 你 不 快 乐 可 惜 你 不 快 乐,可能你不快乐可惜你不快乐,1.0,0.0,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__可乐__0009,ZH-Alto-1,mixed_falsetto,technique,可 能 是 我 的 爱 情 它 来 的 太 晚 了,可能是我的爱情它来得太晚了,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__可乐__0010,ZH-Alto-1,mixed_falsetto,technique,可 他 给 了 你 些 什 么 你 是 不 是 真 快 乐,可他给了你些什么你是不是真快乐,1.0,0.0,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__可乐__0011,ZH-Alto-1,mixed_falsetto,technique,可 要 听 我 的 话 别 再 为 他 犯 傻 了,可要听我的话别再为他犯傻了,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__可乐__0012,ZH-Alto-1,mixed_falsetto,technique,可 能 你 不 快 乐 可 我 要 你 快 乐,可能你不快乐可我要你快乐,1.0,0.0,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__可乐__0013,ZH-Alto-1,mixed_falsetto,technique,可 能 是 我 的 爱 情 它 来 的 太 晚 了,可能是我的爱情的来得太晚了啊,1.0,0.23076923076923078,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__可乐__0014,ZH-Alto-1,mixed_falsetto,technique,可 我 只 想 对 你 说 我 绝 对 不 退 出 了,可我只想对你说我绝对不退出了,1.0,0.0,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__可乐__0015,ZH-Alto-1,mixed_falsetto,technique,可 以 让 你 快 乐 是 我 的 快 乐,可以让你快乐是我的快乐,1.0,0.0,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__后来__0000,ZH-Alto-1,mixed_falsetto,technique,后 来 我 总 算 学 会 了 如 何 去 爱 可 惜 你,后来我总算学会了如何去爱可惜你,1.0,0.0,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__后来__0001,ZH-Alto-1,mixed_falsetto,technique,早 已 远 去 消 失 在 人 海 后 来,遭遇远去消失在人海后来,1.0,0.18181818181818182,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__后来__0002,ZH-Alto-1,mixed_falsetto,technique,终 于 在 眼 泪 中 明 白 有 些 人 一 旦 错 过 就 不 再,终于在眼泪中明白有些人一旦错过就不带,1.0,0.05555555555555555,,1,17,0,18
+ZH-Alto-1__mixed_falsetto__technique__后来__0003,ZH-Alto-1,mixed_falsetto,technique,栀 子 花 白 花 瓣 落 在 我 蓝 色 百 褶 裙 上,柿子花白花瓣落在我蓝色白褶裙上,1.0,0.13333333333333333,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__后来__0004,ZH-Alto-1,mixed_falsetto,technique,爱 你 你 轻 声 说 我 低 下 头 闻 见 一 阵 芬 芳,爱你你请先说我低下头闻见一阵芬芳,1.0,0.125,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__后来__0005,ZH-Alto-1,mixed_falsetto,technique,那 个 永 恒 的 夜 晚 十 七 岁 仲 夏,那个永恒的夜晚十七岁钟下,1.0,0.16666666666666666,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__后来__0006,ZH-Alto-1,mixed_falsetto,technique,你 吻 我 的 那 个 夜 晚 让 我 往 后 的 时 光,你吻我的那颗夜晚让我往后的时光,1.0,0.06666666666666667,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__后来__0007,ZH-Alto-1,mixed_falsetto,technique,每 当 有 感 叹 总 想 起 当 天 的 星 光,每当有感叹总想起当年的星光,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__后来__0008,ZH-Alto-1,mixed_falsetto,technique,那 时 候 的 爱 情 为 什 么 就 能 那 样 简 单,那时候的爱情为什么就能那样简单,1.0,0.0,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__后来__0009,ZH-Alto-1,mixed_falsetto,technique,而 又 是 为 什 么 人 年 少 时 一 定 要 让 深 爱 的 人 受 伤,爱又是为什么人年少时一定要让深爱的人收下,1.0,0.15,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__后来__0010,ZH-Alto-1,mixed_falsetto,technique,在 这 相 似 的 深 夜 里 你 是 否 一 样,在这相似的显夜里你是否一样,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__后来__0011,ZH-Alto-1,mixed_falsetto,technique,也 在 静 静 追 悔 感 伤 如 果 当 时 我 们 能,也在静静追回感伤如果当时我们能,1.0,0.06666666666666667,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__后来__0012,ZH-Alto-1,mixed_falsetto,technique,不 那 么 倔 强 现 在 也 不 那 么 遗 憾,不那么倔强现在也不那么遗憾,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__后来__0013,ZH-Alto-1,mixed_falsetto,technique,你 都 如 何 回 忆 我 带 着 笑 或 是 很 沉 默,你懂如何回忆我带着笑或是很沉默,1.0,0.06666666666666667,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__后来__0014,ZH-Alto-1,mixed_falsetto,technique,这 些 年 来 有 没 有 人 让 你 不 寂 寞,这些年来有没有能让你不寂寞,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__后来__0000,ZH-Alto-1,mixed_falsetto,technique,后 来 我 总 算 学 会 了 如 何 去 爱 可 惜 你,后来我总算学会了如何去爱可惜你,1.0,0.0,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__后来__0001,ZH-Alto-1,mixed_falsetto,technique,早 已 远 去 消 失 在 人 海 后 来,早已延续消失在人海后来,1.0,0.18181818181818182,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__后来__0002,ZH-Alto-1,mixed_falsetto,technique,终 于 在 眼 泪 中 明 白 有 些 人 一 旦 错 过 就 不 再,终于在眼泪中明白有些人一旦错过就不在,1.0,0.05555555555555555,,1,17,0,18
+ZH-Alto-1__mixed_falsetto__technique__后来__0003,ZH-Alto-1,mixed_falsetto,technique,栀 子 花 白 花 瓣 落 在 我 蓝 色 百 褶 裙 上,橘子花白花般落在我蓝色白褶裙上,1.0,0.2,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__后来__0004,ZH-Alto-1,mixed_falsetto,technique,爱 你 你 轻 声 说 我 低 下 头 闻 见 一 阵 芬 芳,爱你你轻声说我低下头闻见一阵芬芳,1.0,0.0,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__后来__0005,ZH-Alto-1,mixed_falsetto,technique,那 个 永 恒 的 夜 晚 十 七 岁 仲 夏,那个永恒的夜晚十几岁钟下,1.0,0.25,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__后来__0006,ZH-Alto-1,mixed_falsetto,technique,你 吻 我 的 那 个 夜 晚 让 我 往 后 的 时 光,你吻我的那个夜晚让我往后的时光,1.0,0.0,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__后来__0007,ZH-Alto-1,mixed_falsetto,technique,每 当 有 感 叹 总 想 起 当 天 的 星 光,每当有感叹总相信当年的星光,1.0,0.23076923076923078,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__后来__0008,ZH-Alto-1,mixed_falsetto,technique,那 时 候 的 爱 情 为 什 么 就 能 那 样 简 单,那时候的爱情为什么就能那样简单,1.0,0.0,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__后来__0009,ZH-Alto-1,mixed_falsetto,technique,而 又 是 为 什 么 人 年 少 时 一 定 要 让 深 爱 的 人 受 伤,爱又是为什么人年少时一定要让深爱的人受伤,1.0,0.05,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__后来__0010,ZH-Alto-1,mixed_falsetto,technique,在 这 相 似 的 夜 里 你 是 否 一 样,在这相思的夜里你是否一样,1.0,0.08333333333333333,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__后来__0011,ZH-Alto-1,mixed_falsetto,technique,也 在 静 静 追 悔 感 伤 如 果 当 时 我 们 能,也在静静追回感伤如果当时我们能,1.0,0.06666666666666667,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__后来__0012,ZH-Alto-1,mixed_falsetto,technique,不 那 么 倔 强 现 在 也 不 那 么 遗 憾,不那么倔强现在也不那么遗憾,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__后来__0013,ZH-Alto-1,mixed_falsetto,technique,你 都 如 何 回 忆 我 带 着 笑 或 是 很 沉 默,你都如何回忆我太小或许很沉默,1.0,0.26666666666666666,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__后来__0014,ZH-Alto-1,mixed_falsetto,technique,这 些 年 来 有 没 有 能 让 你 不 寂 寞,这些年来有没有能让你不寂寞,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0000,ZH-Alto-1,mixed_falsetto,technique,每 个 早 晨 七 点 半 就 自 然 醒 风 铃 响 起 又 是 一 天 云 很 轻,每颗早晨七点半就自然醒风铃响起又是一天雨很轻,1.0,0.09090909090909091,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0001,ZH-Alto-1,mixed_falsetto,technique,晒 好 的 衣 服 味 道 很 安 心 一 切 都 是 柔 软 又 宁 静,晒好的衣服味道很安心一切都是柔软又宁静,1.0,0.0,,1,18,0,19
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0002,ZH-Alto-1,mixed_falsetto,technique,每 个 路 口 花 都 开 在 阳 光 里 小 店 门 前 传 来 好 听 的 恋 曲,每个路口花都开在阳光里小店门前传来好听的联系,1.0,0.09090909090909091,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0003,ZH-Alto-1,mixed_falsetto,technique,不 用 太 久 就 能 走 到 目 的 地 人 来 人 往 里 满 是 善 意,不用太久就能走到目的地人来人往里满是善意,1.0,0.0,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0004,ZH-Alto-1,mixed_falsetto,technique,日 落 之 前 斜 阳 融 在 小 河 里 逛 了 黄 昏 市 场 收 获 很 满 意,日落之前斜阳落在小河里狂澜黄昏时常生活很满意,1.0,0.3181818181818182,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0005,ZH-Alto-1,mixed_falsetto,technique,朋 友 打 来 电 话 说 他 在 等 你 见 面 有 聊 不 完 的 话 题,朋友打来电话说他在等你前面有聊不完的话题,1.0,0.05,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0006,ZH-Alto-1,mixed_falsetto,technique,餐 桌 摆 在 开 满 花 的 院 子 里 微 微 酒 意 阵 阵 欢 歌 笑 语,餐桌摆在开漫画的院子里微微就已阵阵换个小雨,1.0,0.38095238095238093,,1,20,0,21
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0007,ZH-Alto-1,mixed_falsetto,technique,从 不 考 虑 明 天 应 该 去 哪 里 因 为 今 夜 的 风 太 和 煦,从不考虑明天应该去哪里因为今天的风带何须,1.0,0.2,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0000,ZH-Alto-1,mixed_falsetto,technique,每 个 早 晨 七 点 半 就 自 然 醒 风 铃 响 起 又 是 一 天 云 很 轻,每隔朝晨七点半就自然醒风铃响起又是一天云很轻,1.0,0.09090909090909091,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0001,ZH-Alto-1,mixed_falsetto,technique,晒 好 的 衣 服 味 道 很 安 心 一 切 都 是 柔 软 又 宁 静,晒好的衣服味道很安心一切都是柔软又宁静,1.0,0.0,,1,18,0,19
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0002,ZH-Alto-1,mixed_falsetto,technique,每 个 路 口 花 都 开 在 阳 光 里 小 店 门 前 传 来 好 听 的 恋 曲,每个路口花都开在阳光里小店门前传来好听的连续,1.0,0.09090909090909091,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0003,ZH-Alto-1,mixed_falsetto,technique,不 用 太 久 就 能 走 到 目 的 地 人 来 人 往 里 满 是 善 意,不用太久就能走到目的地人来人往里满是善意,1.0,0.0,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0004,ZH-Alto-1,mixed_falsetto,technique,日 落 之 前 斜 阳 融 在 小 河 里 逛 了 黄 昏 市 场 收 获 很 满 意,日落之前斜阳融在小河里逛了黄昏市场收获很满意,1.0,0.0,,1,21,0,22
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0005,ZH-Alto-1,mixed_falsetto,technique,朋 友 打 来 电 话 说 他 在 等 你 见 面 有 聊 不 完 的 话 题,朋友打来电话说他在等你前面有聊不完的话题,1.0,0.05,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0006,ZH-Alto-1,mixed_falsetto,technique,餐 桌 摆 在 开 满 花 的 院 子 里 微 微 酒 意 阵 阵 欢 歌 笑 语,餐桌摆在开漫画的园子里微微皱衣整整换个小雨,1.0,0.5238095238095238,,1,20,0,21
+ZH-Alto-1__mixed_falsetto__technique__平凡的一天__0007,ZH-Alto-1,mixed_falsetto,technique,从 不 考 虑 明 天 应 该 去 哪 里 因 为 今 夜 的 风 太 和 煦,从不考虑明天应该去哪里因为今夜的风太和谐,1.0,0.05,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__年轮__0000,ZH-Alto-1,mixed_falsetto,technique,数 着 一 圈 圈 年 轮 我 认 真 将 心 事 都 封 存 密 密 麻 麻 是 我 的 自 尊,数着一圈圈年轮我认真将心事都封存密密麻麻是我的自尊,1.0,0.0,,1,24,0,25
+ZH-Alto-1__mixed_falsetto__technique__年轮__0001,ZH-Alto-1,mixed_falsetto,technique,修 改 一 次 次 离 分 我 承 认 曾 幻 想 过 永 恒,修改一次次理分我承认曾幻想过永恒,1.0,0.0625,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__年轮__0002,ZH-Alto-1,mixed_falsetto,technique,可 惜 从 没 人 陪 我 演 这 剧 本,可惜从没人陪我演这剧本,1.0,0.0,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__年轮__0000,ZH-Alto-1,mixed_falsetto,technique,数 着 一 圈 圈 年 轮 我 认 真 将 心 事 都 封 存 密 密 麻 麻 是 我 的 自 尊,数着一圈圈年轮我认真将心事都封存明明妈妈是我的自尊,1.0,0.16,,1,24,0,25
+ZH-Alto-1__mixed_falsetto__technique__年轮__0001,ZH-Alto-1,mixed_falsetto,technique,修 改 一 次 次 离 分 我 承 认 曾 幻 想 过 永 恒,手该一次次离分我承认曾幻想过永恒,1.0,0.125,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__年轮__0002,ZH-Alto-1,mixed_falsetto,technique,可 惜 从 没 人 陪 我 演 这 剧 本,可惜从没人陪我演这剧本,1.0,0.0,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0000,ZH-Alto-1,mixed_falsetto,technique,忽 然 之 见 天 昏 地 暗,忽然去见天荒地野,1.0,0.375,,1,7,0,8
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0001,ZH-Alto-1,mixed_falsetto,technique,世 界 可 以 忽 然 什 么 都 没 有 我 想 起 了 你,世界可以忽然什么都没有我想起了你,1.0,0.0,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0002,ZH-Alto-1,mixed_falsetto,technique,再 想 到 自 己 我 为 什 么 总 在 非 常 脆 弱 的 时 候 怀 念 你,在想到自己我为什么总在非常脆弱的时候怀念你,1.0,0.047619047619047616,,1,20,0,21
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0003,ZH-Alto-1,mixed_falsetto,technique,我 明 白 太 放 不 开 你 的 爱 太 熟 悉 你 的 关 怀,我明白太放不开你的爱太熟悉你的关怀,1.0,0.0,,1,16,0,17
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0004,ZH-Alto-1,mixed_falsetto,technique,分 不 开 想 你 算 是 安 慰 还 是 悲 哀 而 现 在,分不开想你算是安慰还是被爱而现在,1.0,0.125,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0005,ZH-Alto-1,mixed_falsetto,technique,就 算 时 针 都 停 摆 就 算 生 命 像 尘 埃,就算时针都停摆就算生命像尘埃,1.0,0.0,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0006,ZH-Alto-1,mixed_falsetto,technique,分 不 开 也 许 有 时 反 而 更 相 信 爱,分不开也许有时反而更相信爱,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0000,ZH-Alto-1,mixed_falsetto,technique,忽 然 之 见 天 昏 地 暗,忽然之间天昏地暗,1.0,0.125,,1,7,0,8
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0001,ZH-Alto-1,mixed_falsetto,technique,世 界 可 以 忽 然 什 么 都 没 有 我 想 起 了 你,世界可以忽然什么都没有我想起了你,1.0,0.0,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0002,ZH-Alto-1,mixed_falsetto,technique,再 想 到 自 己 我 为 什 么 总 在 非 常 脆 弱 的 时 候 怀 念 你,才想到自己我为什么总在非常脆弱的时候怀念你,1.0,0.047619047619047616,,1,20,0,21
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0003,ZH-Alto-1,mixed_falsetto,technique,我 明 白 太 放 不 开 你 的 爱 太 熟 悉 你 的 关 怀,我明白太放不开你的爱太熟悉你的关怀,1.0,0.0,,1,16,0,17
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0004,ZH-Alto-1,mixed_falsetto,technique,分 不 开 想 你 算 是 安 慰 还 是 悲 哀 而 现 在,分不开想你算是安慰还是悲哀而现在,1.0,0.0,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0005,ZH-Alto-1,mixed_falsetto,technique,就 算 时 针 都 停 摆 就 算 生 命 像 尘 埃,就算时间都停摆就算生命像真爱,1.0,0.21428571428571427,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__忽然之间__0006,ZH-Alto-1,mixed_falsetto,technique,分 不 开 也 许 我 们 反 而 更 相 信 爱,分不开也许我们反而更相信爱,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0000,ZH-Alto-1,mixed_falsetto,technique,没 有 一 点 点 防 备 也 没 有 一 丝 顾 虑 你 就 这 样 出 现,没有一点点防备也没有一丝顾虑你就这样出现,1.0,0.0,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0001,ZH-Alto-1,mixed_falsetto,technique,在 我 的 世 界 里 带 给 我 惊 喜 情 不 自 已,在我的世界里带给我惊喜情不自已,1.0,0.0,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0002,ZH-Alto-1,mixed_falsetto,technique,可 是 你 偏 又 这 样 在 我 不 知 不 觉 中 悄 悄 地 消 失,可是你偏又这样在我不知不觉中悄悄的消失,1.0,0.05263157894736842,,1,18,0,19
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0003,ZH-Alto-1,mixed_falsetto,technique,从 我 的 世 界 里 没 有 音 讯 剩 下 的 只 是 回 忆,从我的世界里没有遗讯剩下的只是回忆,1.0,0.058823529411764705,,1,16,0,17
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0004,ZH-Alto-1,mixed_falsetto,technique,你 存 在 我 深 深 的 脑 海 里,你存在我深陷的脑海里,1.0,0.1,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0005,ZH-Alto-1,mixed_falsetto,technique,我 的 梦 里 我 的 心 里 我 的 歌 声 里,我的梦里我的心里我的歌声里,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0006,ZH-Alto-1,mixed_falsetto,technique,你 存 在 我 深 深 的 脑 海 里,你存在我深深的脑海里,1.0,0.0,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0007,ZH-Alto-1,mixed_falsetto,technique,我 的 梦 里 我 的 心 里 我 的 歌 声 里,我的梦里我的心里我的歌声里,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0008,ZH-Alto-1,mixed_falsetto,technique,还 记 得 我 们 曾 经 肩 并 肩 一 起 走 过 那 段 繁 华 巷 口,还记得我们曾经肩并肩一起走过那段繁华巷口,1.0,0.0,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0009,ZH-Alto-1,mixed_falsetto,technique,尽 管 你 我 是 陌 生 人 是 过 路 人 但 彼 此 还 是 感 觉 到 了 对 方 的 一 个 眼 神,尽管你我是陌生人是过路人但彼此还是感觉到了对方的一个眼神,1.0,0.0,,1,27,0,28
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0010,ZH-Alto-1,mixed_falsetto,technique,一 个 心 跳 一 种 意 想 不 到 的 快 乐,一个心跳一种意想不到的快乐,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0011,ZH-Alto-1,mixed_falsetto,technique,好 像 是 一 场 梦 境 命 中 注 定,好像是一场梦境命中注定,1.0,0.0,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0012,ZH-Alto-1,mixed_falsetto,technique,世 界 之 大 为 何 我 们 相 遇,世界知道为何我们相遇,1.0,0.2,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0013,ZH-Alto-1,mixed_falsetto,technique,难 道 是 缘 分 难 道 是 天 意,难道是天分难道是天意,1.0,0.1,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0014,ZH-Alto-1,mixed_falsetto,technique,你 存 在 我 深 深 的 脑 海 里,你藏在我深深的脑海里,1.0,0.1,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0015,ZH-Alto-1,mixed_falsetto,technique,我 的 梦 里 我 的 心 里 我 的 歌 声 里,我的梦里我的心里我的歌声里,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0016,ZH-Alto-1,mixed_falsetto,technique,你 存 在 我 深 深 的 脑 海 里,你存在我深深的脑海里,1.0,0.0,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0017,ZH-Alto-1,mixed_falsetto,technique,我 的 梦 里 我 的 心 里 我 的 歌 声 里,我的梦里我的心里我的歌声里,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0000,ZH-Alto-1,mixed_falsetto,technique,没 有 一 点 点 防 备 也 没 有 一 丝 顾 虑 你 就 这 样 出 现,没有一点点防备也没有一色顾虑你就这样出现,1.0,0.05,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0001,ZH-Alto-1,mixed_falsetto,technique,在 我 的 世 界 里 带 给 我 惊 喜 情 不 自 已,在我的世界里打给我惊喜情不自已,1.0,0.06666666666666667,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0002,ZH-Alto-1,mixed_falsetto,technique,可 是 你 偏 又 这 样 在 我 不 知 不 觉 中 悄 悄 地 消 失,可是你偏又这样在我不知不觉中悄悄的消失,1.0,0.05263157894736842,,1,18,0,19
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0003,ZH-Alto-1,mixed_falsetto,technique,从 我 的 世 界 里 没 有 音 讯 剩 下 的 只 是 回 忆,错误的世界里没有依序剩下的只是回忆,1.0,0.23529411764705882,,1,16,0,17
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0004,ZH-Alto-1,mixed_falsetto,technique,你 存 在 我 深 深 的 脑 海 里,你存在我深深的脑海里,1.0,0.0,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0005,ZH-Alto-1,mixed_falsetto,technique,我 的 梦 里 我 的 心 里 我 的 歌 声 里,我的梦里我的心里我的歌声里,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0006,ZH-Alto-1,mixed_falsetto,technique,你 存 在 我 深 深 的 脑 海 里,你存在我深深的脑海里,1.0,0.0,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0007,ZH-Alto-1,mixed_falsetto,technique,我 的 梦 里 我 的 心 里 我 的 歌 声 里,我的梦里我的心里我的歌声里,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0008,ZH-Alto-1,mixed_falsetto,technique,还 记 得 我 们 曾 经 肩 并 肩 一 起 走 过 那 段 繁 华 巷 口,还记得我们曾经肩并肩一起走过那段繁花伤口,1.0,0.1,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0009,ZH-Alto-1,mixed_falsetto,technique,尽 管 你 我 是 陌 生 人 是 过 路 人 但 彼 此 还 是 感 觉 到 了 对 方 的 一 个 眼 神,今晚你我是陌生人是过路人但鼻子还是感觉到了对方的一个眼神,1.0,0.14285714285714285,,1,27,0,28
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0010,ZH-Alto-1,mixed_falsetto,technique,一 个 心 跳 一 种 意 想 不 到 的 快 乐,一个心跳一种意想不到的快乐,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0011,ZH-Alto-1,mixed_falsetto,technique,好 像 是 一 场 梦 境 命 中 注 定,好像是一场梦境命中注定,1.0,0.0,,1,10,0,11
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0012,ZH-Alto-1,mixed_falsetto,technique,世 界 之 大 为 何 我 们 相 遇,世界知道为何我们相遇,1.0,0.2,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0013,ZH-Alto-1,mixed_falsetto,technique,难 道 是 缘 分 难 道 是 天 意,难道是天分难道是天意,1.0,0.1,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0014,ZH-Alto-1,mixed_falsetto,technique,你 存 在 我 深 深 的 脑 海 里,你藏在我深深的脑海里,1.0,0.1,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0015,ZH-Alto-1,mixed_falsetto,technique,我 的 梦 里 我 的 心 里 我 的 歌 声 里,我的梦里我的心里我的歌声里,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0016,ZH-Alto-1,mixed_falsetto,technique,你 存 在 我 深 深 的 脑 海 里,你存在我深深的脑海里,1.0,0.0,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__我的歌声里__0017,ZH-Alto-1,mixed_falsetto,technique,我 的 梦 里 我 的 心 里 我 的 歌 声 里,我的梦里我的心里我的歌声里,1.0,0.0,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__日不落__0000,ZH-Alto-1,mixed_falsetto,technique,我 要 送 你 日 不 落 的 想 念 寄 出 代 表 爱 的 名 信 片,我要送你去部落的想念寄出代表爱的明信片,1.0,0.15789473684210525,,1,18,0,19
+ZH-Alto-1__mixed_falsetto__technique__日不落__0001,ZH-Alto-1,mixed_falsetto,technique,我 要 送 你 日 不 落 的 想 念 心 牵 着 心 把 世 界 走 遍,我要送你去部落的想念心牵着心把世界走遍,1.0,0.10526315789473684,,1,18,0,19
+ZH-Alto-1__mixed_falsetto__technique__日不落__0002,ZH-Alto-1,mixed_falsetto,technique,你 就 是 庆 典 你 就 是 晴 天 我 的 爱 未 眠,你就是晴天你就是晴天我的爱未眠,1.0,0.13333333333333333,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__日不落__0003,ZH-Alto-1,mixed_falsetto,technique,不 落 的 想 念 飞 在 你 身 边 我 的 爱 未 眠,部落的想念飞在你身边我的爱未眠,1.0,0.06666666666666667,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__日不落__0000,ZH-Alto-1,mixed_falsetto,technique,我 要 送 你 日 不 落 的 想 念 寄 出 代 表 爱 的 名 信 片,我要送你日复落的想念寄出代表爱的明信片,1.0,0.10526315789473684,,1,18,0,19
+ZH-Alto-1__mixed_falsetto__technique__日不落__0001,ZH-Alto-1,mixed_falsetto,technique,我 要 送 你 日 不 落 的 爱 恋 心 牵 着 心 把 世 界 走 遍,我要送你日服落的爱恋心牵着心把世界走遍,1.0,0.05263157894736842,,1,18,0,19
+ZH-Alto-1__mixed_falsetto__technique__日不落__0002,ZH-Alto-1,mixed_falsetto,technique,你 就 是 庆 典 你 就 是 晴 天 我 的 爱 未 眠,你就是晴天你就是晴天我的爱未眠,1.0,0.13333333333333333,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__日不落__0003,ZH-Alto-1,mixed_falsetto,technique,不 落 的 想 念 飞 在 你 身 边 我 的 爱 未 眠,不落的想念飞在你身边我的爱未免,1.0,0.06666666666666667,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0000,ZH-Alto-1,mixed_falsetto,technique,初 见 若 缱 绻 誓 言 风 吹 云 舒 卷,初见若渐渐誓言风吹云数间,1.0,0.3333333333333333,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0001,ZH-Alto-1,mixed_falsetto,technique,岁 月 间 问 今 夕 又 何 年,岁月间忘记西游何年,1.0,0.4444444444444444,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0002,ZH-Alto-1,mixed_falsetto,technique,心 有 犀 但 愿 执 念 轮 回 过 经 年,新游戏但愿执念轮回过几年,1.0,0.3333333333333333,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0003,ZH-Alto-1,mixed_falsetto,technique,弹 指 间 繁 花 开 落 多 少 遍,但指尖繁花开落多少遍,1.0,0.2,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0004,ZH-Alto-1,mixed_falsetto,technique,这 一 世 牵 绊 纠 结 触 动 了 心 弦,这一世牵绊纠结触动了心弦,1.0,0.0,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0005,ZH-Alto-1,mixed_falsetto,technique,下 一 世 不 知 可 否 再 见,下一世不知可否再见,1.0,0.0,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0006,ZH-Alto-1,mixed_falsetto,technique,留 一 片 桃 花 纪 念 了 却 浮 生 愿,留一片桃花几年老却浮生怨,1.0,0.3333333333333333,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0007,ZH-Alto-1,mixed_falsetto,technique,眉 目 间 还 有 我 的 思 念,眉目间还有我的思念,1.0,0.0,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0008,ZH-Alto-1,mixed_falsetto,technique,一 寸 土 一 年 木 一 花 一 树 一 贪 图,一寸土一年木一花一树一坛土,1.0,0.15384615384615385,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0009,ZH-Alto-1,mixed_falsetto,technique,情 是 种 爱 偏 开 在 迷 途,情是种爱片开在迷途,1.0,0.1111111111111111,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0010,ZH-Alto-1,mixed_falsetto,technique,忘 前 路 忘 旧 物 忘 心 忘 你 忘 最 初,往前路往旧我希望你往最初,1.0,0.5384615384615384,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0011,ZH-Alto-1,mixed_falsetto,technique,花 斑 斑 留 在 爱 你 的 路,我帮忙留在耳里等我,1.0,0.7777777777777778,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0012,ZH-Alto-1,mixed_falsetto,technique,虔 诚 夙 愿 来 世 路 一 念 桃 花 因 果 渡,前尘夙愿来世路一念他化以过度,1.0,0.5,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0013,ZH-Alto-1,mixed_falsetto,technique,那 一 念 几 阙 时 光 在 重 复,那一年鸡雀时光在重复,1.0,0.3,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0014,ZH-Alto-1,mixed_falsetto,technique,听 雨 书 望 天 湖 人 间 寥 寥 情 难 诉,英语书望天湖人间寥寥情难诉,1.0,0.15384615384615385,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0015,ZH-Alto-1,mixed_falsetto,technique,花 一 斑 斑 留 在 爱 你 的 路,回忆慢慢留在爱你的路,1.0,0.4,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0000,ZH-Alto-1,mixed_falsetto,technique,初 见 若 缱 绻 誓 言 风 吹 云 舒 卷,初见若千圈誓言风吹云数圈,1.0,0.3333333333333333,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0001,ZH-Alto-1,mixed_falsetto,technique,岁 月 间 问 今 夕 又 何 年,岁月间问今夕又何年,1.0,0.0,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0002,ZH-Alto-1,mixed_falsetto,technique,心 有 犀 但 愿 执 念 轮 回 过 经 年,新游戏但愿执念轮回过几年,1.0,0.3333333333333333,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0003,ZH-Alto-1,mixed_falsetto,technique,弹 指 间 繁 花 开 落 多 少 遍,探指尖繁花开我多少遍,1.0,0.3,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0004,ZH-Alto-1,mixed_falsetto,technique,这 一 世 牵 绊 纠 结 触 动 了 心 弦,这一世千般纠结触动了新鲜,1.0,0.3333333333333333,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0005,ZH-Alto-1,mixed_falsetto,technique,下 一 世 不 知 可 否 再 见,下一世不知可否再见,1.0,0.0,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0006,ZH-Alto-1,mixed_falsetto,technique,留 一 片 桃 花 纪 念 了 却 浮 生 愿,留一片桃花几年了却浮生缘,1.0,0.25,,1,11,0,12
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0007,ZH-Alto-1,mixed_falsetto,technique,眉 目 间 还 有 我 的 思 念,眉目间还有我的思念,1.0,0.0,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0008,ZH-Alto-1,mixed_falsetto,technique,一 寸 土 一 年 木 一 花 一 树 一 贪 图,一寸土一年木一花一树一坛土,1.0,0.15384615384615385,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0009,ZH-Alto-1,mixed_falsetto,technique,情 是 种 爱 偏 开 在 迷 途,情史中爱片开在迷途,1.0,0.3333333333333333,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0010,ZH-Alto-1,mixed_falsetto,technique,忘 前 路 忘 旧 物 忘 心 忘 你 忘 最 初,往前路往旧屋往希望你往最初,1.0,0.5384615384615384,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0011,ZH-Alto-1,mixed_falsetto,technique,花 斑 斑 留 在 爱 你 的 路,我半半留在爱你的路,1.0,0.3333333333333333,,1,8,0,9
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0012,ZH-Alto-1,mixed_falsetto,technique,虔 诚 夙 愿 来 世 路 一 念 桃 花 因 果 渡,虔诚素颜来世路一点桃花因过度,1.0,0.35714285714285715,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0013,ZH-Alto-1,mixed_falsetto,technique,那 一 念 几 阙 时 光 在 重 复,那一年季节时光在重复,1.0,0.3,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0014,ZH-Alto-1,mixed_falsetto,technique,听 雨 书 望 天 湖 人 间 寥 寥 情 难 诉,听雨数望天出闲闲聊聊青南宿,1.0,0.6923076923076923,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__桃花诺__0015,ZH-Alto-1,mixed_falsetto,technique,花 一 斑 斑 留 在 爱 你 的 路,回忆般般留在爱你的路,1.0,0.4,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0000,ZH-Alto-1,mixed_falsetto,technique,徘 徊 过 多 少 橱 窗 住 过 多 少 旅 馆 才 会 觉 得 分 离 也 并 不 冤 枉,徘徊过多少橱窗住过多少旅馆再回绝的分离也并不冤枉,1.0,0.16666666666666666,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0001,ZH-Alto-1,mixed_falsetto,technique,感 情 是 用 来 浏 览 还 是 用 来 珍 藏 好 让 日 子 天 天 都 过 得 难 忘,感情是用来流浪还是用来珍藏好让日子天天都过得难忘,1.0,0.08333333333333333,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0002,ZH-Alto-1,mixed_falsetto,technique,熬 过 了 多 久 患 难 湿 了 多 少 眼 眶 才 能 知 道 伤 感 是 爱 的 遗 产,熬过了多久患难湿了多少眼眶才能知道伤感是爱的一场,1.0,0.08333333333333333,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0003,ZH-Alto-1,mixed_falsetto,technique,流 浪 几 张 双 人 床 换 过 几 次 信 仰 才 让 戒 指 义 无 反 顾 的 交 换,流浪即将双人闯换过几次信仰才把戒指一无环顾地交换,1.0,0.2916666666666667,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0004,ZH-Alto-1,mixed_falsetto,technique,把 一 个 人 的 温 暖 转 移 到 另 一 个 的 胸 膛 让 上 次 犯 的 错 反 省 出 梦 想,把一个人的温暖转移到另一个的胸膛让上次犯的错反省出梦想,1.0,0.0,,1,26,0,27
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0005,ZH-Alto-1,mixed_falsetto,technique,每 个 人 都 是 这 样 享 受 过 提 心 吊 胆 才 拒 绝 做 爱 情 待 罪 的 羔 羊,每个人都是这样享受过提心吊胆在拒绝做爱情带醉的羔羊,1.0,0.12,,1,24,0,25
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0006,ZH-Alto-1,mixed_falsetto,technique,回 忆 是 抓 不 到 的 月 光 握 紧 就 变 黑 暗 等 虚 假 的 背 影 消 失 于 晴 朗,回忆是抓不到的月光我紧揪遍黑暗当施加的背影消失于晴朗,1.0,0.23076923076923078,,1,25,0,26
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0007,ZH-Alto-1,mixed_falsetto,technique,阳 光 在 身 上 流 转 等 所 有 业 障 被 原 谅,阳光在身上流传等所有也将被原谅,1.0,0.2,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0008,ZH-Alto-1,mixed_falsetto,technique,爱 情 不 停 站 想 开 往 地 老 天 荒 需 要 多 勇 敢,爱情不停站上开往地老天荒需要多勇敢,1.0,0.058823529411764705,,1,16,0,17
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0009,ZH-Alto-1,mixed_falsetto,technique,烛 光 照 亮 了 晚 餐 照 不 出 个 答 案 恋 爱 不 是 温 馨 的 请 客 吃 饭,烛光照亮了晚餐找不出个答案恋爱不是温馨的顷刻吃饭,1.0,0.125,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0010,ZH-Alto-1,mixed_falsetto,technique,床 单 上 铺 满 花 瓣 拥 抱 让 它 成 长 太 拥 挤 就 开 到 了 别 的 土 壤,装单上铺满花瓣拥抱让它成长太拥挤就开到了别的土壤,1.0,0.041666666666666664,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0011,ZH-Alto-1,mixed_falsetto,technique,感 情 需 要 人 接 班 接 近 换 来 期 望 期 望 带 来 失 望 的 恶 性 循 环,感情需要人接班接近换来期望期望带来失望的恶心虚幻,1.0,0.125,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0012,ZH-Alto-1,mixed_falsetto,technique,短 暂 的 总 是 浪 漫 漫 长 总 会 不 满 烧 完 美 好 青 春 换 一 个 老 伴,短暂的总是浪漫漫长总会不满少晚美好青春换一个老板,1.0,0.125,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0000,ZH-Alto-1,mixed_falsetto,technique,徘 徊 过 多 少 橱 窗 住 过 多 少 旅 馆 才 会 觉 得 分 离 也 并 不 冤 枉,徘徊过多少橱窗住过多少旅馆才会觉得分离也并不冤枉,1.0,0.0,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0001,ZH-Alto-1,mixed_falsetto,technique,感 情 是 用 来 浏 览 还 是 用 来 珍 藏 好 让 日 子 天 天 都 过 得 难 忘,感情是用来流浪爱是用来珍藏好让日子天天都过得难忘,1.0,0.125,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0002,ZH-Alto-1,mixed_falsetto,technique,熬 过 了 多 久 患 难 湿 了 多 少 眼 眶 才 能 知 道 伤 感 是 爱 的 遗 产,熬过了多久患难湿了多少眼光才能知道伤感是爱的一战,1.0,0.125,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0003,ZH-Alto-1,mixed_falsetto,technique,流 浪 几 张 双 人 床 换 过 几 次 信 仰 才 让 戒 指 义 无 反 顾 的 交 换,流浪几张双人床换过几次信仰才让戒指一无反顾地交换,1.0,0.08333333333333333,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0004,ZH-Alto-1,mixed_falsetto,technique,把 一 个 人 的 温 暖 转 移 到 另 一 个 的 胸 膛 让 上 次 犯 的 错 反 省 出 梦 想,把一个人的温暖转移到另一个的胸膛让上次犯的错反省出梦想,1.0,0.0,,1,26,0,27
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0005,ZH-Alto-1,mixed_falsetto,technique,每 个 人 都 是 这 样 享 受 过 提 心 吊 胆 才 拒 绝 做 爱 情 待 罪 的 羔 羊,每个人都是这样享受过提心吊胆才拒绝做爱情带罪的羔羊,1.0,0.04,,1,24,0,25
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0006,ZH-Alto-1,mixed_falsetto,technique,回 忆 是 抓 不 到 的 月 光 握 紧 就 变 黑 暗 等 虚 假 的 背 影 消 失 于 晴 朗,回忆是抓不到的月光我紧揪遍黑暗等虚假的背影消失于晴朗,1.0,0.11538461538461539,,1,25,0,26
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0007,ZH-Alto-1,mixed_falsetto,technique,阳 光 在 身 上 流 转 等 所 有 业 障 被 原 谅,阳光在身上流转等所有夜长被原谅,1.0,0.13333333333333333,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0008,ZH-Alto-1,mixed_falsetto,technique,爱 情 不 停 站 想 开 往 地 老 天 荒 需 要 多 勇 敢,爱情不停站上开往地老天荒需要多勇敢,1.0,0.058823529411764705,,1,16,0,17
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0009,ZH-Alto-1,mixed_falsetto,technique,烛 光 照 亮 了 晚 餐 照 不 出 个 答 案 恋 爱 不 是 温 馨 的 请 客 吃 饭,烛光照亮了晚餐找不出个答案恋爱不是温馨的情歌曲范,1.0,0.20833333333333334,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0010,ZH-Alto-1,mixed_falsetto,technique,床 单 上 铺 满 花 瓣 拥 抱 让 它 成 长 太 拥 挤 就 开 到 了 别 的 土 壤,窗单上铺满花瓣拥抱让它成长太阳季就开到了别的土壤,1.0,0.125,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0011,ZH-Alto-1,mixed_falsetto,technique,感 情 需 要 人 接 班 接 近 换 来 期 望 期 望 带 来 失 望 的 恶 性 循 环,感情需要人接班接近换来希望希望带来失望的恶性循环,1.0,0.08333333333333333,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__爱情转移__0012,ZH-Alto-1,mixed_falsetto,technique,短 暂 的 总 是 浪 漫 漫 长 总 会 不 满 烧 完 美 好 青 春 换 一 个 老 伴,短暂的总是浪漫漫长总会不满少完美好青春换一个老板,1.0,0.08333333333333333,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0000,ZH-Alto-1,mixed_falsetto,technique,从 前 的 歌 谣 都 在 指 间 绕,从前的歌谣都在指尖揉,1.0,0.2,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0001,ZH-Alto-1,mixed_falsetto,technique,得 不 到 的 美 好 总 在 心 间 挠 白 饭 粒 无 处 抛 蚊 子 血 也 抹 不 掉,得不到的美好总在心间闹白发离无处跑蚊子血也抹不掉,1.0,0.16666666666666666,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0002,ZH-Alto-1,mixed_falsetto,technique,触 不 可 及 刚 刚 好 日 久 天 长 让 人 恼,出不可及刚刚好日秋天潮绕人岛,1.0,0.35714285714285715,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0003,ZH-Alto-1,mixed_falsetto,technique,那 时 滚 烫 的 心 跳 也 曾 无 处 遁 逃 像 一 团 烈 火 燃 烧,那时滚烫的心跳也曾无处奔逃像一滩烈火燃烧,1.0,0.1,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0004,ZH-Alto-1,mixed_falsetto,technique,烧 尽 跨 不 过 的 桥 时 光 匆 匆 地 跑 火 焰 化 作 月 遥 遥,少情话不过的找时光匆匆地跑火烟花作烟雅无用,1.0,0.5,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0005,ZH-Alto-1,mixed_falsetto,technique,再 无 激 荡 的 波 涛 也 从 不 在 梦 里 飘 摇,在无稽荡的波导也痛不在梦里飘摇,1.0,0.26666666666666666,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0006,ZH-Alto-1,mixed_falsetto,technique,白 月 光 在 照 耀 你 才 想 起 他 的 好 朱 砂 痣 久 难 消,白月光在照耀你才想起她的好朱砂之中难少,1.0,0.21052631578947367,,1,18,0,19
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0007,ZH-Alto-1,mixed_falsetto,technique,你 是 否 能 知 道 窗 前 的 明 月 照 你,你是否能知道窗前的明月朝你,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0008,ZH-Alto-1,mixed_falsetto,technique,独 自 一 人 远 眺 白 月 光 是 年 少 是 他 的 笑,独自一夜远眺白月光是年少是她的笑,1.0,0.125,,1,15,0,16
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0000,ZH-Alto-1,mixed_falsetto,technique,从 前 的 歌 谣 都 在 指 间 绕,从前的歌谣都在指尖绕,1.0,0.1,,1,9,0,10
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0001,ZH-Alto-1,mixed_falsetto,technique,得 不 到 的 美 好 总 在 心 间 挠 白 饭 粒 无 处 抛 蚊 子 血 也 抹 不 掉,得不到的美好总在心间到白饭里无处逃蚊子血也握不到,1.0,0.20833333333333334,,1,23,0,24
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0002,ZH-Alto-1,mixed_falsetto,technique,触 不 可 及 刚 刚 好 日 久 天 长 让 人 恼,住不客气刚刚好日久天长让人恼,1.0,0.21428571428571427,,1,13,0,14
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0003,ZH-Alto-1,mixed_falsetto,technique,那 时 滚 烫 的 心 跳 也 曾 无 处 遁 逃 像 一 团 烈 火 燃 烧,那时滚烫的心跳也曾无处蹲躺像一团烈火燃烧,1.0,0.1,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0004,ZH-Alto-1,mixed_falsetto,technique,烧 尽 跨 不 过 的 桥 时 光 匆 匆 地 跑 火 焰 化 作 月 遥 遥,小镜划不阔的角时光匆匆地跑我也化作鱼咬咬,1.0,0.5,,1,19,0,20
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0005,ZH-Alto-1,mixed_falsetto,technique,再 无 激 荡 的 波 涛 也 从 不 在 梦 里 飘 摇,在无稽荡的波涛也从不在梦里飘摇,1.0,0.13333333333333333,,1,14,0,15
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0006,ZH-Alto-1,mixed_falsetto,technique,白 月 光 在 照 耀 你 才 想 起 他 的 好 朱 砂 痣 久 难 消,白月光在照耀你才想起她的好朱砂之中难消,1.0,0.15789473684210525,,1,18,0,19
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0007,ZH-Alto-1,mixed_falsetto,technique,你 是 否 能 知 道 窗 前 的 明 月 照 你,你是否能知道窗前的明月朝你,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__mixed_falsetto__technique__白月光与朱砂痣__0008,ZH-Alto-1,mixed_falsetto,technique,独 自 一 人 远 眺 白 月 光 是 年 少 是 他 的 笑,独自一园远眺白月光是年少是她的笑,1.0,0.125,,1,15,0,16
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0000,ZH-Alto-1,pharyngeal,technique,又 来 到 这 个 港 口 没 有 原 因 的 拘 留,又来到这个港口没有原因的拘留,1.0,0.0,,1,13,0,14
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0001,ZH-Alto-1,pharyngeal,technique,我 的 心 乘 着 斑 驳 的 轻 舟 寻 找 失 落 的 沙 洲,我的心乘着斑驳的轻轴寻找失落的下轴,1.0,0.17647058823529413,,1,16,0,17
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0002,ZH-Alto-1,pharyngeal,technique,随 时 间 的 海 浪 漂 流 我 用 力,随时间的海浪漂流我用力,1.0,0.0,,1,10,0,11
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0003,ZH-Alto-1,pharyngeal,technique,张 开 双 手 拥 抱 那 么 多 起 起 落 落,张开双手拥抱那么多起起落落,1.0,0.0,,1,12,0,13
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0004,ZH-Alto-1,pharyngeal,technique,想 念 的 还 是 你 望 着 我 的 眼 波,想念的还是你望着我的眼波,1.0,0.0,,1,11,0,12
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0005,ZH-Alto-1,pharyngeal,technique,我 不 是 一 定 要 你 回 来,我不是一定要你回来,1.0,0.0,,1,8,0,9
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0006,ZH-Alto-1,pharyngeal,technique,只 是 当 又 一 个 人 看 海 回 头 才 发 现,只是当有一个人看海回头才发现,1.0,0.07142857142857142,,1,13,0,14
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0007,ZH-Alto-1,pharyngeal,technique,你 不 在 留 下 我 迂 回 地 徘 徊,你已不再留下我迂回的徘徊,1.0,0.2727272727272727,,1,10,0,11
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0008,ZH-Alto-1,pharyngeal,technique,我 不 是 一 定 要 你 回 来,我不是一定要你回来,1.0,0.0,,1,8,0,9
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0009,ZH-Alto-1,pharyngeal,technique,只 是 当 又 把 回 忆 翻 开 除 了 你 之 外 的 空 白 还 有 谁 能 来 教 我 爱,只是当又把回忆翻开除了你之外的空白还有谁能来叫我爱,1.0,0.04,,1,24,0,25
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0010,ZH-Alto-1,pharyngeal,technique,又 回 到 这 个 尽 头 我 也 想 再 往 前 走,又回到这个尽头我也想再往前走,1.0,0.0,,1,13,0,14
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0011,ZH-Alto-1,pharyngeal,technique,只 是 越 看 见 海 阔 天 空,只是月看见海阔天空,1.0,0.1111111111111111,,1,8,0,9
+ZH-Alto-1__pharyngeal__technique__失落沙洲__0012,ZH-Alto-1,pharyngeal,technique,越 遗 憾 没 有 你 分 享 我 的 感 动,绝遗憾没有你分享我的感动,1.0,0.08333333333333333,,1,11,0,12
+ZH-Alto-1__pharyngeal__technique__小半__0000,ZH-Alto-1,pharyngeal,technique,纵 容 着 喜 欢 的 讨 厌 的 宠 溺 的 厌 倦 的 一 个 个 慢 慢 黯 淡,纵容着喜欢的讨厌的宠你的厌倦的一个个慢慢黯淡,1.0,0.045454545454545456,,1,21,0,22
+ZH-Alto-1__pharyngeal__technique__小半__0001,ZH-Alto-1,pharyngeal,technique,纵 容 着 任 性 的 随 意 的 放 肆 的 轻 易 的 将 所 有 欢 脱 倾 翻,纵容着任性的随意的放肆的轻易的将所有还托侵犯,1.0,0.18181818181818182,,1,21,0,22
+ZH-Alto-1__pharyngeal__technique__小半__0002,ZH-Alto-1,pharyngeal,technique,不 应 该 太 心 软 不 大 胆 太 死 板 不 果 断 玩 弄 着 肆 无 忌 惮,不应该太心软不大胆太死板不过敢玩弄这肆无忌惮,1.0,0.13636363636363635,,1,21,0,22
+ZH-Alto-1__pharyngeal__technique__小半__0003,ZH-Alto-1,pharyngeal,technique,不 应 该 舍 弃 了 死 心 了 放 手 了 断 念 了 无 可 奈 何 不 耐 烦 不 算,不应该舍弃了死心了放手了锻炼了无可奈何不奈反不算,1.0,0.16666666666666666,,1,23,0,24
+ZH-Alto-1__pharyngeal__technique__小半__0004,ZH-Alto-1,pharyngeal,technique,任 由 着 你 躲 闪 我 追 赶 你 走 散 我 呼 喊 是 谁 在,人游着你躲山我追赶你走散我呼喊是谁在,1.0,0.16666666666666666,,1,17,0,18
+ZH-Alto-1__pharyngeal__technique__小半__0005,ZH-Alto-1,pharyngeal,technique,泛 泛 而 谈 任 由 着 你 来 了 你 笑 了 你 走 了 不 看 我,反反而谈人游着你来了你笑了你走了不看我,1.0,0.21052631578947367,,1,18,0,19
+ZH-Alto-1__pharyngeal__technique__小半__0006,ZH-Alto-1,pharyngeal,technique,与 理 所 当 然 分 摊 不 明 白 残 存 的 没 用 的 多 余 的 不 必 的,与理所当然分摊不明白残存的没用的多余的不必的,1.0,0.0,,1,21,0,22
+ZH-Alto-1__pharyngeal__technique__小半__0007,ZH-Alto-1,pharyngeal,technique,破 烂 也 在 手 紧 攥 不 明 白 谁 赧 然 谁 无 端 谁 古 板,破烂也在手紧攥不明白谁难燃谁无端谁孤单,1.0,0.21052631578947367,,1,18,0,19
+ZH-Alto-1__pharyngeal__technique__小半__0008,ZH-Alto-1,pharyngeal,technique,谁 极 端 无 辜 不 知 所 以 然 不 管,谁几端无辜不知所以然不管,1.0,0.08333333333333333,,1,11,0,12
+ZH-Alto-1__pharyngeal__technique__最初的梦想__0000,ZH-Alto-1,pharyngeal,technique,如 果 骄 傲 没 被 现 实 大 海 冷 冷 拍 下 又 怎 会 懂 得 要 多 努 力 才 走 得 到 远 方,如果骄傲没被现实大海冷冷拍下又怎会懂得要多努力才走得到远方,1.0,0.0,,1,28,0,29
+ZH-Alto-1__pharyngeal__technique__最初的梦想__0001,ZH-Alto-1,pharyngeal,technique,如 果 梦 想 不 曾 坠 落 悬 崖 千 钧 一 发 又 怎 会 晓 得 执 着 的 人 拥 有 隐 形 翅 膀,如果梦想不曾坠落悬崖前均于防又怎会晓得执着的人拥有隐形翅膀,1.0,0.13793103448275862,,1,28,0,29
+ZH-Alto-1__pharyngeal__technique__最初的梦想__0002,ZH-Alto-1,pharyngeal,technique,把 眼 泪 种 在 心 上 会 开 出 勇 敢 的 花 可 以 在 疲 惫 的 时 光 闭 上 眼 睛 闻 到 一 种 芬 芳,把眼泪种在心上会开出勇敢的花可以在疲惫的时光闭上眼睛闻到一种芬芳,1.0,0.0,,1,31,0,32
+ZH-Alto-1__pharyngeal__technique__最初的梦想__0003,ZH-Alto-1,pharyngeal,technique,就 像 好 好 睡 了 一 夜 直 到 天 亮 又 能 边 走 着 边 哼 着 歌 用 轻 快 的 步 伐,朝霞好好睡了一夜直到天亮又能边走边哼着歌用尽快的步伐,1.0,0.14814814814814814,,1,26,0,27
+ZH-Alto-1__pharyngeal__technique__最初的梦想__0004,ZH-Alto-1,pharyngeal,technique,沮 丧 时 总 会 明 显 感 到 孤 独 的 重 量 多 渴 望 懂 得 的 人 给 谁 温 暖 借 个 肩 膀,沮丧时总会明显感到孤独的重量多渴望懂得的人给些温暖借个肩膀,1.0,0.034482758620689655,,1,28,0,29
+ZH-Alto-1__pharyngeal__technique__最初的梦想__0005,ZH-Alto-1,pharyngeal,technique,很 高 兴 一 路 上 我 们 的 默 契 那 么 长 穿 过 风 又 绕 了 弯 心 还 连 着 像 往 常 一 样,很高兴这一路上我们的默契那么长穿过风又绕了弯心还连着像往常一样,1.0,0.03333333333333333,,1,29,0,30
+ZH-Alto-1__pharyngeal__technique__最初的梦想__0006,ZH-Alto-1,pharyngeal,technique,最 初 的 梦 想 紧 握 在 手 上 最 想 要 去 的 地 方,最初的梦想紧握在手上最想要去的地方,1.0,0.0,,1,16,0,17
+ZH-Alto-1__pharyngeal__technique__最初的梦想__0007,ZH-Alto-1,pharyngeal,technique,怎 么 能 在 半 路 就 返 航 最 初 的 梦 想 绝 对 会 到 达,怎么能在半路就返航最初的梦想绝对会到达,1.0,0.0,,1,18,0,19
+ZH-Alto-1__pharyngeal__technique__最初的梦想__0008,ZH-Alto-1,pharyngeal,technique,实 现 了 真 的 渴 望 才 能 够 算 到 达 了 天 堂,实现了真的渴望才能够算到过了天堂,1.0,0.0625,,1,15,0,16
+ZH-Alto-1__pharyngeal__technique__没那么简单__0000,ZH-Alto-1,pharyngeal,technique,感 觉 快 乐 就 忙 东 忙 西 感 觉 累 了 就 放 空 自 己,感觉快乐就忙东忙西感觉累了就放空自己,1.0,0.0,,1,17,0,18
+ZH-Alto-1__pharyngeal__technique__没那么简单__0001,ZH-Alto-1,pharyngeal,technique,别 人 说 的 话 随 便 听 一 听 自 己 做 决 定,别人说的话随便听一听自己做决定,1.0,0.0,,1,14,0,15
+ZH-Alto-1__pharyngeal__technique__没那么简单__0002,ZH-Alto-1,pharyngeal,technique,不 想 拥 有 太 多 情 绪 一 杯 红 酒 配 电 影,不想拥有太多情绪一杯红酒配电影,1.0,0.0,,1,14,0,15
+ZH-Alto-1__pharyngeal__technique__没那么简单__0003,ZH-Alto-1,pharyngeal,technique,在 周 末 晚 上 关 上 了 手 机 舒 服 窝 在 沙 发 里,在周末晚上关上了手机束缚我在沙发里,1.0,0.17647058823529413,,1,16,0,17
+ZH-Alto-1__pharyngeal__technique__没那么简单__0004,ZH-Alto-1,pharyngeal,technique,相 爱 没 有 那 么 容 易 每 个 人 有 她 的 脾 气,相爱没有那么容易每个人有他的脾气,1.0,0.0625,,1,15,0,16
+ZH-Alto-1__pharyngeal__technique__没那么简单__0005,ZH-Alto-1,pharyngeal,technique,过 了 爱 做 梦 的 年 纪 轰 轰 烈 烈 不 如 平 静,过了爱做梦的年纪轰轰烈烈不如平静,1.0,0.0,,1,15,0,16
+ZH-Alto-1__pharyngeal__technique__没那么简单__0006,ZH-Alto-1,pharyngeal,technique,幸 福 没 有 那 么 容 易 才 会 特 别 让 人 着 迷,幸福没有那么容易才会特别让人着迷,1.0,0.0,,1,15,0,16
+ZH-Alto-1__pharyngeal__technique__没那么简单__0007,ZH-Alto-1,pharyngeal,technique,什 么 都 不 懂 得 年 纪 曾 经 最 掏 心,什么都不懂的年纪曾经在掏心,1.0,0.15384615384615385,,1,12,0,13
+ZH-Alto-1__pharyngeal__technique__没那么简单__0008,ZH-Alto-1,pharyngeal,technique,所 以 最 开 心 曾 经,所以最开心曾经,1.0,0.0,,1,6,0,7
+ZH-Alto-1__pharyngeal__technique__没那么简单__0009,ZH-Alto-1,pharyngeal,technique,相 爱 没 有 那 么 容 易 每 个 人 有 她 的 脾 气,相爱没有那么容易每个人有他的脾气,1.0,0.0625,,1,15,0,16
+ZH-Alto-1__pharyngeal__technique__没那么简单__0010,ZH-Alto-1,pharyngeal,technique,过 了 爱 做 梦 的 年 纪 轰 轰 烈 烈 不 如 平 静,过了爱做梦的年纪轰轰烈烈步入瓶颈,1.0,0.25,,1,15,0,16
+ZH-Alto-1__pharyngeal__technique__没那么简单__0011,ZH-Alto-1,pharyngeal,technique,幸 福 没 有 那 么 容 易 才 会 特 别 让 人 着 迷,幸福没有那么容易才会特别让人着迷,1.0,0.0,,1,15,0,16
+ZH-Alto-1__pharyngeal__technique__没那么简单__0012,ZH-Alto-1,pharyngeal,technique,什 么 都 不 懂 的 年 纪 曾 经 最 掏 心,什么都不懂的年纪曾经在讨喜,1.0,0.23076923076923078,,1,12,0,13
+ZH-Alto-1__pharyngeal__technique__没那么简单__0013,ZH-Alto-1,pharyngeal,technique,所 以 最 开 心 曾 经,所以最开心曾经,1.0,0.0,,1,6,0,7
+ZH-Alto-1__pharyngeal__technique__没那么简单__0014,ZH-Alto-1,pharyngeal,technique,想 念 最 伤 心 但 却 最 动 心 的 记 忆,想念最伤心思念却最动心的记忆,1.0,0.15384615384615385,,1,12,0,13
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0000,ZH-Alto-1,pharyngeal,technique,每 一 次 都 在 徘 徊 孤 单 中 坚 强,每一次都在徘徊孤单中坚强,1.0,0.0,,1,11,0,12
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0001,ZH-Alto-1,pharyngeal,technique,每 一 次 就 算 很 受 伤 也 不 闪 泪 光,每一次就算很受伤也不善泪光,1.0,0.07692307692307693,,1,12,0,13
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0002,ZH-Alto-1,pharyngeal,technique,我 知 道 我 一 直 有 双 隐 形 的 翅 膀,我知道我一直有双隐形的翅膀,1.0,0.0,,1,12,0,13
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0003,ZH-Alto-1,pharyngeal,technique,带 我 飞 飞 过 绝 望,带我飞飞过绝望,1.0,0.0,,1,6,0,7
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0004,ZH-Alto-1,pharyngeal,technique,不 去 想 他 们 拥 有 美 丽 的 太 阳,不去想他们拥有美丽的太阳,1.0,0.0,,1,11,0,12
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0005,ZH-Alto-1,pharyngeal,technique,我 看 见 每 天 的 夕 阳 也 会 有 变 化,我看见每天的夕阳也会有变化,1.0,0.0,,1,12,0,13
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0006,ZH-Alto-1,pharyngeal,technique,我 知 道 我 一 直 有 双 隐 形 的 翅 膀,我知道我一直有双隐形的翅膀,1.0,0.0,,1,12,0,13
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0007,ZH-Alto-1,pharyngeal,technique,带 我 飞 给 我 希 望,带我飞给我希望,1.0,0.0,,1,6,0,7
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0008,ZH-Alto-1,pharyngeal,technique,我 终 于 看 到 所 有 梦 想 都 开 花,我终于看到所有梦想都开花,1.0,0.0,,1,11,0,12
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0009,ZH-Alto-1,pharyngeal,technique,追 逐 的 年 轻 歌 声 多 嘹 亮,追逐的年轻歌声多嘹亮,1.0,0.0,,1,9,0,10
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0010,ZH-Alto-1,pharyngeal,technique,我 终 于 翱 翔 用 心 凝 望 不 害 怕,我终于翱翔用心凝望不害怕,1.0,0.0,,1,11,0,12
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0011,ZH-Alto-1,pharyngeal,technique,哪 里 会 有 风 就 飞 多 远 吧,哪里会有风就飞多远吧,1.0,0.0,,1,9,0,10
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0012,ZH-Alto-1,pharyngeal,technique,隐 形 的 翅 膀 让 梦 恒 久 比 天 长,隐形的翅膀仰望很久比天长,1.0,0.25,,1,11,0,12
+ZH-Alto-1__pharyngeal__technique__隐形的翅膀__0013,ZH-Alto-1,pharyngeal,technique,留 一 个 愿 望 让 自 己 想 象,留一个愿望让自己想象,1.0,0.0,,1,9,0,10
+ZH-Alto-1__vibrato__technique__南屏晚钟__0000,ZH-Alto-1,vibrato,technique,我 匆 匆 地 走 入 森 林 中 森 林 它 一 丛 丛,我匆匆地走入森林中森林它已匆匆,1.0,0.2,,1,14,0,15
+ZH-Alto-1__vibrato__technique__南屏晚钟__0001,ZH-Alto-1,vibrato,technique,我 找 不 到 他 的 行 踪 只 看 到 那 树 摇 风,我找不到她的心踪只看到那树摇缝,1.0,0.2,,1,14,0,15
+ZH-Alto-1__vibrato__technique__南屏晚钟__0002,ZH-Alto-1,vibrato,technique,我 匆 匆 地 走 入 森 林 中 森 林 它 一 丛 丛,我匆匆地走入森林中森林它已匆匆,1.0,0.2,,1,14,0,15
+ZH-Alto-1__vibrato__technique__南屏晚钟__0003,ZH-Alto-1,vibrato,technique,我 找 不 到 他 的 行 踪 只 听 得 到 南 屏 钟,我找不到她的心踪只听得到难品种,1.0,0.3333333333333333,,1,14,0,15
+ZH-Alto-1__vibrato__technique__南屏晚钟__0004,ZH-Alto-1,vibrato,technique,南 屏 晚 钟 随 风 飘 送,南屏湾中随风飘送,1.0,0.25,,1,7,0,8
+ZH-Alto-1__vibrato__technique__南屏晚钟__0005,ZH-Alto-1,vibrato,technique,它 好 像 是 敲 呀 敲 在 我 心 坎 中,它好像是桥牙桥在我心看着,1.0,0.4166666666666667,,1,11,0,12
+ZH-Alto-1__vibrato__technique__南屏晚钟__0006,ZH-Alto-1,vibrato,technique,南 屏 晚 钟 随 风 飘 送,南屏晚钟随风飘送,1.0,0.0,,1,7,0,8
+ZH-Alto-1__vibrato__technique__南屏晚钟__0007,ZH-Alto-1,vibrato,technique,它 好 像 是 催 呀 催 醒 我 相 思 梦,她好像是催牙催心我像死梦,1.0,0.4166666666666667,,1,11,0,12
+ZH-Alto-1__vibrato__technique__南屏晚钟__0008,ZH-Alto-1,vibrato,technique,它 催 醒 了 我 的 相 思 梦 相 思 有 什 么 用,它催醒了我的相思梦相思有什么用,1.0,0.0,,1,14,0,15
+ZH-Alto-1__vibrato__technique__南屏晚钟__0009,ZH-Alto-1,vibrato,technique,我 走 出 了 丛 丛 森 林 又 看 到 了 夕 阳 红,我走出了匆匆森林又看到那夕阳红,1.0,0.2,,1,14,0,15
+ZH-Alto-1__vibrato__technique__南山南__0000,ZH-Alto-1,vibrato,technique,他 不 再 和 谁 谈 论 相 逢 的 孤 岛,他不再和谁谈论相逢的孤岛,1.0,0.0,,1,11,0,12
+ZH-Alto-1__vibrato__technique__南山南__0001,ZH-Alto-1,vibrato,technique,因 为 心 里 早 已 荒 无 人 烟,因为心里早已荒芜人烟,1.0,0.1,,1,9,0,10
+ZH-Alto-1__vibrato__technique__南山南__0002,ZH-Alto-1,vibrato,technique,他 的 心 里 再 装 不 下 一 个 家,她的行李再装不下一个假,1.0,0.36363636363636365,,1,10,0,11
+ZH-Alto-1__vibrato__technique__南山南__0003,ZH-Alto-1,vibrato,technique,做 一 个 只 对 自 己 说 谎 的 哑 巴,做一个只对自己说谎的哑巴,1.0,0.0,,1,11,0,12
+ZH-Alto-1__vibrato__technique__南山南__0004,ZH-Alto-1,vibrato,technique,他 说 你 任 何 为 人 称 道 的 美 丽 不 及 他 第 一 次 遇 见 你,他说你任何为人称到的美丽不及他第一次遇见你,1.0,0.047619047619047616,,1,20,0,21
+ZH-Alto-1__vibrato__technique__南山南__0005,ZH-Alto-1,vibrato,technique,时 光 苟 延 残 喘 无 可 奈 何 如 果 所 有 土 地 都 连 在 一 起 走 上 一 生 只 为 拥 抱 你,时光苟延残喘无可奈何如果所有土地都连在一起走上一生只为拥抱你,1.0,0.0,,1,29,0,30
+ZH-Alto-1__vibrato__technique__南山南__0006,ZH-Alto-1,vibrato,technique,喝 醉 了 他 的 梦 晚 安,喝醉了她的梦晚安,1.0,0.125,,1,7,0,8
+ZH-Alto-1__vibrato__technique__南山南__0007,ZH-Alto-1,vibrato,technique,他 听 见 有 人 唱 着 古 老 的 歌 唱 着 今 天 还 在 远 方,他听见有人唱着古老的歌唱着今天还在远方,1.0,0.0,,1,18,0,19
+ZH-Alto-1__vibrato__technique__南山南__0008,ZH-Alto-1,vibrato,technique,发 生 的 就 在 他 的 眼 睛 里,发生的像在她的眼睛里,1.0,0.2,,1,9,0,10
+ZH-Alto-1__vibrato__technique__南山南__0009,ZH-Alto-1,vibrato,technique,看 到 的 孤 岛 没 有 悲 伤 但 也 没 有 花 朵,看到的孤岛没有悲伤但也没有花朵,1.0,0.0,,1,14,0,15
+ZH-Alto-1__vibrato__technique__南山南__0010,ZH-Alto-1,vibrato,technique,南 山 南 北 秋 悲,南山南北秋北,1.0,0.16666666666666666,,1,5,0,6
+ZH-Alto-1__vibrato__technique__南山南__0011,ZH-Alto-1,vibrato,technique,南 山 有 谷 堆,南山有古堆,1.0,0.2,,1,4,0,5
+ZH-Alto-1__vibrato__technique__南山南__0012,ZH-Alto-1,vibrato,technique,南 风 喃 北 海 北,南风南北海北,1.0,0.16666666666666666,,1,5,0,6
+ZH-Alto-1__vibrato__technique__南山南__0013,ZH-Alto-1,vibrato,technique,北 海 有 墓 碑,被害有墓碑,1.0,0.4,,1,4,0,5
+ZH-Alto-1__vibrato__technique__多远都要在一起__0000,ZH-Alto-1,vibrato,technique,我 能 习 惯 远 距 离 爱 总 是 身 不 由 己,我能习惯远距离爱总是身不由己,1.0,0.0,,1,13,0,14
+ZH-Alto-1__vibrato__technique__多远都要在一起__0001,ZH-Alto-1,vibrato,technique,宁 愿 换 个 方 式 至 少 还 能 遥 远 爱 着 你,宁愿换个方式至少还能遥远爱着你,1.0,0.0,,1,14,0,15
+ZH-Alto-1__vibrato__technique__多远都要在一起__0002,ZH-Alto-1,vibrato,technique,爱 能 克 服 远 距 离 多 远 都 要 在 一 起,爱能克服无缘距离多远都要在一起,1.0,0.14285714285714285,,1,13,0,14
+ZH-Alto-1__vibrato__technique__多远都要在一起__0003,ZH-Alto-1,vibrato,technique,你 已 经 不 再 存 在 我 世 界 里,你已经不再存在我世界里,1.0,0.0,,1,10,0,11
+ZH-Alto-1__vibrato__technique__多远都要在一起__0004,ZH-Alto-1,vibrato,technique,请 不 要 离 开 我 的 回 忆,请不要离开我的回忆,1.0,0.0,,1,8,0,9
+ZH-Alto-1__vibrato__technique__多远都要在一起__0005,ZH-Alto-1,vibrato,technique,爱 能 克 服 远 距 离 多 远 都 要 在 一 起,爱能克服远距离多远都要在一起,1.0,0.0,,1,13,0,14
+ZH-Alto-1__vibrato__technique__多远都要在一起__0006,ZH-Alto-1,vibrato,technique,我 已 经 不 再 存 在 你 的 心 里,我已经不再存在你的心里,1.0,0.0,,1,10,0,11
+ZH-Alto-1__vibrato__technique__多远都要在一起__0007,ZH-Alto-1,vibrato,technique,就 让 我 独 自 守 着 回 忆,就让我独自守着回忆,1.0,0.0,,1,8,0,9
+ZH-Alto-1__vibrato__technique__年轮__0000,ZH-Alto-1,vibrato,technique,圆 圈 勾 勒 成 指 纹 印 在 我 的 嘴 唇,缘缠勾勒成指纹印在我的嘴唇,1.0,0.15384615384615385,,1,12,0,13
+ZH-Alto-1__vibrato__technique__年轮__0001,ZH-Alto-1,vibrato,technique,回 忆 苦 涩 的 吻 痕 是 树 根,回忆苦涩的吻痕是树干,1.0,0.1,,1,9,0,10
+ZH-Alto-1__vibrato__technique__年轮__0002,ZH-Alto-1,vibrato,technique,春 去 秋 来 的 茂 盛 却 遮 住,春去秋来的茅山却扎住,1.0,0.3,,1,9,0,10
+ZH-Alto-1__vibrato__technique__年轮__0003,ZH-Alto-1,vibrato,technique,了 黄 昏 寒 夜 剩 我 一 个 人 等 清 晨,等清晨,1.0,0.7692307692307693,,1,12,0,13
+ZH-Alto-1__vibrato__technique__年轮__0004,ZH-Alto-1,vibrato,technique,世 间 最 毒 的 仇 恨 是 有 缘 却 无 分,世间最毒的仇恨是有缘却无分,1.0,0.0,,1,12,0,13
+ZH-Alto-1__vibrato__technique__年轮__0005,ZH-Alto-1,vibrato,technique,可 惜 你 从 未 心 疼 我 的 笨,可惜你从未心疼我的耳本,1.0,0.2,,1,9,0,10
+ZH-Alto-1__vibrato__technique__年轮__0006,ZH-Alto-1,vibrato,technique,荒 草 丛 生 的 青 春 倒 也 过 的 安 稳,荒草丛生的青春到夜过的安稳,1.0,0.15384615384615385,,1,12,0,13
+ZH-Alto-1__vibrato__technique__年轮__0007,ZH-Alto-1,vibrato,technique,代 替 你 陪 着 我 的 是 年 轮,代替你陪着我的十年轮,1.0,0.1,,1,9,0,10
+ZH-Alto-1__vibrato__technique__年轮__0008,ZH-Alto-1,vibrato,technique,数 着 一 圈 圈 年 轮 我 承 认,数着一圈圈年轮我承认,1.0,0.0,,1,9,0,10
+ZH-Alto-1__vibrato__technique__年轮__0009,ZH-Alto-1,vibrato,technique,将 心 事 都 封 存 密 密 麻 麻 是 我 的 自 尊,将心事都封存密密麻麻是我的自尊,1.0,0.0,,1,14,0,15
+ZH-Alto-1__vibrato__technique__年轮__0010,ZH-Alto-1,vibrato,technique,修 改 一 次 次 离 分 我 承 认,修改一次自离分我承认,1.0,0.1,,1,9,0,10
+ZH-Alto-1__vibrato__technique__年轮__0011,ZH-Alto-1,vibrato,technique,曾 幻 想 过 永 恒 可 惜 从 没 人 陪 我 演 这 剧 本,曾幻想过永恒可惜从没人陪我演这剧本,1.0,0.0,,1,16,0,17
+ZH-Alto-1__vibrato__technique__彩虹__0000,ZH-Alto-1,vibrato,technique,哪 里 有 彩 虹 告 诉 我 能 不 能 把 我 的 愿 望 还 给 我,哪里有彩虹告诉我能不能把我的愿望还给我,1.0,0.0,,1,18,0,19
+ZH-Alto-1__vibrato__technique__彩虹__0001,ZH-Alto-1,vibrato,technique,为 什 么 天 这 么 安 静 所 有 的 云 都 跑 到 我 这 里,为什么天这么安静所有的云都跑到我这里,1.0,0.0,,1,17,0,18
+ZH-Alto-1__vibrato__technique__彩虹__0002,ZH-Alto-1,vibrato,technique,有 没 有 口 罩 一 个 给 我,有没有口罩一个给我,1.0,0.0,,1,8,0,9
+ZH-Alto-1__vibrato__technique__彩虹__0003,ZH-Alto-1,vibrato,technique,释 怀 说 了 太 多 就 成 真 不 了,释怀说了太多就成长不了,1.0,0.09090909090909091,,1,10,0,11
+ZH-Alto-1__vibrato__technique__彩虹__0004,ZH-Alto-1,vibrato,technique,也 许 时 间 是 一 种 解 药 也 是 我 现 在 正 服 下 的 毒 药,也许时间是一种解药也是我现在征服下的毒药,1.0,0.05,,1,19,0,20
+ZH-Alto-1__vibrato__technique__彩虹__0005,ZH-Alto-1,vibrato,technique,看 不 见 你 的 笑 我 怎 么 睡 得 着,看不见你的笑我怎么睡得着,1.0,0.0,,1,11,0,12
+ZH-Alto-1__vibrato__technique__彩虹__0006,ZH-Alto-1,vibrato,technique,你 的 声 音 这 么 近 我 却 抱 不 到,你的声音这么紧我却抱不到,1.0,0.08333333333333333,,1,11,0,12
+ZH-Alto-1__vibrato__technique__彩虹__0007,ZH-Alto-1,vibrato,technique,没 有 地 球 太 阳 还 是 会 绕,没有地球太阳还是会绕,1.0,0.0,,1,9,0,10
+ZH-Alto-1__vibrato__technique__彩虹__0008,ZH-Alto-1,vibrato,technique,没 有 理 由 我 也 能 自 己 走,没有理由我也能自己走,1.0,0.0,,1,9,0,10
+ZH-Alto-1__vibrato__technique__彩虹__0009,ZH-Alto-1,vibrato,technique,你 要 离 开 我 知 道 很 简 单,你要离开我知道很简单,1.0,0.0,,1,9,0,10
+ZH-Alto-1__vibrato__technique__彩虹__0010,ZH-Alto-1,vibrato,technique,你 说 依 赖 是 我 们 的 阻 碍,你说依赖是我们的阻碍,1.0,0.0,,1,9,0,10
+ZH-Alto-1__vibrato__technique__彩虹__0011,ZH-Alto-1,vibrato,technique,就 算 放 开 那 能 不 能 别 没 收 我 的 爱,就算放开那能不能别没收我的爱,1.0,0.0,,1,13,0,14
+ZH-Alto-1__vibrato__technique__彩虹__0012,ZH-Alto-1,vibrato,technique,当 作 我 最 后 才 明 白,当作我最后才明白,1.0,0.0,,1,7,0,8
+ZH-Alto-1__vibrato__technique__我真的受伤了__0000,ZH-Alto-1,vibrato,technique,窗 外 阴 天 了 音 乐 低 声 了,窗外阴天了音乐低声了,1.0,0.0,,1,9,0,10
+ZH-Alto-1__vibrato__technique__我真的受伤了__0001,ZH-Alto-1,vibrato,technique,我 的 心 开 始 想 你 了,我的心开始想你了,1.0,0.0,,1,7,0,8
+ZH-Alto-1__vibrato__technique__我真的受伤了__0002,ZH-Alto-1,vibrato,technique,灯 光 也 暗 了 音 乐 低 声 了,灯光夜暗了音乐低声了,1.0,0.1,,1,9,0,10
+ZH-Alto-1__vibrato__technique__我真的受伤了__0003,ZH-Alto-1,vibrato,technique,口 中 的 棉 花 糖 也 融 化 了,口中的棉花糖也柔化了,1.0,0.1,,1,9,0,10
+ZH-Alto-1__vibrato__technique__我真的受伤了__0004,ZH-Alto-1,vibrato,technique,窗 外 阴 天 了 人 是 无 聊 了,窗外阴天了人世无聊了,1.0,0.1,,1,9,0,10
+ZH-Alto-1__vibrato__technique__我真的受伤了__0005,ZH-Alto-1,vibrato,technique,我 的 心 开 始 想 你 了,我的心开始想你了,1.0,0.0,,1,7,0,8
+ZH-Alto-1__vibrato__technique__我真的受伤了__0006,ZH-Alto-1,vibrato,technique,电 话 想 起 了 你 要 说 话 了,电话响起了你要说话了,1.0,0.1,,1,9,0,10
+ZH-Alto-1__vibrato__technique__我真的受伤了__0007,ZH-Alto-1,vibrato,technique,还 以 为 你 心 里 对 我 又 想 念 了,还以为你心里对我又想念了,1.0,0.0,,1,11,0,12
+ZH-Alto-1__vibrato__technique__我真的受伤了__0008,ZH-Alto-1,vibrato,technique,怎 么 你 声 音 变 得 冷 淡 了,怎么你声音变得冷淡了,1.0,0.0,,1,9,0,10
+ZH-Alto-1__vibrato__technique__我真的受伤了__0009,ZH-Alto-1,vibrato,technique,是 你 变 了 是 你 变 了,是你变了是你变了,1.0,0.0,,1,7,0,8
+ZH-Alto-1__vibrato__technique__我真的受伤了__0010,ZH-Alto-1,vibrato,technique,灯 光 熄 灭 了 音 乐 停 止 了,灯光熄灭了音乐停止了,1.0,0.0,,1,9,0,10
+ZH-Alto-1__vibrato__technique__我真的受伤了__0011,ZH-Alto-1,vibrato,technique,滴 下 的 眼 泪 已 停 不 住 了,地下的眼泪已停不住了,1.0,0.1,,1,9,0,10
+ZH-Alto-1__vibrato__technique__我真的受伤了__0012,ZH-Alto-1,vibrato,technique,天 下 起 雨 了 人 是 不 快 乐,天下起雨了人事不快乐,1.0,0.1,,1,9,0,10
+ZH-Alto-1__vibrato__technique__我真的受伤了__0013,ZH-Alto-1,vibrato,technique,我 的 心 真 的 受 伤 了,我的心真的受伤了,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__breathy__technique__不染__0000,ZH-Tenor-1,breathy,technique,不 愿 染 是 与 非 怎 料 事 与 愿 违,不愿然是与非怎料始于原为,1.0,0.4166666666666667,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0001,ZH-Tenor-1,breathy,technique,心 中 的 花 枯 萎 时 光 它 去 不 回,心中的花骨为时光踏去不回,1.0,0.25,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0002,ZH-Tenor-1,breathy,technique,但 愿 洗 去 浮 华 掸 去 一 身 尘 灰,但愿洗去浮华淡去一身尘灰,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0003,ZH-Tenor-1,breathy,technique,再 与 你 一 壶 清 酒 话 一 世 沉 醉,再与你一壶清酒化一世沉醉,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0004,ZH-Tenor-1,breathy,technique,不 愿 染 是 与 非 怎 料 事 与 愿 违,不愿染是与非怎料始与原为,1.0,0.25,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0005,ZH-Tenor-1,breathy,technique,心 中 的 花 枯 萎 时 光 它 去 不 回,心中的花枯萎时光它去不回,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0006,ZH-Tenor-1,breathy,technique,回 忆 辗 转 来 回 痛 不 过 这 心 扉,回忆辗转来回痛不过这心扉,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0007,ZH-Tenor-1,breathy,technique,愿 只 愿 余 生 无 悔 随 花 香 远 飞,愿知愿余生无悔随花香远飞,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0008,ZH-Tenor-1,breathy,technique,一 壶 清 酒 一 身 尘 灰,一壶清酒一声尘灰,1.0,0.125,,1,7,0,8
+ZH-Tenor-1__breathy__technique__不染__0009,ZH-Tenor-1,breathy,technique,一 念 来 回 度 余 生 无 悔,一年来回度余生无悔,1.0,0.1111111111111111,,1,8,0,9
+ZH-Tenor-1__breathy__technique__不染__0010,ZH-Tenor-1,breathy,technique,一 场 春 秋 生 生 灭 灭 浮 华 是 非,一场春秋声声灭灭浮华是非,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0011,ZH-Tenor-1,breathy,technique,待 花 开 之 时 再 醉 一 回,待花开只是再醉一回,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__breathy__technique__不染__0012,ZH-Tenor-1,breathy,technique,不 愿 染 是 与 非 怎 料 事 与 愿 违,不愿然是与非怎料是与愿违,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0013,ZH-Tenor-1,breathy,technique,心 中 的 花 枯 萎 时 光 它 去 不 回,心中的花骨为时光它去不回,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0014,ZH-Tenor-1,breathy,technique,回 忆 辗 转 来 回 痛 不 过 这 心 扉,回忆辗转来回通不过这心扉,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0015,ZH-Tenor-1,breathy,technique,愿 只 愿 余 生 无 悔 随 花 香 远 飞,愿知愿余生无悔随花香远飞,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0016,ZH-Tenor-1,breathy,technique,一 壶 清 酒 一 身 尘 灰,一壶清酒一身尘灰,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__breathy__technique__不染__0017,ZH-Tenor-1,breathy,technique,一 念 来 回 度 余 生 无 悔,一年来回独一生无悔,1.0,0.3333333333333333,,1,8,0,9
+ZH-Tenor-1__breathy__technique__不染__0018,ZH-Tenor-1,breathy,technique,一 场 春 秋 生 生 灭 灭 浮 华 是 非,一场春秋声声灭灭浮华是非,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0019,ZH-Tenor-1,breathy,technique,待 花 开 之 时 再 醉 一 回,待花开只是再醉一回,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__breathy__technique__不染__0020,ZH-Tenor-1,breathy,technique,愿 这 生 生 的 时 光 不 再 枯 萎,愿这生生的时光不再枯萎,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__breathy__technique__不染__0021,ZH-Tenor-1,breathy,technique,待 花 开 之 时 再 醉 一 回,待花开只是再催一回,1.0,0.3333333333333333,,1,8,0,9
+ZH-Tenor-1__breathy__technique__不染__0022,ZH-Tenor-1,breathy,technique,愿 这 生 生 的 时 光 不 再 枯 萎,愿这生生的时光不再枯萎,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__breathy__technique__不染__0023,ZH-Tenor-1,breathy,technique,再 回 首 浅 尝 心 酒 余 味,再回首前尝新旧余味,1.0,0.3333333333333333,,1,8,0,9
+ZH-Tenor-1__breathy__technique__不染__0024,ZH-Tenor-1,breathy,technique,一 壶 清 酒 一 身 尘 灰,一壶清酒一身尘灰,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__breathy__technique__不染__0025,ZH-Tenor-1,breathy,technique,一 念 来 回 度 余 生 无 悔,一年来回度余生无悔,1.0,0.1111111111111111,,1,8,0,9
+ZH-Tenor-1__breathy__technique__不染__0026,ZH-Tenor-1,breathy,technique,一 场 春 秋 生 生 灭 灭 浮 华 是 非,一场春秋声声灭灭浮华是非,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0027,ZH-Tenor-1,breathy,technique,待 花 开 之 时 再 醉 一 回,待花开只是彩翠一回,1.0,0.4444444444444444,,1,8,0,9
+ZH-Tenor-1__breathy__technique__不染__0028,ZH-Tenor-1,breathy,technique,一 壶 清 酒 一 身 尘 灰,一壶清酒一身尘灰,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__breathy__technique__不染__0029,ZH-Tenor-1,breathy,technique,一 念 来 回 度 余 生 无 悔,一年来回度余生无悔,1.0,0.1111111111111111,,1,8,0,9
+ZH-Tenor-1__breathy__technique__不染__0030,ZH-Tenor-1,breathy,technique,一 场 回 忆 生 生 灭 灭 了 了 心 扉,一场回忆声声灭灭寥寥心扉,1.0,0.3333333333333333,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0031,ZH-Tenor-1,breathy,technique,再 回 首 浅 尝 心 酒 余 味,再回首前尝新酒余味,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__breathy__technique__不染__0032,ZH-Tenor-1,breathy,technique,一 场 回 忆 生 生 灭 灭 了 了 心 扉,一场回忆生生灭灭了了心扉,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__breathy__technique__不染__0033,ZH-Tenor-1,breathy,technique,再 回 首 浅 尝 心 酒 余 味,再回首前尝鲜酒余味,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0000,ZH-Tenor-1,breathy,technique,我 是 只 化 身 孤 岛 的 蓝 鲸 有 着 最 巨 大 的 身 影,我是只化身孤岛的蓝鲸有着最巨大的身影,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0001,ZH-Tenor-1,breathy,technique,鱼 虾 在 身 侧 穿 行 也 有 飞 鸟 在 背 上 停,雨下在身子穿行也有飞鸟在背上听,1.0,0.26666666666666666,,1,14,0,15
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0002,ZH-Tenor-1,breathy,technique,我 路 过 太 多 太 美 的 奇 景 如 同 伊 甸 般 的 仙 境,我路过太多太美的奇景如同一点般的陷阱,1.0,0.2222222222222222,,1,17,0,18
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0003,ZH-Tenor-1,breathy,technique,而 大 海 太 平 太 静 多 少 故 事 无 人 倾 听,而大海太平太静多少故事无人倾听,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0004,ZH-Tenor-1,breathy,technique,我 爱 地 中 海 的 天 晴 爱 西 伯 利 亚 的 雪 景,我爱地中海的天气爱西伯利亚的雪景,1.0,0.0625,,1,15,0,16
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0005,ZH-Tenor-1,breathy,technique,爱 万 丈 高 空 的 鹰 爱 肚 皮 下 的 藻 荇 我 在 尽 心 尽 力 地 多 情 直 到 那 一 天,爱碗中高空的影爱奴婢下的造型活在清新经历到多情直到那一天,1.0,0.4642857142857143,,1,27,0,28
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0006,ZH-Tenor-1,breathy,technique,你 的 衣 衫 破 旧 而 歌 声 却 温 柔 陪 我 漫 无 目 的 的 四 处 漂 流,你的衣衫破旧而歌声却温柔陪我漫无目的地四处漂流,1.0,0.043478260869565216,,1,22,0,23
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0007,ZH-Tenor-1,breathy,technique,我 的 背 脊 如 荒 丘 而 你 却 微 笑 摆 首 把 它 当 作 整 个 宇 宙,我的悲情如黄球而你却微笑白首把她当作整个宇宙,1.0,0.2727272727272727,,1,21,0,22
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0008,ZH-Tenor-1,breathy,technique,你 与 太 阳 挥 手 也 同 海 鸥 问 候 陪 我 爱 天 爱 地 的 四 处 风 流 只 是 遗 憾 你 终 于,你与太阳挥手也同海鸥问候陪我爱天爱地的四处风流只是遗憾你终于,1.0,0.0,,1,29,0,30
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0009,ZH-Tenor-1,breathy,technique,无 法 躺 在 我 胸 口 欣 赏 夜 空 最 辽 阔 的 不 朽 把 星 子 放 入 眸,无法挡在我胸口心像夜空最辽阔的不朽把心自放入梦,1.0,0.2608695652173913,,1,22,0,23
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0010,ZH-Tenor-1,breathy,technique,我 是 只 化 身 孤 岛 的 蓝 鲸 有 着 最 巨 大 的 身 影,我是只化身孤岛的蓝鲸有着最巨大的身影,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0011,ZH-Tenor-1,breathy,technique,鱼 虾 在 身 侧 穿 行 也 有 飞 鸟 在 背 上 停,雨下在身子穿行也有飞鸟在悲伤听,1.0,0.4,,1,14,0,15
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0012,ZH-Tenor-1,breathy,technique,我 有 着 太 冷 太 清 的 天 性 对 天 上 的 她 动 过 情,我有着太冷太清的天性对天上的他动过情,1.0,0.05555555555555555,,1,17,0,18
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0013,ZH-Tenor-1,breathy,technique,而 云 朵 太 远 太 轻 辗 转 之 后 各 安 天 命,耳蕴多太圆太轻转转之后个汗甜蜜,1.0,0.6,,1,14,0,15
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0014,ZH-Tenor-1,breathy,technique,我 未 入 过 繁 华 之 景 未 听 过 喧 嚣 的 声 音,我未入过繁华之地会听过喧嚣的声音,1.0,0.125,,1,15,0,16
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0015,ZH-Tenor-1,breathy,technique,未 见 过 太 多 生 灵 未 有 过 滚 烫 心 情 所 以 也 未 觉 大 海 之 中 有 多 么 安 静,未见过太多生灵未游过滚烫星期所以也未觉大海之中有多么安静,1.0,0.10714285714285714,,1,27,0,28
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0016,ZH-Tenor-1,breathy,technique,你 的 衣 衫 破 旧 而 歌 声 却 温 柔 陪 我 漫 无 目 的 的 四 处 漂 流,你的衣衫破旧耳歌声却温柔陪我漫无目的地四处漂流,1.0,0.08695652173913043,,1,22,0,23
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0017,ZH-Tenor-1,breathy,technique,我 的 背 脊 如 荒 丘 而 你 却 微 笑 摆 首 把 它 当 作 整 个 宇 宙,我的背景如黄囚而你却微笑白首把她当作整个宇宙,1.0,0.22727272727272727,,1,21,0,22
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0018,ZH-Tenor-1,breathy,technique,你 与 太 阳 挥 手 也 同 海 鸥 问 候 陪 我 爱 天 爱 地 的 四 处 风 流,你与太阳挥手约同海鸥问候陪我爱天爱地的四处风流,1.0,0.043478260869565216,,1,22,0,23
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0019,ZH-Tenor-1,breathy,technique,只 是 遗 憾 你 终 于 无 法 躺 在 我 胸 口 欣 赏 夜 空 最 辽 阔 的 不 朽 把 星 子 放 入 眸,只是遗憾你终于无法躺在我胸口欣赏夜空最辽阔的不朽把心磁放入梦,1.0,0.1,,1,29,0,30
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0020,ZH-Tenor-1,breathy,technique,你 的 指 尖 轻 柔 抚 摸 过 我 所 有 风 浪 冲 撞 出 的 丑 陋 的 疮 口,你的指尖轻柔抚摸过我所有风浪冲撞出的丑陋的窗口,1.0,0.043478260869565216,,1,22,0,23
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0021,ZH-Tenor-1,breathy,technique,你 眼 中 有 春 与 秋 胜 过 我 见 过 爱 过 的 一 切 山 川 与 河 流,你眼中有春与秋胜过我见过爱过的一切山川与河流,1.0,0.0,,1,21,0,22
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0022,ZH-Tenor-1,breathy,technique,曾 以 为 我 肩 头 是 那 么 的 宽 厚 足 够 撑 起 海 底 的 那 座 琼 楼,曾以为我肩头是纳莫的环后足够撑起海底的那座穹楼,1.0,0.21739130434782608,,1,22,0,23
+ZH-Tenor-1__breathy__technique__化身孤岛的鲸__0023,ZH-Tenor-1,breathy,technique,而 在 你 到 来 之 后 它 显 得 如 此 清 瘦 我 想 给 你 能 奔 跑 的 岸 头 让 你 如 同 王 后,而在你到来之后它显得如此清秀我想给你能奔跑的暗投让你如同往后,1.0,0.13333333333333333,,1,29,0,30
+ZH-Tenor-1__breathy__technique__和你一样__0000,ZH-Tenor-1,breathy,technique,我 和 你 一 样 一 样 的 坚 强 一 样 的 全 力 以 赴 追 逐 我 的 梦 想,我和你一样一样的坚强一样的全力以赴追逐我的梦想,1.0,0.0,,1,22,0,23
+ZH-Tenor-1__breathy__technique__和你一样__0001,ZH-Tenor-1,breathy,technique,哪 怕 会 受 伤 哪 怕 有 风 浪 风 雨 之 后 才 会 有 迷 人 芬 芳,哪怕会修想哪怕有风浪风雨之后才会有迷人芬芳,1.0,0.09523809523809523,,1,20,0,21
+ZH-Tenor-1__breathy__technique__和你一样__0002,ZH-Tenor-1,breathy,technique,我 和 你 一 样 一 样 的 善 良 一 样 为 需 要 的 人 打 造 一 个 天 堂,我和你一样一样的善良一样为需要的人打造一个天堂,1.0,0.0,,1,22,0,23
+ZH-Tenor-1__breathy__technique__和你一样__0003,ZH-Tenor-1,breathy,technique,歌 声 是 翅 膀 唱 出 了 希 望 所 有 的 付 出 只 因 爱 的 力 量 和 你 一 样,歌声是翅膀唱出了希望所有的付出指引爱的力量和你一样,1.0,0.08,,1,24,0,25
+ZH-Tenor-1__breathy__technique__和你一样__0004,ZH-Tenor-1,breathy,technique,我 和 你 一 样 一 样 的 坚 强 一 样 的 全 力 以 赴 追 逐 我 的 梦 想,我和你一样一样的坚强一样的全力以赴追逐我的梦想,1.0,0.0,,1,22,0,23
+ZH-Tenor-1__breathy__technique__和你一样__0005,ZH-Tenor-1,breathy,technique,哪 怕 会 受 伤 哪 怕 有 风 浪 风 雨 之 后 才 会 有 迷 人 芬 芳,哪怕会受伤哪怕有风浪风雨之后才会有迷人芬芳,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__breathy__technique__和你一样__0006,ZH-Tenor-1,breathy,technique,我 和 你 一 样 一 样 的 善 良 一 样 为 需 要 的 人 打 造 一 个 天 堂,我和你一样一样的善良一样为需要的人打造一个天堂,1.0,0.0,,1,22,0,23
+ZH-Tenor-1__breathy__technique__和你一样__0007,ZH-Tenor-1,breathy,technique,歌 声 是 翅 膀 唱 出 了 希 望 所 有 的 付 出 只 因 爱 的 力 量,歌声是翅膀唱出了希望所有的付出指引爱的力量,1.0,0.09523809523809523,,1,20,0,21
+ZH-Tenor-1__breathy__technique__和你一样__0008,ZH-Tenor-1,breathy,technique,我 们 都 一 样 一 样 的 坚 强 一 样 的 青 春 焕 发 金 黄 色 的 光 芒,我们都一样一样的坚强一样的青春换发青黄色的光芒,1.0,0.08695652173913043,,1,22,0,23
+ZH-Tenor-1__breathy__technique__和你一样__0009,ZH-Tenor-1,breathy,technique,哪 怕 会 受 伤 哪 怕 有 风 浪 风 雨 之 后 才 会 有 彩 色 阳 光,哪怕会受伤哪怕有风浪风雨之后才会有彩色阳光,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__breathy__technique__和你一样__0010,ZH-Tenor-1,breathy,technique,我 们 都 一 样 一 样 的 善 良 一 样 为 需 要 的 人 打 造 一 个 天 堂,我们都一样一样的善良一样为需要的人打造一个天堂,1.0,0.0,,1,22,0,23
+ZH-Tenor-1__breathy__technique__和你一样__0011,ZH-Tenor-1,breathy,technique,歌 声 是 翅 膀 唱 出 了 希 望 所 有 的 付 出 只 因 爱 的 力 量,歌声是翅膀唱出了希望所有的付出指引爱的力量,1.0,0.09523809523809523,,1,20,0,21
+ZH-Tenor-1__breathy__technique__和你一样__0012,ZH-Tenor-1,breathy,technique,和 你 一 样 我 们 都 一 样,和你一样我们都一样,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__breathy__technique__平凡的一天__0000,ZH-Tenor-1,breathy,technique,每 个 早 晨 七 点 半 就 自 然 醒 风 铃 响 起 又 是 一 天,每个早晨七点半就自然醒风里响起又是一天,1.0,0.05263157894736842,,1,18,0,19
+ZH-Tenor-1__breathy__technique__平凡的一天__0001,ZH-Tenor-1,breathy,technique,云 很 轻 晒 好 的 衣 服 味 道,云很轻晒好的衣服味道,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__breathy__technique__平凡的一天__0002,ZH-Tenor-1,breathy,technique,很 安 心 一 切 都 是 柔 软 又 宁 静,很安心一切都是柔软又宁静,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__breathy__technique__平凡的一天__0003,ZH-Tenor-1,breathy,technique,每 个 路 口 花 都 开 在 阳 光 里 小 店 门 前 传 来 好 听,每个龙口花都开在阳光里小店门前传来好听,1.0,0.05263157894736842,,1,18,0,19
+ZH-Tenor-1__breathy__technique__平凡的一天__0004,ZH-Tenor-1,breathy,technique,的 恋 曲 不 用 太 久 就 能 走 到,的连续不用太久就能走到,1.0,0.18181818181818182,,1,10,0,11
+ZH-Tenor-1__breathy__technique__平凡的一天__0005,ZH-Tenor-1,breathy,technique,目 的 地 人 来 人 往 里 满 是 善 意,目的地人来人往里满身善意,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__breathy__technique__平凡的一天__0006,ZH-Tenor-1,breathy,technique,这 是 最 平 凡 的 一 天 啊 你 也 想 念 吗,这是最平凡的一天啊你也想念吗,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__breathy__technique__平凡的一天__0007,ZH-Tenor-1,breathy,technique,不 追 不 赶 慢 慢 走 回 家 就 这 样 虚 度 着 年 华,不追不赶慢慢走回家就这样虚度着年华,1.0,0.0,,1,16,0,17
+ZH-Tenor-1__breathy__technique__平凡的一天__0008,ZH-Tenor-1,breathy,technique,没 牵 挂 只 有 晚 风 轻 拂 着 脸 颊,没牵挂只有晚风轻拂着脸颊,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__breathy__technique__平凡的一天__0009,ZH-Tenor-1,breathy,technique,餐 桌 摆 在 开 满 花 的 院 子 里 微 微 酒 意 阵 阵 欢 歌 笑 语,彩色摆在开漫画的院子里微微就一阵阵换个小雨,1.0,0.47619047619047616,,1,20,0,21
+ZH-Tenor-1__breathy__technique__平凡的一天__0010,ZH-Tenor-1,breathy,technique,从 不 考 虑 明 天 应 该 去 哪 里 因 为 今 夜 的 风 太 和 煦,从不考虑明天应该去哪里因为今夜的风太和煦,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__breathy__technique__平凡的一天__0011,ZH-Tenor-1,breathy,technique,这 是 最 平 凡 的 一 天 啊 你 也 想 念 吗,就是最平凡的一天啊你也想念吗,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__breathy__technique__平凡的一天__0012,ZH-Tenor-1,breathy,technique,不 追 不 赶 慢 慢 走 回 家 就 这 样 虚 度 着 年 华,不吹不看慢慢走回家就这样虚度着年华,1.0,0.11764705882352941,,1,16,0,17
+ZH-Tenor-1__breathy__technique__平凡的一天__0013,ZH-Tenor-1,breathy,technique,没 牵 挂 只 有 晚 风 轻 拂 着 脸 颊,没牵挂只有晚风轻拂着脸颊,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__breathy__technique__平凡的一天__0014,ZH-Tenor-1,breathy,technique,总 有 一 天 我 们 会 找 到 她,总有一天我们会找到她,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__breathy__technique__我真的受伤了__0000,ZH-Tenor-1,breathy,technique,窗 外 阴 天 了 音 乐 低 声 了 我 的 心 开 始 想 你 了,窗外阴天了音乐低声了我的心开始想你了,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__breathy__technique__我真的受伤了__0001,ZH-Tenor-1,breathy,technique,灯 光 也 暗 了 音 乐 低 声 了 口 中 的 棉 花 糖 也 融 化 了,灯光也暗了音乐低声了口中的棉花糖也融化了,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__breathy__technique__我真的受伤了__0002,ZH-Tenor-1,breathy,technique,窗 外 阴 天 了 人 是 无 聊 了 我 的 心 开 始 想 你 了,窗外阴天了人世无聊了我的心开始想你了,1.0,0.05555555555555555,,1,17,0,18
+ZH-Tenor-1__breathy__technique__我真的受伤了__0003,ZH-Tenor-1,breathy,technique,电 话 想 起 了 你 要 说 话 了,电话响起了你要说话了,1.0,0.1,,1,9,0,10
+ZH-Tenor-1__breathy__technique__我真的受伤了__0004,ZH-Tenor-1,breathy,technique,还 以 为 你 心 里 对 我 又 想 念 了 怎 么 你 声 音 变 得 冷 淡 了,还以为你心里对我又想念了怎么你声音变得冷淡了,1.0,0.0,,1,21,0,22
+ZH-Tenor-1__breathy__technique__我真的受伤了__0005,ZH-Tenor-1,breathy,technique,是 你 变 了 是 你 变 了,是你变了是你变了,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__breathy__technique__我真的受伤了__0006,ZH-Tenor-1,breathy,technique,灯 光 熄 灭 了 音 乐 静 止 了 滴 下 的 眼 泪 已 停 不 住 了,疼狂熄灭了音乐静止了底下的眼泪已停不住了,1.0,0.15,,1,19,0,20
+ZH-Tenor-1__breathy__technique__我真的受伤了__0007,ZH-Tenor-1,breathy,technique,天 下 起 雨 了 人 是 不 快 乐 我 的 心 真 的 受 伤 了,天下情绪了人世不快乐我的心真的受伤了,1.0,0.16666666666666666,,1,17,0,18
+ZH-Tenor-1__breathy__technique__爱情转移__0000,ZH-Tenor-1,breathy,technique,徘 徊 过 多 少 橱 窗 住 过 多 少 旅 馆 才 会 觉 得 分 离 也 并 不 冤 枉,徘徊过多少橱窗住过多少旅馆才会觉得分离也并不冤枉,1.0,0.0,,1,23,0,24
+ZH-Tenor-1__breathy__technique__爱情转移__0001,ZH-Tenor-1,breathy,technique,感 情 是 用 来 浏 览 还 是 用 来 珍 藏 好 让 日 子 天 天 都 过 得 难 忘,感情是用来流浪还是用来珍藏好让日子天天都过得难忘,1.0,0.08333333333333333,,1,23,0,24
+ZH-Tenor-1__breathy__technique__爱情转移__0002,ZH-Tenor-1,breathy,technique,熬 过 了 多 久 患 难 湿 了 多 少 眼 眶 才 能 知 道 伤 感 是 爱 的 遗 产,熬过了多久患难湿了多少眼眶才能知道伤感是爱的一场,1.0,0.08333333333333333,,1,23,0,24
+ZH-Tenor-1__breathy__technique__爱情转移__0003,ZH-Tenor-1,breathy,technique,流 浪 几 张 双 人 床 换 过 几 次 信 仰 才 让 戒 指 义 无 反 顾 的 交 换,流浪几张双人床换过几次信仰才让戒指一无反顾地交换,1.0,0.08333333333333333,,1,23,0,24
+ZH-Tenor-1__breathy__technique__爱情转移__0004,ZH-Tenor-1,breathy,technique,把 一 个 人 的 温 暖 转 移 到 另 一 个 的 胸 膛 让 上 次 犯 的 错 反 省 出 梦 想,把一个人的温暖转移到另一个的胸膛让上次犯的错反省出梦想,1.0,0.0,,1,26,0,27
+ZH-Tenor-1__breathy__technique__爱情转移__0005,ZH-Tenor-1,breathy,technique,每 个 人 都 是 这 样 享 受 过 提 心 吊 胆 才 拒 绝 做 爱 情 待 罪 的 羔 羊,每个人都是这样享受过提心跳胆才拒绝做爱情带醉的羔羊,1.0,0.12,,1,24,0,25
+ZH-Tenor-1__breathy__technique__爱情转移__0006,ZH-Tenor-1,breathy,technique,回 忆 是 抓 不 到 的 月 光 握 紧 就 变 黑 暗 等 虚 假 的 背 影 消 失 于 晴 朗,回忆是捉不到的月光我紧揪遍黑暗等虚假的背影消失于晴朗,1.0,0.15384615384615385,,1,25,0,26
+ZH-Tenor-1__breathy__technique__爱情转移__0007,ZH-Tenor-1,breathy,technique,阳 光 在 身 上 流 转 等 所 有 业 障 被 原 谅,阳光在身上流传等所有也将被原谅,1.0,0.2,,1,14,0,15
+ZH-Tenor-1__breathy__technique__爱情转移__0008,ZH-Tenor-1,breathy,technique,爱 情 不 停 站 想 开 往 地 老 天 荒 需 要 多 勇 敢,爱情不停站想开往地牢天荒需要多勇敢,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__glissando__technique__不染__0000,ZH-Tenor-1,glissando,technique,不 愿 染 是 与 非 怎 料 事 与 愿 违,不愿染是与非怎料始于原为,1.0,0.3333333333333333,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0001,ZH-Tenor-1,glissando,technique,心 中 的 花 枯 萎 时 光 它 去 不 回,心中的花枯萎时光它去不回,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0002,ZH-Tenor-1,glissando,technique,但 愿 洗 去 浮 华 掸 去 一 身 尘 灰,但愿洗去浮华淡去一身尘灰,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0003,ZH-Tenor-1,glissando,technique,再 与 你 一 壶 清 酒 话 一 世 沉 醉,再与你一壶清酒化一世沉醉,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0004,ZH-Tenor-1,glissando,technique,不 愿 染 是 与 非 怎 料 事 与 愿 违,不愿然是与非怎料始于原为,1.0,0.4166666666666667,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0005,ZH-Tenor-1,glissando,technique,心 中 的 花 枯 萎 时 光 它 去 不 回,心中的花枯萎时光它去不回,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0006,ZH-Tenor-1,glissando,technique,回 忆 辗 转 来 回 痛 不 过 这 心 扉,回忆辗转来回痛不过这心扉,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0007,ZH-Tenor-1,glissando,technique,愿 只 愿 余 生 无 悔 随 花 香 远 飞,愿只愿余生无悔随花香远飞,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0008,ZH-Tenor-1,glissando,technique,一 壶 清 酒 一 身 尘 灰,一壶清酒一身尘灰,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__glissando__technique__不染__0009,ZH-Tenor-1,glissando,technique,一 念 来 回 度 余 生 无 悔,一年来回度余生无悔,1.0,0.1111111111111111,,1,8,0,9
+ZH-Tenor-1__glissando__technique__不染__0010,ZH-Tenor-1,glissando,technique,一 场 春 秋 生 生 灭 灭 浮 华 是 非,一场春秋声声灭灭浮华是非,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0011,ZH-Tenor-1,glissando,technique,待 花 开 之 时 再 醉 一 回,待花开只是再醉一回,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__glissando__technique__不染__0012,ZH-Tenor-1,glissando,technique,不 愿 染 是 与 非 怎 料 事 与 愿 违,不愿染是与非怎料始于原为,1.0,0.3333333333333333,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0013,ZH-Tenor-1,glissando,technique,心 中 的 花 枯 萎 时 光 它 去 不 回,心中的花枯萎时光它去不回,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0014,ZH-Tenor-1,glissando,technique,回 忆 辗 转 来 回 痛 不 过 这 心 扉,回忆辗转来回痛不过这心扉,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0015,ZH-Tenor-1,glissando,technique,愿 只 愿 余 生 无 悔 随 花 香 远 飞,愿只愿余生无悔随花香远飞,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0016,ZH-Tenor-1,glissando,technique,一 壶 清 酒 一 身 尘 灰,一壶清酒一身尘灰,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__glissando__technique__不染__0017,ZH-Tenor-1,glissando,technique,一 念 来 回 度 余 生 无 悔,一年来回一度余生无悔,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__glissando__technique__不染__0018,ZH-Tenor-1,glissando,technique,一 场 春 秋 生 生 灭 灭 浮 华 是 非,一场春秋声声灭灭浮华是非,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0019,ZH-Tenor-1,glissando,technique,待 花 开 之 时 再 醉 一 回,待花开只是再醉一回,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__glissando__technique__不染__0020,ZH-Tenor-1,glissando,technique,愿 这 生 生 的 时 光 不 再 枯 萎,愿这生生的时光不再枯萎,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__glissando__technique__不染__0021,ZH-Tenor-1,glissando,technique,待 花 开 之 时 再 醉 一 回,待花开只是再催一回,1.0,0.3333333333333333,,1,8,0,9
+ZH-Tenor-1__glissando__technique__不染__0022,ZH-Tenor-1,glissando,technique,愿 这 生 生 的 时 光 不 再 枯 萎,愿这生生的时光不再枯萎,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__glissando__technique__不染__0023,ZH-Tenor-1,glissando,technique,再 回 首 浅 尝 心 酒 余 味,在挥手前尝心酒余味,1.0,0.4444444444444444,,1,8,0,9
+ZH-Tenor-1__glissando__technique__不染__0024,ZH-Tenor-1,glissando,technique,一 壶 清 酒 一 身 尘 灰,一壶清酒一身尘灰,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__glissando__technique__不染__0025,ZH-Tenor-1,glissando,technique,一 念 来 回 度 余 生 无 悔,一年来回度余生无悔,1.0,0.1111111111111111,,1,8,0,9
+ZH-Tenor-1__glissando__technique__不染__0026,ZH-Tenor-1,glissando,technique,一 场 春 秋 生 生 灭 灭 浮 华 是 非,一场春秋声声灭灭浮华是非,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0027,ZH-Tenor-1,glissando,technique,待 花 开 之 时 再 醉 一 回,待花开只是再醉一回,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__glissando__technique__不染__0028,ZH-Tenor-1,glissando,technique,一 壶 清 酒 一 身 尘 灰,一壶清酒一身尘灰,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__glissando__technique__不染__0029,ZH-Tenor-1,glissando,technique,一 念 来 回 度 余 生 无 悔,一年来回独一生无悔,1.0,0.3333333333333333,,1,8,0,9
+ZH-Tenor-1__glissando__technique__不染__0030,ZH-Tenor-1,glissando,technique,一 场 回 忆 生 生 灭 灭 了 了 心 扉,一场回忆生生灭灭了了心扉,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0031,ZH-Tenor-1,glissando,technique,再 回 首 浅 尝 心 酒 余 味,再回首前尝醒就余味,1.0,0.3333333333333333,,1,8,0,9
+ZH-Tenor-1__glissando__technique__不染__0032,ZH-Tenor-1,glissando,technique,一 场 回 忆 生 生 灭 灭 了 了 心 扉,一场回忆生生灭灭了了心扉,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__不染__0033,ZH-Tenor-1,glissando,technique,再 回 首 浅 尝 心 酒 余 味,再回首前尝新酒余味,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__glissando__technique__彩虹__0000,ZH-Tenor-1,glissando,technique,有 没 有 口 罩 一 个 给 我,有没有口罩一个给我,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__glissando__technique__彩虹__0001,ZH-Tenor-1,glissando,technique,释 怀 说 了 太 多 就 成 真 不 了 也 许 时 间 是 一 种 解 药,释怀说了太多就成真不了也许时间是一种解药,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__glissando__technique__彩虹__0002,ZH-Tenor-1,glissando,technique,也 是 我 现 在 正 服 下 的 毒 药,也是我现在征服下的毒药,1.0,0.09090909090909091,,1,10,0,11
+ZH-Tenor-1__glissando__technique__彩虹__0003,ZH-Tenor-1,glissando,technique,看 不 见 你 的 笑 我 怎 么 睡 得 着,看不见你的笑我怎么睡得着,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__彩虹__0004,ZH-Tenor-1,glissando,technique,你 的 声 音 这 么 近 我 却 抱 不 到,你的身影这么近我却抱不到,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__glissando__technique__彩虹__0005,ZH-Tenor-1,glissando,technique,没 有 地 球 太 阳 还 是 会 绕 没 有 理 由 我 也 能 自 己 走,没有地球太阳还是会绕没有理由我也能自己走,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__glissando__technique__彩虹__0006,ZH-Tenor-1,glissando,technique,你 要 离 开 我 知 道 很 简 单,你要离开我知道很简单,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__glissando__technique__彩虹__0007,ZH-Tenor-1,glissando,technique,你 说 依 赖 是 我 们 的 阻 碍,你说一来是我们的阻碍,1.0,0.2,,1,9,0,10
+ZH-Tenor-1__glissando__technique__彩虹__0008,ZH-Tenor-1,glissando,technique,就 算 放 开 但 能 不 能 别 没 收 我 的 爱 当 作 我 最 后 才 明 白,就算放开但能不能别没收我的爱当作我最后才明白,1.0,0.0,,1,21,0,22
+ZH-Tenor-1__glissando__technique__彩虹__0009,ZH-Tenor-1,glissando,technique,有 没 有 口 罩 一 个 给 我 释 怀 说 了 太 多 就 成 真 不 了,有没有口罩一个给我释怀说了太多就沉沉不了,1.0,0.1,,1,19,0,20
+ZH-Tenor-1__glissando__technique__彩虹__0010,ZH-Tenor-1,glissando,technique,也 许 时 间 是 一 种 解 药 也 是 我 现 在 正 服 下 的 毒 药,也许时间是一种解药也是我现在征服下的毒药,1.0,0.05,,1,19,0,20
+ZH-Tenor-1__glissando__technique__彩虹__0011,ZH-Tenor-1,glissando,technique,看 不 见 你 的 笑 我 怎 么 睡 得 着,看不见你的笑我怎么睡得着,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__彩虹__0012,ZH-Tenor-1,glissando,technique,你 的 声 音 怎 么 近 我 却 抱 不 到,你的身影这么近我却抱不到,1.0,0.25,,1,11,0,12
+ZH-Tenor-1__glissando__technique__彩虹__0013,ZH-Tenor-1,glissando,technique,没 有 地 球 太 阳 还 是 会 绕 没 有 理 由 我 也 能 自 己 走,没有地球太阳还是会绕没有理由我也能自己走,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__glissando__technique__彩虹__0014,ZH-Tenor-1,glissando,technique,你 要 离 开 我 知 道 很 简 单,你要离开我知道很简单,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__glissando__technique__彩虹__0015,ZH-Tenor-1,glissando,technique,你 说 依 赖 是 我 们 的 阻 碍 就 算 放 开,你说依赖是我们的阻碍爱就算放开,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__glissando__technique__彩虹__0016,ZH-Tenor-1,glissando,technique,但 能 不 能 别 没 收 我 的 爱 当 作 我 最 后 才 明 白,但能不能别没收我的爱当作我最后才明白,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__glissando__technique__彩虹__0017,ZH-Tenor-1,glissando,technique,哪 里 有 彩 虹 告 诉 我 能 不 能 把 我 的 愿 望 还 给 我,哪里有彩虹告诉我能不能把我的愿望还给我,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__glissando__technique__彩虹__0018,ZH-Tenor-1,glissando,technique,为 什 么 天 这 么 安 静 所 有 的 云 都 跑 到 我 这 里,为什么天这么安静所有的云都跑到我这里,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__glissando__technique__心动__0000,ZH-Tenor-1,glissando,technique,过 去 让 它 过 去 来 不 及,过去让它过去来不及,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__glissando__technique__心动__0001,ZH-Tenor-1,glissando,technique,从 头 喜 欢 你 白 云 缠 绕 着 蓝 天,从头喜欢你白云缠绕着蓝天,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__心动__0002,ZH-Tenor-1,glissando,technique,啊 如 果 不 能 够 永 远 走 在 一 起,如果不能够永远走在一起,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__glissando__technique__心动__0003,ZH-Tenor-1,glissando,technique,也 至 少 给 我 们 怀 念 的 勇 气,也至少给我们怀念的勇气,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__glissando__technique__心动__0004,ZH-Tenor-1,glissando,technique,拥 抱 的 权 利 好 让 你 明 白 我 心 动 的 痕 迹,拥抱的权利好让你明白我心动的痕迹,1.0,0.0,,1,15,0,16
+ZH-Tenor-1__glissando__technique__心动__0005,ZH-Tenor-1,glissando,technique,过 去 让 它 过 去 来 不 及,过去让它过去来不及,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__glissando__technique__心动__0006,ZH-Tenor-1,glissando,technique,从 头 喜 欢 你 白 云 缠 绕 着 蓝 天,从头喜欢你白云缠绕着蓝天,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__glissando__technique__心动__0007,ZH-Tenor-1,glissando,technique,啊 如 果 不 能 够 永 远 走 在 一 起,如果不能够永远走在一起,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__glissando__technique__心动__0008,ZH-Tenor-1,glissando,technique,也 至 少 给 我 们 怀 念 的 勇 气,也至少给我们怀念的勇气,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__glissando__technique__心动__0009,ZH-Tenor-1,glissando,technique,拥 抱 的 权 利 好 让 你 明 白,拥抱的权利好让你明白,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__glissando__technique__心动__0010,ZH-Tenor-1,glissando,technique,我 心 动 的 痕 迹,我心动的痕迹,1.0,0.0,,1,5,0,6
+ZH-Tenor-1__glissando__technique__我的歌声里__0000,ZH-Tenor-1,glissando,technique,你 存 在 我 深 深 的 脑 海 里,你存在我深深的脑海里,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__glissando__technique__我的歌声里__0001,ZH-Tenor-1,glissando,technique,我 的 梦 里 我 的 心 里 我 的 歌 声 里 你 存 在,我的梦里我的心里我的歌声里你已存在,1.0,0.0625,,1,15,0,16
+ZH-Tenor-1__glissando__technique__我的歌声里__0002,ZH-Tenor-1,glissando,technique,我 深 深 的 脑 海 里 我 的 梦 里 我 的 心 里 我 的 歌 声 里,我深深的脑海里我的梦里我的心里我的歌声里,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__glissando__technique__我的歌声里__0003,ZH-Tenor-1,glissando,technique,还 记 得 我 们 曾 经 肩 并 肩 一 起 走 过 那 段 繁 华 巷 口,还记得我们曾经肩并肩一起走过那段繁花巷口,1.0,0.05,,1,19,0,20
+ZH-Tenor-1__glissando__technique__我的歌声里__0004,ZH-Tenor-1,glissando,technique,尽 管 你 我 是 陌 生 人 是 过 路 人 但 彼 此 还 是 感 觉 到 了 对 方 的 一 个 眼 神,尽管你我是陌生人是过路人但彼此还是感觉到了对方的一个眼神,1.0,0.0,,1,27,0,28
+ZH-Tenor-1__glissando__technique__我的歌声里__0005,ZH-Tenor-1,glissando,technique,一 个 心 跳 一 种 意 想 不 到 的 快 乐,一个心跳一种意想不到的快乐,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__glissando__technique__我的歌声里__0006,ZH-Tenor-1,glissando,technique,好 像 是 一 场 梦 境 命 中 注 定,好像是一场梦境命中注定,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__glissando__technique__我的歌声里__0007,ZH-Tenor-1,glissando,technique,你 存 在 我 深 深 的 脑 海 里 我 的 梦 里,你已存在我深深的脑海里我的梦里,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__glissando__technique__我的歌声里__0008,ZH-Tenor-1,glissando,technique,我 的 心 里 我 的 歌 声 里 你 存 在,我的心里我的歌声里你已存在,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__glissando__technique__我的歌声里__0009,ZH-Tenor-1,glissando,technique,我 深 深 的 脑 海 里 我 的 梦 里 我 的 心 里 我 的 歌 声 里,我深深的脑海里我的梦里我的心里我的歌声里,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__glissando__technique__我的歌声里__0010,ZH-Tenor-1,glissando,technique,世 界 之 大 为 何 我 们 相 遇 难 道 是 缘 分 难 道 是 天 意,世界之大为何我们相遇难道是缘分难道是天意,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0000,ZH-Tenor-1,glissando,technique,把 太 硬 的 脾 气 抽 掉 会 不 会 比 较 被 明 了,把坦蝇的脾气抽掉会不会比较被明了,1.0,0.125,,1,15,0,16
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0001,ZH-Tenor-1,glissando,technique,你 可 以 重 重 把 我 给 打 倒 但 是 想 都 别 想 我 求 饶,你可以重重把我给打倒但是想都别向我求饶,1.0,0.05263157894736842,,1,18,0,19
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0002,ZH-Tenor-1,glissando,technique,你 是 魔 鬼 中 的 天 使 所 以 送 我 心 碎 的 方 式,你是魔鬼中的天使所以从我心碎的方式,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0003,ZH-Tenor-1,glissando,technique,是 让 我 笑 到 最 后 一 秒 为 止 才 发 现 自 己 胸 口 插 了 一 把 刀 子,是让我笑到最后一秒为止才发现自己胸口插了一把刀子,1.0,0.0,,1,23,0,24
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0004,ZH-Tenor-1,glissando,technique,你 是 魔 鬼 中 的 天 使 让 恨 变 成 太 俗 气 的 事,你是魔鬼中的天使让恨变成太俗气的事,1.0,0.0,,1,16,0,17
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0005,ZH-Tenor-1,glissando,technique,从 眼 里 流 下 谢 谢 两 个 字 尽 管 叫 我 疯 子 不 准 叫 我 傻 子,从眼里流下血写两个字尽管叫我疯子不准叫我傻子,1.0,0.09090909090909091,,1,21,0,22
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0006,ZH-Tenor-1,glissando,technique,把 太 硬 的 脾 气 抽 掉 会 不 会 比 较 被 明 了,把太硬的脾气抽掉会不会比较被明了,1.0,0.0,,1,15,0,16
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0007,ZH-Tenor-1,glissando,technique,你 可 以 重 重 把 我 给 打 倒 但 是 想 都 别 想 我 求 饶,你可以重重把我给打倒但是想都别向我求饶,1.0,0.05263157894736842,,1,18,0,19
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0008,ZH-Tenor-1,glissando,technique,你 是 魔 鬼 中 的 天 使 所 以 送 我 心 碎 的 方 式,你是魔鬼中的天使所以送我心碎的方式,1.0,0.0,,1,16,0,17
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0009,ZH-Tenor-1,glissando,technique,是 让 我 笑 到 最 后 一 秒 为 止 才 发 现 自 己 胸 口 插 了 一 把 刀 子,是让我笑到最后一秒为止才发现自己胸口插了一把刀子,1.0,0.0,,1,23,0,24
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0010,ZH-Tenor-1,glissando,technique,你 是 魔 鬼 中 的 天 使 让 恨 变 成 太 俗 气 的 事,你是魔鬼中的天使让恨变成太俗气的事,1.0,0.0,,1,16,0,17
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0011,ZH-Tenor-1,glissando,technique,从 眼 里 流 下 谢 谢 两 个 字 尽 管 叫 我 疯 子 不 准 叫 我 傻 子,从眼里流下血写两个字尽管叫我疯子不准叫我傻子,1.0,0.09090909090909091,,1,21,0,22
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0012,ZH-Tenor-1,glissando,technique,你 是 魔 鬼 中 的 天 使 所 以 送 我 心 碎 的 方 式,你是魔鬼中的天使所以从我心碎的方式,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0013,ZH-Tenor-1,glissando,technique,是 让 我 笑 到 最 后 一 秒 为 止 才 发 现 自 己 胸 口 插 了 一 把 刀 子,只让我笑到最后一秒为止才发现自己胸口插了一把刀子,1.0,0.041666666666666664,,1,23,0,24
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0014,ZH-Tenor-1,glissando,technique,你 是 魔 鬼 中 的 天 使 让 恨 变 成 太 俗 气 的 事,你是魔鬼中的天使让恨变成太俗气的事,1.0,0.0,,1,16,0,17
+ZH-Tenor-1__glissando__technique__魔鬼中的天使__0015,ZH-Tenor-1,glissando,technique,从 眼 里 流 下 谢 谢 两 个 字 尽 管 叫 我 疯 子 不 准 叫 我 傻 子,从眼里留下谢谢两个字尽管叫我疯子不准叫我傻子,1.0,0.045454545454545456,,1,21,0,22
+ZH-Tenor-1__mixed_falsetto__technique__修炼爱情__0000,ZH-Tenor-1,mixed_falsetto,technique,修 炼 爱 情 的 悲 欢 我 们 这 些 努 力 不 简 单,修炼爱情的悲欢我们这些努力不简单,1.0,0.0,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__修炼爱情__0001,ZH-Tenor-1,mixed_falsetto,technique,快 乐 炼 成 泪 水 是 一 种 勇 敢 几 年 前 的 幻 想,快乐连潜泪水是一种勇敢几年前的幻想,1.0,0.11764705882352941,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__修炼爱情__0002,ZH-Tenor-1,mixed_falsetto,technique,几 年 后 的 原 谅 为 一 张 脸 去 养 一 身 伤 别 讲 想 念 我 我 会 受 不 了 这 样,几年后的原谅为夜照亮去养一身伤别讲想念我我会受不了这样,1.0,0.1111111111111111,,1,26,0,27
+ZH-Tenor-1__mixed_falsetto__technique__修炼爱情__0000,ZH-Tenor-1,mixed_falsetto,technique,修 炼 爱 情 的 悲 欢 我 们 这 些 努 力 不 简 单,修炼爱情的悲欢我们这些努力不简单,1.0,0.0,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__修炼爱情__0001,ZH-Tenor-1,mixed_falsetto,technique,快 乐 炼 成 泪 水 是 一 种 勇 敢 几 年 前 的 幻 想,快乐连尘泪水是一种勇敢几年前的幻想,1.0,0.11764705882352941,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__修炼爱情__0002,ZH-Tenor-1,mixed_falsetto,technique,几 年 后 的 原 谅 为 一 张 脸 去 养 一 身 伤 别 讲 想 念 我 我 会 受 不 了 这 样,几年后的原谅会以照脸去仰仰一身伤别讲想念我我会受不了这样,1.0,0.18518518518518517,,1,26,0,27
+ZH-Tenor-1__mixed_falsetto__technique__后来__0000,ZH-Tenor-1,mixed_falsetto,technique,后 来 我 总 算 学 会 了 如 何 去 爱 可 惜 你,后来我总算学会了如何去爱可惜你,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__后来__0001,ZH-Tenor-1,mixed_falsetto,technique,早 已 远 去 消 失 在 人 海 后 来 终 于 在 眼 泪 中 明 白 有 些 人 一 旦 错 过 就 不 再,遭遇远去消失在人海后来终于在眼泪中明白有些人一旦错过就不在,1.0,0.10344827586206896,,1,28,0,29
+ZH-Tenor-1__mixed_falsetto__technique__后来__0002,ZH-Tenor-1,mixed_falsetto,technique,如 果 当 时 我 们 能 不 那 么 倔 强 现 在 也,如果当时我们呢不那么倔强现在也,1.0,0.06666666666666667,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__后来__0003,ZH-Tenor-1,mixed_falsetto,technique,不 那 么 遗 憾 你 都 如 何 回 忆 我 带 着 笑 或 是 很 沉 默 这 些 年 来 有 没 有 人 能 让 你 不 寂 寞,不那么遗憾你都如何回忆我带着笑或是喊沉默这些年来有没有人能让你不寂寞,1.0,0.029411764705882353,,1,33,0,34
+ZH-Tenor-1__mixed_falsetto__technique__后来__0004,ZH-Tenor-1,mixed_falsetto,technique,后 来 我 总 算 学 会 了 如 何 去 爱 可 惜 你,后来我总算学会了如何去爱可惜你,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__后来__0005,ZH-Tenor-1,mixed_falsetto,technique,早 已 远 去 消 失 在 人 海 后 来 终 于 在 眼 泪 中 明 白 有 些 人 一 旦 错 过 就 不 在,早已远去消失在人海后来终于在眼泪中明白有些人一旦错过就不在,1.0,0.0,,1,28,0,29
+ZH-Tenor-1__mixed_falsetto__technique__后来__0006,ZH-Tenor-1,mixed_falsetto,technique,你 都 如 何 回 忆 我 带 着 笑 或 是 很 沉 默 这 些 年 来 有 没 有 人 能 让 你 不 寂 寞,你都如何回忆我带着笑我是很沉默这些年来有没有人能让你不寂寞,1.0,0.034482758620689655,,1,28,0,29
+ZH-Tenor-1__mixed_falsetto__technique__后来__0007,ZH-Tenor-1,mixed_falsetto,technique,后 来 我 总 算 学 会 了 如 何 去 爱 可 惜 你,后来我总算学会了如何去爱可惜你,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__后来__0008,ZH-Tenor-1,mixed_falsetto,technique,早 已 远 去 消 失 在 人 海 后 来 终 于 在 眼 泪 中 明 白 有 些 人 一 旦 错 过 就 不 再,早已远去消失在人海后来终于在眼泪中明白有些人一旦错过就不在,1.0,0.034482758620689655,,1,28,0,29
+ZH-Tenor-1__mixed_falsetto__technique__后来__0009,ZH-Tenor-1,mixed_falsetto,technique,后 来 我 总 算 学 会 了 如 何 去 爱 可 惜 你,后来我总算学会了如何去爱可惜你,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__后来__0010,ZH-Tenor-1,mixed_falsetto,technique,早 已 远 去 消 失 在 人 海 后 来 终 于 在 眼 泪 中 明 白,早已远去消失在人海后来终于在眼泪中明白,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__后来__0011,ZH-Tenor-1,mixed_falsetto,technique,有 些 人 一 旦 错 过 就 不 再 永 远 不 会 再 重 来,有些人一旦错过就不在永远不会再重来,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__后来__0012,ZH-Tenor-1,mixed_falsetto,technique,有 一 个 男 孩 爱 着 那 个 女 孩,有一个男孩爱着那个女孩,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__mixed_falsetto__technique__后来__0000,ZH-Tenor-1,mixed_falsetto,technique,后 来 我 总 算 学 会 了 如 何 去 爱 可 惜 你,后来我总算学会了如何去爱可惜你,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__后来__0001,ZH-Tenor-1,mixed_falsetto,technique,早 已 远 去 消 失 在 人 海 后 来 终 于 在 眼 泪 中 明 白 有 些 人 一 旦 错 过 就 不 再,遭遇远去消失在人海后来终于在眼泪中明白有些人一旦错过就不在,1.0,0.10344827586206896,,1,28,0,29
+ZH-Tenor-1__mixed_falsetto__technique__后来__0002,ZH-Tenor-1,mixed_falsetto,technique,如 果 当 时 我 们 能 不 那 么 倔 强 现 在 也,如果当时我们能不那么倔强现在也,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__后来__0003,ZH-Tenor-1,mixed_falsetto,technique,不 那 么 遗 憾 你 都 如 何 回 忆 我 带 着 笑 或 是 很 沉 默 这 些 年 来 有 没 有 人 能 让 你 不 寂 寞,不那么遗憾你都如何回忆我带着笑或是很沉默这些年来有没有人能让你不寂寞,1.0,0.0,,1,33,0,34
+ZH-Tenor-1__mixed_falsetto__technique__后来__0004,ZH-Tenor-1,mixed_falsetto,technique,后 来 我 总 算 学 会 了 如 何 去 爱 可 惜 你,后来我总算学会了如何去爱可惜你,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__后来__0005,ZH-Tenor-1,mixed_falsetto,technique,早 已 远 去 消 失 在 人 海 后 来 终 于 在 眼 泪 中 明 白 有 些 人 一 旦 错 过 就 不 在,早已远去消失在人海后来终于在眼泪中明白有些人一旦错过就不在,1.0,0.0,,1,28,0,29
+ZH-Tenor-1__mixed_falsetto__technique__后来__0006,ZH-Tenor-1,mixed_falsetto,technique,你 都 如 何 回 忆 我 带 着 笑 或 是 很 沉 默 这 些 年 来 有 没 有 人 能 让 你 不 寂 寞,你都如何回忆我带着笑或是喊沉默这些年来有没有人能让你不寂寞,1.0,0.034482758620689655,,1,28,0,29
+ZH-Tenor-1__mixed_falsetto__technique__后来__0007,ZH-Tenor-1,mixed_falsetto,technique,后 来 我 总 算 学 会 了 如 何 去 爱 可 惜 你,后来我总算学会了如何去爱可惜你,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__后来__0008,ZH-Tenor-1,mixed_falsetto,technique,早 已 远 去 消 失 在 人 海 后 来 终 于 在 眼 泪 中 明 白 有 些 人 一 旦 错 过 就 不 再,遭遇远去消失在人海后来终于在眼泪中明白有些人一旦错过就不在,1.0,0.10344827586206896,,1,28,0,29
+ZH-Tenor-1__mixed_falsetto__technique__后来__0009,ZH-Tenor-1,mixed_falsetto,technique,后 来 我 总 算 学 会 了 如 何 去 爱 可 惜 你,后来我总算学会了如何去爱可惜你,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__后来__0010,ZH-Tenor-1,mixed_falsetto,technique,早 已 远 去 消 失 在 人 海 后 来 终 于 在 眼 泪 中 明 白,遭遇远去消失在人海后来终于在眼泪中明白,1.0,0.10526315789473684,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__后来__0011,ZH-Tenor-1,mixed_falsetto,technique,有 些 人 一 旦 错 过 就 不 再 永 远 不 会 再 重 来,有些人一旦错过就不在永远不会再重来,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__后来__0012,ZH-Tenor-1,mixed_falsetto,technique,有 一 个 男 孩 爱 着 那 个 女 孩,有一个男孩爱着那个女孩,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0000,ZH-Tenor-1,mixed_falsetto,technique,我 不 是 一 定 要 你 回 来 只 是 当 又 一 个 人 看 海,我不是一定要你回来只是能有一个人看海,1.0,0.1111111111111111,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0001,ZH-Tenor-1,mixed_falsetto,technique,回 头 才 发 现 你 不 在 留 下 我 迂 回 地 徘 徊,回头才发现你不在留下我一回的徘徊,1.0,0.125,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0002,ZH-Tenor-1,mixed_falsetto,technique,我 不 是 一 定 要 你 回 来 只 是 当 又 把 回 忆 翻 开,我不是一定要你回来只是当有把回忆翻开,1.0,0.05555555555555555,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0003,ZH-Tenor-1,mixed_falsetto,technique,除 了 你 之 外 的 空 白 还 有 谁 能 来 教 我 爱,除了你之外的空白还有谁能来叫我爱,1.0,0.0625,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0004,ZH-Tenor-1,mixed_falsetto,technique,又 回 到 这 个 尽 头 我 也 想 再 往 前 走,又回到这个尽头我也想再往前走,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0005,ZH-Tenor-1,mixed_falsetto,technique,只 是 越 看 见 海 阔 天 空,只是越看见海阔天空,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0006,ZH-Tenor-1,mixed_falsetto,technique,越 遗 憾 没 有 你 分 享 我 的 感 动,原因还没有你分享我的感动,1.0,0.25,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0007,ZH-Tenor-1,mixed_falsetto,technique,我 不 是 一 定 要 你 回 来 只 是 当 又 一 个 人 看 海,我不是一定要你回来只是当有一个人看海,1.0,0.05555555555555555,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0008,ZH-Tenor-1,mixed_falsetto,technique,回 头 才 发 现 你 不 在 留 下 我 迂 回 地 徘 徊,回头才发现你不在留下我迂回的徘徊,1.0,0.0625,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0009,ZH-Tenor-1,mixed_falsetto,technique,我 不 是 一 定 要 你 回 来 只 是 当 又 把 回 忆 翻 开,我不是一定要你回来只是当有把回忆翻开,1.0,0.05555555555555555,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0010,ZH-Tenor-1,mixed_falsetto,technique,除 了 你 之 外 的 空 白 还 有 谁 能 来 教 我 爱,除了你之外的空白还有谁能来叫我爱,1.0,0.0625,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0000,ZH-Tenor-1,mixed_falsetto,technique,我 不 是 一 定 要 你 回 来 只 是 当 又 一 个 人 看 海,我不是一定要你回来只是等有一个人看海,1.0,0.1111111111111111,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0001,ZH-Tenor-1,mixed_falsetto,technique,回 头 才 发 现 你 不 在 留 下 我 迂 回 地 徘 徊,回头才发现你不在留下我运回的徘徊,1.0,0.125,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0002,ZH-Tenor-1,mixed_falsetto,technique,我 不 是 一 定 要 你 回 来 只 是 当 又 把 回 忆 翻 开,我不是一定要你回来只是等又把回忆分开,1.0,0.1111111111111111,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0003,ZH-Tenor-1,mixed_falsetto,technique,除 了 你 之 外 的 空 白 还 有 谁 能 来 教 我 爱,除了你之外的空白还有谁能来叫我爱,1.0,0.0625,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0004,ZH-Tenor-1,mixed_falsetto,technique,又 回 到 这 个 尽 头 我 也 想 再 往 前 走,又回到这个尽头我也想再往前走,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0005,ZH-Tenor-1,mixed_falsetto,technique,只 是 越 看 见 海 阔 天 空,真是越看见海过天空,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0006,ZH-Tenor-1,mixed_falsetto,technique,越 遗 憾 没 有 你 分 享 我 的 感 动,原因还没有你分享我的感动,1.0,0.25,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0007,ZH-Tenor-1,mixed_falsetto,technique,我 不 是 一 定 要 你 回 来 只 是 当 又 一 个 人 看 海,我不是一定要你回来只是当有一个人看海,1.0,0.05555555555555555,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0008,ZH-Tenor-1,mixed_falsetto,technique,回 头 才 发 现 你 不 在 留 下 我 迂 回 地 徘 徊,回头才发现你不在留下我运回的徘徊,1.0,0.125,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0009,ZH-Tenor-1,mixed_falsetto,technique,我 不 是 一 定 要 你 回 来 只 是 当 又 把 回 忆 翻 开,我不是一定要你回来只是当又把回忆翻开,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__失落沙洲__0010,ZH-Tenor-1,mixed_falsetto,technique,除 了 你 之 外 的 空 白 还 有 谁 能 来 教 我 爱,除了你之外的空白还有谁能来教我爱,1.0,0.0,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0000,ZH-Tenor-1,mixed_falsetto,technique,时 光 是 琥 珀 泪 一 滴 滴 被 反 锁,时光是湖泊泪一滴滴被反锁,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0001,ZH-Tenor-1,mixed_falsetto,technique,情 书 再 不 朽 也 磨 成 沙 漏 青 春 的 上 游,青树在不朽淹没成沙漏青春的上游,1.0,0.3333333333333333,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0002,ZH-Tenor-1,mixed_falsetto,technique,白 云 飞 走 苍 狗 与 海 鸥 闪 过 的 念 头,白云飞走苍狗与海鸥闪过的念头,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0003,ZH-Tenor-1,mixed_falsetto,technique,潺 潺 地 溜 走 命 运 好 幽 默 让 爱 的 人,潺潺地溜走命运好幽默让爱的人,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0004,ZH-Tenor-1,mixed_falsetto,technique,都 沉 默 一 整 个 宇 宙 换 一 颗 红 豆,都沉没以整个宇宙换一颗红豆,1.0,0.15384615384615385,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0005,ZH-Tenor-1,mixed_falsetto,technique,回 忆 如 困 兽 寂 寞 太 久 而 渐 渐 温 柔,回忆如困兽寂寞太久而渐渐温柔,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0006,ZH-Tenor-1,mixed_falsetto,technique,放 开 了 拳 头 反 而 更 自 由,放开了拳头反而更自由,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0007,ZH-Tenor-1,mixed_falsetto,technique,慢 动 作 缱 绻 胶 卷 重 播 默 片 定 格 一 瞬 间,慢动作前卷较卷冲破磨片定格一瞬间,1.0,0.375,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0008,ZH-Tenor-1,mixed_falsetto,technique,我 们 在 告 别 的 演 唱 会 说 好 不 再 见,我们在告别的演唱会说好不再见,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0009,ZH-Tenor-1,mixed_falsetto,technique,你 写 给 我 我 的 第 一 首 歌 你 和 我 十 指 紧 扣,你写给我我的第一首歌你和我拾之间空,1.0,0.23529411764705882,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0010,ZH-Tenor-1,mixed_falsetto,technique,默 写 前 奏 可 是 那 然 后 呢 还 好 我 有,默写前奏可是呢然后呢还好我要,1.0,0.14285714285714285,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0011,ZH-Tenor-1,mixed_falsetto,technique,我 这 一 首 情 歌 轻 轻 地 轻 轻 哼 着,我这一首情歌轻轻地轻轻哼着,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0012,ZH-Tenor-1,mixed_falsetto,technique,哭 着 笑 着 我 的 天 长 地 久,哭着笑着我的天长地久,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0013,ZH-Tenor-1,mixed_falsetto,technique,命 运 好 幽 默 让 爱 的 人 都 沉 默,命运好幽默让爱的人都沉默,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0014,ZH-Tenor-1,mixed_falsetto,technique,一 整 个 宇 宙 换 一 颗 红 豆 回 忆 如 困 兽,以整个宇宙换一颗红豆回忆如困兽,1.0,0.06666666666666667,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0015,ZH-Tenor-1,mixed_falsetto,technique,寂 寞 太 久 而 渐 渐 温 柔 放 开 了 拳 头 反 而 更 自 由,寂寞太久而渐渐温柔放开了拳头反而更自由,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0016,ZH-Tenor-1,mixed_falsetto,technique,长 镜 头 越 拉 越 远 越 来 越 远 事 隔 好 几 年,长镜头越来越远越来越远时隔好几年,1.0,0.125,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0017,ZH-Tenor-1,mixed_falsetto,technique,我 们 在 怀 念 的 演 唱 会 礼 貌 地 吻 别 你,我们在告别的演唱会礼貌的吻别,1.0,0.26666666666666666,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0018,ZH-Tenor-1,mixed_falsetto,technique,写 给 我 我 的 第 一 首 歌 你 和 我 十 指 紧 扣,你写给我我的第一首歌你和我拾之尽口,1.0,0.3125,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0019,ZH-Tenor-1,mixed_falsetto,technique,默 写 前 奏 可 是 那 然 后 呢 还 好 我 有,默写前奏可是呢然后呢还好我要,1.0,0.14285714285714285,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0020,ZH-Tenor-1,mixed_falsetto,technique,我 这 一 首 情 歌 轻 轻 地 轻 轻 哼 着,我这一首情歌轻轻地轻轻哼着,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0021,ZH-Tenor-1,mixed_falsetto,technique,哭 着 笑 着 我 的 天 长 地 久,哭着笑着我的天长地久,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0022,ZH-Tenor-1,mixed_falsetto,technique,陪 我 唱 歌 清 唱 你 的 情 歌 舍 不 得 短 短 副 歌,陪我唱歌请唱你的情歌舍不得短短副歌,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0023,ZH-Tenor-1,mixed_falsetto,technique,心 还 热 着 也 该 告 一 段 落 还 好 我 有,心还热着也该告一段落还好我要,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0024,ZH-Tenor-1,mixed_falsetto,technique,我 下 一 首 情 歌 生 命 宛 如 静 静 的,我下一首情歌生命宛如晶晶的,1.0,0.15384615384615385,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0025,ZH-Tenor-1,mixed_falsetto,technique,相 拥 的 河 永 远 天 长 地 久,相拥奈何永远天长地久,1.0,0.2,,1,9,0,10
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0000,ZH-Tenor-1,mixed_falsetto,technique,时 光 是 琥 珀 泪 一 滴 滴 被 反 锁,时光是湖泊泪一滴滴被反锁,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0001,ZH-Tenor-1,mixed_falsetto,technique,情 书 再 不 朽 也 磨 成 沙 漏 青 春 的 上 游,情书在不朽叶末成沙漏青春的上游,1.0,0.2,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0002,ZH-Tenor-1,mixed_falsetto,technique,白 云 飞 走 苍 狗 与 海 鸥 闪 过 的 念 头,白鱼飞走苍狗与海鸥闪过的念头,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0003,ZH-Tenor-1,mixed_falsetto,technique,潺 潺 地 溜 走 命 运 好 幽 默 让 爱 的 人,潺潺地溜走命运好幽默让爱的人,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0004,ZH-Tenor-1,mixed_falsetto,technique,都 沉 默 一 整 个 宇 宙 换 一 颗 红 豆,都沉没以整个宇宙换一颗红豆,1.0,0.15384615384615385,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0005,ZH-Tenor-1,mixed_falsetto,technique,回 忆 如 困 兽 寂 寞 太 久 而 渐 渐 温 柔,回忆如困兽寂寞太久而渐渐温柔,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0006,ZH-Tenor-1,mixed_falsetto,technique,放 开 了 拳 头 反 而 更 自 由,放开了拳头反而更自由,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0007,ZH-Tenor-1,mixed_falsetto,technique,慢 动 作 缱 绻 胶 卷 重 播 默 片 定 格 一 瞬 间,慢动作前圈角卷重播磨片定格一瞬间,1.0,0.25,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0008,ZH-Tenor-1,mixed_falsetto,technique,我 们 在 告 别 的 演 唱 会 说 好 不 再 见,我们在告别的演唱会说好不再见,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0009,ZH-Tenor-1,mixed_falsetto,technique,你 写 给 我 我 的 第 一 首 歌 你 和 我 十 指 紧 扣,你写给我我的第一首歌你和我拾之紧扣,1.0,0.11764705882352941,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0010,ZH-Tenor-1,mixed_falsetto,technique,默 写 前 奏 可 是 那 然 后 呢 还 好 我 有,默写前奏可是那然后呢还好我有,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0011,ZH-Tenor-1,mixed_falsetto,technique,我 这 一 首 情 歌 轻 轻 地 轻 轻 哼 着,我这一首情歌轻轻地轻轻哼着,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0012,ZH-Tenor-1,mixed_falsetto,technique,哭 着 笑 着 我 的 天 长 地 久,哭着笑着我的天长地久,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0013,ZH-Tenor-1,mixed_falsetto,technique,命 运 好 幽 默 让 爱 的 人 都 沉 默,命运好幽默让爱的人都沉默,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0014,ZH-Tenor-1,mixed_falsetto,technique,一 整 个 宇 宙 换 一 颗 红 豆 回 忆 如 困 兽,以整个宇宙换一颗红豆回忆如困兽,1.0,0.06666666666666667,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0015,ZH-Tenor-1,mixed_falsetto,technique,寂 寞 太 久 而 渐 渐 温 柔 放 开 了 拳 头 反 而 更 自 由,寂寞太久而渐渐温柔放开了拳头反而更自由,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0016,ZH-Tenor-1,mixed_falsetto,technique,长 镜 头 越 拉 越 远 越 来 越 远 事 隔 好 几 年,长镜头越拉越远越来越远时隔好几年,1.0,0.0625,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0017,ZH-Tenor-1,mixed_falsetto,technique,我 们 在 怀 念 的 演 唱 会 礼 貌 地 吻 别 你,我们在怀念的演唱会礼貌的吻别,1.0,0.13333333333333333,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0018,ZH-Tenor-1,mixed_falsetto,technique,写 给 我 我 的 第 一 首 歌 你 和 我 十 指 紧 扣,写给我我的第一首歌你和我拾之间口,1.0,0.25,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0019,ZH-Tenor-1,mixed_falsetto,technique,默 写 前 奏 可 是 那 然 后 呢 还 好 我 有,默写间奏可是那然后呢还好我要,1.0,0.14285714285714285,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0020,ZH-Tenor-1,mixed_falsetto,technique,我 这 一 首 情 歌 轻 轻 地 轻 轻 哼 着,我这一首情歌轻轻地轻轻哼着,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0021,ZH-Tenor-1,mixed_falsetto,technique,哭 着 笑 着 我 的 天 长 地 久,哭着笑着我的天长地久,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0022,ZH-Tenor-1,mixed_falsetto,technique,陪 我 唱 歌 清 唱 你 的 情 歌 舍 不 得 短 短 副 歌,陪我唱歌轻唱你的情歌舍不得短短副歌,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0023,ZH-Tenor-1,mixed_falsetto,technique,心 还 热 着 也 该 告 一 段 落 还 好 我 有,心还热着也该告一段落还好我有,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0024,ZH-Tenor-1,mixed_falsetto,technique,我 下 一 首 情 歌 生 命 宛 如 静 静 的,我下一首情歌生命宛如静静的,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__情歌__0025,ZH-Tenor-1,mixed_falsetto,technique,相 拥 的 河 永 远 天 长 地 久,相拥的和永远天长地久,1.0,0.1,,1,9,0,10
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0000,ZH-Tenor-1,mixed_falsetto,technique,每 个 人 都 缺 乏 什 么 我 们 才 会 瞬 间 就 不 快 乐,每个人都缺乏什么我们才会瞬间就不快乐,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0001,ZH-Tenor-1,mixed_falsetto,technique,单 纯 很 难 包 袱 很 多,单纯很难包袱很多,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0002,ZH-Tenor-1,mixed_falsetto,technique,已 经 很 勇 敢 还 是 难 过,已经很勇敢还是难过,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0003,ZH-Tenor-1,mixed_falsetto,technique,许 多 事 情 都 有 选 择 只 是 往 往 事 后 我 才 懂 得,许多事情都有选择只是往往时候我才懂得,1.0,0.1111111111111111,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0004,ZH-Tenor-1,mixed_falsetto,technique,情 绪 很 烦 说 话 很 冲,情绪很烦说话很重,1.0,0.125,,1,7,0,8
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0005,ZH-Tenor-1,mixed_falsetto,technique,人 和 人 的 沟 通 有 时 候 没 有 用,任何人的沟通有时候没有用,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0006,ZH-Tenor-1,mixed_falsetto,technique,或 许 只 有 你 懂 得 我 所 以 你 没 逃 脱,或许只有你懂得我所以你没逃脱,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0007,ZH-Tenor-1,mixed_falsetto,technique,一 边 在 泪 流 一 边 紧 抱 我 小 声 地 说 多 么 爱 我 只 有 你,一边在泪流一边紧抱我小声地说多么爱我只要你,1.0,0.047619047619047616,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0008,ZH-Tenor-1,mixed_falsetto,technique,懂 得 我 就 像 被 困 住 的 野 兽 在 摩 天 大 楼 渴 求 自 由,懂得我就像被困住的野兽在摩天大楼渴求自由,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0009,ZH-Tenor-1,mixed_falsetto,technique,一 路 嗅 着 追 着 美 梦 爬 上 屋 顶 意 外 跌 得 好 重,一路修着追着美梦爬上屋顶以外跌得好重,1.0,0.1111111111111111,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0010,ZH-Tenor-1,mixed_falsetto,technique,不 觉 得 痛 是 觉 得 空,不觉得痛是觉得空,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0011,ZH-Tenor-1,mixed_falsetto,technique,城 市 的 幻 影 有 千 百 种,城市的欢迎有千百种,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0012,ZH-Tenor-1,mixed_falsetto,technique,就 算 爱 也 会 变 冷 的 可 是 现 在 抱 的 你 是 暖 的,就算爱也会变冷的可是现在抱的你是暖的,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0013,ZH-Tenor-1,mixed_falsetto,technique,我 不 晓 得 我 不 舍 得,我不晓得我不舍得,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0014,ZH-Tenor-1,mixed_falsetto,technique,为 将 来 的 难 测 就 放 弃 这 一 刻,为将来的难测就放弃这一刻,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0015,ZH-Tenor-1,mixed_falsetto,technique,或 许 只 有 你 懂 得 我 所 以 你 没 逃 脱,或许只有你懂得我所以你没逃脱,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0016,ZH-Tenor-1,mixed_falsetto,technique,一 边 在 泪 流 一 边 紧 抱 我 小 声 地 说 多 么 爱 我 只 有 你,一边在泪流一边紧抱我小声地说多么爱我只有你,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0017,ZH-Tenor-1,mixed_falsetto,technique,懂 得 我 就 像 被 困 住 的 野 兽 在 摩 天 大 楼 渴 求 自 由,懂得我就像被困住的野兽在摩天大楼渴求自由,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0000,ZH-Tenor-1,mixed_falsetto,technique,每 个 人 都 缺 乏 什 么 我 们 才 会 瞬 间 就 不 快 乐,每个人都缺乏什么我们才会瞬间就不快乐,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0001,ZH-Tenor-1,mixed_falsetto,technique,单 纯 很 难 包 袱 很 多,单纯很难包袱很多,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0002,ZH-Tenor-1,mixed_falsetto,technique,已 经 很 勇 敢 还 是 难 过,已经很勇敢还是难过,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0003,ZH-Tenor-1,mixed_falsetto,technique,许 多 事 情 都 有 选 择 只 是 往 往 事 后 我 才 懂 得,许多事情都有选择只是往往时候我才懂得,1.0,0.1111111111111111,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0004,ZH-Tenor-1,mixed_falsetto,technique,情 绪 很 烦 说 话 很 冲,情绪很烦说话很丑,1.0,0.125,,1,7,0,8
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0005,ZH-Tenor-1,mixed_falsetto,technique,人 和 人 的 沟 通 有 时 候 没 有 用,任何人的沟通有时候没有用,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0006,ZH-Tenor-1,mixed_falsetto,technique,或 许 只 有 你 懂 得 我 所 以 你 没 逃 脱,或许只有你懂得我所以你没逃脱,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0007,ZH-Tenor-1,mixed_falsetto,technique,一 边 在 泪 流 一 边 紧 抱 我 小 声 地 说 多 么 爱 我 只 有 你,一边在泪流一边紧抱我小声地说多么爱我只有你,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0008,ZH-Tenor-1,mixed_falsetto,technique,懂 得 我 就 像 被 困 住 的 野 兽 在 摩 天 大 楼 渴 求 自 由,懂得我就像被困住的野兽在摩天大楼渴求自由,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0009,ZH-Tenor-1,mixed_falsetto,technique,一 路 嗅 着 追 着 美 梦 爬 上 屋 顶 意 外 跌 得 好 重,一路修着追着美梦爬上屋顶意外跌得好重,1.0,0.05555555555555555,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0010,ZH-Tenor-1,mixed_falsetto,technique,不 觉 得 痛 是 觉 得 空,不觉得痛是觉得空,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0011,ZH-Tenor-1,mixed_falsetto,technique,城 市 的 幻 影 有 千 百 种,城市的欢迎有千百种,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0012,ZH-Tenor-1,mixed_falsetto,technique,就 算 爱 也 会 变 冷 的 可 是 现 在 抱 的 你 是 暖 的,就算爱也会变冷的可是现在抱的你是暖的,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0013,ZH-Tenor-1,mixed_falsetto,technique,我 不 晓 得 我 不 舍 得,我不晓得我不舍得,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0014,ZH-Tenor-1,mixed_falsetto,technique,为 将 来 的 难 测 就 放 弃 这 一 刻,为将来的难测就放弃这一刻,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0015,ZH-Tenor-1,mixed_falsetto,technique,或 许 只 有 你 懂 得 我 所 以 你 没 逃 脱,或许只有你懂的我所以你没逃脱,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0016,ZH-Tenor-1,mixed_falsetto,technique,一 边 在 泪 流 一 边 紧 抱 我 小 声 地 说 多 么 爱 我 只 有 你,一边在泪流一边轻抱我小声地说多么爱我只有你,1.0,0.047619047619047616,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__想自由__0017,ZH-Tenor-1,mixed_falsetto,technique,懂 得 我 就 像 被 困 住 的 野 兽 在 摩 天 大 楼 渴 求 自 由,懂得我就像被困住的野兽在摩天大楼渴求自由,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0000,ZH-Tenor-1,mixed_falsetto,technique,没 有 一 点 点 防 备 也 没 有 一 丝 顾 虑 你 就 这 样 出 现 在 我 的 世 界 里,没有一点点防备也没有一丝顾虑你就这样出现在我的世界里,1.0,0.0,,1,25,0,26
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0001,ZH-Tenor-1,mixed_falsetto,technique,带 给 我 惊 喜 情 不 自 已 可 是 你 偏 又 这 样,带给我清晰轻盈不自已可是你偏又这样,1.0,0.25,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0002,ZH-Tenor-1,mixed_falsetto,technique,在 我 不 知 不 觉 中 悄 悄 地 消 失 从 我 的 世 界 里 没 有 音 讯 剩 下 的 只 是 回 忆,在我不知不觉中悄悄地消失从我的世界里没有言讯剩下的只是回忆,1.0,0.034482758620689655,,1,28,0,29
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0003,ZH-Tenor-1,mixed_falsetto,technique,你 存 在 我 深 深 的 脑 海 里 我 的 梦 里,你已存在我深深的脑海里我的梦里,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0004,ZH-Tenor-1,mixed_falsetto,technique,我 的 心 里 我 的 歌 声 里 你 存 在,我的心里我的歌声里你已存在,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0005,ZH-Tenor-1,mixed_falsetto,technique,我 深 深 的 脑 海 里 我 的 梦 里 我 的 心 里 我 的 歌 声 里,我深深的脑海里我的梦里我的心里我的歌声里,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0006,ZH-Tenor-1,mixed_falsetto,technique,还 记 得 我 们 曾 经 肩 并 肩 一 起 走 过 那 段 繁 华 巷 口 尽 管 你 我 是 陌 生 人,还记得我们曾经肩并肩一起走过那段繁华巷口尽管你我是陌生人,1.0,0.0,,1,27,0,28
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0007,ZH-Tenor-1,mixed_falsetto,technique,是 过 路 人 但 彼 此 还 是 感 觉 到 了 对 方 的 一 个 眼 神,是过路人但彼此还是感觉到了对方的一个眼神,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0008,ZH-Tenor-1,mixed_falsetto,technique,一 个 心 跳 一 种 意 想 不 到 的 快 乐,一个心跳一种意想不到的快乐,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0009,ZH-Tenor-1,mixed_falsetto,technique,好 像 是 一 场 梦 境 命 中 注 定,好像是一场梦境命中注定,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0010,ZH-Tenor-1,mixed_falsetto,technique,你 存 在 我 深 深 的 脑 海 里 我 的 梦 里,你已存在我深深的脑海里我的梦里,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0011,ZH-Tenor-1,mixed_falsetto,technique,我 的 心 里 我 的 歌 声 里 你 存 在,我的心里我的歌声里你存在,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0012,ZH-Tenor-1,mixed_falsetto,technique,我 深 深 的 脑 海 里 我 的 梦 里 我 的 心 里 我 的 歌 声 里,我深深的脑海里我的梦里我的心里我的歌声里,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0013,ZH-Tenor-1,mixed_falsetto,technique,世 界 之 大 为 何 我 们 相 遇 难 道 是 缘 分 难 道 是 天 意,世界之大为何我们相遇难道是缘分难道是天意,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0000,ZH-Tenor-1,mixed_falsetto,technique,没 有 一 点 点 防 备 也 没 有 一 丝 顾 虑 你 就 这 样 出 现 在 我 的 世 界 里,没有一点点防备也没有一丝顾虑你就这样出现在我的世界里,1.0,0.0,,1,25,0,26
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0001,ZH-Tenor-1,mixed_falsetto,technique,带 给 我 惊 喜 情 不 自 已 可 是 你 偏 又 这 样,带给我惊喜轻盈不自已可是你偏又这样,1.0,0.125,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0002,ZH-Tenor-1,mixed_falsetto,technique,在 我 不 知 不 觉 中 悄 悄 地 消 失 从 我 的 世 界 里 没 有 音 讯 剩 下 的 只 是 回 忆,在我不知不觉中悄悄地消失从我的世界里没有音讯剩下的只是回忆,1.0,0.0,,1,28,0,29
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0003,ZH-Tenor-1,mixed_falsetto,technique,你 存 在 我 深 深 的 脑 海 里 我 的 梦 里,你已存在我深深的脑海里我的梦里,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0004,ZH-Tenor-1,mixed_falsetto,technique,我 的 心 里 我 的 歌 声 里 你 存 在,我的心里我的歌声里你已存在,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0005,ZH-Tenor-1,mixed_falsetto,technique,我 深 深 的 脑 海 里 我 的 梦 里 我 的 心 里 我 的 歌 声 里,我深深的脑海里我的梦里我的心里我的歌声里,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0006,ZH-Tenor-1,mixed_falsetto,technique,还 记 得 我 们 曾 经 肩 并 肩 一 起 走 过 那 段 繁 华 巷 口 尽 管 你 我 是 陌 生 人,还记得我们曾经肩并肩一起走过那段繁华巷口尽管你我是陌生人,1.0,0.0,,1,27,0,28
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0007,ZH-Tenor-1,mixed_falsetto,technique,是 过 路 人 但 彼 此 还 是 感 觉 到 了 对 方 的 一 个 眼 神,是过路人但彼此还是感觉到了对方的一个眼神,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0008,ZH-Tenor-1,mixed_falsetto,technique,一 个 心 跳 一 种 意 想 不 到 的 快 乐,一个心跳一种意想不到的快乐,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0009,ZH-Tenor-1,mixed_falsetto,technique,好 像 是 一 场 梦 境 命 中 注 定,好像是一场梦境命中注定,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0010,ZH-Tenor-1,mixed_falsetto,technique,你 存 在 我 深 深 的 脑 海 里 我 的 梦 里,你已存在我深深的脑海里我的梦里,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0011,ZH-Tenor-1,mixed_falsetto,technique,我 的 心 里 我 的 歌 声 里 你 存 在,我的心里我的歌声里你存在,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0012,ZH-Tenor-1,mixed_falsetto,technique,我 深 深 的 脑 海 里 我 的 梦 里 我 的 心 里 我 的 歌 声 里,我深深的脑海里我的梦里我的心里我的歌声里,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__mixed_falsetto__technique__我的歌声里__0013,ZH-Tenor-1,mixed_falsetto,technique,世 界 之 大 为 何 我 们 相 遇 难 道 是 缘 分 难 道 是 天 意,世界知道为何我们相遇难道是缘分难道是天意,1.0,0.1,,1,19,0,20
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0000,ZH-Tenor-1,mixed_falsetto,technique,如 果 骄 傲 没 被 实 现 大 海 冷 冷 拍 下 又 怎 会 懂 得,如果骄傲没被现实大海冷冷拍下又怎会懂得,1.0,0.10526315789473684,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0001,ZH-Tenor-1,mixed_falsetto,technique,要 多 努 力 才 走 得 到 远 方 如 果 梦 想 不 曾 坠 落 悬 崖 千 钧 一 发,要多努力才走得到远方如果梦想不曾坠落悬崖千军一发,1.0,0.041666666666666664,,1,23,0,24
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0002,ZH-Tenor-1,mixed_falsetto,technique,又 怎 会 晓 得 执 着 的 人 拥 有 隐 形 翅 膀,又怎会晓得执着的人拥有隐形翅膀,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0003,ZH-Tenor-1,mixed_falsetto,technique,把 眼 泪 种 在 心 上 会 开 出 勇 敢 的 花 可 以 在 疲 惫 的 时 光,把眼泪装在心上会开出勇敢的话可以在疲惫的时光,1.0,0.09090909090909091,,1,21,0,22
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0004,ZH-Tenor-1,mixed_falsetto,technique,闭 上 眼 睛 闻 到 一 种 芬 芳 就 像 好 好 睡 了 一 夜 直 到 天 亮 又 能 边 走 着 边 哼 着 歌 用 轻 快 的 步 伐,闭上眼睛闻到一种芬芳就想好好睡了一夜直到天亮又能边走着边哼着歌用轻快的步伐,1.0,0.02702702702702703,,1,36,0,37
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0005,ZH-Tenor-1,mixed_falsetto,technique,沮 丧 时 总 会 明 显 感 到 孤 独 的 重 量 多 渴 望 懂 得 的 人 借 个 温 暖 借 个 肩 膀 很 高 兴,沮丧时总会明显感到孤独的重量多渴望懂得的人借个温暖借个肩膀很高兴,1.0,0.0,,1,31,0,32
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0006,ZH-Tenor-1,mixed_falsetto,technique,一 路 上 我 们 的 默 契 那 么 长 穿 过 风 又 绕 了 弯,一路上我们的默契那么长转过风又绕了弯,1.0,0.05555555555555555,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0007,ZH-Tenor-1,mixed_falsetto,technique,心 还 连 着 像 往 常 一 样 最 初 的 梦 想 紧 握 在 手 上,心还怜着像往常一样最初的梦想紧握在手上,1.0,0.05263157894736842,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0008,ZH-Tenor-1,mixed_falsetto,technique,最 想 要 去 的 地 方 怎 么 能 在 半 路 就 返 航 最 初 的 梦 想,最想要去的地方怎么能在半路就返航最初的梦想,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0009,ZH-Tenor-1,mixed_falsetto,technique,绝 对 会 到 达 实 现 了 真 的 渴 望 才 能 够 算 到 过 了 天 堂,绝对会到达实现了真的渴望才能够算到过了天堂,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0010,ZH-Tenor-1,mixed_falsetto,technique,如 果 骄 傲 没 被 实 现 大 海 冷 冷 拍 下 又 怎 会 懂 得,如果骄傲没被现实大海冷冷拍下有谁会懂得,1.0,0.21052631578947367,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0011,ZH-Tenor-1,mixed_falsetto,technique,要 多 努 力 才 走 得 到 远 方 如 果 梦 想 不 曾 坠 落 悬 崖 千 钧 一 发 又 怎 会 晓 得 执 着 的 人 拥 有 隐 形 翅 膀,要多努力才走得到远方如果梦想不曾坠落悬崖前进一发又怎会晓得执着的人拥有隐形翅膀,1.0,0.05128205128205128,,1,38,0,39
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0012,ZH-Tenor-1,mixed_falsetto,technique,把 眼 泪 种 在 心 上 会 开 出 勇 敢 的 花 可 以 在 疲 惫 的 时 光,把眼泪装在心上会开出勇敢的话可以在疲惫的时光,1.0,0.09090909090909091,,1,21,0,22
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0013,ZH-Tenor-1,mixed_falsetto,technique,闭 上 眼 睛 闻 到 一 种 芬 芳 就 像 好 好 睡 了 一 夜 直 到 天 亮 又 能 边 走 着 边 哼 着 歌 用 轻 快 的 步 伐,闭上眼睛温柔一种芬芳就想好好睡了一夜直到天亮又能编奏着编哼着歌用轻快的步伐,1.0,0.16216216216216217,,1,36,0,37
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0014,ZH-Tenor-1,mixed_falsetto,technique,沮 丧 时 总 会 明 显 感 到 孤 独 的 重 量 多 渴 望 懂 得 的 人 借 个 温 暖 借 个 肩 膀 很 高 兴,沮丧时总会明显感到孤独的重量多渴望懂得的人借个温暖借个牵绊很高兴,1.0,0.0625,,1,31,0,32
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0015,ZH-Tenor-1,mixed_falsetto,technique,一 路 上 我 们 的 默 契 那 么 长 穿 过 风 又 绕 了 弯,一路上我们的默契那么长穿过风又绕了弯,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0016,ZH-Tenor-1,mixed_falsetto,technique,心 还 连 着 像 往 常 一 样 最 初 的 梦 想 紧 握 在 手 上,心含恋着像往常一样最初的梦想紧握在手上,1.0,0.10526315789473684,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0017,ZH-Tenor-1,mixed_falsetto,technique,最 想 要 去 的 地 方 怎 么 能 在 半 路 就 返 航 最 初 的 梦 想,最想要去的地方怎么能在半路就返航最初的梦想,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0018,ZH-Tenor-1,mixed_falsetto,technique,绝 对 会 到 达 实 现 了 真 的 渴 望 才 能 够 算 到 过 了 天 堂,绝对会到达实现了真的渴望才能够算到过了天堂,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0000,ZH-Tenor-1,mixed_falsetto,technique,如 果 骄 傲 没 被 实 现 大 海 冷 冷 拍 下 又 怎 会 懂 得,如果娇美被现实大海冷冷拍下又怎会懂得,1.0,0.2631578947368421,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0001,ZH-Tenor-1,mixed_falsetto,technique,要 多 努 力 才 走 得 到 远 方 如 果 梦 想 不 曾 坠 落 悬 崖 千 钧 一 发,要多努力才走得到远方如果梦想不曾坠落悬崖前去一方,1.0,0.125,,1,23,0,24
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0002,ZH-Tenor-1,mixed_falsetto,technique,又 怎 会 晓 得 执 着 的 人 拥 有 隐 形 翅 膀,又怎会晓得执着的人拥有隐形翅膀,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0003,ZH-Tenor-1,mixed_falsetto,technique,把 眼 泪 种 在 心 上 会 开 出 勇 敢 的 花 可 以 在 疲 惫 的 时 光,把眼泪种在心上会开出勇敢的话可以在疲惫的时光,1.0,0.045454545454545456,,1,21,0,22
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0004,ZH-Tenor-1,mixed_falsetto,technique,闭 上 眼 睛 闻 到 一 种 芬 芳 就 像 好 好 睡 了 一 夜 直 到 天 亮 又 能 边 走 着 边 哼 着 歌 用 轻 快 的 步 伐,闭上眼睛闻到一种芬芳就想好好睡了一夜直到天亮又能编奏着编哼着歌用轻快的步伐,1.0,0.10810810810810811,,1,36,0,37
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0005,ZH-Tenor-1,mixed_falsetto,technique,沮 丧 时 总 会 明 显 感 到 孤 独 的 重 量 多 渴 望 懂 得 的 人 借 个 温 暖 借 个 肩 膀 很 高 兴,沮丧时总会明显感到孤独的重量多渴望懂得的人给些温暖借个肩膀很高兴,1.0,0.0625,,1,31,0,32
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0006,ZH-Tenor-1,mixed_falsetto,technique,一 路 上 我 们 的 默 契 那 么 长 穿 过 风 又 绕 了 弯,一路上我们的默契那么长穿过风又绕了弯,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0007,ZH-Tenor-1,mixed_falsetto,technique,心 还 连 着 像 往 常 一 样 最 初 的 梦 想 紧 握 在 手 上,心还恋着像往常一样最初的梦想紧握在手上,1.0,0.05263157894736842,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0008,ZH-Tenor-1,mixed_falsetto,technique,最 想 要 去 的 地 方 怎 么 能 在 半 路 就 返 航 最 初 的 梦 想,最想要去的地方怎么能在半路就返航最初的梦想,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0009,ZH-Tenor-1,mixed_falsetto,technique,绝 对 会 到 达 实 现 了 真 的 渴 望 才 能 够 算 到 过 了 天 堂,绝对会到达实现了真的渴望才能够算到过了天堂,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0010,ZH-Tenor-1,mixed_falsetto,technique,如 果 骄 傲 没 被 实 现 大 海 冷 冷 拍 下 又 怎 会 懂 得,如果家没被现实大海冷冷拍下又怎会懂得,1.0,0.21052631578947367,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0011,ZH-Tenor-1,mixed_falsetto,technique,要 多 努 力 才 走 得 到 远 方 如 果 梦 想 不 曾 坠 落 悬 崖 千 钧 一 发 又 怎 会 晓 得 执 着 的 人 拥 有 隐 形 翅 膀,要多努力才走得到远方如果梦想不曾坠落悬崖前进一方又怎会晓得执着的人拥有隐形翅膀,1.0,0.07692307692307693,,1,38,0,39
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0012,ZH-Tenor-1,mixed_falsetto,technique,把 眼 泪 种 在 心 上 会 开 出 勇 敢 的 花 可 以 在 疲 惫 的 时 光,把眼泪种在心上会开出勇敢的话可以在疲惫的时光,1.0,0.045454545454545456,,1,21,0,22
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0013,ZH-Tenor-1,mixed_falsetto,technique,闭 上 眼 睛 闻 到 一 种 芬 芳 就 像 好 好 睡 了 一 夜 直 到 天 亮 又 能 边 走 着 边 哼 着 歌 用 轻 快 的 步 伐,闭上眼睛玩到一种芬芳就想好好睡了一夜直到天亮又能编奏着编哼着歌用轻快的步伐,1.0,0.13513513513513514,,1,36,0,37
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0014,ZH-Tenor-1,mixed_falsetto,technique,沮 丧 时 总 会 明 显 感 到 孤 独 的 重 量 多 渴 望 懂 得 的 人 借 个 温 暖 借 个 肩 膀 很 高 兴,沮丧时总会明显感到孤独的重量多渴望懂得的人给些温暖借个肩膀很高兴,1.0,0.0625,,1,31,0,32
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0015,ZH-Tenor-1,mixed_falsetto,technique,一 路 上 我 们 的 默 契 那 么 长 穿 过 风 又 绕 了 弯,一路上我们的默契那么长穿过风又绕了弯,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0016,ZH-Tenor-1,mixed_falsetto,technique,心 还 连 着 像 往 常 一 样 最 初 的 梦 想 紧 握 在 手 上,心还恋着像往常一样最初的梦想紧握在手上,1.0,0.05263157894736842,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0017,ZH-Tenor-1,mixed_falsetto,technique,最 想 要 去 的 地 方 怎 么 能 在 半 路 就 返 航 最 初 的 梦 想,最想要去的地方怎么能在半路就返航最初的梦想,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__最初的梦想__0018,ZH-Tenor-1,mixed_falsetto,technique,绝 对 会 到 达 实 现 了 真 的 渴 望 才 能 够 算 到 过 了 天 堂,绝对会到达实现了真的渴望才能够算到过了天堂,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__枫__0000,ZH-Tenor-1,mixed_falsetto,technique,乌 云 在 我 们 心 里 搁 下 一 块 阴 影,乌云在我们心里隔下一块阴影,1.0,0.07692307692307693,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__枫__0001,ZH-Tenor-1,mixed_falsetto,technique,我 聆 听 沉 寂 已 久 的 心 情 清 晰 透 明,我聆听成绩依旧的心情清晰透明,1.0,0.2857142857142857,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__枫__0002,ZH-Tenor-1,mixed_falsetto,technique,就 像 美 丽 的 风 景 总 在 回 忆 里 才 看 得 清,就像美丽的风景总在回忆里才看得清,1.0,0.0,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__枫__0003,ZH-Tenor-1,mixed_falsetto,technique,被 伤 透 的 心 能 不 能 够 继 续 爱 我,被伤透的心能不能够继续爱我,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__枫__0004,ZH-Tenor-1,mixed_falsetto,technique,我 用 力 牵 起 没 温 度 的 双 手 过 往 温 柔,我用力牵起没温度的双手过往温柔,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__枫__0005,ZH-Tenor-1,mixed_falsetto,technique,已 经 被 时 间 上 锁 只 剩 挥 散 不 去 的 难 过,已经被时间上锁只剩挥散不去的难过,1.0,0.0,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__枫__0006,ZH-Tenor-1,mixed_falsetto,technique,缓 缓 飘 落 的 枫 叶 像 思 念 我 点 燃 烛 火 温 暖 岁 末 的 秋 天,缓缓飘落的枫叶像思念我点燃烛火温暖碎末的秋天,1.0,0.045454545454545456,,1,21,0,22
+ZH-Tenor-1__mixed_falsetto__technique__枫__0007,ZH-Tenor-1,mixed_falsetto,technique,极 光 掠 夺 天 边 北 风 掠 过 想 你 的 容 颜,金黄绿朵天边北风掠过想你的容颜,1.0,0.26666666666666666,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__枫__0008,ZH-Tenor-1,mixed_falsetto,technique,我 把 爱 烧 成 了 落 叶 却 换 不 回 熟 悉 的 那 张 脸,我把爱烧成了落叶却换不回熟悉的那张脸,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__枫__0009,ZH-Tenor-1,mixed_falsetto,technique,缓 缓 飘 落 的 枫 叶 像 思 念 为 何 挽 回 要 赶 在 冬 天 来 之 前,缓缓凋落的枫叶像思念为何晚会要赶在冬天来之前,1.0,0.13636363636363635,,1,21,0,22
+ZH-Tenor-1__mixed_falsetto__technique__枫__0010,ZH-Tenor-1,mixed_falsetto,technique,爱 你 穿 越 时 间 两 行 来 自 秋 末 的 眼 泪,爱你穿越世间两行来自秋末的眼泪,1.0,0.06666666666666667,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__枫__0011,ZH-Tenor-1,mixed_falsetto,technique,让 爱 渗 透 了 地 面 我 要 的 只 是 你 在 我 身 边,让爱渗透了地面我有的只是你在我身边,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__枫__0000,ZH-Tenor-1,mixed_falsetto,technique,乌 云 在 我 们 心 里 搁 下 一 块 阴 影,乌云在我们心里隔下一块阴影,1.0,0.07692307692307693,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__枫__0001,ZH-Tenor-1,mixed_falsetto,technique,我 聆 听 沉 寂 已 久 的 心 情 清 晰 透 明,我聆听沉寂依旧的心情清晰透明,1.0,0.14285714285714285,,1,13,0,14
+ZH-Tenor-1__mixed_falsetto__technique__枫__0002,ZH-Tenor-1,mixed_falsetto,technique,就 像 美 丽 的 风 景 总 在 回 忆 里 才 看 得 清,就像美丽的风景总在回忆里才看得清,1.0,0.0,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__枫__0003,ZH-Tenor-1,mixed_falsetto,technique,被 伤 透 的 心 能 不 能 够 继 续 爱 我,被伤透的心能不能够继续爱我,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__枫__0004,ZH-Tenor-1,mixed_falsetto,technique,我 用 力 牵 起 没 温 度 的 双 手 过 往 温 柔,我用力牵起每万度的双手过往温柔,1.0,0.13333333333333333,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__枫__0005,ZH-Tenor-1,mixed_falsetto,technique,已 经 被 时 间 上 锁 只 剩 挥 散 不 去 的 难 过,已经被时间上锁只剩挥散不去的难过,1.0,0.0,,1,15,0,16
+ZH-Tenor-1__mixed_falsetto__technique__枫__0006,ZH-Tenor-1,mixed_falsetto,technique,缓 缓 飘 落 的 枫 叶 像 思 念 我 点 燃 烛 火 温 暖 岁 末 的 秋 天,缓缓飘落的枫叶上思念我点燃烛火温暖碎末的秋天,1.0,0.09090909090909091,,1,21,0,22
+ZH-Tenor-1__mixed_falsetto__technique__枫__0007,ZH-Tenor-1,mixed_falsetto,technique,极 光 掠 夺 天 边 北 风 掠 过 想 你 的 容 颜,季光略多甜点北风略过想你的容颜,1.0,0.4,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__枫__0008,ZH-Tenor-1,mixed_falsetto,technique,我 把 爱 烧 成 了 落 叶 却 换 不 回 熟 悉 的 那 张 脸,我把爱烧成了落叶却换不回熟悉的那场恋,1.0,0.1111111111111111,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__枫__0009,ZH-Tenor-1,mixed_falsetto,technique,缓 缓 飘 落 的 枫 叶 像 思 念 为 何 挽 回 要 赶 在 冬 天 来 之 前,缓缓飘落的枫叶上思念为何挽回要赶在冬天来之前,1.0,0.045454545454545456,,1,21,0,22
+ZH-Tenor-1__mixed_falsetto__technique__枫__0010,ZH-Tenor-1,mixed_falsetto,technique,爱 你 穿 越 时 间 两 行 来 自 秋 末 的 眼 泪,爱你穿越世人两行来自秋末的眼泪,1.0,0.13333333333333333,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__枫__0011,ZH-Tenor-1,mixed_falsetto,technique,让 爱 渗 透 了 地 面 我 要 的 只 是 你 在 我 身 边,让爱渗透了地面我要的只是你在我身边,1.0,0.0,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__过火__0000,ZH-Tenor-1,mixed_falsetto,technique,是 否 对 你 承 诺 了 太 多 还 是 我 原 本 给 的 就 不 够,是否对你承诺了太多还是我原本给的酒不够,1.0,0.05263157894736842,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0001,ZH-Tenor-1,mixed_falsetto,technique,你 始 终 有 千 万 种 理 由 我 一 直 都 跟 随 你 的 感 受,你始终有千万种理由我一直都跟随你的感受,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0002,ZH-Tenor-1,mixed_falsetto,technique,让 你 疯 让 你 去 放 纵 以 为 你 有 天 会 感 动 关 于 流 言 我 装 作 无 动 于 衷,让你疯让你去放纵以为你有天会感动关于流言我装作无动于衷,1.0,0.0,,1,26,0,27
+ZH-Tenor-1__mixed_falsetto__technique__过火__0003,ZH-Tenor-1,mixed_falsetto,technique,直 到 所 有 的 梦 已 破 碎 才 看 见 你 的 眼 泪 和 后 悔,直到所有的梦已破碎才看见你的眼泪和后悔,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0004,ZH-Tenor-1,mixed_falsetto,technique,我 是 多 想 再 给 你 机 会 多 想 问 你 究 竟 爱 谁,我是多想再给你机会多想为你究竟爱谁,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__过火__0005,ZH-Tenor-1,mixed_falsetto,technique,既 然 爱 难 分 是 非 就 别 逃 避 勇 敢 面 对,既然爱难分是非就别逃避勇敢面对,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__过火__0006,ZH-Tenor-1,mixed_falsetto,technique,给 了 他 的 心 你 是 否 能 够 要 得 回,给了她的心你是否能够要的回,1.0,0.15384615384615385,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__过火__0007,ZH-Tenor-1,mixed_falsetto,technique,怎 么 忍 心 怪 你 犯 了 错 是 我 给 你 自 由 过 了 火,怎么任性怪你犯了错是我给你自由过了祸,1.0,0.16666666666666666,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__过火__0008,ZH-Tenor-1,mixed_falsetto,technique,让 你 更 寂 寞 才 会 陷 入 感 情 漩 涡,让你更寂寞才会陷入感情漩涡,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__过火__0009,ZH-Tenor-1,mixed_falsetto,technique,怎 么 忍 心 让 你 受 折 磨 是 我 给 你 自 由 过 了 火,怎么任性让你受折磨是我给你自由过了祸,1.0,0.16666666666666666,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__过火__0010,ZH-Tenor-1,mixed_falsetto,technique,如 果 你 想 飞 伤 痛 我 背,如果你想飞上同我北,1.0,0.3333333333333333,,1,8,0,9
+ZH-Tenor-1__mixed_falsetto__technique__过火__0011,ZH-Tenor-1,mixed_falsetto,technique,是 否 对 你 承 诺 了 太 多 还 是 我 原 本 给 的 就 不 够,是否对你承诺了太多还是我原本给的就不够,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0012,ZH-Tenor-1,mixed_falsetto,technique,你 始 终 有 千 万 种 理 由 我 一 直 都 跟 随 你 的 感 受,你始终有千万种理由我一直都跟随你的感受,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0013,ZH-Tenor-1,mixed_falsetto,technique,让 你 疯 让 你 去 放 纵 以 为 你 有 天 会 感 动 关 于 流 言 我 装 作 无 动 于 衷,让你疯让你去放纵以为你有天会感动关于刘烨我装作无动于衷,1.0,0.07407407407407407,,1,26,0,27
+ZH-Tenor-1__mixed_falsetto__technique__过火__0014,ZH-Tenor-1,mixed_falsetto,technique,直 到 所 有 的 梦 已 破 碎 才 看 见 你 的 眼 泪 和 后 悔,直到所有的梦已破碎才看见你的眼泪和后悔,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0015,ZH-Tenor-1,mixed_falsetto,technique,我 是 多 想 再 给 你 机 会 多 想 问 你 究 竟 爱 谁,我是多想再给你机会多想问你究竟爱谁,1.0,0.0,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__过火__0016,ZH-Tenor-1,mixed_falsetto,technique,既 然 爱 难 分 是 非 就 别 逃 避 勇 敢 面 对,既然爱难分是非就别逃避勇敢面对,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__过火__0017,ZH-Tenor-1,mixed_falsetto,technique,给 了 他 的 心 你 是 否 能 够 要 得 回,给了她的心你是否能够要的回,1.0,0.15384615384615385,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__过火__0018,ZH-Tenor-1,mixed_falsetto,technique,怎 么 忍 心 怪 你 犯 了 错 是 我 给 你 自 由 过 了 火,怎么任性怪你犯了错是我给你自由过了祸,1.0,0.16666666666666666,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__过火__0019,ZH-Tenor-1,mixed_falsetto,technique,让 你 更 寂 寞 才 会 陷 入 感 情 漩 涡,让你更寂寞才会陷入感情漩涡,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__过火__0020,ZH-Tenor-1,mixed_falsetto,technique,怎 么 忍 心 让 你 受 折 磨 是 我 给 你 自 由 过 了 火,怎么任性让你受折磨是我给你自由过了祸,1.0,0.16666666666666666,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__过火__0021,ZH-Tenor-1,mixed_falsetto,technique,如 果 你 想 飞 伤 痛 我 背,如果你想飞上同我北,1.0,0.3333333333333333,,1,8,0,9
+ZH-Tenor-1__mixed_falsetto__technique__过火__0022,ZH-Tenor-1,mixed_falsetto,technique,怎 么 忍 心 怪 你 犯 了 错 是 我 给 你 自 由 过 了 火,怎么任性怪你犯了错是我给你自由过了祸,1.0,0.16666666666666666,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__过火__0023,ZH-Tenor-1,mixed_falsetto,technique,让 你 更 寂 寞 才 会 陷 入 感 情 漩 涡 怎 么 忍 心 让 你,让你更寂寞才会陷入感情漩涡怎么忍心让你,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0024,ZH-Tenor-1,mixed_falsetto,technique,受 折 磨 是 我 给 你 自 由 过 了 火 如 果 你 想 飞 伤 痛 我 背,受折磨是我给你自由过了祸如果你想飞上同我背,1.0,0.14285714285714285,,1,20,0,21
+ZH-Tenor-1__mixed_falsetto__technique__过火__0000,ZH-Tenor-1,mixed_falsetto,technique,是 否 对 你 承 诺 了 太 多 还 是 我 原 本 给 的 就 不 够,是否对你承诺了太多还是我原本给的就不够,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0001,ZH-Tenor-1,mixed_falsetto,technique,你 始 终 有 千 万 种 理 由 我 一 直 都 跟 随 你 的 感 受,你始终有千万种理由我一直都跟随你的感受,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0002,ZH-Tenor-1,mixed_falsetto,technique,让 你 疯 让 你 去 放 纵 以 为 你 有 天 会 感 动 关 于 流 言 我 装 作 无 动 于 衷,让你疯让你去放纵以为你有天会感动关于流言我装作无头与众,1.0,0.1111111111111111,,1,26,0,27
+ZH-Tenor-1__mixed_falsetto__technique__过火__0003,ZH-Tenor-1,mixed_falsetto,technique,直 到 所 有 的 梦 已 破 碎 才 看 见 你 的 眼 泪 和 后 悔,直到所有的梦已破碎才看见你的眼泪和后悔,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0004,ZH-Tenor-1,mixed_falsetto,technique,我 是 多 想 再 给 你 机 会 多 想 问 你 究 竟 爱 谁,我是多想再给你机会多想为你究竟爱谁,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__过火__0005,ZH-Tenor-1,mixed_falsetto,technique,既 然 爱 难 分 是 非 就 别 逃 避 勇 敢 面 对,既然爱难分是非就别逃避勇敢面对,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__过火__0006,ZH-Tenor-1,mixed_falsetto,technique,给 了 他 的 心 你 是 否 能 够 要 得 回,给了她的心你是否能够要的回,1.0,0.15384615384615385,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__过火__0007,ZH-Tenor-1,mixed_falsetto,technique,怎 么 忍 心 怪 你 犯 了 错 是 我 给 你 自 由 过 了 火,怎么任性怪你犯了错是我给你自由过了祸,1.0,0.16666666666666666,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__过火__0008,ZH-Tenor-1,mixed_falsetto,technique,让 你 更 寂 寞 才 会 陷 入 感 情 漩 涡,让你更寂寞才会陷入感情漩涡,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__过火__0009,ZH-Tenor-1,mixed_falsetto,technique,怎 么 忍 心 让 你 受 折 磨 是 我 给 你 自 由 过 了 火,怎么任性让你受折磨是我给你自由过了祸,1.0,0.16666666666666666,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__过火__0010,ZH-Tenor-1,mixed_falsetto,technique,如 果 你 想 飞 伤 痛 我 背,如果你想飞想捅我背,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__mixed_falsetto__technique__过火__0011,ZH-Tenor-1,mixed_falsetto,technique,是 否 对 你 承 诺 了 太 多 还 是 我 原 本 给 的 就 不 够,是否对你承诺了太多还是我原本给的就不够,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0012,ZH-Tenor-1,mixed_falsetto,technique,你 始 终 有 千 万 种 理 由 我 一 直 都 跟 随 你 的 感 受,你始终有千万种理由我一直都跟随你的感受,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0013,ZH-Tenor-1,mixed_falsetto,technique,让 你 疯 让 你 去 放 纵 以 为 你 有 天 会 感 动 关 于 流 言 我 装 作 无 动 于 衷,让你疯让你去放纵以为你有天会感动关于流言我装作无头与众,1.0,0.1111111111111111,,1,26,0,27
+ZH-Tenor-1__mixed_falsetto__technique__过火__0014,ZH-Tenor-1,mixed_falsetto,technique,直 到 所 有 的 梦 已 破 碎 才 看 见 你 的 眼 泪 和 后 悔,直到所有的梦已破碎才看见你的眼泪和后悔,1.0,0.0,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0015,ZH-Tenor-1,mixed_falsetto,technique,我 是 多 想 再 给 你 机 会 多 想 问 你 究 竟 爱 谁,我是多想再给你机会多想为你究竟爱谁,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__mixed_falsetto__technique__过火__0016,ZH-Tenor-1,mixed_falsetto,technique,既 然 爱 难 分 是 非 就 别 逃 避 勇 敢 面 对,既然爱难分是非就别逃避勇敢面对,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__mixed_falsetto__technique__过火__0017,ZH-Tenor-1,mixed_falsetto,technique,给 了 他 的 心 你 是 否 能 够 要 得 回,给了她的心你是否能够要的回,1.0,0.15384615384615385,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__过火__0018,ZH-Tenor-1,mixed_falsetto,technique,怎 么 忍 心 怪 你 犯 了 错 是 我 给 你 自 由 过 了 火,怎么任性怪你犯了错是我给你自由过了祸,1.0,0.16666666666666666,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__过火__0019,ZH-Tenor-1,mixed_falsetto,technique,让 你 更 寂 寞 才 会 陷 入 感 情 漩 涡,让你更寂寞才会陷入感情漩涡,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__mixed_falsetto__technique__过火__0020,ZH-Tenor-1,mixed_falsetto,technique,怎 么 忍 心 让 你 受 折 磨 是 我 给 你 自 由 过 了 火,怎么任性让你受折磨是我给你自由过了祸,1.0,0.16666666666666666,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__过火__0021,ZH-Tenor-1,mixed_falsetto,technique,如 果 你 想 飞 伤 痛 我 背,如果你像飞伤痛我悲,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__mixed_falsetto__technique__过火__0022,ZH-Tenor-1,mixed_falsetto,technique,怎 么 忍 心 怪 你 犯 了 错 是 我 给 你 自 由 过 了 火,怎么任性怪你犯了错是我给你自由过了祸,1.0,0.16666666666666666,,1,17,0,18
+ZH-Tenor-1__mixed_falsetto__technique__过火__0023,ZH-Tenor-1,mixed_falsetto,technique,让 你 更 寂 寞 才 会 陷 入 感 情 漩 涡 怎 么 忍 心 让 你,让你更寂寞才会陷入感情漩涡怎么任性让你,1.0,0.10526315789473684,,1,18,0,19
+ZH-Tenor-1__mixed_falsetto__technique__过火__0024,ZH-Tenor-1,mixed_falsetto,technique,受 折 磨 是 我 给 你 自 由 过 了 火 如 果 你 想 飞 伤 痛 我 背,受折磨是我给你自由过了祸如果你想飞想捅我背,1.0,0.14285714285714285,,1,20,0,21
+ZH-Tenor-1__pharyngeal__technique__交换余生__0000,ZH-Tenor-1,pharyngeal,technique,乌 云 静 止 以 后 跳 进 平 行 时 空,乌云静止以后跳进平行时空,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__pharyngeal__technique__交换余生__0001,ZH-Tenor-1,pharyngeal,technique,那 些 我 旅 行 中 的 你 我 回 忆 胡 乱 穿 梭 坠 落,那些我旅行中的你我回忆胡乱穿梭坠落,1.0,0.0,,1,16,0,17
+ZH-Tenor-1__pharyngeal__technique__交换余生__0002,ZH-Tenor-1,pharyngeal,technique,交 换 余 生 是 我 非 我 苦 与 乐,江湾余生是我非我苦与乐,1.0,0.18181818181818182,,1,10,0,11
+ZH-Tenor-1__pharyngeal__technique__交换余生__0003,ZH-Tenor-1,pharyngeal,technique,阴 天 之 后 总 有 续 命 的 晴 空,阎天之后总有虚名的晴空,1.0,0.2727272727272727,,1,10,0,11
+ZH-Tenor-1__pharyngeal__technique__交换余生__0004,ZH-Tenor-1,pharyngeal,technique,如 果 我 们 几 经 转 折 结 局 一 样 不 动,如果我们旗舰转着结局也不懂,1.0,0.42857142857142855,,1,13,0,14
+ZH-Tenor-1__pharyngeal__technique__交换余生__0005,ZH-Tenor-1,pharyngeal,technique,也 才 算 无 愧 这 分 合,也才算无愧者分合,1.0,0.125,,1,7,0,8
+ZH-Tenor-1__pharyngeal__technique__交换余生__0006,ZH-Tenor-1,pharyngeal,technique,如 果 没 有 以 后 如 果 平 行 时 空,如果没有以后如果平行时空,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__pharyngeal__technique__交换余生__0007,ZH-Tenor-1,pharyngeal,technique,那 些 我 不 同 人 生 的 我 会 以 什 么 方 式 哭 过,那些我不懂人生的我会以什么方式哭过,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__pharyngeal__technique__交换余生__0008,ZH-Tenor-1,pharyngeal,technique,交 换 余 生 是 我 非 我 苦 与 乐,将万语声示我贼我哭了,1.0,0.8181818181818182,,1,10,0,11
+ZH-Tenor-1__pharyngeal__technique__交换余生__0009,ZH-Tenor-1,pharyngeal,technique,阴 天 之 后 总 有 续 命 的 晴 空,一天之后总有虚名的晴空,1.0,0.2727272727272727,,1,10,0,11
+ZH-Tenor-1__pharyngeal__technique__交换余生__0010,ZH-Tenor-1,pharyngeal,technique,如 果 我 们 几 经 转 折 结 局 一 样 不 动,如果我没激情穿插结局一样不懂,1.0,0.42857142857142855,,1,13,0,14
+ZH-Tenor-1__pharyngeal__technique__交换余生__0011,ZH-Tenor-1,pharyngeal,technique,也 才 算 无 愧 这 分 合,也才算无愧者分合,1.0,0.125,,1,7,0,8
+ZH-Tenor-1__pharyngeal__technique__交换余生__0012,ZH-Tenor-1,pharyngeal,technique,云 等 风 人 等 梦 爱 辗 过 时 光 等 什 么,云等风人等梦爱念过时光等什么,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__pharyngeal__technique__交换余生__0013,ZH-Tenor-1,pharyngeal,technique,记 不 住 认 不 出 泪 眼 中 谁 一 样 脸 红,记不住忍不住泪眼中谁一样脸红,1.0,0.14285714285714285,,1,13,0,14
+ZH-Tenor-1__pharyngeal__technique__交换余生__0014,ZH-Tenor-1,pharyngeal,technique,我 等 你 说 等 我 说 一 等 就 是 一 个 宇 宙,哦等你说等我说一定就是一个宇宙,1.0,0.13333333333333333,,1,14,0,15
+ZH-Tenor-1__pharyngeal__technique__交换余生__0015,ZH-Tenor-1,pharyngeal,technique,日 升 换 月 落 真 爱 换 寂 寞,日升换日落尘埃换寂寞,1.0,0.3,,1,9,0,10
+ZH-Tenor-1__pharyngeal__technique__交换余生__0016,ZH-Tenor-1,pharyngeal,technique,交 换 余 生 也 许 忘 了 第 几 梦,交换余生也许忘了第一期梦,1.0,0.18181818181818182,,1,10,0,11
+ZH-Tenor-1__pharyngeal__technique__交换余生__0017,ZH-Tenor-1,pharyngeal,technique,那 时 我 们 身 处 第 几 号 时 空,那时我们身处第一级好时空,1.0,0.2727272727272727,,1,10,0,11
+ZH-Tenor-1__pharyngeal__technique__交换余生__0018,ZH-Tenor-1,pharyngeal,technique,因 为 我 们 手 心 紧 握 记 忆 也 能 紧 扣,因为我们手心紧我心也能紧扣,1.0,0.21428571428571427,,1,13,0,14
+ZH-Tenor-1__pharyngeal__technique__交换余生__0019,ZH-Tenor-1,pharyngeal,technique,可 不 怕 前 方 的 虫 洞,可不怕前方的冲动,1.0,0.25,,1,7,0,8
+ZH-Tenor-1__pharyngeal__technique__交换余生__0020,ZH-Tenor-1,pharyngeal,technique,爱 是 时 间 的 古 董,爱是时间的骨头,1.0,0.2857142857142857,,1,6,0,7
+ZH-Tenor-1__pharyngeal__technique__南山南__0000,ZH-Tenor-1,pharyngeal,technique,你 在 南 方 的 艳 阳 里 大 雪 纷 飞,你在南方的艳阳里大雪纷飞,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__pharyngeal__technique__南山南__0001,ZH-Tenor-1,pharyngeal,technique,我 在 北 方 的 寒 夜 里 四 季 如 春 如 果 天 黑 之 前 来 得 及,我在北方的寒夜里四季如春如果天黑之前来得及,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__pharyngeal__technique__南山南__0002,ZH-Tenor-1,pharyngeal,technique,我 要 忘 了 你 的 眼 睛 穷 极 一 生 做 不 完 一 场 梦,我要忘了你的眼睛憧憬一生做不完一场梦,1.0,0.1111111111111111,,1,17,0,18
+ZH-Tenor-1__pharyngeal__technique__南山南__0003,ZH-Tenor-1,pharyngeal,technique,他 说 你 任 何 为 人 称 道 的 美 丽 不 及 他 第 一 次 遇 见 你,他说你任何为人称到的美丽不及他第一次遇见你,1.0,0.047619047619047616,,1,20,0,21
+ZH-Tenor-1__pharyngeal__technique__南山南__0004,ZH-Tenor-1,pharyngeal,technique,时 光 苟 延 残 喘 无 可 奈 何 如 果 所 有 土 地 连 在 一 起 走 上 一 生 只 为 拥 抱 你 喝 醉 了 他 的 梦 晚 安,时光苟延残喘无可奈何如果所有徒弟连在一起走上一生只为拥抱你喝醉了他的梦晚安,1.0,0.05405405405405406,,1,36,0,37
+ZH-Tenor-1__pharyngeal__technique__南山南__0005,ZH-Tenor-1,pharyngeal,technique,你 在 南 方 的 艳 阳 里 大 雪 纷 飞,你在南方的艳阳里大雪纷飞,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__pharyngeal__technique__南山南__0006,ZH-Tenor-1,pharyngeal,technique,我 在 北 方 的 寒 夜 里 四 季 如 春 如 果 天 黑 之 前 来 得 及,我在北方的寒夜里四季如春如果天黑之前来得及,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__pharyngeal__technique__南山南__0007,ZH-Tenor-1,pharyngeal,technique,我 要 忘 了 你 的 眼 睛 穷 极 一 生 做 不 完 一 场 梦,我要忘了你的眼睛穷极一生做不完一场梦,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__pharyngeal__technique__南山南__0008,ZH-Tenor-1,pharyngeal,technique,你 在 南 方 的 艳 阳 里 大 雪 纷 飞,你在南方的艳阳里大雪纷飞,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__pharyngeal__technique__南山南__0009,ZH-Tenor-1,pharyngeal,technique,我 在 北 方 的 寒 夜 里 四 季 如 春 如 果 天 黑 之 前 来 得 及,我在北方的寒夜里四季如春如果天黑之前来得及,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__pharyngeal__technique__南山南__0010,ZH-Tenor-1,pharyngeal,technique,我 要 忘 了 你 的 眼 睛 穷 极 一 生 做 不 完 一 场 梦,我要忘了你的眼睛终极一生做不完一场梦,1.0,0.05555555555555555,,1,17,0,18
+ZH-Tenor-1__pharyngeal__technique__南山南__0011,ZH-Tenor-1,pharyngeal,technique,南 山 南 北 秋 悲,南山南北秋北,1.0,0.16666666666666666,,1,5,0,6
+ZH-Tenor-1__pharyngeal__technique__南山南__0012,ZH-Tenor-1,pharyngeal,technique,南 山 有 谷 堆 南 风 喃,南山有古堆南风难,1.0,0.25,,1,7,0,8
+ZH-Tenor-1__pharyngeal__technique__南山南__0013,ZH-Tenor-1,pharyngeal,technique,北 海 北 北 海 有 墓 碑,北海北北海有墓碑,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__pharyngeal__technique__情歌__0000,ZH-Tenor-1,pharyngeal,technique,慢 动 作 缱 绻 胶 卷 重 播 默 片 定 格 一 瞬 间,慢动作前圈角卷重播磨片定格一瞬间,1.0,0.25,,1,15,0,16
+ZH-Tenor-1__pharyngeal__technique__情歌__0001,ZH-Tenor-1,pharyngeal,technique,我 们 在 告 别 的 演 唱 会 说 好 不 再 见,我们在告别的演唱会说好不再见,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__pharyngeal__technique__情歌__0002,ZH-Tenor-1,pharyngeal,technique,你 写 给 我 我 的 第 一 首 歌 你 和 我 十 指 紧 扣,你写给我我的第一首歌你和我拾之今后,1.0,0.23529411764705882,,1,16,0,17
+ZH-Tenor-1__pharyngeal__technique__情歌__0003,ZH-Tenor-1,pharyngeal,technique,默 写 前 奏 可 是 那 然 后 呢 还 好 我 有,默写前奏可是那然后呢还好我要,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__pharyngeal__technique__情歌__0004,ZH-Tenor-1,pharyngeal,technique,我 这 一 首 情 歌 轻 轻 地 轻 轻 哼 着,我这一首情歌轻轻地轻轻哼着,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__pharyngeal__technique__情歌__0005,ZH-Tenor-1,pharyngeal,technique,哭 着 笑 着 我 的 天 长 地 久,哭着笑着我的天长地久,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__pharyngeal__technique__情歌__0006,ZH-Tenor-1,pharyngeal,technique,长 镜 头 越 拉 越 远 越 来 越 远 事 隔 好 几 年,场景头越来越远越来越远时隔好几年,1.0,0.25,,1,15,0,16
+ZH-Tenor-1__pharyngeal__technique__情歌__0007,ZH-Tenor-1,pharyngeal,technique,我 们 在 怀 念 的 演 唱 会 礼 貌 地 吻 别,我们在怀念的演唱会礼貌的吻别,1.0,0.07142857142857142,,1,13,0,14
+ZH-Tenor-1__pharyngeal__technique__情歌__0008,ZH-Tenor-1,pharyngeal,technique,你 写 给 我 我 的 第 一 首 歌 你 和 我 十 指 紧 扣,你写给我我的第一首歌你和我拾之今后,1.0,0.23529411764705882,,1,16,0,17
+ZH-Tenor-1__pharyngeal__technique__情歌__0009,ZH-Tenor-1,pharyngeal,technique,默 写 前 奏 可 是 那 然 后 呢 还 好 我 有,默写前走可是那然后呢还好我要,1.0,0.14285714285714285,,1,13,0,14
+ZH-Tenor-1__pharyngeal__technique__情歌__0010,ZH-Tenor-1,pharyngeal,technique,我 这 一 首 情 歌 轻 轻 地 轻 轻 哼 着,我这一首情歌轻轻地轻轻哼着,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__pharyngeal__technique__情歌__0011,ZH-Tenor-1,pharyngeal,technique,哭 着 笑 着 我 的 天 长 地 久,哭着笑着我的天长地久,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__pharyngeal__technique__情歌__0012,ZH-Tenor-1,pharyngeal,technique,陪 我 唱 歌 清 唱 你 的 情 歌 舍 不 得 短 短 副 歌,陪我唱歌轻唱你的情歌舍不得短短副歌,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__pharyngeal__technique__情歌__0013,ZH-Tenor-1,pharyngeal,technique,心 还 热 着 也 该 告 一 段 落 还 好 我 要,心还热着也该告一段落还好我要,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__pharyngeal__technique__情歌__0014,ZH-Tenor-1,pharyngeal,technique,我 下 一 首 情 歌 生 命 宛 如 静 静 的,我下一首情歌生命宛如静静的,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__pharyngeal__technique__情歌__0015,ZH-Tenor-1,pharyngeal,technique,相 拥 的 河 永 远 天 长 地 久,相拥的和永远天长地久,1.0,0.1,,1,9,0,10
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0000,ZH-Tenor-1,pharyngeal,technique,如 果 骄 傲 没 被 现 实 大 海 冷 冷 拍 下 又 怎 会 懂 得,如果假美被现实大海冷冷拍下又怎会懂得,1.0,0.15789473684210525,,1,18,0,19
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0001,ZH-Tenor-1,pharyngeal,technique,要 多 努 力 才 走 得 到 远 方 如 果 梦 想 不 曾 坠 落 悬 崖 千 钧 一 发,要多努力才走得到远方如果梦想不曾坠落悬崖千军一发,1.0,0.041666666666666664,,1,23,0,24
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0002,ZH-Tenor-1,pharyngeal,technique,又 怎 会 晓 得 执 着 的 人 拥 有 隐 形 翅 膀,又怎会晓得执着的人拥有隐形翅膀,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0003,ZH-Tenor-1,pharyngeal,technique,把 眼 泪 种 在 心 上 会 开 出 勇 敢 的 花 可 以 在 疲 惫 的 时 光,把眼泪种在心上会开出勇敢的话可以在疲惫的时光,1.0,0.045454545454545456,,1,21,0,22
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0004,ZH-Tenor-1,pharyngeal,technique,闭 上 眼 睛 闻 到 一 种 芬 芳 就 像 好 好 睡 上 一 夜 直 到 天 亮 又 能 边 走 着 边 哼 着 歌 用 轻 快 的 步 伐,闭上眼睛闻到一种芬芳就想好好睡上一夜直到天亮又能边走着边哼着歌用轻快的步伐,1.0,0.02702702702702703,,1,36,0,37
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0005,ZH-Tenor-1,pharyngeal,technique,沮 丧 时 总 会 明 显 感 到 孤 独 的 重 量 多 渴 望 懂 得 的 人 借 个 温 暖 借 个 肩 膀 很 高 兴,计算师总会明显感到孤独的重量多渴望懂得的人借个温暖借个肩膀很高兴,1.0,0.09375,,1,31,0,32
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0006,ZH-Tenor-1,pharyngeal,technique,一 路 上 我 们 的 默 契 那 么 长 穿 过 风 又 绕 了 弯,一路上我们的默契那么长穿过风又绕了弯,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0007,ZH-Tenor-1,pharyngeal,technique,心 还 连 着 像 往 常 一 样 最 初 的 梦 想 紧 握 在 手 上,心还恋着像往常一样最初的梦想紧握在手上,1.0,0.05263157894736842,,1,18,0,19
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0008,ZH-Tenor-1,pharyngeal,technique,最 想 要 去 的 地 方 怎 么 能 在 半 路 就 返 航 最 初 的 梦 想,最想要去的地方怎么能在半路就返航最初的梦想,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0009,ZH-Tenor-1,pharyngeal,technique,绝 对 会 到 达 实 现 了 真 的 渴 望 才 能 够 算 到 达 了 天 堂,绝对会到达实现了真的渴望才能够算到达了天堂,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0010,ZH-Tenor-1,pharyngeal,technique,如 果 骄 傲 没 被 现 实 大 海 冷 冷 拍 下 又 怎 会 懂 得,如果家没被现实大海冷冷拍下又怎会懂得,1.0,0.10526315789473684,,1,18,0,19
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0011,ZH-Tenor-1,pharyngeal,technique,要 多 努 力 才 走 得 到 远 方 如 果 梦 想 不 曾 坠 落 悬 崖 千 钧 一 发 又 怎 会 晓 得 执 着 的 人 拥 有 隐 形 翅 膀,要多努力才走得到远方如果梦想不曾坠落悬崖千军一发又怎会晓得执着的人拥有隐形翅膀,1.0,0.02564102564102564,,1,38,0,39
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0012,ZH-Tenor-1,pharyngeal,technique,把 眼 泪 种 在 心 上 会 开 出 勇 敢 的 花 可 以 在 疲 惫 的 时 光,把眼泪种在心上会开出勇敢的话可以在疲惫的时光,1.0,0.045454545454545456,,1,21,0,22
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0013,ZH-Tenor-1,pharyngeal,technique,闭 上 眼 睛 闻 到 一 种 芬 芳 就 像 好 好 睡 上 一 夜 直 到 天 亮 又 能 边 走 着 边 哼 着 歌 用 轻 快 的 步 伐,闭上眼睛闻到一种芬芳就想好好睡上一夜直到天亮又能边走着边哼着歌用轻快的步伐,1.0,0.02702702702702703,,1,36,0,37
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0014,ZH-Tenor-1,pharyngeal,technique,沮 丧 时 总 会 明 显 感 到 孤 独 的 重 量 多 渴 望 懂 得 的 人 借 个 温 暖 借 个 肩 膀 很 高 兴,沮丧时走会明显感到孤独的重量多渴望懂得的人借个温暖借个肩膀很高兴,1.0,0.03125,,1,31,0,32
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0015,ZH-Tenor-1,pharyngeal,technique,一 路 上 我 们 的 默 契 那 么 长 穿 过 风 又 绕 了 弯,一路上我们的默契那么长穿过风又绕了弯,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0016,ZH-Tenor-1,pharyngeal,technique,心 还 连 着 像 往 常 一 样 最 初 的 梦 想 紧 握 在 手 上,心还恋着像往常一样最初的梦想紧握在手上,1.0,0.05263157894736842,,1,18,0,19
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0017,ZH-Tenor-1,pharyngeal,technique,最 想 要 去 的 地 方 怎 么 能 在 半 路 就 返 航 最 初 的 梦 想,最想要去的地方怎么能在半路就返航最初的梦想,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__pharyngeal__technique__最初的梦想__0018,ZH-Tenor-1,pharyngeal,technique,绝 对 会 到 达 实 现 了 真 的 渴 望 才 能 够 算 到 达 了 天 堂,绝对会到达实现了真的渴望才能够算到达了天堂,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0000,ZH-Tenor-1,pharyngeal,technique,每 一 次 都 在 徘 徊 孤 单 中 坚 强,每一次都在徘徊孤单中坚强,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0001,ZH-Tenor-1,pharyngeal,technique,每 一 次 就 算 很 受 伤 也 不 闪 泪 光,每一次就算很受伤也不善泪光,1.0,0.07692307692307693,,1,12,0,13
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0002,ZH-Tenor-1,pharyngeal,technique,我 知 道 我 一 直 有 双 隐 形 的 翅 膀,我知道我一直有双隐形的翅膀,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0003,ZH-Tenor-1,pharyngeal,technique,带 我 飞 飞 过 绝 望 不 去 想,带我飞飞过绝望不去想,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0004,ZH-Tenor-1,pharyngeal,technique,他 们 拥 有 美 丽 的 太 阳 我 看 见,他们拥有美丽的太阳我看见,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0005,ZH-Tenor-1,pharyngeal,technique,每 天 的 夕 阳 也 会 有 变 化 我 知 道,每天的夕阳也会有变化我知道,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0006,ZH-Tenor-1,pharyngeal,technique,我 一 直 有 双 隐 形 的 翅 膀 带 我 飞 给 我 希 望,我一直有双隐形的翅膀带我飞给我希望,1.0,0.0,,1,16,0,17
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0007,ZH-Tenor-1,pharyngeal,technique,我 终 于 看 到 所 有 梦 想 都 开 花,我终于看到所有梦想都开花,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0008,ZH-Tenor-1,pharyngeal,technique,追 逐 的 年 轻 歌 声 多 嘹 亮 我 终 于 翱 翔,追逐的年轻歌声多嘹亮我终于翱翔,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0009,ZH-Tenor-1,pharyngeal,technique,用 心 凝 望 不 害 怕 哪 里 会 有 风 就 飞 多 远 吧,用心凝望不害怕哪里会遥风就飞多远吧,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0010,ZH-Tenor-1,pharyngeal,technique,不 去 想 他 们 拥 有 美 丽 的 太 阳,不去想他们拥有美丽的太阳,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0011,ZH-Tenor-1,pharyngeal,technique,我 看 见 每 天 的 夕 阳 也 会 有 变 化,我看见每天的夕阳也会有变化,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0012,ZH-Tenor-1,pharyngeal,technique,我 知 道 我 一 直 有 双 隐 形 的 翅 膀,我知道我一直有双隐形的翅膀,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0013,ZH-Tenor-1,pharyngeal,technique,带 我 飞 给 我 希 望,带我飞给我希望,1.0,0.0,,1,6,0,7
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0014,ZH-Tenor-1,pharyngeal,technique,我 终 于 看 到 所 有 梦 想 都 开 花,我终于看到所有梦想都开花,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0015,ZH-Tenor-1,pharyngeal,technique,追 逐 的 年 轻 歌 声 多 嘹 亮 我 终 于 翱 翔,追逐的年轻歌声多嘹亮我终于翱翔,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__pharyngeal__technique__隐形的翅膀__0016,ZH-Tenor-1,pharyngeal,technique,用 心 凝 望 不 害 怕 哪 里 会 有 风 就 飞 多 远 吧,用心凝望不害怕哪里会遥风就飞多远吧,1.0,0.058823529411764705,,1,16,0,17
+ZH-Tenor-1__vibrato__technique__从前慢__0000,ZH-Tenor-1,vibrato,technique,记 得 早 先 少 年 时,记得早些少年时,1.0,0.14285714285714285,,1,6,0,7
+ZH-Tenor-1__vibrato__technique__从前慢__0001,ZH-Tenor-1,vibrato,technique,大 家 诚 诚 恳 恳 说 一 句,大家诚诚恳恳说一句,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__vibrato__technique__从前慢__0002,ZH-Tenor-1,vibrato,technique,是 一 句 清 早 上 火 车 站,是一句今早上火车站,1.0,0.1111111111111111,,1,8,0,9
+ZH-Tenor-1__vibrato__technique__从前慢__0003,ZH-Tenor-1,vibrato,technique,长 街 黑 暗 无 行 人 卖 豆 浆 的 小 店,长街黑暗无心人卖豆浆的小店,1.0,0.07692307692307693,,1,12,0,13
+ZH-Tenor-1__vibrato__technique__从前慢__0004,ZH-Tenor-1,vibrato,technique,冒 着 热 气 从 前 的 日 色 变 得 慢,冒着热情从前的日色变得慢,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__从前慢__0005,ZH-Tenor-1,vibrato,technique,车 马 邮 件 都 慢 一 生 只 够,车马邮件都满一生只够,1.0,0.1,,1,9,0,10
+ZH-Tenor-1__vibrato__technique__从前慢__0006,ZH-Tenor-1,vibrato,technique,爱 一 个 人 从 前 的 锁 也 好 看,爱一个人从前的我也好看,1.0,0.09090909090909091,,1,10,0,11
+ZH-Tenor-1__vibrato__technique__从前慢__0007,ZH-Tenor-1,vibrato,technique,钥 匙 精 美 有 样 子 你 锁 了 人 家 就 懂 了,要是竟没有样子你锁了人家就懂了,1.0,0.26666666666666666,,1,14,0,15
+ZH-Tenor-1__vibrato__technique__从前慢__0008,ZH-Tenor-1,vibrato,technique,从 前 的 日 色 变 得 慢 车,从前的日色变得漫长,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__vibrato__technique__从前慢__0009,ZH-Tenor-1,vibrato,technique,马 邮 件 都 慢 一 生 只 够 爱 一 个 人,妈邮件都满一生只够爱一个人,1.0,0.15384615384615385,,1,12,0,13
+ZH-Tenor-1__vibrato__technique__从前慢__0010,ZH-Tenor-1,vibrato,technique,从 前 的 锁 也 好 看 钥 匙 精 美 有 样 子,从前的锁也好看钥匙竟没有样子,1.0,0.14285714285714285,,1,13,0,14
+ZH-Tenor-1__vibrato__technique__从前慢__0011,ZH-Tenor-1,vibrato,technique,你 锁 了 人 家 就 懂 了,你锁了人家就懂了,1.0,0.0,,1,7,0,8
+ZH-Tenor-1__vibrato__technique__单身情歌__0000,ZH-Tenor-1,vibrato,technique,爱 要 越 挫 越 勇 爱 要 肯 定 执 着,爱要越促越勇爱要肯定执着,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__单身情歌__0001,ZH-Tenor-1,vibrato,technique,每 一 个 单 身 的 人 得 看 透 相 爱 就 别 怕 伤 痛,每一个单身的人都得看透想爱就别怕伤痛,1.0,0.11764705882352941,,1,16,0,17
+ZH-Tenor-1__vibrato__technique__单身情歌__0002,ZH-Tenor-1,vibrato,technique,找 一 个 最 爱 的 深 爱 的 想 爱 的 亲 爱 的 人 来 告 别 单 身,找一个最爱的深爱的相爱的亲爱的人来告别单身,1.0,0.047619047619047616,,1,20,0,21
+ZH-Tenor-1__vibrato__technique__单身情歌__0003,ZH-Tenor-1,vibrato,technique,一 个 多 情 的 痴 情 的 绝 情 的 无 情 的 人 来 给 我 伤 痕,一个多情的痴情的绝情的无情的人来给我伤痕,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__vibrato__technique__单身情歌__0004,ZH-Tenor-1,vibrato,technique,孤 单 的 人 那 么 多 快 乐 的 没 有 几 个,孤单的人那么多快乐的没有几个,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__vibrato__technique__单身情歌__0005,ZH-Tenor-1,vibrato,technique,不 要 爱 过 了 错 过 了 留 下 了 单 身 的 我 独 自 唱 情 歌,不要爱过了错过了留下了单身的我独自唱情歌,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__vibrato__technique__单身情歌__0006,ZH-Tenor-1,vibrato,technique,为 了 爱 孤 军 奋 斗 早 就 吃 够 了 爱 情 的 苦,为了爱孤军奋斗早就吃够了爱情的苦,1.0,0.0,,1,15,0,16
+ZH-Tenor-1__vibrato__technique__单身情歌__0007,ZH-Tenor-1,vibrato,technique,在 爱 中 失 落 的 人 到 处 有 而 我 不 是 最 后 一 个,在爱中失落的人到处有而我不是最后一个,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__vibrato__technique__单身情歌__0008,ZH-Tenor-1,vibrato,technique,爱 要 越 挫 越 勇 爱 要 肯 定 执 着,爱要越做越有爱要肯定执着,1.0,0.16666666666666666,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__单身情歌__0009,ZH-Tenor-1,vibrato,technique,每 一 个 单 身 的 人 得 看 透 想 爱 就 别 怕 伤 痛,每一个单身的人得看透想爱就别怕伤痛,1.0,0.0,,1,16,0,17
+ZH-Tenor-1__vibrato__technique__单身情歌__0010,ZH-Tenor-1,vibrato,technique,找 一 个 最 爱 的 深 爱 的 想 爱 的 亲 爱 的 人 来 告 别 单 身,找一个最爱的深爱的相爱的亲爱的人来告别单身,1.0,0.047619047619047616,,1,20,0,21
+ZH-Tenor-1__vibrato__technique__单身情歌__0011,ZH-Tenor-1,vibrato,technique,一 个 多 情 的 痴 情 的 绝 情 的 无 情 的 人 来 给 我 伤 痕,一个脱情的痴情的绝情的无情的人来给我伤痕,1.0,0.05,,1,19,0,20
+ZH-Tenor-1__vibrato__technique__单身情歌__0012,ZH-Tenor-1,vibrato,technique,孤 单 的 人 那 么 多 快 乐 的 没 有 几 个,孤单的人那么多快乐的没有几个,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__vibrato__technique__单身情歌__0013,ZH-Tenor-1,vibrato,technique,不 要 爱 过 了 错 过 了 留 下 了 单 身 的 我 独 自 唱 情 歌,不要爱过了错过了留下了单身的我独自唱情歌,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__vibrato__technique__单身情歌__0014,ZH-Tenor-1,vibrato,technique,找 一 个 最 爱 的 深 爱 的 相 爱 的 亲 爱 的 人 来 告 别 单 身,找一个最爱的深爱的相爱的亲爱的人来告别单身,1.0,0.0,,1,20,0,21
+ZH-Tenor-1__vibrato__technique__单身情歌__0015,ZH-Tenor-1,vibrato,technique,一 个 多 情 的 痴 情 的 绝 情 的 无 情 的 人 来 给 我 伤 痕,一个多情的痴情的绝情的无情的人来给我伤痕,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__vibrato__technique__单身情歌__0016,ZH-Tenor-1,vibrato,technique,伤 心 的 人 那 么 多 我 应 该 勇 敢 地 过 不 要 爱 过 了 错 过 了 留 下 了 单 身 的 我 独 自 唱 情 歌,伤心的人那么多我应该勇敢地过不要爱过了错过了留下了单身的我独自唱情歌,1.0,0.0,,1,33,0,34
+ZH-Tenor-1__vibrato__technique__单身情歌__0017,ZH-Tenor-1,vibrato,technique,这 首 真 心 的 痴 心 的 伤 心 的 单 身 情 歌 谁 与 我 来 合,这首真心的痴心的伤心的单身情歌谁与我来合,1.0,0.0,,1,19,0,20
+ZH-Tenor-1__vibrato__technique__后会无期__0000,ZH-Tenor-1,vibrato,technique,当 一 艘 船 沉 入 海 底 当,当一艘船沉入海底当,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__vibrato__technique__后会无期__0001,ZH-Tenor-1,vibrato,technique,一 个 人 成 了 谜 你 不 知 道,一个人成了谜你不知道,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__vibrato__technique__后会无期__0002,ZH-Tenor-1,vibrato,technique,他 们 为 何 离 去 那 声 再 见 竟 是 他 最 后 一 句,他们为何离去那声再见竟是他最后一句,1.0,0.0,,1,16,0,17
+ZH-Tenor-1__vibrato__technique__后会无期__0003,ZH-Tenor-1,vibrato,technique,当 一 辆 车 消 失 天 际 当 一 个 人,当一辆车消失天际当一个人,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__后会无期__0004,ZH-Tenor-1,vibrato,technique,成 了 谜 你 不 知 道,成了谜你不知道,1.0,0.0,,1,6,0,7
+ZH-Tenor-1__vibrato__technique__后会无期__0005,ZH-Tenor-1,vibrato,technique,他 们 为 何 离 去 就 像 你 不 知 道 这 竟 是 结 局,他们为何离去就像你不知道这竟是结局,1.0,0.0,,1,16,0,17
+ZH-Tenor-1__vibrato__technique__后会无期__0006,ZH-Tenor-1,vibrato,technique,在 每 个 繁 星 抛 弃 银 河 的 夜 里,在每个繁星抛弃银河的夜里,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__后会无期__0007,ZH-Tenor-1,vibrato,technique,我 会 告 别 告 别 我 自 己 因 为 我 不 知 道,我会告别告别我自己因为我不知道,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__vibrato__technique__后会无期__0008,ZH-Tenor-1,vibrato,technique,我 也 不 想 知 道 和 相 聚 之 间 的 距 离,我也不想知道和相聚之间的距离,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__vibrato__technique__失落沙洲__0000,ZH-Tenor-1,vibrato,technique,又 来 到 这 个 港 口 没 有 原 因 的 拘 留,又来到这个港口没有原因的拘留,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__vibrato__technique__失落沙洲__0001,ZH-Tenor-1,vibrato,technique,我 的 心 乘 着 斑 驳 的 轻 舟 寻 找 失 落 的 沙 洲,我的心乘着斑驳的轻轴寻找失落的山洲,1.0,0.11764705882352941,,1,16,0,17
+ZH-Tenor-1__vibrato__technique__失落沙洲__0002,ZH-Tenor-1,vibrato,technique,随 时 间 的 海 浪 漂 流 我 用 力 张 开 双 手,随时间的海浪漂流我用力张开双手,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__vibrato__technique__失落沙洲__0003,ZH-Tenor-1,vibrato,technique,拥 抱 那 么 多 起 起 落 落,拥抱那么多起起落落,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__vibrato__technique__失落沙洲__0004,ZH-Tenor-1,vibrato,technique,想 念 的 还 是 你 望 着 我 的 眼 波,想念的还是你望着我的眼波,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__失落沙洲__0005,ZH-Tenor-1,vibrato,technique,我 不 是 一 定 要 你 回 来 只 是 当 又 一 个 人 看 海,我不是一定要你回来只是当有一个人看海,1.0,0.05555555555555555,,1,17,0,18
+ZH-Tenor-1__vibrato__technique__失落沙洲__0006,ZH-Tenor-1,vibrato,technique,回 头 才 发 现 你 不 在 留 下 我 迂 回 地 徘 徊,回头才发现你不在留下我迂回的徘徊,1.0,0.0625,,1,15,0,16
+ZH-Tenor-1__vibrato__technique__失落沙洲__0007,ZH-Tenor-1,vibrato,technique,我 不 是 一 定 要 你 回 来 只 是 当 又 把 回 忆 翻 开,我不是一定要你回来只是当又把回忆分开,1.0,0.05555555555555555,,1,17,0,18
+ZH-Tenor-1__vibrato__technique__失落沙洲__0008,ZH-Tenor-1,vibrato,technique,除 了 你 之 外 的 空 白 还 有 谁 能 来 教 我 爱,除了你之外的空白还有谁能来叫我爱,1.0,0.0625,,1,15,0,16
+ZH-Tenor-1__vibrato__technique__失落沙洲__0009,ZH-Tenor-1,vibrato,technique,又 回 到 这 个 尽 头 我 也 想 再 往 前 走,又回到这个尽头我也想再往前走,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__vibrato__technique__失落沙洲__0010,ZH-Tenor-1,vibrato,technique,只 是 越 看 见 海 阔 天 空,只是月看见海阔天空,1.0,0.1111111111111111,,1,8,0,9
+ZH-Tenor-1__vibrato__technique__失落沙洲__0011,ZH-Tenor-1,vibrato,technique,越 遗 憾 没 有 你 分 享 我 的 感 动,月以后没有你分享我的感动,1.0,0.25,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__心动__0000,ZH-Tenor-1,vibrato,technique,有 多 久 没 见 你 以 为 你 在 哪 里,有多久没见你以为你在哪里,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__心动__0001,ZH-Tenor-1,vibrato,technique,原 来 就 住 在 我 心 底 陪 伴 着 我 呼 吸,原来就住在我心底陪伴着我呼吸,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__vibrato__technique__心动__0002,ZH-Tenor-1,vibrato,technique,有 多 远 的 距 离 以 为 闻 不 到 你 气 息,有多远的距离以为闻不到你气息,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__vibrato__technique__心动__0003,ZH-Tenor-1,vibrato,technique,谁 知 道 你 背 影 这 么 长 回 头 就 看 到 你,谁知道你背影这么长回头就看到你,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__vibrato__technique__心动__0004,ZH-Tenor-1,vibrato,technique,过 去 让 它 过 去 来 不 及,过去让它过去来不及,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__vibrato__technique__心动__0005,ZH-Tenor-1,vibrato,technique,从 头 喜 欢 你 白 云 缠 绕 着 蓝 天,从头喜欢你白云缠绕着蓝天,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__心动__0006,ZH-Tenor-1,vibrato,technique,啊 如 果 不 能 够 永 远 走 在 一 起,如果不能够永远走在一起,1.0,0.08333333333333333,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__心动__0007,ZH-Tenor-1,vibrato,technique,也 至 少 给 我 们 怀 念 的 勇 气,也至少给我们怀念的勇气,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__vibrato__technique__心动__0008,ZH-Tenor-1,vibrato,technique,拥 抱 的 权 利 好 让 你 明 白 我 心 动 的 痕 迹,拥抱的权利好让你明白我心动的痕迹,1.0,0.0,,1,15,0,16
+ZH-Tenor-1__vibrato__technique__心动__0009,ZH-Tenor-1,vibrato,technique,过 去 让 它 过 去 来 不 及,我去让她过去来不及,1.0,0.2222222222222222,,1,8,0,9
+ZH-Tenor-1__vibrato__technique__心动__0010,ZH-Tenor-1,vibrato,technique,从 头 喜 欢 你 白 云 缠 绕 着 蓝 天,从头喜欢你白云缠绕着蓝天,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__心动__0011,ZH-Tenor-1,vibrato,technique,啊 如 果 不 能 够 永 远 走 在 一 起,啊如果不能够永远走在一起,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__心动__0012,ZH-Tenor-1,vibrato,technique,也 至 少 给 我 们 怀 念 的 勇 气,也至少给我们怀念的勇气,1.0,0.0,,1,10,0,11
+ZH-Tenor-1__vibrato__technique__心动__0013,ZH-Tenor-1,vibrato,technique,拥 抱 的 权 利 好 让 你 明 白 我 心 动 的 痕 迹,拥抱的权利好让你明白我心动的痕迹,1.0,0.0,,1,15,0,16
+ZH-Tenor-1__vibrato__technique__心动__0014,ZH-Tenor-1,vibrato,technique,总 是 想 再 见 你 还 试 着 打 探 你,总是想再见你还试着打探你,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__心动__0015,ZH-Tenor-1,vibrato,technique,的 消 息 原 来 你 就 住 在,的消息原来你就住在,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__vibrato__technique__心动__0016,ZH-Tenor-1,vibrato,technique,我 的 身 体 守 护 我 的 回 忆,我的身体守护我的回忆,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0000,ZH-Tenor-1,vibrato,technique,窗 外 阴 天 了 音 乐 低 声 了 我 的 心 开 始 想 你 了,窗外阴天了音乐低声了我的心开始想你了,1.0,0.0,,1,17,0,18
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0001,ZH-Tenor-1,vibrato,technique,灯 光 也 暗 了 音 乐 低 声 了,灯光也暗了音乐笛声了,1.0,0.1,,1,9,0,10
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0002,ZH-Tenor-1,vibrato,technique,口 中 的 棉 花 糖 也 融 化 了 窗 外 阴 天 了,口中的棉花糖也融化了窗外阴天了,1.0,0.0,,1,14,0,15
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0003,ZH-Tenor-1,vibrato,technique,人 是 无 聊 了 我 的 心 开 始 想 你 了,人世无聊了我的心开始想你了,1.0,0.07692307692307693,,1,12,0,13
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0004,ZH-Tenor-1,vibrato,technique,电 话 想 起 了 你 要 说 话 了,电话响起了你要说话了,1.0,0.1,,1,9,0,10
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0005,ZH-Tenor-1,vibrato,technique,还 以 为 你 心 里 对 我 又 想 念 了,还以为你心里对我又想念了,1.0,0.0,,1,11,0,12
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0006,ZH-Tenor-1,vibrato,technique,怎 么 你 声 音 变 得 冷 淡 了 是 你 变 了,怎么你声音变得冷淡了是你变了,1.0,0.0,,1,13,0,14
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0007,ZH-Tenor-1,vibrato,technique,是 你 变 了 灯 光 熄 灭 了,是你变了灯光熄灭了,1.0,0.0,,1,8,0,9
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0008,ZH-Tenor-1,vibrato,technique,音 乐 静 止 了 滴 下 的 眼 泪 已 停 不 住 了,音乐静止了底下的眼泪已停不住了,1.0,0.06666666666666667,,1,14,0,15
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0009,ZH-Tenor-1,vibrato,technique,天 下 起 雨 了 人 是 不 快 乐 我 的 心 真 的 受 伤 了,天下奇遇了人世不快乐我的心真的受伤了,1.0,0.16666666666666666,,1,17,0,18
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0010,ZH-Tenor-1,vibrato,technique,电 话 响 起 了 你 要 说 话 了,电话响起了你要说话了,1.0,0.0,,1,9,0,10
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0011,ZH-Tenor-1,vibrato,technique,还 以 为 你 心 里 对 我 又 想 念 了 怎 么 你 声 音 变 得 冷 淡 了,还以为你心里对我又想念了怎么你声音变得冷淡了,1.0,0.0,,1,21,0,22
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0012,ZH-Tenor-1,vibrato,technique,是 你 变 了 是 你 变 了 灯 光 熄 灭 了,是你变了是你变了灯光熄灭了,1.0,0.0,,1,12,0,13
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0013,ZH-Tenor-1,vibrato,technique,音 乐 静 止 了 滴 下 的 眼 泪 已 停 不 住 了,音乐静止了篱下的眼泪已停不住了,1.0,0.06666666666666667,,1,14,0,15
+ZH-Tenor-1__vibrato__technique__我真的受伤了__0014,ZH-Tenor-1,vibrato,technique,天 下 起 雨 了 人 是 不 快 乐 我 的 心 真 的 受 伤 了,天下起雨了人世不快乐我的心真的受伤了,1.0,0.05555555555555555,,1,17,0,18

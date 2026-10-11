@@ -1,0 +1,346 @@
+utt_id,singer_id,technique,group,text,hypothesis,wer,cer,per,wer_sub,wer_del,wer_ins,wer_n_ref
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0000,JA-Soprano-1,breathy,technique,光 る 海 に 霞 む 船 は,光る海に霞む船は,1.0,0.0,,1,7,0,8
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0001,JA-Soprano-1,breathy,technique,さ よ な ら の 汽 残 し ま す 緩 い 坂 を,さよならの汽笛残します緩い坂を,1.0,0.07142857142857142,,1,13,0,14
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0002,JA-Soprano-1,breathy,technique,降 り て 行 け ば 夏 色 の 風 に 会 え る か,降りて行けば夏色の風に会えるか,1.0,0.0,,1,14,0,15
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0003,JA-Soprano-1,breathy,technique,し ら 私 の 愛 そ れ は メ ロ デ ィ 高 く,知らん私の愛それはメロディ高く,1.0,0.14285714285714285,,1,13,0,14
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0004,JA-Soprano-1,breathy,technique,低 く 歌 う の 私 の 愛,低く歌うの私の愛,1.0,0.0,,1,7,0,8
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0005,JA-Soprano-1,breathy,technique,そ れ は 高 く 低 く 飛 ぶ の,それワガマメ高く低く飛ぶの,1.0,0.4,,1,9,0,10
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0006,JA-Soprano-1,breathy,technique,夕 陽 の 中 呼 ん で み た ら 優 し い あ な た に 逢 え る か し ら,夕日の中呼んでみたら優しいあなたに会えるかしら,1.0,0.08695652173913043,,1,22,0,23
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0007,JA-Soprano-1,breathy,technique,散 歩 道 に 揺 れ る 木 は,散歩道に揺れる木々は,1.0,0.0,,1,8,0,9
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0008,JA-Soprano-1,breathy,technique,さ よ な ら の 影 を 落 と し ま す 古 い チ ペ ル,サヨナラの影を落とします古いチャペル,1.0,0.29411764705882354,,1,16,0,17
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0009,JA-Soprano-1,breathy,technique,風 見 の 鶏 夏 色 の 街 は 見 え る か,風見の鳥夏色の街は見えるか,1.0,0.07692307692307693,,1,12,0,13
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0010,JA-Soprano-1,breathy,technique,し ら 昨 日 の 愛 そ れ は 涙 て,知らん昨日の愛それは涙やがて,1.0,0.36363636363636365,,1,10,0,11
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0011,JA-Soprano-1,breathy,technique,乾 き 消 え る の あ し た の 愛 そ れ は ル フ ラ ン,乾き消えるの明日の愛それはる不断,1.0,0.3888888888888889,,1,17,0,18
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0012,JA-Soprano-1,breathy,technique,終 わ り の な い 言 葉 夕 陽 の 中,終わりのない言葉夕日の中,1.0,0.08333333333333333,,1,11,0,12
+JA-Soprano-1__breathy__technique__さよならの夏～コクリコ坂から～__0013,JA-Soprano-1,breathy,technique,巡 り 逢 え ば あ な た は 私 を 抱 く か し ら,めぐり逢えばあなたは私を抱くかしら,1.0,0.125,,1,15,0,16
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0000,JA-Soprano-1,breathy,technique,夕 闇 迫 る 雲 の 上 い つ も 一 羽 で,夕闇迫る雲の上いつも一話で,1.0,0.07692307692307693,,1,12,0,13
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0001,JA-Soprano-1,breathy,technique,飛 ん で い る は き っ と 悲 し か ろ,飛んでいるだがはきっと悲しいかろう,1.0,0.3076923076923077,,1,12,0,13
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0002,JA-Soprano-1,breathy,technique,う 音 も 途 絶 え た 風 の 中 空 を 掴 ん だ,もっとも途絶えた風の中空をつかんだ,1.0,0.3333333333333333,,1,14,0,15
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0003,JA-Soprano-1,breathy,technique,そ の 翼 休 め る こ と は で き な く て,その翼休めることはできなくて,1.0,0.0,,1,13,0,14
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0004,JA-Soprano-1,breathy,technique,心 を 何 に た と え よ う の よ う な こ,心を何に例えようバカのような,1.0,0.35714285714285715,,1,13,0,14
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0005,JA-Soprano-1,breathy,technique,の 心 心 を 何 に た と え よ う,の心心を何に例えよう,1.0,0.18181818181818182,,1,10,0,11
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0006,JA-Soprano-1,breathy,technique,空 を 舞 う よ な 悲 し さ を,空を舞うような悲しさを,1.0,0.1,,1,9,0,10
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0007,JA-Soprano-1,breathy,technique,雨 の そ ぼ 降 る 岩 陰 に い つ も 小 さ く,雨のそぼ降る岩陰にいつも小さく,1.0,0.0,,1,14,0,15
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0008,JA-Soprano-1,breathy,technique,咲 い て い る 花 は き っ と 切 な か ろ,咲いている花はきっと切ながろう,1.0,0.14285714285714285,,1,13,0,14
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0009,JA-Soprano-1,breathy,technique,う 色 も 霞 ん だ 雨 の 中 薄 色 の,色も霞んだ雨の中薄桃色の,1.0,0.16666666666666666,,1,11,0,12
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0010,JA-Soprano-1,breathy,technique,花 び ら を 愛 で て く れ る 手 も な く て,花びらをめでてくれる手もなくて,1.0,0.06666666666666667,,1,14,0,15
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0011,JA-Soprano-1,breathy,technique,心 を 何 に た と え よ う 花 の よ う な こ の,心を何にたとえよう花のようなこの心,1.0,0.0625,,1,15,0,16
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0012,JA-Soprano-1,breathy,technique,心 心 を 何 に た と え よ う 雨 に 打 た れ る 切 な さ を,心を何にたとえよう雨に打たれる切なさを,1.0,0.05,,1,19,0,20
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0013,JA-Soprano-1,breathy,technique,人 影 絶 え た 野 の 道 を 私 と と も に,人影絶えた野の道を私とともに,1.0,0.0,,1,13,0,14
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0014,JA-Soprano-1,breathy,technique,歩 ん で る あ な た も き っ と 寂 し か ろ,歩んでるあなたもきっと寂しかろう,1.0,0.06666666666666667,,1,14,0,15
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0015,JA-Soprano-1,breathy,technique,う 虫 の く 草 原 を と も に 道 行 く 人 だ け ど,とささやく草原をともに道行く人だけど,1.0,0.23529411764705882,,1,16,0,17
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0016,JA-Soprano-1,breathy,technique,絶 え て 物 言 う こ と も な く 心 を 何 に た と え よ,変えたもの言うこともなく心を何に例えよう,1.0,0.3684210526315789,,1,18,0,19
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0017,JA-Soprano-1,breathy,technique,う 一 人 道 行 く こ の 心 心 を 何,一人道行くこの心心を,1.0,0.16666666666666666,,1,11,0,12
+JA-Soprano-1__breathy__technique__テルーの呗_(歌集バージョン)__0018,JA-Soprano-1,breathy,technique,に た と え よ う 一 人 ぼ っ ち の 寂 し さ を,にたとえよ独りぼっちの淋しさを,1.0,0.25,,1,15,0,16
+JA-Soprano-1__breathy__technique__心做し__0000,JA-Soprano-1,breathy,technique,ね も し も 全 て 投 げ 捨 て ら れ た ら 笑 っ て,ねもしもすべて投げ捨てられたら笑って,1.0,0.11764705882352941,,1,16,0,17
+JA-Soprano-1__breathy__technique__心做し__0001,JA-Soprano-1,breathy,technique,生 き る こ と が 楽 に な る の ま た 胸 が 痛 く な る か ら も う 何 も 言 わ な い で よ,生きることが楽になるのまだ胸が痛くなるからもう何も言わないでよ,1.0,0.03225806451612903,,1,30,0,31
+JA-Soprano-1__breathy__technique__心做し__0002,JA-Soprano-1,breathy,technique,ね も し も 全 て 忘 れ ら れ た な ら,でもしもすべて忘れられたなら,1.0,0.23076923076923078,,1,12,0,13
+JA-Soprano-1__breathy__technique__心做し__0003,JA-Soprano-1,breathy,technique,泣 か な い で 生 き る こ と も 楽 に な る の で も そ ん な 事 で き な い か ら,泣かないで生きることも楽になるのでもそんなんどこかできないから,1.0,0.14285714285714285,,1,27,0,28
+JA-Soprano-1__breathy__technique__心做し__0004,JA-Soprano-1,breathy,technique,も う 何 も 見 せ な い で よ 君 に ど れ だ け,もう何も見せないでよ君にどれだけ,1.0,0.0,,1,15,0,16
+JA-Soprano-1__breathy__technique__心做し__0005,JA-Soprano-1,breathy,technique,近 づ い て も 僕 の 心 臓 は 一 つ だ け,に近づいても僕の心臓は一つだけ,1.0,0.07142857142857142,,1,13,0,14
+JA-Soprano-1__breathy__technique__心做し__0006,JA-Soprano-1,breathy,technique,ね も し も 僕 の 願 い が 叶 う な ら 君,ねもしも僕の願いが叶うなら君,1.0,0.0,,1,13,0,14
+JA-Soprano-1__breathy__technique__心做し__0007,JA-Soprano-1,breathy,technique,と 同 じ も の が 欲 し い ん だ で も 僕 に は 存 在 し な い か ら じ ゃ あ せ め て 此 処 に 来 て よ,と同じものが欲しいんだでも僕には存在しないからじゃあせめてここにいてよ,1.0,0.08571428571428572,,1,34,0,35
+JA-Soprano-1__breathy__technique__心做し__0008,JA-Soprano-1,breathy,technique,ね も し も 僕 に 心 が あ る な ら ど う や っ て,でもしも僕に心があるならどうやって,1.0,0.058823529411764705,,1,16,0,17
+JA-Soprano-1__breathy__technique__心做し__0009,JA-Soprano-1,breathy,technique,そ れ を 見 つ け れ ば い い の 少 し 微 笑 ん で 君 が 言 う そ れ は ね こ こ に あ る よ,それを見つければいいの少し微笑んで君が言うそれはねここにあるよ,1.0,0.0,,1,30,0,31
+JA-Soprano-1__glissando__technique__first_love__0000,JA-Soprano-1,glissando,technique,最 後 の キ ス は タ バ コ の が し,最後のキスはタバコのフレーバーが知,1.0,0.5,,1,11,0,12
+JA-Soprano-1__glissando__technique__first_love__0001,JA-Soprano-1,glissando,technique,た ニ ガ く て せ つ な い 香 り 明 日 の 今 頃 に は,いた苦くて切ない香り明日の今頃には,1.0,0.2777777777777778,,1,17,0,18
+JA-Soprano-1__glissando__technique__first_love__0002,JA-Soprano-1,glissando,technique,あ な た は ど こ に い る ん だ ろ う 誰 を 想 っ て,あなたはどこにいるんだろう誰を想ってるんだろう,1.0,0.2777777777777778,,1,17,0,18
+JA-Soprano-1__glissando__technique__first_love__0003,JA-Soprano-1,glissando,technique,立 ち 止 ま る 時 間 が 動 き 出 そ う と し て る,立ち止まる時間が動き出そうとしてる,1.0,0.0,,1,16,0,17
+JA-Soprano-1__glissando__technique__first_love__0004,JA-Soprano-1,glissando,technique,忘 れ た く な い こ と ば か り 明 日 の 今 頃 に は,忘れたくないことばかり明日の今頃には,1.0,0.0,,1,17,0,18
+JA-Soprano-1__glissando__technique__first_love__0005,JA-Soprano-1,glissando,technique,わ た し は き っ と 泣 い て る あ な た を 想 っ て る ん だ ろ う,私はきっと泣いてるあなたを想ってるだろう,1.0,0.17391304347826086,,1,22,0,23
+JA-Soprano-1__glissando__technique__なきむし__0000,JA-Soprano-1,glissando,technique,僕 は 弱 虫 で 嫌 な ん だ あ な た,僕は弱虫で嫌なんだあなた,1.0,0.0,,1,11,0,12
+JA-Soprano-1__glissando__technique__なきむし__0001,JA-Soprano-1,glissando,technique,の 笑 顔 が ん で く 小 さ く な っ て,の笑顔がにじんでく小さくなって,1.0,0.15384615384615385,,1,12,0,13
+JA-Soprano-1__glissando__technique__なきむし__0002,JA-Soprano-1,glissando,technique,震 え る 背 中 を 僕 は た だ 見 て る こ と し か 出 来 な か っ た,震える背中を僕はただ見てることしかできなかった,1.0,0.08695652173913043,,1,22,0,23
+JA-Soprano-1__glissando__technique__なきむし__0003,JA-Soprano-1,glissando,technique,鼻 の 奥 の 方 ツ ン と な っ て 少 し 痛 い 泣 き た く,鼻の奥のほずとなって少し痛い泣きたく,1.0,0.15789473684210525,,1,18,0,19
+JA-Soprano-1__glissando__technique__なきむし__0004,JA-Soprano-1,glissando,technique,な ん か な い の に 僕 は 泣 き 虫 で,なんかないのに僕は泣き虫で,1.0,0.0,,1,12,0,13
+JA-Soprano-1__glissando__technique__なきむし__0005,JA-Soprano-1,glissando,technique,悔 し く て あ な た の 笑 顔 胸 に 刺 さ る こ ん,悔しくてあなたの笑顔胸にささる,1.0,0.17647058823529413,,1,16,0,17
+JA-Soprano-1__glissando__technique__なきむし__0006,JA-Soprano-1,glissando,technique,な と き で も 笑 っ て い ら れ る あ な た は や っ ぱ り 強 く て 優 し い 人,何時でも笑っていられるあなたはやっぱり強くて優しい人,1.0,0.1111111111111111,,1,26,0,27
+JA-Soprano-1__glissando__technique__なきむし__0007,JA-Soprano-1,glissando,technique,息 を 切 ら し て 走 っ て く 今 も 僕 は 強 く,息を切らして走っていく今も僕は強く,1.0,0.0625,,1,15,0,16
+JA-Soprano-1__glissando__technique__なきむし__0008,JA-Soprano-1,glissando,technique,な ん か な い け ど 僕 は 泣 き 虫 で,なんがないけど僕は泣き虫で,1.0,0.07692307692307693,,1,12,0,13
+JA-Soprano-1__glissando__technique__なきむし__0009,JA-Soprano-1,glissando,technique,悔 し く て だ け ど あ な た に 今 伝 え た い ん だ,悔しくてだけどあなたに今伝えたいんだ,1.0,0.0,,1,17,0,18
+JA-Soprano-1__glissando__technique__なきむし__0010,JA-Soprano-1,glissando,technique,た だ 真 っ す ぐ に 僕 を 見 つ め る 強 く て 優 し い そ の に 応 え る た め に,ただまっすぐに僕を見つめる強くて優しいその瞳に答えるために,1.0,0.10714285714285714,,1,27,0,28
+JA-Soprano-1__glissando__technique__なきむし__0011,JA-Soprano-1,glissando,technique,僕 は 弱 虫 で 嫌 だ っ た だ け ど,僕は弱虫で嫌だっただけど,1.0,0.0,,1,11,0,12
+JA-Soprano-1__glissando__technique__なきむし__0012,JA-Soprano-1,glissando,technique,も っ と も っ と 強 く な る か ら あ な た の こ と を 守 れ る よ う な 僕 に な る か ら だ か ら 少 し 待 っ て て,もっともっと強くなるからあなたのコトを守れるような僕になるからだから少し待ってて,1.0,0.05,,1,39,0,40
+JA-Soprano-1__glissando__technique__愛してる__0000,JA-Soprano-1,glissando,technique,ね も う 少 し だ け も う 少 し だ け,ねもう少しだけもう少しだけ,1.0,0.0,,1,12,0,13
+JA-Soprano-1__glissando__technique__愛してる__0001,JA-Soprano-1,glissando,technique,聞 い て い て ほ し い ね も う 少 し だ け,聞いていてほしいねもう少しだけ,1.0,0.0,,1,14,0,15
+JA-Soprano-1__glissando__technique__愛してる__0002,JA-Soprano-1,glissando,technique,も う 少 し だ け わ が ま ま い い で す か 手 に い れ た 途 端,もう少しだけわがままいいですか手に入れた途端,1.0,0.045454545454545456,,1,21,0,22
+JA-Soprano-1__glissando__technique__愛してる__0003,JA-Soprano-1,glissando,technique,に 消 え て し ま い そ う 言 葉 を く れ ま せ ん か 愛 し て,に消えてしまいそう言葉をくれませんか愛して,1.0,0.0,,1,20,0,21
+JA-Soprano-1__glissando__technique__愛してる__0004,JA-Soprano-1,glissando,technique,い る 愛 し て い る 世 界 が 終 わ る ま で,いる愛している世界が終わるまで,1.0,0.0,,1,14,0,15
+JA-Soprano-1__glissando__technique__愛してる__0005,JA-Soprano-1,glissando,technique,馬 鹿 げ て る と 笑 い な が ら 口 に 出 し て み,かけてると笑いながら口に出してみて,1.0,0.23529411764705882,,1,16,0,17
+JA-Soprano-1__glissando__technique__愛してる__0006,JA-Soprano-1,glissando,technique,て 愛 し て い る そ ん な こ と が 簡 単 に は,愛しているそんなことが簡単には出来なく,1.0,0.3125,,1,15,0,16
+JA-Soprano-1__glissando__technique__愛してる__0007,JA-Soprano-1,glissando,technique,出 来 な く て 上 手 く 愛 せ る よ う に と あ の 空 に っ て い る,て上手く愛せるようにとあの空にっている,1.0,0.17391304347826086,,1,22,0,23
+JA-Soprano-1__glissando__technique__愛してる__0008,JA-Soprano-1,glissando,technique,ね 知 り た く て も 知 り 尽 く せ な い こ と ば か り で,ね知りたくても知り尽くせないことばかりで,1.0,0.0,,1,19,0,20
+JA-Soprano-1__glissando__technique__愛してる__0009,JA-Soprano-1,glissando,technique,だ か ら 一 つ に な ら な い 二 つ の 体 を 精 一 杯,だから一つにならない二つの体を精一杯,1.0,0.0,,1,17,0,18
+JA-Soprano-1__glissando__technique__愛してる__0010,JA-Soprano-1,glissando,technique,抱 き し め た あ な た が い る そ れ だ け で も う,抱きしめたあなたがいるそれだけで,1.0,0.1111111111111111,,1,17,0,18
+JA-Soprano-1__glissando__technique__愛してる__0011,JA-Soprano-1,glissando,technique,世 界 が 変 わ っ て し ま う モ ノ ト ン の,世界が変わってしまうモノトンの,1.0,0.0,,1,14,0,15
+JA-Soprano-1__glissando__technique__愛してる__0012,JA-Soprano-1,glissando,technique,景 色 が ほ ら 鮮 や か に 映 る い つ の 間 に か,景色がほら鮮やかに映るいつの間にか,1.0,0.0,,1,16,0,17
+JA-Soprano-1__glissando__technique__愛してる__0013,JA-Soprano-1,glissando,technique,離 れ て い た 手 を つ な い で 歩 い て,離れていた手をつないで歩いてく,1.0,0.07142857142857142,,1,13,0,14
+JA-Soprano-1__glissando__technique__愛してる__0014,JA-Soprano-1,glissando,technique,く 上 手 く 愛 せ て い る か な あ の 空 に 聞 い て み る の,うまく愛せているかなあの空に聞いてみるの,1.0,0.14285714285714285,,1,20,0,21
+JA-Soprano-1__glissando__technique__愛してる__0015,JA-Soprano-1,glissando,technique,約 束 す る か ら 明 日 へ,約束するから明日へ,1.0,0.0,,1,8,0,9
+JA-Soprano-1__glissando__technique__愛してる__0016,JA-Soprano-1,glissando,technique,愛 し て い る 愛 し て い る 世 界 が 終 わ,愛している愛している世界が終わる,1.0,0.06666666666666667,,1,14,0,15
+JA-Soprano-1__glissando__technique__愛してる__0017,JA-Soprano-1,glissando,technique,る ま で 馬 鹿 げ て る と 笑 い な が ら,笑って馬鹿げてると笑いながら,1.0,0.21428571428571427,,1,13,0,14
+JA-Soprano-1__glissando__technique__愛してる__0018,JA-Soprano-1,glissando,technique,口 に 出 し て み て 愛 し て い る そ,足に出してみて愛している,1.0,0.15384615384615385,,1,12,0,13
+JA-Soprano-1__glissando__technique__愛してる__0019,JA-Soprano-1,glissando,technique,ん な こ と が 簡 単 に は 出 来,んなことが簡単には出来なく,1.0,0.18181818181818182,,1,10,0,11
+JA-Soprano-1__glissando__technique__愛してる__0020,JA-Soprano-1,glissando,technique,な く て 上 手 く 愛 せ る よ う に と あ の 空 に っ て い る あ の 空 に っ て い る,て上手く愛せるようにとあの空にっているあの空にっている,1.0,0.06896551724137931,,1,28,0,29
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0000,JA-Soprano-1,mixed_falsetto,technique,呼 ん で い る 胸 の ど こ か 奥 で い つ も,呼んでいる胸のどこか多くていつも,1.0,0.2,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0001,JA-Soprano-1,mixed_falsetto,technique,心 踊 る 夢 を 見 た い か な し み は 数 え き れ な い,踊る夢を見たい悲しみは数え切れない,1.0,0.21052631578947367,,1,18,0,19
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0002,JA-Soprano-1,mixed_falsetto,technique,け れ ど そ の 向 こ う で き っ と あ な た に 会 え る,けれどその向こうできっとあなたに会える,1.0,0.0,,1,18,0,19
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0003,JA-Soprano-1,mixed_falsetto,technique,繰 り 返 す あ や ま ち の そ の た び ひ と は た だ,繰り返す過ちのその度人はただ,1.0,0.3888888888888889,,1,17,0,18
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0004,JA-Soprano-1,mixed_falsetto,technique,青 い 空 の 青 さ を 知 る 果 て し な く 道 は,蒼い空の蒼さを知る果てしなく道は続,1.0,0.1875,,1,15,0,16
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0005,JA-Soprano-1,mixed_falsetto,technique,続 い て 見 え る け れ ど こ の 両 手 は 光 を 抱 け る,で見えるけれどこの両手は光を抱ける,1.0,0.15789473684210525,,1,18,0,19
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0006,JA-Soprano-1,mixed_falsetto,technique,さ よ な ら の と き の 静 か な 胸 ゼ ロ に な る か ら だ,さよならの時の静かな胸ゼロになるから高め,1.0,0.2,,1,19,0,20
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0007,JA-Soprano-1,mixed_falsetto,technique,が 耳 を す ま せ る 生 き て い る 不 思 議 死 ん で い く 不 思,意味を澄ませる生きている不思議死んでいく不思議,1.0,0.18181818181818182,,1,21,0,22
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0008,JA-Soprano-1,mixed_falsetto,technique,議 花 も 風 も 街 も み ん な お な じ,雪花も風も街もみんな同じ,1.0,0.23076923076923078,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0009,JA-Soprano-1,mixed_falsetto,technique,呼 ん で い る 胸 の ど こ か 奥 で い つ も 何 度 で も 夢 を 描 こ う,呼んでいる胸のどこか奥でいつも何度でも夢を描,1.0,0.08333333333333333,,1,23,0,24
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0010,JA-Soprano-1,mixed_falsetto,technique,か な し み の 数 を 言 い 尽 く す よ り 同 じ く ち び る で そ っ,悲しみの数追い尽くすより同じくちびるでそ,1.0,0.21739130434782608,,1,22,0,23
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0011,JA-Soprano-1,mixed_falsetto,technique,と う た お う 閉 じ て い く 思 い 出 の そ の な,言葉を閉じていく思い出のその中,1.0,0.35294117647058826,,1,16,0,17
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0012,JA-Soprano-1,mixed_falsetto,technique,か に い つ も 忘 れ た く な い さ さ や き を 聞 く こ な ご な に 砕 か れ た 鏡 の 上 に も,にいつも忘れたくないささやきを聞く粉々に砕かれた鏡の上にも,1.0,0.15625,,1,31,0,32
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0013,JA-Soprano-1,mixed_falsetto,technique,新 し い 景 色 が 映 さ れ る,新しい景色が映される,1.0,0.0,,1,9,0,10
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0014,JA-Soprano-1,mixed_falsetto,technique,は じ ま り の あ さ の 静 か な 窓 ゼ ロ に な る か ら だ 充 た さ れ て ゆ け,はじまりは朝の静かな窓ゼロになるからだ満たされてゆけ,1.0,0.14814814814814814,,1,26,0,27
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0015,JA-Soprano-1,mixed_falsetto,technique,海 の 彼 方 に は も う 探 さ な い 輝 く も の は,の彼方にはもう探さない輝くものは,1.0,0.058823529411764705,,1,16,0,17
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0016,JA-Soprano-1,mixed_falsetto,technique,い つ も こ こ に わ た し の な か に 見 つ け ら れ た か ら,いつもここに私の中に見つけられたから,1.0,0.23809523809523808,,1,20,0,21
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0000,JA-Soprano-1,mixed_falsetto,technique,呼 ん で い る 胸 の ど こ か 奥 で い つ も,呼んでいる胸のどこか奥でいつも,1.0,0.0,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0001,JA-Soprano-1,mixed_falsetto,technique,心 踊 る 夢 を 見 た い か な し み は 数 え き れ な い,踊る夢を見たい悲しみは数え切れない,1.0,0.21052631578947367,,1,18,0,19
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0002,JA-Soprano-1,mixed_falsetto,technique,け れ ど そ の 向 こ う で き っ と あ な た に 会 え る,けれどその向こうできっとあなたに会える,1.0,0.0,,1,18,0,19
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0003,JA-Soprano-1,mixed_falsetto,technique,繰 り 返 す あ や ま ち の そ の た び ひ と は た だ,繰り返す過ちのその度人はただ,1.0,0.3888888888888889,,1,17,0,18
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0004,JA-Soprano-1,mixed_falsetto,technique,青 い 空 の 青 さ を 知 る 果 て し な く 道 は,蒼い空の蒼さを知る果てしなく道を,1.0,0.1875,,1,15,0,16
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0005,JA-Soprano-1,mixed_falsetto,technique,続 い て 見 え る け れ ど こ の 両 手 は 光 を 抱 け る,気づいて見えるけれどこの両手は光を抱ける,1.0,0.10526315789473684,,1,18,0,19
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0006,JA-Soprano-1,mixed_falsetto,technique,さ よ な ら の と き の 静 か な 胸 ゼ ロ に な る か ら だ,さよならの時の静かな胸ゼロになる体,1.0,0.25,,1,19,0,20
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0007,JA-Soprano-1,mixed_falsetto,technique,が 耳 を す ま せ る 生 き て い る 不 思 議 死 ん で い く 不 思,が耳を澄ませる生きている不思議死んでいく不思議,1.0,0.09090909090909091,,1,21,0,22
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0008,JA-Soprano-1,mixed_falsetto,technique,議 花 も 風 も 街 も み ん な お な じ,雪花も風も街もみんな同じ,1.0,0.23076923076923078,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0009,JA-Soprano-1,mixed_falsetto,technique,呼 ん で い る 胸 の ど こ か 奥 で い つ も 何 度 で も 夢 を 描 こ う,呼んでいる胸のどこか奥でいつも何度でも夢を描,1.0,0.08333333333333333,,1,23,0,24
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0010,JA-Soprano-1,mixed_falsetto,technique,か な し み の 数 を 言 い 尽 く す よ り 同 じ く ち び る で そ っ,悲しみの数を言い尽くすより同じくちびるでそ,1.0,0.13043478260869565,,1,22,0,23
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0011,JA-Soprano-1,mixed_falsetto,technique,と う た お う 閉 じ て い く 思 い 出 の そ の な,とったを閉じていく思い出のその名,1.0,0.23529411764705882,,1,16,0,17
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0012,JA-Soprano-1,mixed_falsetto,technique,か に い つ も 忘 れ た く な い さ さ や き を 聞 く こ な ご な に 砕 か れ た 鏡 の 上 に も,中にいつも忘れたくないささやきを聞くこの粉に砕かれた鏡の上にも,1.0,0.125,,1,31,0,32
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0013,JA-Soprano-1,mixed_falsetto,technique,新 し い 景 色 が 映 さ れ る,新しい景色が映される,1.0,0.0,,1,9,0,10
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0014,JA-Soprano-1,mixed_falsetto,technique,は じ ま り の あ さ の 静 か な 窓 ゼ ロ に な る か ら だ 充 た さ れ て ゆ け,はじまりの朝の静かな窓ゼロになるからだ見出されてゆけ,1.0,0.14814814814814814,,1,26,0,27
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0015,JA-Soprano-1,mixed_falsetto,technique,海 の 彼 方 に は も う 探 さ な い 輝 く も の は,海の彼方にはもう探さない輝くものは,1.0,0.0,,1,16,0,17
+JA-Soprano-1__mixed_falsetto__technique__いつも何度でも__0016,JA-Soprano-1,mixed_falsetto,technique,い つ も こ こ に わ た し の な か に 見 つ け ら れ た か ら,いつもここに私の中に見つけられたから,1.0,0.23809523809523808,,1,20,0,21
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0000,JA-Soprano-1,mixed_falsetto,technique,光 る 海 に 霞 む 船 は,光る海に霞む船は,1.0,0.0,,1,7,0,8
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0001,JA-Soprano-1,mixed_falsetto,technique,さ よ な ら の 汽 残 し ま す 緩 い 坂 を,さよならの議的残します緩い坂を,1.0,0.14285714285714285,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0002,JA-Soprano-1,mixed_falsetto,technique,降 り て 行 け ば 夏 色 の 風 に 会 え る か し ら,降りて行けば夏色の風に会えるかしら,1.0,0.0,,1,16,0,17
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0003,JA-Soprano-1,mixed_falsetto,technique,私 の 愛 そ れ は メ ロ デ ィ 高 く,私の愛それはメロディ高く,1.0,0.0,,1,11,0,12
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0004,JA-Soprano-1,mixed_falsetto,technique,低 く 歌 う の 私 の,低く歌うの私の愛,1.0,0.14285714285714285,,1,6,0,7
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0005,JA-Soprano-1,mixed_falsetto,technique,愛 そ れ は 高 く 低 く 飛 ぶ の,それはカモメ高く低く飛ぶの,1.0,0.36363636363636365,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0006,JA-Soprano-1,mixed_falsetto,technique,夕 陽 の 中 呼 ん で み た ら 優 し い あ な た に 逢 え る か し ら,夕日の中呼んでみたら優しいあなたに会えるかしら,1.0,0.08695652173913043,,1,22,0,23
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0007,JA-Soprano-1,mixed_falsetto,technique,散 歩 道 に 揺 れ る 木 は,散歩道に揺れる木々は,1.0,0.0,,1,8,0,9
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0008,JA-Soprano-1,mixed_falsetto,technique,さ よ な ら の 影 を 落 と し ま す 古 い チ ペ ル,サヨナラの影を落とします古いジャベル,1.0,0.4117647058823529,,1,16,0,17
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0009,JA-Soprano-1,mixed_falsetto,technique,風 見 の 鶏 夏 色 の 街 は 見 え る か し ら 昨,風浴びの鳥夏色の街は見えるかしら,1.0,0.25,,1,15,0,16
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0010,JA-Soprano-1,mixed_falsetto,technique,日 の 愛 そ れ は 涙 て,昨日の愛それは涙やがて,1.0,0.375,,1,7,0,8
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0011,JA-Soprano-1,mixed_falsetto,technique,乾 き 消 え る の あ し た の,乾き消えるの明日の愛,1.0,0.4,,1,9,0,10
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0012,JA-Soprano-1,mixed_falsetto,technique,愛 そ れ は ル フ ラ ン 終 わ り の な い 言 葉,それはるふら終わりのない言葉,1.0,0.3125,,1,15,0,16
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0013,JA-Soprano-1,mixed_falsetto,technique,夕 陽 の 中 巡 り 逢 え ば あ な た は 私 を 抱 く か し ら,夕日の中めくり会えばあなたは私をたくかしら,1.0,0.25,,1,19,0,20
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0000,JA-Soprano-1,mixed_falsetto,technique,光 る 海 に 霞 む 船 は,光る海に霞む船は,1.0,0.0,,1,7,0,8
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0001,JA-Soprano-1,mixed_falsetto,technique,さ よ な ら の 汽 残 し ま す 緩 い 坂 を,さよならの汽笛残します緩い坂を,1.0,0.07142857142857142,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0002,JA-Soprano-1,mixed_falsetto,technique,降 り て 行 け ば 夏 色 の 風 に 会 え る か し ら,降りて行けば夏色の風に会えるかしら,1.0,0.0,,1,16,0,17
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0003,JA-Soprano-1,mixed_falsetto,technique,私 の 愛 そ れ は メ ロ デ ィ 高 く,私の愛それはメロディ高く,1.0,0.0,,1,11,0,12
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0004,JA-Soprano-1,mixed_falsetto,technique,低 く 歌 う の 私 の,低く歌うの私の愛,1.0,0.14285714285714285,,1,6,0,7
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0005,JA-Soprano-1,mixed_falsetto,technique,愛 そ れ は 高 く 低 く 飛 ぶ の,れはカモメ高く低く飛ぶの,1.0,0.45454545454545453,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0006,JA-Soprano-1,mixed_falsetto,technique,夕 陽 の 中 呼 ん で み た ら 優 し い あ な た に 逢 え る か し ら,夕日の中呼んでみたら優しいあなたに会えるかしら,1.0,0.08695652173913043,,1,22,0,23
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0007,JA-Soprano-1,mixed_falsetto,technique,散 歩 道 に 揺 れ る 木 は,散歩道に揺れる木々は,1.0,0.0,,1,8,0,9
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0008,JA-Soprano-1,mixed_falsetto,technique,さ よ な ら の 影 を 落 と し ま す 古 い チ ペ ル,サヨナラの影を落とします古いチャペル,1.0,0.29411764705882354,,1,16,0,17
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0009,JA-Soprano-1,mixed_falsetto,technique,風 見 の 鶏 夏 色 の 街 は 見 え る か し ら 昨,風上の鳥夏色の街は見えるかしら,1.0,0.1875,,1,15,0,16
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0010,JA-Soprano-1,mixed_falsetto,technique,日 の 愛 そ れ は 涙 て,昨日の愛それは涙やがて,1.0,0.375,,1,7,0,8
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0011,JA-Soprano-1,mixed_falsetto,technique,乾 き 消 え る の あ し た の,乾き消えるの明日の,1.0,0.3,,1,9,0,10
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0012,JA-Soprano-1,mixed_falsetto,technique,愛 そ れ は ル フ ラ ン 終 わ り の な い 言 葉,いそうで悪不断終わりのない言葉,1.0,0.4375,,1,15,0,16
+JA-Soprano-1__mixed_falsetto__technique__さよならの夏～コクリコ坂から__0013,JA-Soprano-1,mixed_falsetto,technique,夕 陽 の 中 巡 り 逢 え ば あ な た は 私 を 抱 く か し ら,夕日の中めくり会えばあなたは私を抱くかしら,1.0,0.2,,1,19,0,20
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0000,JA-Soprano-1,mixed_falsetto,technique,僕 は 弱 虫 で 嫌 な ん だ あ な た,僕は弱虫で嫌なんだあなた,1.0,0.0,,1,11,0,12
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0001,JA-Soprano-1,mixed_falsetto,technique,の 笑 顔 が ん で く 小 さ く な っ て,の笑顔がにじんでく小さくなって,1.0,0.15384615384615385,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0002,JA-Soprano-1,mixed_falsetto,technique,震 え る 背 中 を 僕 は た だ 見 て る こ と し か 出 来 な か っ た,震える背中を僕はただ見てることしかできなかった,1.0,0.08695652173913043,,1,22,0,23
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0003,JA-Soprano-1,mixed_falsetto,technique,鼻 の 奥 の 方 ツ ン と な っ て 少 し 痛 い 泣 き た く,鼻の奥の頬つとなって少し痛い泣きたく,1.0,0.15789473684210525,,1,18,0,19
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0004,JA-Soprano-1,mixed_falsetto,technique,な ん か な い の に 僕 は 泣 き 虫 で,なんがないのに僕は泣き虫で,1.0,0.07692307692307693,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0005,JA-Soprano-1,mixed_falsetto,technique,悔 し く て あ な た の 笑 顔 胸 に 刺 さ る こ ん,悔しくてあなたの笑顔胸にささる,1.0,0.17647058823529413,,1,16,0,17
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0006,JA-Soprano-1,mixed_falsetto,technique,な と き で も 笑 っ て い ら れ る あ な た は や っ ぱ り 強 く て 優 し い 人,何度聞いても笑っていられるあなたはやっぱり強くて優しい人,1.0,0.18518518518518517,,1,26,0,27
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0007,JA-Soprano-1,mixed_falsetto,technique,息 を 切 ら し て 走 っ て く 今 も 僕 は 強 く,息を切らして走っていく今も僕は強く,1.0,0.0625,,1,15,0,16
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0008,JA-Soprano-1,mixed_falsetto,technique,な ん か な い け ど 僕 は 泣 き 虫 で,なんかないけど僕は泣き虫で,1.0,0.0,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0009,JA-Soprano-1,mixed_falsetto,technique,悔 し く て だ け ど あ な た に 今 伝 え た い ん だ,悔しくてだけどあなたに今伝えたいんだ,1.0,0.0,,1,17,0,18
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0010,JA-Soprano-1,mixed_falsetto,technique,た だ 真 っ す ぐ に 僕 を 見 つ め る 強 く て 優 し い そ の に 応 え る た め に,ただまっすぐに僕を見つめる強くて優しいその瞳に答えるために,1.0,0.10714285714285714,,1,27,0,28
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0011,JA-Soprano-1,mixed_falsetto,technique,僕 は 弱 虫 で 嫌 だ っ た だ け ど,僕は弱虫で嫌だっただけど,1.0,0.0,,1,11,0,12
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0012,JA-Soprano-1,mixed_falsetto,technique,も っ と も っ と 強 く な る か ら あ な た の こ と を 守 れ る よ う な 僕 に な る か ら だ か ら 少 し 待 て て,もっともっと強くなるからあなたの鼓動守れるような僕になるからだから少し待ってて,1.0,0.10256410256410256,,1,38,0,39
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0000,JA-Soprano-1,mixed_falsetto,technique,僕 は 弱 虫 で 嫌 な ん だ あ な た,僕は弱虫で嫌なんだあなた,1.0,0.0,,1,11,0,12
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0001,JA-Soprano-1,mixed_falsetto,technique,の 笑 顔 が ん で く 小 さ く な っ て,の笑顔がにじんでく小さくなって,1.0,0.15384615384615385,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0002,JA-Soprano-1,mixed_falsetto,technique,震 え る 背 中 を 僕 は た だ 見 て る こ と し か 出 来 な か っ た,震える背中を僕はただ見てることしかできなかった,1.0,0.08695652173913043,,1,22,0,23
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0003,JA-Soprano-1,mixed_falsetto,technique,鼻 の 奥 の 方 ツ ン と な っ て 少 し 痛 い 泣 き た く,鼻の奥のほつとなって少し痛い泣きたく,1.0,0.15789473684210525,,1,18,0,19
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0004,JA-Soprano-1,mixed_falsetto,technique,な ん か な い の に 僕 は 泣 き 虫 で,なんかないのに僕は泣き虫で,1.0,0.0,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0005,JA-Soprano-1,mixed_falsetto,technique,悔 し く て あ な た の 笑 顔 胸 に 刺 さ る こ ん,悔しくてあなたの笑顔胸にささる,1.0,0.17647058823529413,,1,16,0,17
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0006,JA-Soprano-1,mixed_falsetto,technique,な と き で も 笑 っ て い ら れ る あ な た は や っ ぱ り 強 く て 優 し い 人,何時でも笑っていられるあなたはやっぱり強くて優しい人,1.0,0.1111111111111111,,1,26,0,27
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0007,JA-Soprano-1,mixed_falsetto,technique,息 を 切 ら し て 走 っ て く 今 も 僕 は 強 く,息を切らして走っていく今も僕は強く,1.0,0.0625,,1,15,0,16
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0008,JA-Soprano-1,mixed_falsetto,technique,な ん か な い け ど 僕 は 泣 き 虫 で,なんかないけど僕は泣き虫で,1.0,0.0,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0009,JA-Soprano-1,mixed_falsetto,technique,悔 し く て だ け ど あ な た に 今 伝 え た い ん だ,悔しくてだけどあなたに今伝えたいんだ,1.0,0.0,,1,17,0,18
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0010,JA-Soprano-1,mixed_falsetto,technique,た だ 真 っ す ぐ に 僕 を 見 つ め る 強 く て 優 し い そ の に 応 え る た め に,ただまっすぐに僕を見つめる強くて優しいその瞳に答えるために,1.0,0.10714285714285714,,1,27,0,28
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0011,JA-Soprano-1,mixed_falsetto,technique,僕 は 弱 虫 で 嫌 だ っ た だ け ど,僕は弱虫で嫌だっただけど,1.0,0.0,,1,11,0,12
+JA-Soprano-1__mixed_falsetto__technique__なきむし__0012,JA-Soprano-1,mixed_falsetto,technique,も っ と も っ と 強 く な る か ら あ な た の こ と を 守 れ る よ う な 僕 に な る か ら だ か ら 少 し 待 て て,もっともっと強くなるからあなたのことを守れるような僕になるからだから少しは当てて,1.0,0.05128205128205128,,1,38,0,39
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0000,JA-Soprano-1,mixed_falsetto,technique,夕 闇 迫 る 雲 の 上 い つ も 一 羽 で,夕闇迫る雲の上いつも一羽で,1.0,0.0,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0001,JA-Soprano-1,mixed_falsetto,technique,飛 ん で い る は き っ と 悲 し か ろ,飛んでいるだがはきっと悲しがろう,1.0,0.3076923076923077,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0002,JA-Soprano-1,mixed_falsetto,technique,う 音 も 途 絶 え た 風 の 中 空 を 掴 ん だ,音も伝えた風の中空をつかんだ,1.0,0.3333333333333333,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0003,JA-Soprano-1,mixed_falsetto,technique,そ の 翼 休 め る こ と は で き な く て,その翼休めることはできなくて,1.0,0.0,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0004,JA-Soprano-1,mixed_falsetto,technique,心 を 何 に た と え よ う の よ う な こ の,心を何に例えよう鷹のようなゴロゴロ,1.0,0.4666666666666667,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0005,JA-Soprano-1,mixed_falsetto,technique,心 心 を 何 に た と え よ う 空 を 舞 う よ な 悲 し さ を,心を何に例えよう空を舞うような悲しさを,1.0,0.2,,1,19,0,20
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0006,JA-Soprano-1,mixed_falsetto,technique,雨 の そ ぼ 降 る 岩 陰 に い つ も 小 さ く,雨のそぼ降る岩陰にいつも小さく,1.0,0.0,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0007,JA-Soprano-1,mixed_falsetto,technique,咲 い て い る 花 は き っ と 切 な か ろ う 色 も 霞 ん だ 雨,咲いている花はきっと切ながろう色もかすな雨の中,1.0,0.2857142857142857,,1,20,0,21
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0008,JA-Soprano-1,mixed_falsetto,technique,の 中 薄 色 の 花 び ら を 愛 で て く れ る,桃色の花びらをめでてくれる,1.0,0.26666666666666666,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0009,JA-Soprano-1,mixed_falsetto,technique,手 も な く て 心 を 何 に た と え よ,手もなくて心を何に例えよう,1.0,0.23076923076923078,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0010,JA-Soprano-1,mixed_falsetto,technique,う 花 の よ う な こ の 心 心 を 何 に た と え よ う 雨 に 打 た れ る 切 な さ を,花のようなこの心心を何にたとえよう雨に打たれる切なさを,1.0,0.03571428571428571,,1,27,0,28
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0011,JA-Soprano-1,mixed_falsetto,technique,人 影 絶 え た 野 の 道 を 私 と と も に,人がけた枝の道を私とともに,1.0,0.2857142857142857,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0012,JA-Soprano-1,mixed_falsetto,technique,歩 ん で る あ な た も き っ と 寂 し か ろ,歩んでるあなたもきっと寂しかろう,1.0,0.06666666666666667,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0013,JA-Soprano-1,mixed_falsetto,technique,う 虫 の く 草 原 を と も に 道 行 く,牛のささやく草原を共にみじゆく,1.0,0.7692307692307693,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0014,JA-Soprano-1,mixed_falsetto,technique,人 だ け ど 絶 え て 物 言 う こ と も な,人だけどたえて物言うことも,1.0,0.14285714285714285,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0015,JA-Soprano-1,mixed_falsetto,technique,く 心 を 何 に た と え よ う 一 人 道 行 く こ の,行く心を何に例えよう一人道行くこの心,1.0,0.23529411764705882,,1,16,0,17
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0016,JA-Soprano-1,mixed_falsetto,technique,心 心 を 何 に た と え よ う 一 人 ぼ っ ち の 寂 し さ を,心を何に例えよう一人ぼっちの淋しさを,1.0,0.2,,1,19,0,20
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0000,JA-Soprano-1,mixed_falsetto,technique,夕 闇 迫 る 雲 の 上 い つ も 一 羽 で,夕闇迫る雲の上いつも一羽で,1.0,0.0,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0001,JA-Soprano-1,mixed_falsetto,technique,飛 ん で い る は き っ と 悲 し か ろ,飛んでいる鷹はきっと悲しかろう,1.0,0.15384615384615385,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0002,JA-Soprano-1,mixed_falsetto,technique,う 音 も 途 絶 え た 風 の 中 空 を 掴 ん だ,ほども途絶えた風の中空をつかんだ,1.0,0.26666666666666666,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0003,JA-Soprano-1,mixed_falsetto,technique,そ の 翼 休 め る こ と は で き な く て,その翼休めることはできなくて,1.0,0.0,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0004,JA-Soprano-1,mixed_falsetto,technique,心 を 何 に た と え よ う の よ う な こ の,心を何にたとえよう鷹のようなこの心,1.0,0.13333333333333333,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0005,JA-Soprano-1,mixed_falsetto,technique,心 心 を 何 に た と え よ う 空 を 舞 う よ な 悲 し さ を,心を何にたとえよう空を舞うよな悲しさを,1.0,0.05,,1,19,0,20
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0006,JA-Soprano-1,mixed_falsetto,technique,雨 の そ ぼ 降 る 岩 陰 に い つ も 小 さ く,雨のそぼ降る岩陰にいつも小さく,1.0,0.0,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0007,JA-Soprano-1,mixed_falsetto,technique,咲 い て い る 花 は き っ と 切 な か ろ う 色 も 霞 ん だ 雨,咲いている花はきっと切ながろう色も霞んだ雨,1.0,0.047619047619047616,,1,20,0,21
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0008,JA-Soprano-1,mixed_falsetto,technique,の 中 薄 色 の 花 び ら を 愛 で て く れ る,の中薄桃色の花びらをめでてくれる,1.0,0.13333333333333333,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0009,JA-Soprano-1,mixed_falsetto,technique,手 も な く て 心 を 何 に た と え よ,手もなくて心を何にたとえよ,1.0,0.0,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0010,JA-Soprano-1,mixed_falsetto,technique,う 花 の よ う な こ の 心 心 を 何 に た と え よ う 雨 に 打 た れ る 切 な さ を,花のようなこの心心を何にたとえよう雨に打たれる切なさを,1.0,0.03571428571428571,,1,27,0,28
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0011,JA-Soprano-1,mixed_falsetto,technique,人 影 絶 え た 野 の 道 を 私 と と も に,人影絶えた野の道を私とともに,1.0,0.0,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0012,JA-Soprano-1,mixed_falsetto,technique,歩 ん で る あ な た も き っ と 寂 し か ろ,歩んでるあなたもきっと寂しがろう,1.0,0.13333333333333333,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0013,JA-Soprano-1,mixed_falsetto,technique,う 虫 の く 草 原 を と も に 道 行 く,牛のささやく草原を共に満ち行く,1.0,0.6923076923076923,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0014,JA-Soprano-1,mixed_falsetto,technique,人 だ け ど 絶 え て 物 言 う こ と も な,人だけどたいて物言う心もなく,1.0,0.35714285714285715,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0015,JA-Soprano-1,mixed_falsetto,technique,く 心 を 何 に た と え よ う 一 人 道 行 く こ の,心を何に例えよう一人道行くこの心,1.0,0.23529411764705882,,1,16,0,17
+JA-Soprano-1__mixed_falsetto__technique__テルーの呗_(歌集バージョン)__0016,JA-Soprano-1,mixed_falsetto,technique,心 心 を 何 に た と え よ う 一 人 ぼ っ ち の 寂 し さ を,心を何にたとえよ一人ぼっちの淋しさを,1.0,0.15,,1,19,0,20
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0000,JA-Soprano-1,mixed_falsetto,technique,其 れ は 風 が 運 ん だ 淡 い 花 弁,せ風が含んだ淡い花びら,1.0,0.5,,1,11,0,12
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0001,JA-Soprano-1,mixed_falsetto,technique,春 の 追 想 綺 麗 な 音 う 少 女,夜の追想綺麗なね歌をモニカ,1.0,0.6363636363636364,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0002,JA-Soprano-1,mixed_falsetto,technique,鳥 の り 針 は 進 ん だ 其 れ は 蒼 が い で,鳥のさえ釣り針は進んだ背をつないで,1.0,0.5333333333333333,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0003,JA-Soprano-1,mixed_falsetto,technique,流 れ る 雲 夏 の 追 想 綺 麗,枯れる雲夏の水槽綺麗だね,1.0,0.5,,1,9,0,10
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0004,JA-Soprano-1,mixed_falsetto,technique,な 音 謡 う 少 女 の 時 雨 針 は 進 ん だ,歌うモニカセミのしぐれ針は進んだ,1.0,0.7142857142857143,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0005,JA-Soprano-1,mixed_falsetto,technique,其 れ は 夜 の 窓 辺 に 微 笑 む 月 秋 の 追 想,せ夜の窓辺に微笑む月秋の追奏,1.0,0.25,,1,15,0,16
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0006,JA-Soprano-1,mixed_falsetto,technique,綺 麗 な 音 う 少 女 虫 の 羽 音,綺麗なね歌うモニカ虫の葉音,1.0,0.5454545454545454,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0007,JA-Soprano-1,mixed_falsetto,technique,針 は 進 ん だ 其 れ は 大 地 を 包 み 微,針は進んだ背大地を包み,1.0,0.2857142857142857,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0008,JA-Soprano-1,mixed_falsetto,technique,眠 む 雪 冬 の 追 想 綺 麗 な,まどろむ雪冬の水槽綺麗だね,1.0,0.7,,1,9,0,10
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0009,JA-Soprano-1,mixed_falsetto,technique,音 詩 う 少 女 時 の 木 枯 針 は 進 ん だ,歌うもにか時の木枯らしはりは進んだ,1.0,0.6428571428571429,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0000,JA-Soprano-1,mixed_falsetto,technique,其 れ は 風 が 運 ん だ 淡 い 花 弁,せ風が吹くんだ淡い花びら,1.0,0.5833333333333334,,1,11,0,12
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0001,JA-Soprano-1,mixed_falsetto,technique,春 の 追 想 綺 麗 な 音 う 少 女,春の水槽綺麗な音歌うモニカ,1.0,0.5454545454545454,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0002,JA-Soprano-1,mixed_falsetto,technique,鳥 の り 針 は 進 ん だ 其 れ は 蒼 が い で,鳥のさえずり針は進んだ背をつないで,1.0,0.5333333333333333,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0003,JA-Soprano-1,mixed_falsetto,technique,流 れ る 雲 夏 の 追 想 綺 麗,流れる雲夏の水槽綺麗な音,1.0,0.4,,1,9,0,10
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0004,JA-Soprano-1,mixed_falsetto,technique,な 音 謡 う 少 女 の 時 雨 針 は 進 ん だ,歌うもにか蝉のしぐれはりは進んだ,1.0,0.7857142857142857,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0005,JA-Soprano-1,mixed_falsetto,technique,其 れ は 夜 の 窓 辺 に 微 笑 む 月 秋 の 追 想,せい夜の窓辺に微笑む月秋の追奏,1.0,0.25,,1,15,0,16
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0006,JA-Soprano-1,mixed_falsetto,technique,綺 麗 な 音 う 少 女 虫 の 羽 音,綺麗だね歌うモニカ虫の葉音,1.0,0.6363636363636364,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0007,JA-Soprano-1,mixed_falsetto,technique,針 は 進 ん だ 其 れ は 大 地 を 包 み 微,針は進んだせ大地を包みまと,1.0,0.35714285714285715,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0008,JA-Soprano-1,mixed_falsetto,technique,眠 む 雪 冬 の 追 想 綺 麗 な,まろむ雪冬の水槽綺麗だね,1.0,0.6,,1,9,0,10
+JA-Soprano-1__mixed_falsetto__technique__美しきもの__0009,JA-Soprano-1,mixed_falsetto,technique,音 詩 う 少 女 時 の 木 枯 針 は 進 ん だ,歌をもにか時の木枯らしはりは進んだ,1.0,0.6428571428571429,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0000,JA-Soprano-1,mixed_falsetto,technique,何 も 見 え な い 何 も,何も見えない何も,1.0,0.0,,1,7,0,8
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0001,JA-Soprano-1,mixed_falsetto,technique,ず っ と 泣 い て た だ け ど,ずっと泣いてただけど,1.0,0.0,,1,9,0,10
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0002,JA-Soprano-1,mixed_falsetto,technique,悲 し い ん じ ゃ な い 暖 か い,悲しいんじゃない暖かい,1.0,0.0,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0003,JA-Soprano-1,mixed_falsetto,technique,あ な た に 触 れ た の が 嬉 し く て,あなたに触れたのが嬉しくて,1.0,0.0,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0004,JA-Soprano-1,mixed_falsetto,technique,あ 行 か な い で 行 か な い で,ああ行かないで行かないで,1.0,0.09090909090909091,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0005,JA-Soprano-1,mixed_falsetto,technique,い つ ま で も ず っ と 離 さ な い で あ,いつまでもずっと話さないでああ,1.0,0.14285714285714285,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0006,JA-Soprano-1,mixed_falsetto,technique,行 か な い で 行 か な い で こ の ま ま で,行かないで行かないでこのままで,1.0,0.0,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0007,JA-Soprano-1,mixed_falsetto,technique,い つ か 心 は い つ か,いつか心はいつか遠いどこか,1.0,0.625,,1,7,0,8
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0008,JA-Soprano-1,mixed_falsetto,technique,遠 い 何 か で 皆,いいな想い,1.0,0.8333333333333334,,1,5,0,6
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0009,JA-Soprano-1,mixed_falsetto,technique,い 出 に な る と 知 ら な く て,相手になると知らなくて,1.0,0.18181818181818182,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0010,JA-Soprano-1,mixed_falsetto,technique,い い の に 知 ら な く て い い の に,いいのに知らなくていいのに,1.0,0.0,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0011,JA-Soprano-1,mixed_falsetto,technique,あ 行 か な い で 行 か な い で,ああ行かないで行かないで,1.0,0.09090909090909091,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0012,JA-Soprano-1,mixed_falsetto,technique,ど ん な 時 で も 離 さ な い で あ,どんな時でも話さないでああ,1.0,0.16666666666666666,,1,11,0,12
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0013,JA-Soprano-1,mixed_falsetto,technique,行 か な い で 行 か な い で こ の ま ま で,行かないで行かないでこのままで,1.0,0.0,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0014,JA-Soprano-1,mixed_falsetto,technique,あ 行 か な い で,ああ行かないで,1.0,0.16666666666666666,,1,5,0,6
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0015,JA-Soprano-1,mixed_falsetto,technique,行 か な い で い つ ま で も ず っ と 離 さ な い で,行かないでいつまでもずっと話さないで,1.0,0.05555555555555555,,1,17,0,18
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0016,JA-Soprano-1,mixed_falsetto,technique,あ 行 か な い で 行 か な い で こ の ま ま で,行かないで行かないでこのままで,1.0,0.0625,,1,15,0,16
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0000,JA-Soprano-1,mixed_falsetto,technique,何 も 見 え な い 何 も,何も見えない何も,1.0,0.0,,1,7,0,8
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0001,JA-Soprano-1,mixed_falsetto,technique,ず っ と 泣 い て た だ け ど,ずっと泣いてただけど,1.0,0.0,,1,9,0,10
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0002,JA-Soprano-1,mixed_falsetto,technique,悲 し い ん じ ゃ な い 暖 か い,悲しいんじゃない暖かい,1.0,0.0,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0003,JA-Soprano-1,mixed_falsetto,technique,あ な た に 触 れ た の が 嬉 し く て,あなたに触れたのが嬉しくて,1.0,0.0,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0004,JA-Soprano-1,mixed_falsetto,technique,あ 行 か な い で 行 か な い で,行かないで行かないで,1.0,0.09090909090909091,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0005,JA-Soprano-1,mixed_falsetto,technique,い つ ま で も ず っ と 離 さ な い で あ,いつまでもずっと話さないでア,1.0,0.14285714285714285,,1,13,0,14
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0006,JA-Soprano-1,mixed_falsetto,technique,行 か な い で 行 か な い で こ の ま ま で,行かないで行かないでこのままで,1.0,0.0,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0007,JA-Soprano-1,mixed_falsetto,technique,い つ か 心 は い つ か,いつか心はいつか,1.0,0.0,,1,7,0,8
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0008,JA-Soprano-1,mixed_falsetto,technique,遠 い 何 か で 皆,遠いどこかでみんな,1.0,0.8333333333333334,,1,5,0,6
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0009,JA-Soprano-1,mixed_falsetto,technique,い 出 に な る と 知 ら な く て,思い出になると知らなくて,1.0,0.09090909090909091,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0010,JA-Soprano-1,mixed_falsetto,technique,い い の に 知 ら な く て い い の に,いいのに知らなくていいのに,1.0,0.0,,1,12,0,13
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0011,JA-Soprano-1,mixed_falsetto,technique,あ 行 か な い で 行 か な い で,ああ行かないで行かないで,1.0,0.09090909090909091,,1,10,0,11
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0012,JA-Soprano-1,mixed_falsetto,technique,ど ん な 時 で も 離 さ な い で あ,どんな時でも話さないでああ,1.0,0.16666666666666666,,1,11,0,12
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0013,JA-Soprano-1,mixed_falsetto,technique,行 か な い で 行 か な い で こ の ま ま で,行かないで行かないでこのままで,1.0,0.0,,1,14,0,15
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0014,JA-Soprano-1,mixed_falsetto,technique,あ 行 か な い で,ああ行かないで,1.0,0.16666666666666666,,1,5,0,6
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0015,JA-Soprano-1,mixed_falsetto,technique,行 か な い で い つ ま で も ず っ と 離 さ な い で,離さないでいつまでもずっと離さないで,1.0,0.1111111111111111,,1,17,0,18
+JA-Soprano-1__mixed_falsetto__technique__行かないで__0016,JA-Soprano-1,mixed_falsetto,technique,あ 行 か な い で 行 か な い で こ の ま ま で,さあ行かないで行かないでこのままで,1.0,0.0625,,1,15,0,16
+JA-Soprano-1__pharyngeal__technique__この夜を止めてよ__0000,JA-Soprano-1,pharyngeal,technique,愛 し て る っ て い う あ な た の 言 葉 は さ よ な ら よ り も 哀 し い,愛してるで言うあなたの言葉はさよならよりも悲しい,1.0,0.16,,1,24,0,25
+JA-Soprano-1__pharyngeal__technique__この夜を止めてよ__0001,JA-Soprano-1,pharyngeal,technique,こ れ 以 上 何 も 言 わ な く て い い だ か ら こ の 夜 を 止 め て,これ以上何も言わなくていいだからこの夜を止めてよ,1.0,0.043478260869565216,,1,22,0,23
+JA-Soprano-1__pharyngeal__technique__この夜を止めてよ__0002,JA-Soprano-1,pharyngeal,technique,お な じ 色 の 夢 を み て い た い の に ち が う 道 に 離 れ て く,同じ色の夢見ていたいのに違う道に離れてく,1.0,0.2608695652173913,,1,22,0,23
+JA-Soprano-1__pharyngeal__technique__この夜を止めてよ__0003,JA-Soprano-1,pharyngeal,technique,出 会 い の と き を 選 べ な い の な ら せ め て こ の 夜 を 止 め て よ,出会いの時を選べないのならせめてこの夜を止めてよ,1.0,0.08,,1,24,0,25
+JA-Soprano-1__pharyngeal__technique__この夜を止めてよ__0004,JA-Soprano-1,pharyngeal,technique,愛 し て る っ て い う あ な た の 言 葉 は さ よ な ら よ り も 哀 し い,愛してるって言うあなたの言葉はさよならよるも悲しい,1.0,0.12,,1,24,0,25
+JA-Soprano-1__pharyngeal__technique__この夜を止めてよ__0005,JA-Soprano-1,pharyngeal,technique,こ れ 以 上 何 も 言 わ な く て い い だ か ら こ の 夜 を 止 め て よ,これ以上何も言わなくていいだからこの夜を止めてよ,1.0,0.0,,1,23,0,24
+JA-Soprano-1__pharyngeal__technique__この夜を止めてよ__0006,JA-Soprano-1,pharyngeal,technique,お な じ 色 の 夢 み て た つ も り で ち が う 道 を 歩 い て た,同じ色の夢見てたつもりで違う道を歩いてた,1.0,0.22727272727272727,,1,21,0,22
+JA-Soprano-1__pharyngeal__technique__この夜を止めてよ__0007,JA-Soprano-1,pharyngeal,technique,別 れ の と き も 選 べ な い の な ら せ め て こ の 夜 を,別れの時も選べないのならせめてこの夜を,1.0,0.1,,1,19,0,20
+JA-Soprano-1__pharyngeal__technique__この夜を止めてよ__0008,JA-Soprano-1,pharyngeal,technique,愛 し て る っ て い う あ な た の 言 葉 は さ よ な ら よ り も 哀 し い,愛してるで言うあなたの言葉はさよならよりも悲しい,1.0,0.16,,1,24,0,25
+JA-Soprano-1__pharyngeal__technique__この夜を止めてよ__0009,JA-Soprano-1,pharyngeal,technique,こ れ 以 上 何 も 言 わ な く て い い だ か ら こ の 夜 を 止 め て よ,これ以上何も言わなくていいだからこの夜を止めてよ,1.0,0.0,,1,23,0,24
+JA-Soprano-1__pharyngeal__technique__なきむし__0000,JA-Soprano-1,pharyngeal,technique,僕 は 弱 虫 で 嫌 な ん だ あ な た,僕は弱虫で嫌なんだあなた,1.0,0.0,,1,11,0,12
+JA-Soprano-1__pharyngeal__technique__なきむし__0001,JA-Soprano-1,pharyngeal,technique,の 笑 顔 が ん で く 小 さ く な っ て,の笑顔が滲んでいく小さくなって,1.0,0.15384615384615385,,1,12,0,13
+JA-Soprano-1__pharyngeal__technique__なきむし__0002,JA-Soprano-1,pharyngeal,technique,震 え る 背 中 を 僕 は た だ 見 て る こ と し か 出 来 な か っ た,震える背中を僕はただ見てることしかできなかった,1.0,0.08695652173913043,,1,22,0,23
+JA-Soprano-1__pharyngeal__technique__なきむし__0003,JA-Soprano-1,pharyngeal,technique,鼻 の 奥 の 方 ツ ン と な っ て 少 し 痛 い,鼻の奥のうつとなって少し痛い,1.0,0.2,,1,14,0,15
+JA-Soprano-1__pharyngeal__technique__なきむし__0004,JA-Soprano-1,pharyngeal,technique,泣 き た く な ん か な い の に,泣きたくなんかないのに,1.0,0.0,,1,10,0,11
+JA-Soprano-1__pharyngeal__technique__なきむし__0005,JA-Soprano-1,pharyngeal,technique,僕 は 泣 き 虫 で 悔 し く て あ な た,僕は泣き虫で悔しくてあなた,1.0,0.0,,1,12,0,13
+JA-Soprano-1__pharyngeal__technique__なきむし__0006,JA-Soprano-1,pharyngeal,technique,の 笑 顔 胸 に 刺 さ る こ ん な と き で も,の笑顔胸にささるこんな時でも,1.0,0.2,,1,14,0,15
+JA-Soprano-1__pharyngeal__technique__なきむし__0007,JA-Soprano-1,pharyngeal,technique,笑 っ て い ら れ る あ な た は や っ ぱ り 強 く て 優 し い 人,笑っていられるあなたはやっぱり強くて優しい人,1.0,0.0,,1,21,0,22
+JA-Soprano-1__pharyngeal__technique__なきむし__0008,JA-Soprano-1,pharyngeal,technique,息 を 切 ら し て 走 っ て く 今 も 僕 は,息を切らして走っていく今も僕は,1.0,0.07142857142857142,,1,13,0,14
+JA-Soprano-1__pharyngeal__technique__なきむし__0009,JA-Soprano-1,pharyngeal,technique,強 く な ん か な け ど,強くなんかないけど,1.0,0.125,,1,7,0,8
+JA-Soprano-1__pharyngeal__technique__なきむし__0010,JA-Soprano-1,pharyngeal,technique,僕 は 泣 き 虫 で 悔 し く て だ け ど,僕は泣き虫で悔しくてたけどあ,1.0,0.15384615384615385,,1,12,0,13
+JA-Soprano-1__pharyngeal__technique__なきむし__0011,JA-Soprano-1,pharyngeal,technique,あ な た に 今 伝 え た い ん だ た だ 真 っ す ぐ に,あなたに今伝えたいんだただまっすぐに,1.0,0.05555555555555555,,1,17,0,18
+JA-Soprano-1__pharyngeal__technique__なきむし__0012,JA-Soprano-1,pharyngeal,technique,僕 を 見 つ め る 強 く て 優 し い そ の に 応 え る た め に,僕を見つめる強くて優しいその瞳に応えるために,1.0,0.047619047619047616,,1,20,0,21
+JA-Soprano-1__pharyngeal__technique__なきむし__0013,JA-Soprano-1,pharyngeal,technique,僕 は 弱 虫 で 嫌 だ っ た だ け ど,僕は弱虫で嫌だっただけど,1.0,0.0,,1,11,0,12
+JA-Soprano-1__pharyngeal__technique__なきむし__0014,JA-Soprano-1,pharyngeal,technique,も っ と も っ と 強 く な る か ら あ な た の こ と を,もっともっと強くなるからあなたのことを,1.0,0.0,,1,18,0,19
+JA-Soprano-1__pharyngeal__technique__なきむし__0015,JA-Soprano-1,pharyngeal,technique,守 れ る よ う な 僕 に な る か ら だ か ら 少 し 待 っ て て,守れるような僕になるからだから少し待ってて,1.0,0.0,,1,20,0,21
+JA-Soprano-1__pharyngeal__technique__祈りのメロディ__0000,JA-Soprano-1,pharyngeal,technique,も う 迷 わ な い 駆 け 出 し て あ な た だ け を い つ も 想 い,もう迷わない駆け出してあなたがけをいつも,1.0,0.13636363636363635,,1,21,0,22
+JA-Soprano-1__pharyngeal__technique__祈りのメロディ__0001,JA-Soprano-1,pharyngeal,technique,つ づ け た 終 わ り な き 終 わ り な き 旅 路 を 探 し て,続けた終わりなき終わりなき旅路を探しても,1.0,0.15,,1,19,0,20
+JA-Soprano-1__pharyngeal__technique__祈りのメロディ__0002,JA-Soprano-1,pharyngeal,technique,も い く つ も い く つ も 答 え は 見 つ か ら ず に,いくつもいくつも答えは見つからずに,1.0,0.05555555555555555,,1,17,0,18
+JA-Soprano-1__pharyngeal__technique__祈りのメロディ__0003,JA-Soprano-1,pharyngeal,technique,そ う そ ば に い て 抱 き 締 め て 同 じ 明 日 を,そうそばにいて抱きしめて同じ明日を,1.0,0.058823529411764705,,1,16,0,17
+JA-Soprano-1__pharyngeal__technique__祈りのメロディ__0004,JA-Soprano-1,pharyngeal,technique,生 き る こ と は な く て も 止 め 処 な き 止 め 処 な き 命 を,生きることはなくても止めどなき止めどなき命を,1.0,0.09090909090909091,,1,21,0,22
+JA-Soprano-1__pharyngeal__technique__祈りのメロディ__0005,JA-Soprano-1,pharyngeal,technique,灯 し て も い く つ も い く つ も 答 え は 見 つ か ら ず に,めしてもいくつもいくつも答えは見つからずに,1.0,0.047619047619047616,,1,20,0,21
+JA-Soprano-1__pharyngeal__technique__祈りのメロディ__0006,JA-Soprano-1,pharyngeal,technique,終 わ り な き 終 わ り な き 旅 路 を 探 し て も い く つ も い く つ も 答 え は 見 つ か ら ず に 残 酷 な 神 は 自 ら が 与 え た 愛 も 奪 う で し ょ う く り の メ ロ デ ィ,終わりなき終わりなき旅路を探してもいくつもいくつも答えは見つからずに,1.0,0.43333333333333335,,1,59,0,60
+JA-Soprano-1__vibrato__technique__voyage__0000,JA-Soprano-1,vibrato,technique,は 幸 せ に な る た め こ の,僕たちはしあわせになるためこの,1.0,0.6,,1,9,0,10
+JA-Soprano-1__vibrato__technique__voyage__0001,JA-Soprano-1,vibrato,technique,旅 路 を 行 く ん だ ほ ら 笑 が と て も 似 合 う,旅路を行くんだほら笑顔がとても似合う,1.0,0.058823529411764705,,1,16,0,17
+JA-Soprano-1__vibrato__technique__voyage__0002,JA-Soprano-1,vibrato,technique,色 せ る 事 な く 蘇 る く 美 し き 日 よ し い,色褪せることなくよみがえる儚く美しき日々よまぶしい,1.0,0.625,,1,15,0,16
+JA-Soprano-1__vibrato__technique__voyage__0003,JA-Soprano-1,vibrato,technique,海 焦 が れ た 季 も 雪 の 舞 い 降 り た 季,甦れた季も雪の舞い降りた季,1.0,0.2,,1,14,0,15
+JA-Soprano-1__vibrato__technique__voyage__0004,JA-Soprano-1,vibrato,technique,も い つ だ っ て 振 り 向 け ば あ な た が い た,もいつだって振り向けばあなたがいた,1.0,0.0,,1,16,0,17
+JA-Soprano-1__vibrato__technique__voyage__0005,JA-Soprano-1,vibrato,technique,は 幸 せ に な る た め こ の,僕たちはしあわせになるためこの,1.0,0.6,,1,9,0,10
+JA-Soprano-1__vibrato__technique__voyage__0006,JA-Soprano-1,vibrato,technique,旅 路 を 行 く も 皆 え ぬ を れ た,旅路を行く誰も見ない家の傷をつれた,1.0,0.6666666666666666,,1,11,0,12
+JA-Soprano-1__vibrato__technique__voyage__0007,JA-Soprano-1,vibrato,technique,旅 人 な ん だ ろ う ほ ら 笑 が と て も 似 合 う,旅人なんだろうほら笑顔がとても似合う,1.0,0.058823529411764705,,1,16,0,17
+JA-Soprano-1__vibrato__technique__voyage__0008,JA-Soprano-1,vibrato,technique,何 度 道 に 迷 っ た の だ ろ う そ の 度 に あ た た か い 手 を,何度道に迷ったのだろうその度に暖かい手を,1.0,0.13636363636363635,,1,21,0,22
+JA-Soprano-1__vibrato__technique__voyage__0009,JA-Soprano-1,vibrato,technique,差 し の べ て く れ た の も あ な た で し た,差し伸べてくれたのもあなたでした,1.0,0.0625,,1,15,0,16
+JA-Soprano-1__vibrato__technique__voyage__0010,JA-Soprano-1,vibrato,technique,は こ の い 旅 路 の 果 て に 何,僕たちはこの長い旅路の果てに何,1.0,0.36363636363636365,,1,10,0,11
+JA-Soprano-1__vibrato__technique__voyage__0011,JA-Soprano-1,vibrato,technique,を 想 う も 皆 求 め 彷 徨 う 旅 人,よ思う誰も皆逢い求め彷徨う旅人,1.0,0.4166666666666667,,1,11,0,12
+JA-Soprano-1__vibrato__technique__voyage__0012,JA-Soprano-1,vibrato,technique,な ん だ ろ う 共 に 行 こ う き る 程 に,なんだろうともに行こう飽きるほどに,1.0,0.35714285714285715,,1,13,0,14
+JA-Soprano-1__vibrato__technique__行かないで__0000,JA-Soprano-1,vibrato,technique,何 も 見 え な い 何 も,何も見えない何も,1.0,0.0,,1,7,0,8
+JA-Soprano-1__vibrato__technique__行かないで__0001,JA-Soprano-1,vibrato,technique,ず っ と 泣 い て た だ け ど,ずっと泣いてただけど,1.0,0.0,,1,9,0,10
+JA-Soprano-1__vibrato__technique__行かないで__0002,JA-Soprano-1,vibrato,technique,悲 し い ん じ ゃ な い 暖 か い,悲しいんじゃない暖かい,1.0,0.0,,1,10,0,11
+JA-Soprano-1__vibrato__technique__行かないで__0003,JA-Soprano-1,vibrato,technique,あ な た に 触 れ た の が 嬉 し く て あ,あなたに触れたのが嬉しくてああ,1.0,0.07142857142857142,,1,13,0,14
+JA-Soprano-1__vibrato__technique__行かないで__0004,JA-Soprano-1,vibrato,technique,行 か な い で 行 か な い で,行かないで行かないで,1.0,0.0,,1,9,0,10
+JA-Soprano-1__vibrato__technique__行かないで__0005,JA-Soprano-1,vibrato,technique,い つ ま で も ず っ と 離 さ な い で あ 行 か な い で,いつまでもずっと離さないでああ行かないで,1.0,0.05263157894736842,,1,18,0,19
+JA-Soprano-1__vibrato__technique__行かないで__0006,JA-Soprano-1,vibrato,technique,行 か な い で こ の ま ま で,行かないでこのままで,1.0,0.0,,1,9,0,10
+JA-Soprano-1__vibrato__technique__行かないで__0007,JA-Soprano-1,vibrato,technique,い つ か 心 は い つ か,いつか心はいつか,1.0,0.0,,1,7,0,8
+JA-Soprano-1__vibrato__technique__行かないで__0008,JA-Soprano-1,vibrato,technique,遠 い 何 処 か で 皆,遠いどこかでみんな,1.0,0.7142857142857143,,1,6,0,7
+JA-Soprano-1__vibrato__technique__行かないで__0009,JA-Soprano-1,vibrato,technique,思 い 出 に な る と 知 ら な く て,思い出になると知らなくて,1.0,0.0,,1,11,0,12
+JA-Soprano-1__vibrato__technique__行かないで__0010,JA-Soprano-1,vibrato,technique,い い の に 知 ら な く て い い の に,いいのに知らなくていいのに,1.0,0.0,,1,12,0,13
+JA-Soprano-1__vibrato__technique__行かないで__0011,JA-Soprano-1,vibrato,technique,あ 行 か な い で 行 か な い で,行かなくて行かなくて,1.0,0.45454545454545453,,1,10,0,11
+JA-Soprano-1__vibrato__technique__行かないで__0012,JA-Soprano-1,vibrato,technique,ど ん な 時 で も 離 さ な い で あ,どんな時でも話さないであ,1.0,0.08333333333333333,,1,11,0,12
+JA-Soprano-1__vibrato__technique__行かないで__0013,JA-Soprano-1,vibrato,technique,行 か な い で 行 か な い で こ の ま ま で,ああ行かないで行かないでこのままで,1.0,0.13333333333333333,,1,14,0,15
+JA-Soprano-1__vibrato__technique__行かないで__0014,JA-Soprano-1,vibrato,technique,あ 行 か な い で,ああ行かないで,1.0,0.16666666666666666,,1,5,0,6
+JA-Soprano-1__vibrato__technique__行かないで__0015,JA-Soprano-1,vibrato,technique,行 か な い で い つ ま で も ず っ と,行かないでいつまでもずっと,1.0,0.0,,1,12,0,13
+JA-Soprano-1__vibrato__technique__行かないで__0016,JA-Soprano-1,vibrato,technique,離 さ な い で あ 行 か な い で,を離さないでああ行かないで,1.0,0.18181818181818182,,1,10,0,11
+JA-Soprano-1__vibrato__technique__行かないで__0017,JA-Soprano-1,vibrato,technique,行 か な い で こ の ま ま で,行かないでこのままで,1.0,0.0,,1,9,0,10
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0000,JA-Tenor-1,mixed_falsetto,technique,あ の 地 平 線 輝 く の は ど こ か に 君 を,あの地平線輝くのはどこかに君を,1.0,0.0,,1,14,0,15
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0001,JA-Tenor-1,mixed_falsetto,technique,隠 し て い る か ら た く さ ん の 灯 が,隠しているからたくさんの日が,1.0,0.07142857142857142,,1,13,0,14
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0002,JA-Tenor-1,mixed_falsetto,technique,懐 か し い の は あ の ど れ か ひ と つ に 君 が い る か ら,懐かしいのはあのどれか一つに君がいる,1.0,0.19047619047619047,,1,20,0,21
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0003,JA-Tenor-1,mixed_falsetto,technique,さ あ 出 か け よ う 一 切 れ の パ ン ナ イ フ,からさあ出かけよ一切れの晩ナイフランブ,1.0,0.5,,1,15,0,16
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0004,JA-Tenor-1,mixed_falsetto,technique,ラ ン プ に つ め 込 ん で,盆に詰め込,1.0,0.6666666666666666,,1,8,0,9
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0005,JA-Tenor-1,mixed_falsetto,technique,父 さ ん が 残 し た 熱 い 想,どうせ残した熱い想い,1.0,0.5,,1,9,0,10
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0006,JA-Tenor-1,mixed_falsetto,technique,い 母 さ ん が く れ た あ の ま な ざ し 地 球 は 回 る 君,母さんがくれたあの眼差し地球は回る,1.0,0.25,,1,19,0,20
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0007,JA-Tenor-1,mixed_falsetto,technique,を 隠 し て 輝 く き,目を隠して輝く色,1.0,0.2857142857142857,,1,6,0,7
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0008,JA-Tenor-1,mixed_falsetto,technique,ら め く 灯 地 球 は 回 る,きらめく灯地球は回る,1.0,0.1111111111111111,,1,8,0,9
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0009,JA-Tenor-1,mixed_falsetto,technique,君 を の せ て い つ か き っ と 出 逢 う 僕 ら を の せ,君を乗せていつかきっと出会う僕らを乗せて,1.0,0.21052631578947367,,1,18,0,19
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0010,JA-Tenor-1,mixed_falsetto,technique,て 父 さ ん が 残 し た 熱 い 想 い 母 さ ん が く れ た あ の ま な ざ し,とさあ残した熱い想いくさあくれたあの眼,1.0,0.44,,1,24,0,25
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0000,JA-Tenor-1,mixed_falsetto,technique,あ の 地 平 線 輝 く の は ど こ か に 君 を,あの地平線輝くのはどこかに君を,1.0,0.0,,1,14,0,15
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0001,JA-Tenor-1,mixed_falsetto,technique,隠 し て い る か ら た く さ ん の 灯 が,くしているからたくさんの日が,1.0,0.14285714285714285,,1,13,0,14
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0002,JA-Tenor-1,mixed_falsetto,technique,懐 か し い の は あ の ど れ か ひ と つ に 君 が い る か ら,恥ずかしいのはあのどれか一つに君がいるから,1.0,0.19047619047619047,,1,20,0,21
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0003,JA-Tenor-1,mixed_falsetto,technique,さ あ 出 か け よ う 一 切 れ の パ ン ナ イ フ,さあ出かけようひときれの晩ナイフランプが,1.0,0.5625,,1,15,0,16
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0004,JA-Tenor-1,mixed_falsetto,technique,ラ ン プ に つ め 込 ん で,一般に詰め込んで,1.0,0.4444444444444444,,1,8,0,9
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0005,JA-Tenor-1,mixed_falsetto,technique,父 さ ん が 残 し た 熱 い 想,父さんが残した熱い想い,1.0,0.1,,1,9,0,10
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0006,JA-Tenor-1,mixed_falsetto,technique,い 母 さ ん が く れ た あ の ま な ざ し 地 球 は 回 る 君,母さんがくれたあの眼差し地球は回る君を,1.0,0.25,,1,19,0,20
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0007,JA-Tenor-1,mixed_falsetto,technique,を 隠 し て 輝 く き,隠して輝く瞳,1.0,0.2857142857142857,,1,6,0,7
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0008,JA-Tenor-1,mixed_falsetto,technique,ら め く 灯 地 球 は 回 る,きらめく灯火地球は回る,1.0,0.2222222222222222,,1,8,0,9
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0009,JA-Tenor-1,mixed_falsetto,technique,君 を の せ て い つ か き っ と 出 逢 う 僕 ら を の せ,君を乗せていつかきっと出会う僕らを乗せて,1.0,0.21052631578947367,,1,18,0,19
+JA-Tenor-1__mixed_falsetto__technique__君をのせて__0010,JA-Tenor-1,mixed_falsetto,technique,て 父 さ ん が 残 し た 熱 い 想 い 母 さ ん が く れ た あ の ま な ざ し,父さんが残した熱い想い母さんがくれたあのまなざし,1.0,0.04,,1,24,0,25
