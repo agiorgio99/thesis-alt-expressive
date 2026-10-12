@@ -8,7 +8,7 @@ tecnica giusta**, e confrontare i motori **legacy (v1)**, **world_v2** e
 1. Avvia l'app sul server: `python -m app.main` (ambiente `thesis-alt`), poi in
    VS Code pannello **PORTS** → *Forward a Port* → `7861` → apri
    http://127.0.0.1:7861.
-2. **Non usare la tab ASR** finché gira il fine-tuning (la GPU è occupata).
+2. **Non usare la tab ASR**: usa la GPU, che serve alla supervisor. Le altre tab non la usano.
 3. **Cuffie**, stanza silenziosa, **volume fisso** per tutto il test (regolalo
    sul primo clip e non toccarlo più).
 4. Fai una pausa di 5 minuti tra una parte e l'altra: l'orecchio si abitua
@@ -116,4 +116,4 @@ n,language,singer,song,phrase,technique,engine,preset,naturalness,technique_cred
 ## Dopo
 Dimmi che hai finito: calcolo i risultati per motore e tecnica (naturalezza
 media, tecnica riconosciuta oltre il caso, confronto con le prese reali) e li
-metto nelle slide per lunedì.
+metto nelle slide per mercoledì.
