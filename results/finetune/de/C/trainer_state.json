@@ -1,0 +1,155 @@
+{
+  "best_global_step": 270,
+  "best_metric": 0.2446,
+  "best_model_checkpoint": "/home/antonello/Desktop/thesis-alt-expressive/results/finetune/de/C/checkpoint-270",
+  "epoch": 3.0,
+  "eval_steps": 54,
+  "global_step": 327,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.45871559633027525,
+      "grad_norm": 11.0,
+      "learning_rate": 9.423728813559322e-06,
+      "loss": 1.234421844482422,
+      "step": 50
+    },
+    {
+      "epoch": 0.4954128440366973,
+      "eval_cer": 0.1103,
+      "eval_loss": 0.6418196558952332,
+      "eval_runtime": 27.2401,
+      "eval_samples_per_second": 7.048,
+      "eval_steps_per_second": 0.881,
+      "eval_wer": 0.2629,
+      "step": 54
+    },
+    {
+      "epoch": 0.9174311926605505,
+      "grad_norm": 8.0625,
+      "learning_rate": 7.728813559322035e-06,
+      "loss": 0.5755162048339844,
+      "step": 100
+    },
+    {
+      "epoch": 0.9908256880733946,
+      "eval_cer": 0.1025,
+      "eval_loss": 0.44064202904701233,
+      "eval_runtime": 26.6808,
+      "eval_samples_per_second": 7.196,
+      "eval_steps_per_second": 0.9,
+      "eval_wer": 0.2544,
+      "step": 108
+    },
+    {
+      "epoch": 1.3761467889908257,
+      "grad_norm": 5.28125,
+      "learning_rate": 6.0338983050847465e-06,
+      "loss": 0.3801359939575195,
+      "step": 150
+    },
+    {
+      "epoch": 1.4862385321100917,
+      "eval_cer": 0.1047,
+      "eval_loss": 0.43029680848121643,
+      "eval_runtime": 30.3109,
+      "eval_samples_per_second": 6.334,
+      "eval_steps_per_second": 0.792,
+      "eval_wer": 0.2453,
+      "step": 162
+    },
+    {
+      "epoch": 1.834862385321101,
+      "grad_norm": 9.75,
+      "learning_rate": 4.338983050847458e-06,
+      "loss": 0.31708799362182616,
+      "step": 200
+    },
+    {
+      "epoch": 1.981651376146789,
+      "eval_cer": 0.1035,
+      "eval_loss": 0.4282397925853729,
+      "eval_runtime": 27.021,
+      "eval_samples_per_second": 7.106,
+      "eval_steps_per_second": 0.888,
+      "eval_wer": 0.2485,
+      "step": 216
+    },
+    {
+      "epoch": 2.293577981651376,
+      "grad_norm": 7.0625,
+      "learning_rate": 2.64406779661017e-06,
+      "loss": 0.2708765983581543,
+      "step": 250
+    },
+    {
+      "epoch": 2.477064220183486,
+      "eval_cer": 0.1006,
+      "eval_loss": 0.4283410608768463,
+      "eval_runtime": 26.8333,
+      "eval_samples_per_second": 7.155,
+      "eval_steps_per_second": 0.894,
+      "eval_wer": 0.2446,
+      "step": 270
+    },
+    {
+      "epoch": 2.7522935779816513,
+      "grad_norm": 5.9375,
+      "learning_rate": 9.491525423728814e-07,
+      "loss": 0.2776967239379883,
+      "step": 300
+    },
+    {
+      "epoch": 2.9724770642201834,
+      "eval_cer": 0.1038,
+      "eval_loss": 0.42927253246307373,
+      "eval_runtime": 26.9672,
+      "eval_samples_per_second": 7.12,
+      "eval_steps_per_second": 0.89,
+      "eval_wer": 0.2464,
+      "step": 324
+    },
+    {
+      "epoch": 3.0,
+      "eval_cer": 0.1042,
+      "eval_loss": 0.4288175404071808,
+      "eval_runtime": 26.7649,
+      "eval_samples_per_second": 7.174,
+      "eval_steps_per_second": 0.897,
+      "eval_wer": 0.25,
+      "step": 327
+    },
+    {
+      "epoch": 3.0,
+      "step": 327,
+      "total_flos": 8.85727808520192e+18,
+      "train_loss": 0.4881181425275423,
+      "train_runtime": 654.4595,
+      "train_samples_per_second": 3.983,
+      "train_steps_per_second": 0.5
+    }
+  ],
+  "logging_steps": 50,
+  "max_steps": 327,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 54,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 8.85727808520192e+18,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}

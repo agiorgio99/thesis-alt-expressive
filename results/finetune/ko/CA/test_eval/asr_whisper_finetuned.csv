@@ -1,0 +1,379 @@
+utt_id,singer_id,technique,group,text,hypothesis,wer,cer,per,wer_sub,wer_del,wer_ins,wer_n_ref
+KO-Soprano-1__breathy__technique__hcilthbyrtoil__0000,KO-Soprano-1,breathy,technique,어 떻 게 내 가 어 떻 게 너 를 이 후 에 우 리 바 다 처 럼 깊 은,어떻게내가어떻게너를예후의우리바람처럼깊은사랑이따만들,1.0,0.42857142857142855,,1,20,0,21
+KO-Soprano-1__breathy__technique__hcilthbyrtoil__0001,KO-Soprano-1,breathy,technique,사 랑 이 다 마 를 때 까 지 기 다 리 는 게 이 별 일 텐 데,까지기다리는게기별일텐데,1.0,0.42105263157894735,,1,18,0,19
+KO-Soprano-1__breathy__technique__when_this_rain_stop__0000,KO-Soprano-1,breathy,technique,안 아 주 고 싶 어 어 둠 에 지 친 모 든 걸,안아주고싶어어둠을진심 만든거,1.0,0.35714285714285715,,2,12,0,14
+KO-Soprano-1__breathy__technique__when_this_rain_stop__0001,KO-Soprano-1,breathy,technique,내 가 알 아 주 고 싶 어 누 구 나 가 진 내 일 을,어 알아주고싶어눈물난가진항의를�,0.9375,0.5,,1,14,0,16
+KO-Soprano-1__breathy__technique__when_this_rain_stop__0002,KO-Soprano-1,breathy,technique,이 렇 게 가 끔 은 멈 춰 가 도 돼 쉬 어 도 돼 마 음 에 비 가 내 려 도,이렇게가간맘 멈춰가도돼쉬아도돼마음만피가내려도,1.0,0.21739130434782608,,2,21,0,23
+KO-Soprano-1__glissando__technique__breathe__0000,KO-Soprano-1,glissando,technique,누 군 가 의 한 숨 그 무 거 운 숨 을,너근거의한손그무거운눈물,1.0,0.5,,1,11,0,12
+KO-Soprano-1__glissando__technique__breathe__0001,KO-Soprano-1,glissando,technique,내 가 어 떻 게 헤 아 릴 수 가 있 을 까 요 당 신 의,내가어떻게헤아닐수있을까요있을까요당신은,1.0,0.35294117647058826,,1,16,0,17
+KO-Soprano-1__glissando__technique__breathe__0002,KO-Soprano-1,glissando,technique,한 숨 그 깊 일 이 해 할 순 없 겠 지 만 찮 아 요 내 가 안 아 줄 게 요,한손그깊이순감내지만빨간아요내가안아줄게요,1.0,0.34782608695652173,,1,22,0,23
+KO-Soprano-1__glissando__technique__strawberrymoon__0000,KO-Soprano-1,glissando,technique,달 이 익 어 가 니 서 둘 러 젊 은 피 야 민,때리고가니손대로준비해미,1.0,0.8571428571428571,,1,13,0,14
+KO-Soprano-1__glissando__technique__strawberrymoon__0001,KO-Soprano-1,glissando,technique,들 레 한 송 이 들 고 사 랑 이 어 지 러 이 떠 다 니 는 밤 이 야 날 아 가 사 뿐 히 이 루 렴,둘이항상이들고사랑이오지런히돌다니는밤이아날아가사반이들려,1.0,0.43333333333333335,,1,29,0,30
+"KO-Soprano-1__glissando__technique__눈,_코,_입__0000",KO-Soprano-1,glissando,technique,너 의 눈 코 입 날 만 지 던 네 손 길 작 은 손 까 지 다 여 전 히 널 느,너의눈코인하마져던니속이져도서둘던지던또전,1.0,0.7391304347826086,,1,22,0,23
+"KO-Soprano-1__glissando__technique__눈,_코,_입__0001",KO-Soprano-1,glissando,technique,수 있 지 만 꺼 진 불 꽃 처 럼 타 들 어 가 버 린 우 리 사 랑 모 두 다 너 무 아 프 지 만 이 젠 널 추 억 이 라 부 를 게,속에쏘이지만그젖는것처럼다들어가버린우리사랑모두다너무아프지만이젠날추억이라부를게,1.0,0.2564102564102564,,1,38,0,39
+KO-Soprano-1__glissando__technique__사랑이_그렇게__0000,KO-Soprano-1,glissando,technique,너 를 사 랑 하 는 혼 자 만 의 사 랑,너를사랑한나혼자많은사랑이지만,1.0,0.5833333333333334,,1,11,0,12
+KO-Soprano-1__glissando__technique__사랑이_그렇게__0001,KO-Soprano-1,glissando,technique,이 라 도 내 맘 하 나 가 득 소 중 한 모 든 것 인 것 을 너 를 사 랑 하 는 혼 자 만 의 사 랑 이 라 도 시 들 지 않 는 영 원 한 것 을,라도내맘안한그대소중한모든것이있어서너를사랑한나혼자많은사랑이라도싫지않나영원할것,1.0,0.4186046511627907,,1,42,0,43
+KO-Soprano-1__glissando__technique__야신__0000,KO-Soprano-1,glissando,technique,이 밤 그 날,이밤그날의밤,1.0,0.5,,1,3,0,4
+KO-Soprano-1__glissando__technique__야신__0001,KO-Soprano-1,glissando,technique,의 반 불 을 당 신 의 창 가 까 이 보 낼 게 요 음 사 랑,안이부를당신에잘가가이부를게요사랑한다는말,1.0,0.7777777777777778,,1,17,0,18
+KO-Soprano-1__glissando__technique__야신__0002,KO-Soprano-1,glissando,technique,한 다 는 말 이 에 요,여,1.0,1.0,,1,6,0,7
+KO-Soprano-1__glissando__technique__야신__0003,KO-Soprano-1,glissando,technique,난 파 도 가 머 물 던 모 래 위 에 적 힌 글 씨 처 럼 그 대 가 멀,나바둑엄마운모든우린,1.0,0.9523809523809523,,1,20,0,21
+KO-Soprano-1__glissando__technique__야신__0004,KO-Soprano-1,glissando,technique,리 사 라 져 버 릴 것 같 아 늘 그 리 워 그 리 워 여 기 내 마 음 속 에 모,사랑져버린것같은그리워그리워여긴,1.0,0.5,,1,23,0,24
+KO-Soprano-1__glissando__technique__야신__0005,KO-Soprano-1,glissando,technique,든 말 을 다 꺼 내 어 줄 순 없 지 만 사 랑 한 다 는 말,내마음속에모든말은따고나와줄순없지만사랑한다는말,1.0,0.6111111111111112,,1,17,0,18
+KO-Soprano-1__glissando__technique__야신__0006,KO-Soprano-1,glissando,technique,이 에 요,요,0.6666666666666666,0.6666666666666666,,0,2,0,3
+"KO-Soprano-1__mixed_falsetto__technique__눈,_코,_입__0000",KO-Soprano-1,mixed_falsetto,technique,미 안 해 미 안 해 하 지 마 내 가 초 라 해 지 잖 아 빨 간 예 쁜 입 술 로 어 서 나 를 죽 이 고 가 나,미안해미안해하지마내가초라해지잖아빨간예쁜해수록어서너는,1.0,0.30303030303030304,,1,32,0,33
+"KO-Soprano-1__mixed_falsetto__technique__눈,_코,_입__0001",KO-Soprano-1,mixed_falsetto,technique,는 찮 아 마 지 막 으 로 나 를 바 라 봐 줘 아 무 렇 지 않 은 듯 웃 어 줘,에축이고가나너빈참하마지막힘들어내바라봐줘아무렇지않은데웃어줘,1.0,0.625,,1,23,0,24
+"KO-Soprano-1__mixed_falsetto__technique__눈,_코,_입__0002",KO-Soprano-1,mixed_falsetto,technique,네 가 보 고 싶 을 때 기 억 할 수 있 게 나 의 머 릿 속 에 네 얼 굴 그 릴 수 있 게,내가보고싶은데기억할수있게너의무릎속에기억널그릴수있게,1.0,0.3333333333333333,,1,26,0,27
+"KO-Soprano-1__mixed_falsetto__technique__눈,_코,_입__0000",KO-Soprano-1,mixed_falsetto,technique,미 안 해 미 안 해 하 지 마 내 가 초 라 해 지 잖 아 빨 간 예 쁜 입 술 로 어 서 나 를 죽 이 고 가 나,미안해미안해하지마내가초라해지잖아빨간예쁜희수로어선너를죽이고,1.0,0.18181818181818182,,1,32,0,33
+"KO-Soprano-1__mixed_falsetto__technique__눈,_코,_입__0001",KO-Soprano-1,mixed_falsetto,technique,는 찮 아 마 지 막 으 로 나 를 바 라 봐 줘 아 무 렇 지 않 은 듯 웃 어 줘,괜찮아마지막인데날바라봤죠아무런지너너더웃어줘,1.0,0.4583333333333333,,1,23,0,24
+"KO-Soprano-1__mixed_falsetto__technique__눈,_코,_입__0002",KO-Soprano-1,mixed_falsetto,technique,네 가 보 고 싶 을 때 기 억 할 수 있 게 나 의 머 릿 속 에 네 얼 굴 그 릴 수 있 게,네가보고싶은데기억할수있게너의모래속에기억날그릴수있게,1.0,0.2962962962962963,,1,26,0,27
+KO-Soprano-1__pharyngeal__technique__coverme__0000,KO-Soprano-1,pharyngeal,technique,달 이 이 렇 게 눈 부 시 는 밤 엔 누 가 저 빛 을 가 려 주 길 외 쳐 밤 이 어 느 새 끝 이 나 는 낮 엔 따 스 한 빛 을 내 리 는 빛 을 받 아 줘,달이이렇게눈부신한밤에눈깔져비춰가려줄게외천밤이얰하세그지난한낮에가슴안빛으로나를던 눈빛으로받아줘,1.0,0.6521739130434783,,2,44,0,46
+KO-Soprano-1__pharyngeal__technique__eight__0000,KO-Soprano-1,pharyngeal,technique,우 리 는 오 렌 지 태 양 아 래 그 림 자 없 이 함 께 춤 을 춰,우리는오랜지태양아래그림조없이함께주마저좋아,1.0,0.35,,1,19,0,20
+KO-Soprano-1__pharyngeal__technique__eight__0001,KO-Soprano-1,pharyngeal,technique,정 해 진 이 별 따 위 는 없 어 아 름 다 웠 던 그 기 억 에 서 만 나,진이별다위는없어홀린다워도그기억에서만나,1.0,0.3181818181818182,,1,21,0,22
+KO-Soprano-1__pharyngeal__technique__fine__0000,KO-Soprano-1,pharyngeal,technique,나 는 아 니 야 쉽 지 않 을 것 같 아 여 전 하 게 도 넌 내,라는언니야쉽진않을것같아요여전한그런,1.0,0.47368421052631576,,1,18,0,19
+KO-Soprano-1__pharyngeal__technique__fine__0001,KO-Soprano-1,pharyngeal,technique,하 루 하 루 를 우 고 아 직 은 아 니 야 바 보 처 럼 되 뇌 는 나 입 가 에 도 는 말 을 삼 킬 수 없 어,나이런길을재우고아직은아니야바보처럼걸린나이게힘해도내말로삼킬수없어,1.0,0.45454545454545453,,1,32,0,33
+KO-Soprano-1__pharyngeal__technique__love_wins_all__0000,KO-Soprano-1,pharyngeal,technique,세 상 에 게 서 도 망 쳐 나 와 저 끝 까,세상은계속돌멈춰,1.0,0.8461538461538461,,1,12,0,13
+KO-Soprano-1__pharyngeal__technique__love_wins_all__0001,KO-Soprano-1,pharyngeal,technique,지 가 줘 나 쁜 결 말 일 까 길 잃 은 우 리 둘 부 서 지 도 록 나 를 꼭 안 아 더 사 랑 히 내 게 입 맞 춰,너와자꾸같이가져만다불꽤매일까길을울리두 벌써지구론갈아가가떤떤사랑이랄게매주,1.0,0.9117647058823529,,2,32,0,34
+KO-Soprano-1__pharyngeal__technique__내_손을_잡아__0000,KO-Soprano-1,pharyngeal,technique,느 낌 이 오 잖 아 떨 리 고 있 잖 아 언 제 까 지,넌김이없잖아떠리고있잖아언제까지,1.0,0.25,,1,15,0,16
+KO-Soprano-1__pharyngeal__technique__내_손을_잡아__0001,KO-Soprano-1,pharyngeal,technique,눈 치 만 볼 거 니 네 맘 을 말 해 봐 딴 청 피 우 지 말 란 말 이 야,난지만불구니니맘을말해봐땅좀비우지마너만이가,1.0,0.5454545454545454,,1,21,0,22
+KO-Soprano-1__pharyngeal__technique__내_손을_잡아__0002,KO-Soprano-1,pharyngeal,technique,네 맘 가 는 그 대 로 지 금 내 손 을 잡 아,니맘가는그대로지금니손을잡아,1.0,0.14285714285714285,,1,13,0,14
+KO-Soprano-1__pharyngeal__technique__좋은_날__0000,KO-Soprano-1,pharyngeal,technique,눈 물 이 차 올 라 서 고 갤 들 어 흐 르 지 못 하 게 또 살 짝 웃 어,눈물에차올라서크게들어흐르지 못해둘선창웃어,1.0,0.36363636363636365,,2,20,0,22
+KO-Soprano-1__pharyngeal__technique__좋은_날__0001,KO-Soprano-1,pharyngeal,technique,내 게 왜 이 러 는 지 무 슨 말 을 하 는 지 오 늘 했 던 모 든 말 저 하 늘 위 로 한 번 도 못,내가왜날듣무슨말을할지오늘이든모든말초로위로한번도물도,1.0,0.4666666666666667,,1,29,0,30
+KO-Soprano-1__pharyngeal__technique__좋은_날__0002,KO-Soprano-1,pharyngeal,technique,했 던 말 울 면 서 할 줄 은 나 몰 랐 던 말 나 는 요 오 빠 가 좋 은 걸 어 떡 해,고말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말말�n,1.0,4.769230769230769,,1,25,0,26
+KO-Soprano-1__vibrato__technique__매일_그대와__0000,KO-Soprano-1,vibrato,technique,매 일 그 대 와 아 침 햇 살 받 으 며 매,매일그대와아침매일사바두면매일,1.0,0.5384615384615384,,1,12,0,13
+KO-Soprano-1__vibrato__technique__매일_그대와__0001,KO-Soprano-1,vibrato,technique,일 그 대 와 눈 을,이그대와너는,1.0,0.5,,1,5,0,6
+KO-Soprano-1__vibrato__technique__매일_그대와__0002,KO-Soprano-1,vibrato,technique,뜨 고 파 매 일 그 대 와 도 란 도 란 둘 이 서 매 일 그 대 와 얘 기 하 고 파,듣고파매일그대와떨렀떨렀떨리서매일그대와얘기하고파,1.0,0.28,,1,24,0,25
+KO-Soprano-1__vibrato__technique__사랑이_그렇게__0000,KO-Soprano-1,vibrato,technique,그 렇 게 사 랑 은 간 절 히 불 러 보 지 만 아 무 런 대 답,그렇게사랑을간절히불러보지만아무런대답,1.0,0.05263157894736842,,1,18,0,19
+KO-Soprano-1__vibrato__technique__사랑이_그렇게__0001,KO-Soprano-1,vibrato,technique,이 없 는 그 렇 게 사 랑 은 아 무 리 다 가 갈 수 록 멀 어 져 가 는,이오는그렇게사랑을아무리태가갈수록몰라져가는,1.0,0.22727272727272727,,1,21,0,22
+"KO-Soprano-2__breathy__technique__눈,_코,_입__0000",KO-Soprano-2,breathy,technique,미 안 해 미 안 해 하 지 마 내 가 초 라 해 지 잖 아 빨 간 예 쁜 입 술 로 어 서 나 를 죽 이 고 가 나,미안해미안해하지마내가저런해지잖아빨간예쁜소름너무섭날나를죽이고가나는괜,1.0,0.30303030303030304,,1,32,0,33
+"KO-Soprano-2__breathy__technique__눈,_코,_입__0001",KO-Soprano-2,breathy,technique,는 찮 아 마 지 막 으 로 나 를 바 라 봐 줘 아 무 렇 지 않 은 듯 웃 어 줘 네 가 보 고 싶 을 때 기 억,고싶은날마지막으로나를바라봐줘아무렇지않은듯웃어줘네가보고싶을때기억,1.0,0.12121212121212122,,1,32,0,33
+"KO-Soprano-2__breathy__technique__눈,_코,_입__0002",KO-Soprano-2,breathy,technique,할 수 있 게 나 의 머 릿 속 에 네 얼 굴 그 릴 수 있 게 널 보 낼 수 없 는 나 의 욕 심 이 집 착 이 되 어 널 가,갈수있게나의머릿속에네얼굴그릴수있게널보낼수없는나의혐심이진착이되어널가,1.0,0.08333333333333333,,1,35,0,36
+"KO-Soprano-2__breathy__technique__눈,_코,_입__0003",KO-Soprano-2,breathy,technique,뒀 고 혹 시 이 런 나 에 힘 들 었 니 아 무 대 답 없 는 너 바 보 처 럼 왜,고매일매일너를버려도내맘은,1.0,0.9583333333333334,,1,23,0,24
+"KO-Soprano-2__breathy__technique__눈,_코,_입__0004",KO-Soprano-2,breathy,technique,너 를 지 우 지 못 해 넌 떠 나 버 렸 는 데 너 의 눈 코 입 날 만 지 던,너를지우지못해넌떠나버렸는데너의눈코입내마지드는손,1.0,0.21739130434782608,,1,22,0,23
+"KO-Soprano-2__breathy__technique__눈,_코,_입__0005",KO-Soprano-2,breathy,technique,네 손 길 작 은 손 까 지 다 여 전 히 널 느 수 있 지 만 꺼 진 불 꽃 처 럼 타 들 어 가 버 린 우 리,기작한손들까지다여전히널느길수있지만거짓불꽃처럼다다려가버린우린,1.0,0.375,,1,31,0,32
+"KO-Soprano-2__breathy__technique__눈,_코,_입__0006",KO-Soprano-2,breathy,technique,사 랑 모 두 다 너 무 아 프 지 만 이 젠 널 추 억 이 라 부 를 게,사랑모두다너무아프지만이제널추억이라부를게,1.0,0.047619047619047616,,1,20,0,21
+"KO-Soprano-2__breathy__technique__눈,_코,_입__0007",KO-Soprano-2,breathy,technique,사 랑 해 사 랑 했 지 만 내 가 부 족 했 었 나 봐 혹 시 우 연 이 라 도 한 순 간 만 이 라 도 널,사랑해사랑했지만내가부족했었나봐혹시우연이라도한순간만이라도널볼수있을까하루하루가,1.0,0.3225806451612903,,1,30,0,31
+"KO-Soprano-2__breathy__technique__눈,_코,_입__0008",KO-Soprano-2,breathy,technique,볼 수 있 을 까 하 루 하 루 가 불 안 해 져 네 모 든 게 갈 수 록 희 미 해 져 사 진 속 에 너 는 왜,조내모든게갈수록힘미내죠사진속에던,1.0,0.65625,,1,31,0,32
+"KO-Soprano-2__breathy__technique__눈,_코,_입__0009",KO-Soprano-2,breathy,technique,해 맑 게 웃 는 데 우 리 에 게 다 가 오 는 이 별 을 모 른 널 보 낼 수 없 는 나 의 욕 심 이 집,해맑게웃는대우린애기타겨오는이별을모른체너보낼수없는나의욕심을,1.0,0.3225806451612903,,1,30,0,31
+"KO-Soprano-2__breathy__technique__눈,_코,_입__0010",KO-Soprano-2,breathy,technique,착 이 되 어 널 가 뒀 고 혹 시 이 런 나 에 힘 들 었 니 아 무 대 답 없 는 너,시작이될널가둘걸흘씨일어날때힘들었니아무대다없는널,1.0,0.56,,1,24,0,25
+"KO-Soprano-2__breathy__technique__눈,_코,_입__0011",KO-Soprano-2,breathy,technique,바 보 처 럼 왜 너 를 지 우 지 못 해 넌 떠 나 버 렸 는 데,바보처럼왜너를지우지못해난떠나버렸는데,1.0,0.05263157894736842,,1,18,0,19
+KO-Soprano-2__breathy__technique__또_한_번_사랑해__0000,KO-Soprano-2,breathy,technique,쉽 게 상 처 받 고 쉽 게 눈 물 나 고 쉽 게 아 프 던 날 기,쉽게손줄받고쉽게눈물나고쉽게아프던,1.0,0.21052631578947367,,1,18,0,19
+KO-Soprano-2__breathy__technique__또_한_번_사랑해__0001,KO-Soprano-2,breathy,technique,억 하 나 요 지 금 도 그 래 요 여 전 히 같 아 요 이 런 날 보 면 어,고매일매일너를버려도내맘은,1.0,1.0,,1,21,0,22
+KO-Soprano-2__breathy__technique__또_한_번_사랑해__0002,KO-Soprano-2,breathy,technique,떨 까 요 쉽 게 돌 아 서 도 쉽 게,어떤가요쉽게돌아서도쉽게멀어져도쉽게잊을,1.0,1.0,,1,10,0,11
+KO-Soprano-2__breathy__technique__또_한_번_사랑해__0003,KO-Soprano-2,breathy,technique,멀 어 져 도 쉽 게 잊 지 못 할 그 알 아 요 여 전 히 이 런 날 아 직 도 이 런 나 를 본 다 면 바 보 라 하 겠 죠,지 못한그대알아요여전히이런날아진더가이런날을볼다면바보라할게,0.9722222222222222,0.5,,1,34,0,36
+KO-Soprano-2__breathy__technique__또_한_번_사랑해__0004,KO-Soprano-2,breathy,technique,원 하 고 원 해 요 그 리 고 하 나 아 프 고 아 파,원하고원해요그리고하나아프고아파,1.0,0.0,,1,15,0,16
+KO-Soprano-2__breathy__technique__또_한_번_사랑해__0005,KO-Soprano-2,breathy,technique,도 그 래 도 한 번 닳 고 닳 아 진 데 도 눈 물 이 마 르 지 않 아 도 처 음 으 로 돌 아 갈 수 있 다 면,라도그래도한번달권따맞은뒤도눈물을마르지않나도처음으로돌아갈수있다면,1.0,0.2727272727272727,,1,32,0,33
+KO-Soprano-2__breathy__technique__안녕__0000,KO-Soprano-2,breathy,technique,우 연 히 내 게 다 가 와 감 싸 안 아 주 고 서,우연히내게다가와감사안아주고서로,1.0,0.13333333333333333,,1,14,0,15
+KO-Soprano-2__breathy__technique__안녕__0001,KO-Soprano-2,breathy,technique,로 멍 하 니 바 라 보 다 건 낸 말 안 녕 꿈 속 에 서 만,못하길바라보다그날말안녕꿈속에서만,1.0,0.2777777777777778,,1,17,0,18
+KO-Soprano-2__breathy__technique__안녕__0002,KO-Soprano-2,breathy,technique,스 쳐 갔 던 지 금 넌 내 앞 에 사 랑 이 왔 는,스쳐가던지금 넌네앞에햇살아,1.0,0.4666666666666667,,2,13,0,15
+KO-Soprano-2__breathy__technique__안녕__0003,KO-Soprano-2,breathy,technique,데 그 떠 난 대 기 다 렸 는 데 더 볼 수 가 없 대,이날보니까날너무난따위로,1.0,1.0,,1,15,0,16
+KO-Soprano-2__breathy__technique__안녕__0004,KO-Soprano-2,breathy,technique,늘 바 보 처 럼 흐 르 는 눈 물 이 말 해 안 녕 이 젠,눈바보처럼흘리는눈물을말해안녕이제그바이,1.0,0.47058823529411764,,1,16,0,17
+KO-Soprano-2__breathy__technique__안녕__0005,KO-Soprano-2,breathy,technique,시 간 이 서 둘 러 널 내 게 로 데 려 와 주 길 단 한 번 만,시간이서들러너내게로들려와줄게다한번만,1.0,0.3157894736842105,,1,18,0,19
+KO-Soprano-2__breathy__technique__안녕__0006,KO-Soprano-2,breathy,technique,말 해 주 길 믿 어 지 지 않 는 이 야 기 를 어 디 있 는 지,라 말해줄게믿어질지않나의이야기를어디있,1.0,0.42105263157894735,,2,17,0,19
+KO-Soprano-2__breathy__technique__안녕__0007,KO-Soprano-2,breathy,technique,내 맘 아 는 지 보 고 싶 은 데 다 신 볼 수 없 는 곳 에 밤 하 늘 에 소 리 쳐 안 녕,이내말하는지보고싶은데다시보서�오는곳에바느질소리조아안녕,1.0,0.48148148148148145,,1,26,0,27
+"KO-Soprano-2__glissando__technique__눈,_코,_입__0000",KO-Soprano-2,glissando,technique,미 안 해 미 안 해 하 지 마 내 가 초 라 해 지 잖 아 빨 간 예 쁜 입 술 로 어 서 나 를 죽 이 고 가 나,미안해미안해하지마내가초라해지잖아빨간예븐으로어서나를죽이고가,1.0,0.12121212121212122,,1,32,0,33
+"KO-Soprano-2__glissando__technique__눈,_코,_입__0001",KO-Soprano-2,glissando,technique,는 찮 아 마 지 막 으 로 나 를 바 라 봐 줘 아 무 렇 지 않 은 듯 웃 어 줘 네 가 보 고 싶 을 때,나는괜찮아마지막으로나를바라봐줘아무렇지않아도웃어줘네가보고싶을때,1.0,0.12903225806451613,,1,30,0,31
+"KO-Soprano-2__glissando__technique__눈,_코,_입__0002",KO-Soprano-2,glissando,technique,기 억 할 수 있 게 나 의 머 릿 속 에 네 얼 굴 그 릴 수 있 게 널 보 낼 수 없 는 나 의 욕 심,끝날빨간내맘은몰랐지만,1.0,1.0,,1,29,0,30
+"KO-Soprano-2__glissando__technique__눈,_코,_입__0003",KO-Soprano-2,glissando,technique,이 집 착 이 되 어 널 가 뒀 고 혹 시 이 런 나 에 힘 들 었 니 아 무 대 답 없 는 너 바 보 처 럼,자기도요널가둘걸알싫어나땜에힘들었니아무데따없는너바보처럼,1.0,0.4838709677419355,,1,30,0,31
+"KO-Soprano-2__glissando__technique__눈,_코,_입__0004",KO-Soprano-2,glissando,technique,왜 너 를 지 우 지 못 해 넌 떠 나 버 렸 는 데 너 의 눈 코 입,고매일매일너를버려도내버렸는데,1.0,0.8,,1,19,0,20
+"KO-Soprano-2__glissando__technique__눈,_코,_입__0005",KO-Soprano-2,glissando,technique,날 만 지 던 네 손 길 작 은 손 까 지 다 여 전 히 널 느 수 있 지 만 꺼 진 불 꽃 처 럼 타 들 어 가,그대 마주치고나서그작은손까지다여전히널느꼈을,1.0,0.71875,,2,30,0,32
+"KO-Soprano-2__glissando__technique__눈,_코,_입__0006",KO-Soprano-2,glissando,technique,버 린 우 리 사 랑 모 두 다 너 무 아 프 지 만 이 젠 널 추 억 이 라 부 를 게,풀꽃처럼다달려가버린우린사람모두다너무아프지만이제널추억이라부를게,1.0,0.44,,1,24,0,25
+"KO-Soprano-2__glissando__technique__눈,_코,_입__0007",KO-Soprano-2,glissando,technique,사 랑 해 사 랑 했 지 만 내 가 부 족 했 었 나 봐 혹 시 우 연 이 라 도 한 순 간 만 이 라 도 널,사랑해사랑했지만내가부족했었나봐혹시우연이라도한순간만이라도널,1.0,0.0,,1,30,0,31
+"KO-Soprano-2__glissando__technique__눈,_코,_입__0008",KO-Soprano-2,glissando,technique,볼 수 있 을 까 하 루 하 루 가 불 안 해 져 네 모 든 게 갈 수 록 희 미 해 져 사 진 속 에 너 는 왜,볼수있을까하루하루가불안해져네모든게갈수록힘들죠사진속에너는왜,1.0,0.125,,1,31,0,32
+"KO-Soprano-2__glissando__technique__눈,_코,_입__0009",KO-Soprano-2,glissando,technique,해 맑 게 웃 는 데 우 리 에 게 다 가 오 는 이 별 을 모 른 널 보 낼 수 없 는 나 의 욕 심 이,에맑게웃는게우리에게달겨오는이별을모르지눈부는숨은나의여심을,1.0,0.43333333333333335,,1,29,0,30
+"KO-Soprano-2__glissando__technique__눈,_코,_입__0010",KO-Soprano-2,glissando,technique,집 착 이 되 어 널 가 뒀 고 혹 시 이 런 나 에 힘 들 었 니 아 무 대 답 없 는 너 바 보 처 럼 왜 너 를 지 우 지 못 해 넌 떠 나 버 렸 는 데,작히들널가둘걸흘씨일어날때힘들었니아무대다웃는널바보처럼왜너를지우지못해또터나버렸는데,1.0,0.4,,1,44,0,45
+KO-Soprano-2__glissando__technique__또_한_번_사랑해__0000,KO-Soprano-2,glissando,technique,쉽 게 상 처 받 고 쉽 게 눈 물 나 고 쉽 게 아,쉽게산처받고쉽게눈물나고쉽게아픈,1.0,0.13333333333333333,,1,14,0,15
+KO-Soprano-2__glissando__technique__또_한_번_사랑해__0001,KO-Soprano-2,glissando,technique,프 던 날 기 억 하 나 요 지 금 도 그 래 요 여 전 히 같 아 요 이 런 날 보 면 어,던 날기억하나요지간도그래요여전히같아요이런날보면울린,0.9615384615384616,0.15384615384615385,,1,24,0,26
+KO-Soprano-2__glissando__technique__또_한_번_사랑해__0002,KO-Soprano-2,glissando,technique,떨 까 요 쉽 게 돌 아 서 도 쉽 게 멀 어 져 도 쉽,어떤가요쉽게돌아서도쉽게멀어져도쉽게잊지못한그대알아요,1.0,0.8125,,1,15,0,16
+KO-Soprano-2__glissando__technique__또_한_번_사랑해__0003,KO-Soprano-2,glissando,technique,게 잊 지 못 할 그 알 아 요 여 전 히 이 런 날 아 직 도 이 런 나 를 본 다 면 바 보 라 하 겠 죠,내이런날아직도이런나를보더면바보라하겠죠,1.0,0.45161290322580644,,1,30,0,31
+KO-Soprano-2__glissando__technique__또_한_번_사랑해__0004,KO-Soprano-2,glissando,technique,원 하 고 원 해 요 그 리 고 하 나 아 프 고 아 파 도 그 래 도 한,원하고원해요그리워한다아프고아파도그래도한번,1.0,0.19047619047619047,,1,20,0,21
+KO-Soprano-2__glissando__technique__또_한_번_사랑해__0005,KO-Soprano-2,glissando,technique,번 닳 고 닳 아 진 데 도 눈 물 이 마 르 지 않 아 도 처 음 으 로 돌 아 갈 수 있 다 면,봉달고달 맏인뒤로눈물마르지않대로처음물어돌아갈수있다면,1.0,0.42857142857142855,,2,26,0,28
+KO-Soprano-2__glissando__technique__안녕__0000,KO-Soprano-2,glissando,technique,시 간 이 서 둘 러 널 내 게 로 데 려 와 주 길,시간의소들로너내게로들려와줄게,1.0,0.5333333333333333,,1,14,0,15
+KO-Soprano-2__glissando__technique__안녕__0001,KO-Soprano-2,glissando,technique,단 한 번 만 말 해 주 길 믿 어 지 지 않 는 이 야 기 를,단한번만말해줄게믿어지지않는이야기를,1.0,0.1111111111111111,,1,17,0,18
+KO-Soprano-2__glissando__technique__안녕__0002,KO-Soprano-2,glissando,technique,어 디 있 는 지 내 맘 아 는 지 보 고 싶 은 데,어디있는지내맘아는지보고싶은데,1.0,0.0,,1,14,0,15
+KO-Soprano-2__glissando__technique__안녕__0003,KO-Soprano-2,glissando,technique,다 신 볼 수 없 는 곳 에 밤 하 늘 에 소 리 쳐 안 녕,다시볼수없는곳에바늘에소리쳐안녕,1.0,0.17647058823529413,,1,16,0,17
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0000,KO-Soprano-2,mixed_falsetto,technique,내 가 그 대 곁 에 있 어 서 행 복 합 니 다 내 가 그 대 곁 에 있 어 서,내가그대곁에있어서행복합니다내가그대곁에있어서,1.0,0.0,,1,22,0,23
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0001,KO-Soprano-2,mixed_falsetto,technique,꿈 을 니 다 내 가 그 대 곁 에 있 어 서 웃 을 수 있 습 니 다,몰랐을때의그맘은내맘이지만날너무맘이다내가그대곁에있어서웃을수있습니다,1.0,0.85,,1,19,0,20
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0002,KO-Soprano-2,mixed_falsetto,technique,내 사 람 이 길 또 기 도 합 니 다 내 맘 이 보 여 서 내 진 심 이 느 껴 진 다 면,내사람이기도기도합니다내맘이보여서내신실이�느겨진다면,1.0,0.19230769230769232,,1,25,0,26
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0003,KO-Soprano-2,mixed_falsetto,technique,내 맘 이 보 여 서 내 게 오 는 길 찾 는 다 면 나 의 모 든 마 음,내맘이보여서내기운을그 찾는다면나의모든마음,1.0,0.19047619047619047,,2,19,0,21
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0004,KO-Soprano-2,mixed_falsetto,technique,주 고 싶 어 나 의 곁 에 그 대 영 원 토 록 있 는 다 면,주고싶어내곁에그제여와더러있었다면,1.0,0.4444444444444444,,1,17,0,18
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0005,KO-Soprano-2,mixed_falsetto,technique,세 상 에 지 쳐 가 도 우 리 서 로 곁 에 항 상 옆 에 잡 은,세상에지적하던우리서로곁에항상,1.0,0.3684210526315789,,1,18,0,19
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0006,KO-Soprano-2,mixed_falsetto,technique,그 손 놓 지 마 마 지 막 사 랑 을 그 위 해 쓰 고 싶 은 데,고아닌옆에잡은뒤엔나지매진많은그대위에쓰고싶은데,1.0,0.8421052631578947,,1,18,0,19
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0007,KO-Soprano-2,mixed_falsetto,technique,마 지 막 운 명 이 그 대 라 면 행 복 할 텐 데 나 의 모 든 마 음,마지막운명이그대라면행복한자리,1.0,0.42857142857142855,,1,20,0,21
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0008,KO-Soprano-2,mixed_falsetto,technique,주 고 싶 어 나 의 곁 에 그 대 영 원 토 록 있 는 다 면,주고싶어나의곁에그대여와더러있는다며,1.0,0.2777777777777778,,1,17,0,18
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0000,KO-Soprano-2,mixed_falsetto,technique,내 가 그 대 곁 에 있 어 서 행 복 합 니 다 내 가 그 대 곁 에 있 어 서,내가그대곁에있어서행복합니다내가그대곁에있어서꿈은꿈이다내가그대곁에있,1.0,0.5217391304347826,,1,22,0,23
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0001,KO-Soprano-2,mixed_falsetto,technique,꿈 을 니 다 내 가 그 대 곁 에 있 어 서 웃 을 수 있 습 니 다,서웃을수있습니다내�사람이기도기도합니다내맘이보여,1.0,1.0,,1,19,0,20
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0002,KO-Soprano-2,mixed_falsetto,technique,내 사 람 이 길 또 기 도 합 니 다 내 맘 이 보 여 서 내 진 심 이 느 껴 진 다 면,고매일매일너를버려도내맘이,1.0,0.8846153846153846,,1,25,0,26
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0003,KO-Soprano-2,mixed_falsetto,technique,내 맘 이 보 여 서 내 게 오 는 길 찾 는 다 면 나 의 모 든 마 음,다,0.9523809523809523,0.9523809523809523,,0,20,0,21
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0004,KO-Soprano-2,mixed_falsetto,technique,주 고 싶 어 나 의 곁 에 그 대 영 원 토 록 있 는 다 면,고싶어나의곁에그대여와더러있는다면,1.0,0.2777777777777778,,1,17,0,18
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0005,KO-Soprano-2,mixed_falsetto,technique,세 상 에 지 쳐 가 도 우 리 서 로 곁 에 항 상 옆 에 잡 은,세상에지쳐갔던우리서로같아항상옆,1.0,0.3684210526315789,,1,18,0,19
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0006,KO-Soprano-2,mixed_falsetto,technique,그 손 놓 지 마 마 지 막 사 랑 을 그 위 해 쓰 고 싶 은 데,두손을지만마지막사랑을그대위해쓰고싶은데,1.0,0.21052631578947367,,1,18,0,19
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0007,KO-Soprano-2,mixed_falsetto,technique,마 지 막 운 명 이 그 대 라 면 행 복 할 텐 데 나 의 모 든 마 음,나의만들말은좋아,1.0,1.0,,1,20,0,21
+KO-Soprano-2__mixed_falsetto__technique__all_with_you__0008,KO-Soprano-2,mixed_falsetto,technique,주 고 싶 어 나 의 곁 에 그 대 영 원 토 록 있 는 다 면,고싶어나의곁에그대여와더러있는다면,1.0,0.2777777777777778,,1,17,0,18
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0000",KO-Soprano-2,mixed_falsetto,technique,미 안 해 미 안 해 하 지 마 내 가 초 라 해 지 잖 아 빨 간 예 쁜 입 술 로 어 서 나 를 죽 이 고 가,미안해미안해하지만내가저랑해지잖아바랭이쁠서로어서나를죽이고가나는굉장,1.0,0.40625,,1,31,0,32
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0001",KO-Soprano-2,mixed_falsetto,technique,나 는 찮 아 마 지 막 으 로 나 를 바 라 봐 줘 아 무 렇 지 않 은 듯 웃 어 줘 네 가 보 고 싶 을 때,고매일매일너를버려도내맘은,1.0,0.9375,,1,31,0,32
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0002",KO-Soprano-2,mixed_falsetto,technique,기 억 할 수 있 게 나 의 머 릿 속 에 네 얼 굴 그 릴 수 있 게 널 보 낼 수 없 는 나 의 욕 심 이,기억할수있게나의머리속에네얼굴그릴수있게널포만손에나의욕심이치,1.0,0.22580645161290322,,1,30,0,31
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0003",KO-Soprano-2,mixed_falsetto,technique,집 착 이 되 어 널 가 뒀 고 혹 시 이 런 나 에 힘 들 었 니 아 무 대 답 없 는 너,작이 될널가질걸오실은날때힘들었니아무대다웃는널,1.0,0.5769230769230769,,2,24,0,26
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0004",KO-Soprano-2,mixed_falsetto,technique,바 보 처 럼 왜 너 를 지 우 지 못 해 넌 떠 나 버 렸 는 데 너 의,바보처럼왜너를지우지못해넌떠나버렸는데너의눈빛,1.0,0.09523809523809523,,1,20,0,21
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0005",KO-Soprano-2,mixed_falsetto,technique,눈 코 입 날 만 지 던 네 손 길 작 은 손 까 지 다 여,두콩이나마질애내석그작은손대까지다,1.0,0.7058823529411765,,1,16,0,17
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0006",KO-Soprano-2,mixed_falsetto,technique,전 히 널 느 수 있 지 만 꺼 진 불 꽃 처 럼 타 들 어 가 버 린 우 리 사 랑 모 두 다 너 무 아 프 지 만 이 젠 널 추 억 이 라 부 를 게,전히널느꼴수있지만꽃이풀꽃처럼다들려버린우리다를모두다너무아프지만이제널추억이라부를게,1.0,0.23255813953488372,,1,42,0,43
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0007",KO-Soprano-2,mixed_falsetto,technique,사 랑 해 사 랑 했 지 만 내 가 부 족 했 었 나 봐 혹 시 우 연 이 라 도 한 순 간 만 이 라 도 널,사랑했어랑했지만내가부족했었나봐없이운명이라도항상간말이라도널부,1.0,0.3225806451612903,,1,30,0,31
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0008",KO-Soprano-2,mixed_falsetto,technique,볼 수 있 을 까 하 루 하 루 가 불 안 해 져 네 모 든 게 갈 수 록 희 미 해 져 사 진 속 에 너 는 왜,울수있을까하루하루가불안해져내모든게가수로희미내죠사실속에너는왜,1.0,0.21875,,1,31,0,32
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0009",KO-Soprano-2,mixed_falsetto,technique,해 맑 게 웃 는 데 우 리 에 게 다 가 오 는 이 별 을 모 른 널 보 낼 수 없 는 나 의 욕 심 이,에맑게웃는대우린이의길차가없는이별을모르지널보내서내,1.0,0.6333333333333333,,1,29,0,30
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0010",KO-Soprano-2,mixed_falsetto,technique,집 착 이 되 어 널 가 뒀 고 혹 시 이 런 나 에 힘 들 었 니 아 무 대 답 없 는 너 바 보 처,지작이들널가둘걸혹시이럴때힘들었니아무대다오는널바보처럼,1.0,0.4482758620689655,,1,28,0,29
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0011",KO-Soprano-2,mixed_falsetto,technique,럼 왜 너 를 지 우 지 못 해 넌 떠 나 버 렸 는 데,라올때의날너를떠,1.0,0.9375,,1,15,0,16
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0000",KO-Soprano-2,mixed_falsetto,technique,미 안 해 미 안 해 하 지 마 내 가 초 라 해 지 잖 아 빨 간 예 쁜 입 술 로 어 서 나 를 죽 이 고 가,미안해미안해하지마내가초라해지잖아빨간예보으서로어서나를죽이고,1.0,0.125,,1,31,0,32
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0001",KO-Soprano-2,mixed_falsetto,technique,나 는 찮 아 마 지 막 으 로 나 를 바 라 봐 줘 아 무 렇 지 않 은 듯 웃 어 줘 네 가 보 고 싶 을 때,나는괜찮아마지막으로나를바라봐줘아무렇지않아도웃어줘네가보고싶을때,1.0,0.09375,,1,31,0,32
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0002",KO-Soprano-2,mixed_falsetto,technique,기 억 할 수 있 게 나 의 머 릿 속 에 네 얼 굴 그 릴 수 있 게 널 보 낼 수 없 는 나 의 욕 심 이,끝날빨간내맘은몰랐지만,1.0,1.0,,1,30,0,31
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0003",KO-Soprano-2,mixed_falsetto,technique,집 착 이 되 어 널 가 뒀 고 혹 시 이 런 나 에 힘 들 었 니 아 무 대 답 없 는 너,착이되어널가둘걸알싫어나땜에힘들었니아무대답없는너,1.0,0.3076923076923077,,1,25,0,26
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0004",KO-Soprano-2,mixed_falsetto,technique,바 보 처 럼 왜 너 를 지 우 지 못 해 넌 떠 나 버 렸 는 데 너 의,바보처럼왜너를지우지못해넌떠나버렸는데너의눈코,1.0,0.09523809523809523,,1,20,0,21
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0005",KO-Soprano-2,mixed_falsetto,technique,눈 코 입 날 만 지 던 네 손 길 작 은 손 까 지 다 여,그대마지단한손그대작은손까지다,1.0,0.5882352941176471,,1,16,0,17
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0006",KO-Soprano-2,mixed_falsetto,technique,전 히 널 느 수 있 지 만 꺼 진 불 꽃 처 럼 타 들 어 가 버 린 우 리 사 랑 모 두 다 너 무 아 프 지 만 이 젠 널 추 억 이 라 부 를 게,아여전히널느길수있지만꼬집을것처럼다들려가버린우린사랑모두다너무아프지만이제널추억이라 부를게,1.0,0.2558139534883721,,2,41,0,43
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0007",KO-Soprano-2,mixed_falsetto,technique,사 랑 해 사 랑 했 지 만 내 가 부 족 했 었 나 봐 혹 시 우 연 이 라 도 한 순 간 만 이 라 도 널,사랑해사랑했지만내가부족했었나봐혹시우연이라도한순간만이라도널,1.0,0.0,,1,30,0,31
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0008",KO-Soprano-2,mixed_falsetto,technique,볼 수 있 을 까 하 루 하 루 가 불 안 해 져 네 모 든 게 갈 수 록 희 미 해 져 사 진 속 에 너 는 왜,볼수있을까하루하루가불안해져네모든게갈수록힘들죠사진속에너는왜,1.0,0.125,,1,31,0,32
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0009",KO-Soprano-2,mixed_falsetto,technique,해 맑 게 웃 는 데 우 리 에 게 다 가 오 는 이 별 을 모 른 널 보 낼 수 없 는 나 의 욕 심 이,에맑게웃는게우리에게달겨오는이별을모르지눈부는숨은나의여심을,1.0,0.43333333333333335,,1,29,0,30
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0010",KO-Soprano-2,mixed_falsetto,technique,집 착 이 되 어 널 가 뒀 고 혹 시 이 런 나 에 힘 들 었 니 아 무 대 답 없 는 너 바 보 처,작히둘널가둘걸흘씨일어났듯힘들었니아무대다웃는널바보죠,1.0,0.5862068965517241,,1,28,0,29
+"KO-Soprano-2__mixed_falsetto__technique__눈,_코,_입__0011",KO-Soprano-2,mixed_falsetto,technique,럼 왜 너 를 지 우 지 못 해 넌 떠 나 버 렸 는 데,고매일매일너를버려도날버렸는데,1.0,0.75,,1,15,0,16
+KO-Soprano-2__mixed_falsetto__technique__또_한_번_사랑해__0000,KO-Soprano-2,mixed_falsetto,technique,쉽 게 상 처 받 고 쉽 게 눈 물 나 고 쉽 게 아 프 던 날,쉽게선초받고쉽게눈물나고쉽게아프도난기억안나요지금도그래,1.0,0.7777777777777778,,1,17,0,18
+KO-Soprano-2__mixed_falsetto__technique__또_한_번_사랑해__0001,KO-Soprano-2,mixed_falsetto,technique,기 억 하 나 요 지 금 도 그 래 요 여 전 히 같 아 요 이 런 날 보 면,다요이런날보면언던가요쉽게돌,1.0,0.9090909090909091,,1,21,0,22
+KO-Soprano-2__mixed_falsetto__technique__또_한_번_사랑해__0002,KO-Soprano-2,mixed_falsetto,technique,어 떨 까 요 쉽 게 돌 아 서 도 쉽 게 멀 어 져 도 쉽,고쉬던시간멀어져도쉬끼리잊지못한그대알아요여전히,1.0,1.3529411764705883,,1,16,0,17
+KO-Soprano-2__mixed_falsetto__technique__또_한_번_사랑해__0003,KO-Soprano-2,mixed_falsetto,technique,게 잊 지 못 할 그 알 아 요 여 전 히 이 런 날 아 직 도 이 런 나 를 본 다 면 바 보 라 하 겠 죠,이런나아질도이런나를보다면바보라하겠죠,1.0,0.4838709677419355,,1,30,0,31
+KO-Soprano-2__mixed_falsetto__technique__또_한_번_사랑해__0004,KO-Soprano-2,mixed_falsetto,technique,원 하 고 원 해 요 그 리 고 하 나 아 프 고 아 파 도 그 래 도 한 번 닳,원하고원해요그리고하나아프고아파도그래도한번달,1.0,0.043478260869565216,,1,22,0,23
+KO-Soprano-2__mixed_falsetto__technique__또_한_번_사랑해__0005,KO-Soprano-2,mixed_falsetto,technique,고 닳 아 진 데 도 눈 물 이 마 르 지 않 아 도 처 음 으 로 돌 아 갈 수 있 다 면,고장맞은길도눈물이마르지않아도처음으로돌아갈수있다면,1.0,0.15384615384615385,,1,25,0,26
+KO-Soprano-2__mixed_falsetto__technique__또_한_번_사랑해__0000,KO-Soprano-2,mixed_falsetto,technique,쉽 게 상 처 받 고 쉽 게 눈 물 나 고 쉽 게 아 프 던 날,쉽게산처받고쉽게눈물나고쉽게아프던날기억하나요지금도그래,1.0,0.6111111111111112,,1,17,0,18
+KO-Soprano-2__mixed_falsetto__technique__또_한_번_사랑해__0001,KO-Soprano-2,mixed_falsetto,technique,기 억 하 나 요 지 금 도 그 래 요 여 전 히 같 아 요 이 런 날 보 면,잘할게매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매일아매 1,1.0,9.409090909090908,,1,21,0,22
+KO-Soprano-2__mixed_falsetto__technique__또_한_번_사랑해__0002,KO-Soprano-2,mixed_falsetto,technique,어 떨 까 요 쉽 게 돌 아 서 도 쉽 게 멀 어 져 도 쉽,어떨하,1.0,0.8823529411764706,,1,16,0,17
+KO-Soprano-2__mixed_falsetto__technique__또_한_번_사랑해__0003,KO-Soprano-2,mixed_falsetto,technique,게 잊 지 못 할 그 알 아 요 여 전 히 이 런 날 아 직 도 이 런 나 를 본 다 면 바 보 라 하 겠 죠,때알아요여전히이런날아진또이런나를보다면바보라하겠죠,1.0,0.2903225806451613,,1,30,0,31
+KO-Soprano-2__mixed_falsetto__technique__또_한_번_사랑해__0004,KO-Soprano-2,mixed_falsetto,technique,원 하 고 원 해 요 그 리 고 하 나 아 프 고 아 파 도 그 래 도 한 번 닳,원하고원해요그리고하나아프고아파도그래도한번,1.0,0.043478260869565216,,1,22,0,23
+KO-Soprano-2__mixed_falsetto__technique__또_한_번_사랑해__0005,KO-Soprano-2,mixed_falsetto,technique,고 닳 아 진 데 도 눈 물 이 마 르 지 않 아 도 처 음 으 로 돌 아 갈 수 있 다 면,고장맞은뒤도눈물이마르지않아도총음으로돌아갈수있다면,1.0,0.19230769230769232,,1,25,0,26
+KO-Soprano-2__mixed_falsetto__technique__안녕__0000,KO-Soprano-2,mixed_falsetto,technique,시 간 이 서 둘 러 널 내 게 로 데 려 와 주 길 단 한 번 만,시간대서들러너내게로질러와줄게달아버머만,1.0,0.5789473684210527,,1,18,0,19
+KO-Soprano-2__mixed_falsetto__technique__안녕__0001,KO-Soprano-2,mixed_falsetto,technique,말 해 주 길 믿 어 지 지 않 는 이 야 기 를 어 디 있 는 지,바라주길미도치지않는이야기를어디있는지,1.0,0.2631578947368421,,1,18,0,19
+KO-Soprano-2__mixed_falsetto__technique__안녕__0002,KO-Soprano-2,mixed_falsetto,technique,내 맘 아 는 지 보 고 싶 은 데 다 신 볼 수 없 는 곳 에 밤 하 늘 에 소 리 쳐 안 녕,내마음을지보고싶은데다시보서�없는곳에밤하늘의소리조안녕,1.0,0.2962962962962963,,1,26,0,27
+KO-Soprano-2__mixed_falsetto__technique__안녕__0000,KO-Soprano-2,mixed_falsetto,technique,시 간 이 서 둘 러 널 내 게 로 데 려 와 주 길 단 한 번 만,시간에서들어 너내게로들려와줄게단한번만,1.0,0.3684210526315789,,2,17,0,19
+KO-Soprano-2__mixed_falsetto__technique__안녕__0001,KO-Soprano-2,mixed_falsetto,technique,말 해 주 길 믿 어 지 지 않 는 이 야 기 를 어 디 있 는 지,말해줄게믿어지지않는이야기를어디있는지,1.0,0.10526315789473684,,1,18,0,19
+KO-Soprano-2__mixed_falsetto__technique__안녕__0002,KO-Soprano-2,mixed_falsetto,technique,내 맘 아 는 지 보 고 싶 은 데 다 신 볼 수 없 는 곳 에 밤 하 늘 에 소 리 쳐 안 녕,내마음인지보고싶은데다시볼수없는곳에바느니소리조안녕,1.0,0.3333333333333333,,1,26,0,27
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0000,KO-Soprano-2,mixed_falsetto,technique,도 대 알 수 가 없 어 남 자 들 의 마 음 원 할 땐 언 제 고,둘들지알수가없어낸자들의마음원하듯언제껏다주니이제도난데,1.0,0.7894736842105263,,1,18,0,19
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0001,KO-Soprano-2,mixed_falsetto,technique,다 주 니 이 제 떠 난 대 이 런 적 처 음 이 라 고 너 는 특 별 하 다 는,이러조처음이라고너는지별한다는그말을믿었어내기힘,1.0,0.9130434782608695,,1,22,0,23
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0002,KO-Soprano-2,mixed_falsetto,technique,그 말 을 믿 었 어 내 겐 행 복 이 었 어 말 을 하 지 그,속이어서말을하지그래서그,1.0,0.8333333333333334,,1,17,0,18
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0003,KO-Soprano-2,mixed_falsetto,technique,랬 어 내 가 싫 어 졌 다 고 눈 치 가 없 는 난 늘 보 기 만 했 어 너 를,내가싫어졌다고눈치가오는날눈붙이기만했어너를,1.0,0.30434782608695654,,1,22,0,23
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0004,KO-Soprano-2,mixed_falsetto,technique,욕 하 면 서 도 많 이 그 리 울 거 야 사 랑 이 전 부 인 나 는 여 자 이 니 까,여가면서도많이그리울거야사랑이전부인나는여자이니까,1.0,0.08,,1,24,0,25
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0005,KO-Soprano-2,mixed_falsetto,technique,사 랑 을 위 해 서 라 면 모 든 다 할 수 있 는 여 자 의 착 한 본 능 을,사랑을위해서라면모두다할수있는여자의착함부나내,1.0,0.21739130434782608,,1,22,0,23
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0006,KO-Soprano-2,mixed_falsetto,technique,이 용 하 지 는 말 아 줘 한 여 자 로 태 어 나 사 랑 받 고 사 는 게,이항하지나말하죠한여자를태어나사람받고사는게,1.0,0.2727272727272727,,1,21,0,22
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0007,KO-Soprano-2,mixed_falsetto,technique,이 렇 게 힘 들 고 어 려 울 줄 몰 랐 어 너 를 욕 하 면 서 도,이렇게힘들고어려울줄몰라서너를여가면서도,1.0,0.2,,1,19,0,20
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0008,KO-Soprano-2,mixed_falsetto,technique,많 이 그 리 울 거 야 사 랑 이 전 부 인 나 는 여 자 이 니 까 너 를 욕 하 면 서 도 많 이 그 리 울 거 야 사 랑 이 전 부 인 나 는 여 자 이 니 까,모두그리울거야사랑이전부인는여자이니까,1.0,0.6382978723404256,,1,46,0,47
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0000,KO-Soprano-2,mixed_falsetto,technique,도 대 알 수 가 없 어 남 자 들 의 마 음 원 할 땐 언 제 고,도대체알수가없어난차들름말원한대언제,1.0,0.47368421052631576,,1,18,0,19
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0001,KO-Soprano-2,mixed_falsetto,technique,다 주 니 이 제 떠 난 대 이 런 적 처 음 이 라 고 너 는 특 별 하 다 는,떠다주니이제떠난다이런처음이라고넌슬펴라,1.0,0.43478260869565216,,1,22,0,23
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0002,KO-Soprano-2,mixed_falsetto,technique,그 말 을 믿 었 어 내 겐 행 복 이 었 어 말 을 하 지 그,다는그말을믿었어내게행복이였어말을하지,1.0,0.2777777777777778,,1,17,0,18
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0003,KO-Soprano-2,mixed_falsetto,technique,랬 어 내 가 싫 어 졌 다 고 눈 치 가 없 는 난 늘 보 기 만 했 어 너 를,에서내가싫어줬다고눈,1.0,0.6956521739130435,,1,22,0,23
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0004,KO-Soprano-2,mixed_falsetto,technique,욕 하 면 서 도 많 이 그 리 울 거 야 사 랑 이 전 부 인 나 는 여 자 이 니 까,가오는날눈부추기말했어너를욕하면서도많이그리울거야사랑이전부인 나는여자이니까,1.0,0.52,,2,23,0,25
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0005,KO-Soprano-2,mixed_falsetto,technique,사 랑 을 위 해 서 라 면 모 든 다 할 수 있 는 여 자 의 착 한 본 능 을,사랑을위해서라면모두다할수있는,1.0,0.391304347826087,,1,22,0,23
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0006,KO-Soprano-2,mixed_falsetto,technique,이 용 하 지 는 말 아 줘 한 여 자 로 태 어 나 사 랑 받 고 사 는 게,는여자의작음뿐이전날은이유하지마라,1.0,0.9545454545454546,,1,21,0,22
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0007,KO-Soprano-2,mixed_falsetto,technique,이 렇 게 힘 들 고 어 려 울 줄 몰 랐 어 너 를 욕 하 면 서 도,여자를태어나사람받고사는게,1.0,0.95,,1,19,0,20
+KO-Soprano-2__mixed_falsetto__technique__여자이니까__0008,KO-Soprano-2,mixed_falsetto,technique,많 이 그 리 울 거 야 사 랑 이 전 부 인 나 는 여 자 이 니 까 너 를 욕 하 면 서 도 많 이 그 리 울 거 야 사 랑 이 전 부 인 나 는 여 자 이 니 까,게이렇게힘들고어려울지몰라서너를여까면서도많이그리울거야사랑이전부인 나는여자이니까,1.0,0.44680851063829785,,2,45,0,47
+KO-Soprano-2__mixed_falsetto__technique__흐느껴_울다__0000,KO-Soprano-2,mixed_falsetto,technique,그 대 소 리 내 한 번 웃 질 않 네 요 그 렇 게 어 색 한 사 이 인 가 요,그대소리내한번보지않네요그렇게어색한사이인가요,1.0,0.08695652173913043,,1,22,0,23
+KO-Soprano-2__mixed_falsetto__technique__흐느껴_울다__0001,KO-Soprano-2,mixed_falsetto,technique,우 리 많 은 것 을 함 께 했 는 데 눈 길 한 번 도 손 길 한 번 도,리많은곳을함께했는데눈길한번도숨길한번도,1.0,0.14285714285714285,,1,20,0,21
+KO-Soprano-2__mixed_falsetto__technique__흐느껴_울다__0002,KO-Soprano-2,mixed_falsetto,technique,세 상 모 두 가 그 보 아 요 하 지 만 늘 그 렇 듯 그 어,세상모두가그대보아요하지만은그럴듯그대어두죠,1.0,0.3333333333333333,,1,17,0,18
+KO-Soprano-2__mixed_falsetto__technique__흐느껴_울다__0003,KO-Soprano-2,mixed_falsetto,technique,죠 나 는 한 사 람 만 가 슴 에 담 아 서 그 대 뒷 모 습 만 또 보 네 요 난 늘 그 렇 게 멍 이 들 어 요,나는한사람아가슴에담아서그대 뒷모습만도보내요나는그렇게멍이 들어요,1.0,0.18181818181818182,,3,30,0,33
+KO-Soprano-2__mixed_falsetto__technique__흐느껴_울다__0004,KO-Soprano-2,mixed_falsetto,technique,울 컥 니 가 보 고 싶 은 그 런 날 울 컥 내 맘 이 내 맘 대 로,을커내가보고싶은그런날을커내맘이내만대로,1.0,0.3,,1,19,0,20
+KO-Soprano-2__mixed_falsetto__technique__흐느껴_울다__0005,KO-Soprano-2,mixed_falsetto,technique,안 된 날 울 컥 쏟 아 지 는 나 의 눈 물 이 하 루 종 일 그 대 를 붙 들 고,안됐나울고솞아지는나의눈물이한우중이그대를붙이고,1.0,0.375,,1,23,0,24
+KO-Soprano-2__mixed_falsetto__technique__흐느껴_울다__0000,KO-Soprano-2,mixed_falsetto,technique,그 대 소 리 내 한 번 웃 질 않 네 요 그 렇 게 어 색 한 사 이 인 가 요,그대소리내한번붙지않네요그렇게어색한사이인가요,1.0,0.08695652173913043,,1,22,0,23
+KO-Soprano-2__mixed_falsetto__technique__흐느껴_울다__0001,KO-Soprano-2,mixed_falsetto,technique,우 리 많 은 것 을 함 께 했 는 데 눈 길 한 번 도 손 길 한 번 도,우리많은것을함께했는데눈깊은번도숨견본,1.0,0.3333333333333333,,1,20,0,21
+KO-Soprano-2__mixed_falsetto__technique__흐느껴_울다__0002,KO-Soprano-2,mixed_falsetto,technique,세 상 모 두 가 그 보 아 요 하 지 만 늘 그 렇 듯 그 어,세상모두가그대보아요하지만은그럴듯그대어두죠,1.0,0.3333333333333333,,1,17,0,18
+KO-Soprano-2__mixed_falsetto__technique__흐느껴_울다__0003,KO-Soprano-2,mixed_falsetto,technique,죠 나 는 한 사 람 만 가 슴 에 담 아 서 그 대 뒷 모 습 만 또 보 네 요 난 늘 그 렇 게 멍 이 들 어 요,나는한사람만가슴에담아서그랬지무슨말도보네요나는그렇게몸을들어요,1.0,0.3333333333333333,,1,32,0,33
+KO-Soprano-2__mixed_falsetto__technique__흐느껴_울다__0004,KO-Soprano-2,mixed_falsetto,technique,울 컥 니 가 보 고 싶 은 그 런 날 울 컥 내 맘 이 내 맘 대 로,울건니가보고싶은그런나울거내맘이내맘대로,1.0,0.15,,1,19,0,20
+KO-Soprano-2__mixed_falsetto__technique__흐느껴_울다__0005,KO-Soprano-2,mixed_falsetto,technique,안 된 날 울 컥 쏟 아 지 는 나 의 눈 물 이 하 루 종 일 그 대 를 붙 들 고,안되나울커흉소다지는나의눈물이하루종일그대를붙이고,1.0,0.2916666666666667,,1,23,0,24
+"KO-Soprano-2__pharyngeal__technique__눈,_코,_입__0000",KO-Soprano-2,pharyngeal,technique,미 안 해 미 안 해 하 지 마 내 가 초 라 해 지 잖 아 빨 간 예 쁜 입 술 로 어 서 나 를 죽 이 고 가 나,미안해미안해하지마내가초라해지잖아빨간예쁜소년어서나를죽이고가나,1.0,0.09090909090909091,,1,32,0,33
+"KO-Soprano-2__pharyngeal__technique__눈,_코,_입__0001",KO-Soprano-2,pharyngeal,technique,는 찮 아 마 지 막 으 로 나 를 바 라 봐 줘 아 무 렇 지 않 은 듯 웃 어 줘 네 가 보 고 싶 을 때 기 억,는괜찮아마지막으로나를바라봐줘아무렇지않던웃어줘네가보고싶을때기억,1.0,0.09090909090909091,,1,32,0,33
+"KO-Soprano-2__pharyngeal__technique__눈,_코,_입__0002",KO-Soprano-2,pharyngeal,technique,할 수 있 게 나 의 머 릿 속 에 네 얼 굴 그 릴 수 있 게 널 보 낼 수 없 는 나 의 욕 심 이 집 착 이 되 어 널 가,갈수있게내리모양속에네얼굴그릴수있게널보낼수없는나의욕심이집착이될널가득,1.0,0.2222222222222222,,1,35,0,36
+"KO-Soprano-2__pharyngeal__technique__눈,_코,_입__0003",KO-Soprano-2,pharyngeal,technique,뒀 고 혹 시 이 런 나 에 힘 들 었 니 아 무 대 답 없 는 너 바 보 처 럼 왜,몰라요널바보처럼,1.0,0.8333333333333334,,1,23,0,24
+"KO-Soprano-2__pharyngeal__technique__눈,_코,_입__0004",KO-Soprano-2,pharyngeal,technique,너 를 지 우 지 못 해 넌 떠 나 버 렸 는 데 너 의 눈 코 입 날 만 지 던,너를지우지못해넌떠나버렸는데너의눈코,1.0,0.21739130434782608,,1,22,0,23
+"KO-Soprano-2__pharyngeal__technique__눈,_코,_입__0005",KO-Soprano-2,pharyngeal,technique,네 손 길 작 은 손 까 지 다 여 전 히 널 느 수 있 지 만 꺼 진 불 꽃 처 럼 타 들 어 가 버 린 우 리,고집을꼬처럼타내려가버린우리사이에서,1.0,0.875,,1,31,0,32
+"KO-Soprano-2__pharyngeal__technique__눈,_코,_입__0006",KO-Soprano-2,pharyngeal,technique,사 랑 모 두 다 너 무 아 프 지 만 이 젠 널 추 억 이 라 부 를 게,사랑모두다너무아프지만이제널추억이라부를게,1.0,0.047619047619047616,,1,20,0,21
+"KO-Soprano-2__pharyngeal__technique__눈,_코,_입__0007",KO-Soprano-2,pharyngeal,technique,사 랑 해 사 랑 했 지 만 내 가 부 족 했 었 나 봐 혹 시 우 연 이 라 도 한 순 간 만 이 라 도 널,사랑해사랑했지만내가부족했더나봐혹시후연이라도한순간만이라도널,1.0,0.06451612903225806,,1,30,0,31
+"KO-Soprano-2__pharyngeal__technique__눈,_코,_입__0008",KO-Soprano-2,pharyngeal,technique,볼 수 있 을 까 하 루 하 루 가 불 안 해 져 네 모 든 게 갈 수 록 희 미 해 져 사 진 속 에 너 는 왜,볼수있을까하루하루가불안해져네모든게갈수록힘들려줘사진속에너는왜,1.0,0.125,,1,31,0,32
+"KO-Soprano-2__pharyngeal__technique__눈,_코,_입__0009",KO-Soprano-2,pharyngeal,technique,해 맑 게 웃 는 데 우 리 에 게 다 가 오 는 이 별 을 모 른 널 보 낼 수 없 는 나 의,힘맑게웃는게우리얘기타게웃는기별이우르지널보낼수없는나의연심,1.0,0.5185185185185185,,1,26,0,27
+"KO-Soprano-2__pharyngeal__technique__눈,_코,_입__0010",KO-Soprano-2,pharyngeal,technique,욕 심 이 집 착 이 되 어 널 가 뒀 고 혹 시 이 런 나 에 힘 들 었 니 아 무 대 답 없 는 너,지적이될날가될걸혹시일어날때힘들었니아무대다오는널,1.0,0.5862068965517241,,1,28,0,29
+"KO-Soprano-2__pharyngeal__technique__눈,_코,_입__0011",KO-Soprano-2,pharyngeal,technique,바 보 처 럼 왜 너 를 지 우 지 못 해 넌 떠 나 버 렸 는 데,바보처럼왜너를지우지못해난떠나버렸는데,1.0,0.05263157894736842,,1,18,0,19
+KO-Soprano-2__pharyngeal__technique__또_한_번_사랑해__0000,KO-Soprano-2,pharyngeal,technique,쉽 게 상 처 받 고 쉽 게 눈 물 나 고,쉽게상처받고쉽게눈물나고,1.0,0.0,,1,11,0,12
+KO-Soprano-2__pharyngeal__technique__또_한_번_사랑해__0001,KO-Soprano-2,pharyngeal,technique,쉽 게 아 프 던 날 기 억 하 나 요 지 금 도 그 래 요 여 전 히 같 아 요 이 런 날 보 면 어,쉽게아프던날기억하나요지금도그래요여전해같아요이런날보면어떠날까지,1.0,0.1724137931034483,,1,28,0,29
+KO-Soprano-2__pharyngeal__technique__또_한_번_사랑해__0002,KO-Soprano-2,pharyngeal,technique,떨 까 요 쉽 게 돌 아 서 도 쉽 게 멀 어 져 도,던가요쉽게돌아서도쉽게모르져도,1.0,0.26666666666666666,,1,14,0,15
+KO-Soprano-2__pharyngeal__technique__또_한_번_사랑해__0003,KO-Soprano-2,pharyngeal,technique,쉽 게 잊 지 못 할 그 알 아 요 여 전 히 이 런 날 아 직 도 이 런 나 를 본 다 면 바 보 라 하 겠 죠,쉽게잊지못한그대알아요여전히이런나아직도이런나를보다면바보라하겠죠,1.0,0.125,,1,31,0,32
+KO-Soprano-2__pharyngeal__technique__또_한_번_사랑해__0004,KO-Soprano-2,pharyngeal,technique,원 하 고 원 해 요 그 리 고 하 나 아 프 고 아 파 도,원하고원네요그리고하나아프고아파도,1.0,0.058823529411764705,,1,16,0,17
+KO-Soprano-2__pharyngeal__technique__또_한_번_사랑해__0005,KO-Soprano-2,pharyngeal,technique,그 래 도 한 번 닳 고 닳 아 진 데 도 눈 물 이 마 르 지 않 아 도 처 음 으 로 돌 아 갈 수 있 다 면,그래도한번달고잘맞을뒤로눈물을마르지않아도처음으로돌아갈수있다면,1.0,0.21875,,1,31,0,32
+KO-Soprano-2__pharyngeal__technique__안녕__0000,KO-Soprano-2,pharyngeal,technique,우 연 히 내 게 다 가 와 감 싸 안 아 주 고 서,우연히내게다가와항상안아주고소,1.0,0.2,,1,14,0,15
+KO-Soprano-2__pharyngeal__technique__안녕__0001,KO-Soprano-2,pharyngeal,technique,로 멍 하 니 바 라 보 다 건 낸 말 안 녕 꿈 속 에 서 만,롱한하늘팔아보던꿈의안녕꿈속에서만나,1.0,0.5555555555555556,,1,17,0,18
+KO-Soprano-2__pharyngeal__technique__안녕__0002,KO-Soprano-2,pharyngeal,technique,스 쳐 갔 던 지 금 넌 내 앞 에 사 랑 이 왔 는,스쳐갔던지금너 내앞에사랑이왔,1.0,0.13333333333333333,,2,13,0,15
+KO-Soprano-2__pharyngeal__technique__안녕__0003,KO-Soprano-2,pharyngeal,technique,데 그 떠 난 대 기 다 렸 는 데 더 볼 수 가 없 대,때그대떠날� 때기다렸는데더움볼수가없때난바보처럼,1.0,0.6875,,2,14,0,16
+KO-Soprano-2__pharyngeal__technique__안녕__0004,KO-Soprano-2,pharyngeal,technique,늘 바 보 처 럼 흐 르 는 눈 물 이 말 해 안 녕 이 젠,흘린늄무를말해안녕이제그바이,1.0,0.8823529411764706,,1,16,0,17
+KO-Soprano-2__pharyngeal__technique__안녕__0005,KO-Soprano-2,pharyngeal,technique,시 간 이 서 둘 러 널 내 게 로 데 려 와 주 길 단 한 번 만,시간의소들로너내게로들려와줄게단한번만,1.0,0.42105263157894735,,1,18,0,19
+KO-Soprano-2__pharyngeal__technique__안녕__0006,KO-Soprano-2,pharyngeal,technique,말 해 주 길 믿 어 지 지 않 는 이 야 기 를 어 디 있 는 지,말해줄게믿어지지않는이야기를어디있는지,1.0,0.10526315789473684,,1,18,0,19
+KO-Soprano-2__pharyngeal__technique__안녕__0007,KO-Soprano-2,pharyngeal,technique,내 맘 아 는 지 보 고 싶 은 데 다 신 볼 수 없 는 곳 에 밤 하 늘 에 소 리 쳐 안 녕,내마안은지보고싶은데다시보아서오는곳에바느니소리를쳐안녕,1.0,0.48148148148148145,,1,26,0,27
+"KO-Soprano-2__vibrato__technique__눈,_코,_입__0000",KO-Soprano-2,vibrato,technique,미 안 해 미 안 해 하 지 마 내 가 초 라 해 지 잖 아 빨 간 예 쁜 입 술 로 어 서 나 를 죽 이 고 가 나,미안해미안해하지마내가초록해지잖아빨간예쁜소름너를죽이고가,1.0,0.24242424242424243,,1,32,0,33
+"KO-Soprano-2__vibrato__technique__눈,_코,_입__0001",KO-Soprano-2,vibrato,technique,는 찮 아 마 지 막 으 로 나 를 바 라 봐 줘 아 무 렇 지 않 은 듯 웃 어 줘 네 가 보 고 싶 을 때 기 억,고있잖아마지막으로나를바라봐줘아무렇지않은듯웃어줘네가보고싶은데기억,1.0,0.15151515151515152,,1,32,0,33
+"KO-Soprano-2__vibrato__technique__눈,_코,_입__0002",KO-Soprano-2,vibrato,technique,할 수 있 게 나 의 머 릿 속 에 네 얼 굴 그 릴 수 있 게 널 보 낼 수 없 는 나 의 욕 심 이 집 착 이 되 어 널 가,갈수있게나의머릿속에네얼굴그릴수있게널보내수있는나의연심이집착이되어널가둘,1.0,0.1388888888888889,,1,35,0,36
+"KO-Soprano-2__vibrato__technique__눈,_코,_입__0003",KO-Soprano-2,vibrato,technique,뒀 고 혹 시 이 런 나 에 힘 들 었 니 아 무 대 답 없 는 너 바 보 처 럼 왜,고혹시일어날때힘들었니아무대답없는너바보처럼왜,1.0,0.20833333333333334,,1,23,0,24
+"KO-Soprano-2__vibrato__technique__눈,_코,_입__0004",KO-Soprano-2,vibrato,technique,너 를 지 우 지 못 해 넌 떠 나 버 렸 는 데 너 의 눈 코 입 날 만 지 던,너를지우지못해났떠나버렸는데너의눈코내마음도,1.0,0.2608695652173913,,1,22,0,23
+"KO-Soprano-2__vibrato__technique__눈,_코,_입__0005",KO-Soprano-2,vibrato,technique,네 손 길 작 은 손 까 지 다 여 전 히 널 느 수 있 지 만 꺼 진 불 꽃 처 럼 타 들 어 가 버 린 우 리,고장난손길작은손까지다여전히널느길수있지만꽃이,1.0,0.53125,,1,31,0,32
+"KO-Soprano-2__vibrato__technique__눈,_코,_입__0006",KO-Soprano-2,vibrato,technique,사 랑 모 두 다 너 무 아 프 지 만 이 젠 널 추 억 이 라 부 를 게,사랑모두다아무아프지만이제널추억이라부를게,1.0,0.09523809523809523,,1,20,0,21
+"KO-Soprano-2__vibrato__technique__눈,_코,_입__0007",KO-Soprano-2,vibrato,technique,사 랑 해 사 랑 했 지 만 내 가 부 족 했 었 나 봐 혹 시 우 연 이 라 도 한 순 간 만 이 라 도 널,사랑해자랑했지만내가부족했었나봐혼신우연이라도한순간만이라도널,1.0,0.0967741935483871,,1,30,0,31
+"KO-Soprano-2__vibrato__technique__눈,_코,_입__0008",KO-Soprano-2,vibrato,technique,볼 수 있 을 까 하 루 하 루 가 불 안 해 져 네 모 든 게 갈 수 록 희 미 해 져 사 진 속 에 너 는 왜,볼수있을까하루하루가분한해져내모든게간섭으로힘들죠사실속에너는왜,1.0,0.34375,,1,31,0,32
+"KO-Soprano-2__vibrato__technique__눈,_코,_입__0009",KO-Soprano-2,vibrato,technique,해 맑 게 웃 는 데 우 리 에 게 다 가 오 는 이 별 을 모 른 널 보 낼 수 없 는 나 의 욕 심,밤아깨우는때우리에게타게오는이별이오올지널보내수있는나의여,1.0,0.5172413793103449,,1,28,0,29
+"KO-Soprano-2__vibrato__technique__눈,_코,_입__0010",KO-Soprano-2,vibrato,technique,이 집 착 이 되 어 널 가 뒀 고 혹 시 이 런 나 에 힘 들 었 니 아 무 대 답 없 는 너,지작이질을널가두고어욷이일어날 때힘들었니아무대다오는널,1.0,0.5555555555555556,,2,25,0,27
+"KO-Soprano-2__vibrato__technique__눈,_코,_입__0011",KO-Soprano-2,vibrato,technique,바 보 처 럼 왜 너 를 지 우 지 못 해 넌 떠 나 버 렸 는 데,바보처럼왜너를지우지못해넌떠나버렸는데,1.0,0.0,,1,18,0,19
+KO-Soprano-2__vibrato__technique__또_한_번_사랑해__0000,KO-Soprano-2,vibrato,technique,쉽 게 상 처 받 고 쉽 게 눈 물 나 고,쉽게산처받고쉽게눈물나고쉽게아프던날,1.0,0.5833333333333334,,1,11,0,12
+KO-Soprano-2__vibrato__technique__또_한_번_사랑해__0001,KO-Soprano-2,vibrato,technique,쉽 게 아 프 던 날 기 억 하 나 요 지 금 도 그 래 요 여 전 히 같 아 요 이 런 날 보 면 어,인기억하나요지금도그래요여전히같아요이런날보면어떠날까지,1.0,0.3448275862068966,,1,28,0,29
+KO-Soprano-2__vibrato__technique__또_한_번_사랑해__0002,KO-Soprano-2,vibrato,technique,떨 까 요 쉽 게 돌 아 서 도 쉽 게 멀 어 져 도,고매일매일너를버려도둘이,1.0,1.0,,1,14,0,15
+KO-Soprano-2__vibrato__technique__또_한_번_사랑해__0003,KO-Soprano-2,vibrato,technique,쉽 게 잊 지 못 할 그 알 아 요 여 전 히 이 런 날 아 직 도 이 런 나 를 본 다 면 바 보 라 하 겠 죠,단그대알아요여전히이런나아직도이런나를보더면바보라하겠죠,1.0,0.3125,,1,31,0,32
+KO-Soprano-2__vibrato__technique__또_한_번_사랑해__0004,KO-Soprano-2,vibrato,technique,원 하 고 원 해 요 그 리 고 하 나 아 프 고 아 파 도,원하고원해요그리고하나아프고아파도,1.0,0.0,,1,16,0,17
+KO-Soprano-2__vibrato__technique__또_한_번_사랑해__0005,KO-Soprano-2,vibrato,technique,그 래 도 한 번 닳 고 닳 아 진 데 도 눈 물 이 마 르 지 않 아 도 처 음 으 로 돌 아 갈 수 있 다 면,그래도한번달고잘맞은뒤도눈물을마르지않아도처음무럴돌아갈수있다면,1.0,0.25,,1,31,0,32
+KO-Soprano-2__vibrato__technique__안녕__0000,KO-Soprano-2,vibrato,technique,우 연 히 내 게 다 가 와 감 싸 안 아 주 고 서,우연히네게다가와감사안아주고서로,1.0,0.2,,1,14,0,15
+KO-Soprano-2__vibrato__technique__안녕__0001,KO-Soprano-2,vibrato,technique,로 멍 하 니 바 라 보 다 건 낸 말 안 녕 꿈 속 에 서 만,몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰랐을때는몰났을,1.0,8.5,,1,17,0,18
+KO-Soprano-2__vibrato__technique__안녕__0002,KO-Soprano-2,vibrato,technique,스 쳐 갔 던 지 금 넌 내 앞 에 사 랑 이 왔 는,스쳐갔던지금 넌네앞에사랑이완된,1.0,0.2,,2,13,0,15
+KO-Soprano-2__vibrato__technique__안녕__0003,KO-Soprano-2,vibrato,technique,데 그 떠 난 대 기 다 렸 는 데 더 볼 수 가 없 대,이때그래도난데기다렸는데더움볼수가없데,1.0,0.4375,,1,15,0,16
+KO-Soprano-2__vibrato__technique__안녕__0004,KO-Soprano-2,vibrato,technique,늘 바 보 처 럼 흐 르 는 눈 물 이 말 해 안 녕 이 젠,눈바보처럼흘러난눈물이말해안녕이제,1.0,0.29411764705882354,,1,16,0,17
+KO-Soprano-2__vibrato__technique__안녕__0005,KO-Soprano-2,vibrato,technique,시 간 이 서 둘 러 널 내 게 로 데 려 와 주 길 단 한 번 만,시간에서틀렀너니께로들어와주길단한번만,1.0,0.42105263157894735,,1,18,0,19
+KO-Soprano-2__vibrato__technique__안녕__0006,KO-Soprano-2,vibrato,technique,말 해 주 길 믿 어 지 지 않 는 이 야 기 를 어 디 있 는 지,모두알아버릴바라줄게믿어지지않는얘기를어디있는지,1.0,0.631578947368421,,1,18,0,19
+KO-Soprano-2__vibrato__technique__안녕__0007,KO-Soprano-2,vibrato,technique,내 맘 아 는 지 보 고 싶 은 데 다 신 볼 수 없 는 곳 에 밤 하 늘 에 소 리 쳐 안 녕,이내말한지보고싶은데다시버서없는곳에바느니소리를쳐안녕,1.0,0.4444444444444444,,1,26,0,27
+KO-Tenor-1__breathy__technique__일년을_하루_같이__0000,KO-Tenor-1,breathy,technique,바 람 이 불 어 오 면 은 바 람 이 부 는 이 유 로 비 가 내 리 면 술 한 잔 생 각 이 나 서 눈 이 부 시 게 햇 살 이 날 비 추 면 왜 인 지 도 모 르 게,바람이불어오면바람이불어내으로기내내리면서가잘생각이나서눈이부지게햇살이나 비추면왠지도모르게,1.0,0.2916666666666667,,2,46,0,48
+KO-Tenor-1__breathy__technique__일년을_하루_같이__0001,KO-Tenor-1,breathy,technique,밤 하 늘 어 느 별 하 나 너 를 닮 은 것 같 아 흘 러 가 는 구 름 조 차 너 인 것 같,밤안에오늘은별하나너를닮은것같아흘러가는구름조차도인것같아,1.0,0.25925925925925924,,1,26,0,27
+KO-Tenor-1__breathy__technique__일년을_하루_같이__0002,KO-Tenor-1,breathy,technique,아 셀 수 조 차 도 없 이 많 은 이 유 로 니 가 보 고 싶 구 나,다세수조차도없이많은이유로니가보고싶구나,1.0,0.1,,1,19,0,20
+KO-Tenor-1__breathy__technique__일년을_하루_같이__0003,KO-Tenor-1,breathy,technique,너 무 사 랑 했 나 봐 아 직 사 랑 하 나 봐 오 직 너 만 사 랑 하 게 태 어 났 나 봐,너무사랑했나봐아직사랑했나봐오직너란사랑하긴대연날나봐,1.0,0.2222222222222222,,1,26,0,27
+KO-Tenor-1__breathy__technique__일년을_하루_같이__0004,KO-Tenor-1,breathy,technique,일 년 을 하 루 같 이 아 무 것 도 못 하 고 너 만 생 각 하 고 있 잖 아,일요한두하루까지아무것도못하고너만사각하고있잖아,1.0,0.2608695652173913,,1,22,0,23
+KO-Tenor-1__breathy__technique__총맞은것처럼__0000,KO-Tenor-1,breathy,technique,총 맞 은 것 처 럼 정 신 이 너 무 없,착맞힌것처럼정신이너무없어,1.0,0.25,,1,11,0,12
+KO-Tenor-1__breathy__technique__총맞은것처럼__0001,KO-Tenor-1,breathy,technique,어 웃 음 만 나 와 서 그 냥 웃 었 어 그 냥 웃 었 어 그 냥,서웃어아나왔어그냥웃었어그냥웃,1.0,0.47368421052631576,,1,18,0,19
+KO-Tenor-1__breathy__technique__총맞은것처럼__0002,KO-Tenor-1,breathy,technique,구 멍 난 가 슴 에 우 리 추,그많은가슴에우리조,1.0,0.4444444444444444,,1,8,0,9
+KO-Tenor-1__breathy__technique__총맞은것처럼__0003,KO-Tenor-1,breathy,technique,억 이 흘 러 넘 쳐 잡 아 보 려 해 도,떠가왔나와날너무나아히많은,1.0,1.0833333333333333,,1,11,0,12
+KO-Tenor-1__breathy__technique__총맞은것처럼__0004,KO-Tenor-1,breathy,technique,가 슴 을 막 아 도 손 가 락 사 이 로 빠 져 나 가,서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서갈아가서��아무빼뿌빼,1.0,9.375,,1,15,0,16
+KO-Tenor-1__breathy__technique__총맞은것처럼__0005,KO-Tenor-1,breathy,technique,심 장 이 멈 춰 도 이 렇 게 아 플 것 같 진 않 아,심장이모처럼이어게아플것같진않아둘,1.0,0.3125,,1,15,0,16
+KO-Tenor-1__breathy__technique__총맞은것처럼__0006,KO-Tenor-1,breathy,technique,어 떻 게 좀 해 줘 날 좀 치 료 해 줘 이 러 다 내 가 슴 다 망 가 져 구 멍 난 가 슴 이,떡해져내처럼해져내처지어해져내치게하길,1.0,0.8571428571428571,,1,27,0,28
+KO-Tenor-1__breathy__technique__총맞은것처럼__0007,KO-Tenor-1,breathy,technique,총 맞 은 것 처 럼 정 말 가 슴 이 너,첫매일이처럼정말가슴이넘,1.0,0.4166666666666667,,1,11,0,12
+KO-Tenor-1__breathy__technique__총맞은것처럼__0008,KO-Tenor-1,breathy,technique,무 아 파 이 렇 게 아 픈 데 이 렇 게 아 픈 데 살 수 가 있 다 는 게 이 상 해,무나가버렸어이렇게아픈데이렇게아픈데살 수가있다는게인상해,1.0,0.24,,2,23,0,25
+KO-Tenor-1__breathy__technique__총맞은것처럼__0009,KO-Tenor-1,breathy,technique,어 떻 게 너 를 잊 어 내 가 그 런 건 나 는 몰 라 몰 라 가,어떻게너를잊어낼까그런건나를모라모라,1.0,0.3157894736842105,,1,18,0,19
+KO-Tenor-1__breathy__technique__총맞은것처럼__0010,KO-Tenor-1,breathy,technique,슴 이 뚫 려 울 수 없 어 서 죽 을 만 큼 아 프 기 만 해,가슴이별더면차올수없어서조금아그라픈기만해,1.0,0.6666666666666666,,1,17,0,18
+KO-Tenor-1__breathy__technique__향기만_남아__0000,KO-Tenor-1,breathy,technique,멀 리 서 불 어 와 날 스 쳐 지 나 는 너 를,머리로보루와단멸시초지나는너를,1.0,0.5714285714285714,,1,13,0,14
+KO-Tenor-1__breathy__technique__향기만_남아__0001,KO-Tenor-1,breathy,technique,떠 올 리 게 하 는 익 숙 한 향 기 아 직 까 지 널,떠리게하는익수한약이아직까지너를,1.0,0.375,,1,15,0,16
+KO-Tenor-1__breathy__technique__향기만_남아__0002,KO-Tenor-1,breathy,technique,잊 지 못 하 는 걸 보 니 바 보 같 아 언 젠 가 는 저 바 람 처 럼 흩 어 지 겠 지,있지못하는콤반이바보같아언젠가는저바람처럼햇떠질거지,1.0,0.3076923076923077,,1,25,0,26
+KO-Tenor-1__breathy__technique__향기만_남아__0003,KO-Tenor-1,breathy,technique,향 기 만 남 아 서 나 를 괴 롭 히 는 데,안기만할만스나의괴롭히내내,1.0,0.5384615384615384,,1,12,0,13
+KO-Tenor-1__breathy__technique__향기만_남아__0004,KO-Tenor-1,breathy,technique,무 뎌 진 기 억 너 머 로 너 를 그 리 다 쓸 쓸 한 바 람 에,물려진기억을모른어를드리던슬슬한바람을,1.0,0.5789473684210527,,1,18,0,19
+KO-Tenor-1__breathy__technique__향기만_남아__0005,KO-Tenor-1,breathy,technique,휘 날 리 는 추 억 이 렇 게 슬 플 땐 누 가 나 를 위 로 해 주 나,지날리게해줘요이렇게슬픈일날나를위로해줄나,1.0,0.47619047619047616,,1,20,0,21
+KO-Tenor-1__breathy__technique__향기만_남아__0006,KO-Tenor-1,breathy,technique,멀 어 지 는 널 붙 잡 고 싶 지 만 언 제 나 그 랬 듯 이 너 를 잊 고 살 겠 지,멀어지는널보자고싶지만더참다그러듯이너를잊고살그지아련했던 너의기억,1.0,0.6,,2,23,0,25
+KO-Tenor-1__breathy__technique__향기만_남아__0007,KO-Tenor-1,breathy,technique,아 련 했 던 너 의 기 억 아 름 다 웠 던 그 추 억 아 직 도 널,미너를그저녁몰라,1.0,0.9,,1,19,0,20
+KO-Tenor-1__breathy__technique__향기만_남아__0008,KO-Tenor-1,breathy,technique,닮 은 향 기 만 남 아,아,0.8571428571428571,0.8571428571428571,,0,6,0,7
+KO-Tenor-1__breathy__technique__향기만_남아__0009,KO-Tenor-1,breathy,technique,어 느 새 하 루 가 저 물 어 가 네,어느새하루가처문을,1.0,0.45454545454545453,,1,10,0,11
+KO-Tenor-1__breathy__technique__향기만_남아__0010,KO-Tenor-1,breathy,technique,짙 은 추 억 만 남 기 고 멀 어 져 가 네 혹 시,가는지난추억만 남기고모두,1.0,0.7333333333333333,,2,13,0,15
+KO-Tenor-1__breathy__technique__향기만_남아__0011,KO-Tenor-1,breathy,technique,라 도 니 가 또 생 각 날 까 봐 아 무 렇 지 않 게 하 루 를 살 아,라도네가또생각날까봐아무렇지않게하도내사랑,1.0,0.23809523809523808,,1,20,0,21
+KO-Tenor-1__glissando__technique__일년을_하루_같이__0000,KO-Tenor-1,glissando,technique,바 람 이 불 어 오 면 은 바 람 이 부 는 이 유 로 비 가 내 리 면 술 한 잔 생 각 이 나 서 눈 이 부 시 게 햇 살 이 날 비 추 면 왜 인 지 도 모 르 게,바람이불어오면널바람이불어내어나비가내리면순가잘따가나서눈이부시게햇살이나비추면왠지도모르게,1.0,0.3125,,1,47,0,48
+KO-Tenor-1__glissando__technique__일년을_하루_같이__0001,KO-Tenor-1,glissando,technique,밤 하 늘 어 느 별 하 나 너 를 닮 은 것 같 아 흘 러 가 는 구 름 조 차 너 인 것 같 아 셀 수 조 차 도 없 이 많 은 이 유 로 니 가 보 고 싶 구 나,밤하늘어름별하나너를닮은것같다흘러가는구름조차너인것같다새수조차도없이많은이유로네가보고싶은나,1.0,0.1276595744680851,,1,46,0,47
+KO-Tenor-1__glissando__technique__일년을_하루_같이__0002,KO-Tenor-1,glissando,technique,너 무 사 랑 했 나 봐 아 직 사 랑 하 나 봐 오 직 너 만 사 랑 하 게 태 어 났 나 봐 일 년 을 하 루 같 이 아 무 것 도 못 하 고 너 만 생 각 하 고 있 잖 아,너무사랑했나봐아직사랑했나봐오직너만사랑하게되어넘만반이런느하루까지아무것도못하고너만상각하고있잖아,1.0,0.22,,1,49,0,50
+KO-Tenor-1__glissando__technique__총맞은것처럼__0000,KO-Tenor-1,glissando,technique,총 맞 은 것 처 럼 정 신 이 너 무 없 어,청맞춘것처럼정신이너물없어,1.0,0.23076923076923078,,1,12,0,13
+KO-Tenor-1__glissando__technique__총맞은것처럼__0001,KO-Tenor-1,glissando,technique,웃 음 만 나 와 서 그 냥 웃 었 어 그 냥 웃 었 어 그 냥,무섭만나왔어그냥웃었어그냥웃었어그냥,1.0,0.2222222222222222,,1,17,0,18
+KO-Tenor-1__glissando__technique__총맞은것처럼__0002,KO-Tenor-1,glissando,technique,구 멍 난 가 슴 에 우 리 추,그만한가슴에우리조,1.0,0.4444444444444444,,1,8,0,9
+KO-Tenor-1__glissando__technique__총맞은것처럼__0003,KO-Tenor-1,glissando,technique,억 이 흘 러 넘 쳐 잡 아 보 려 해 도 가 슴 을 막 아 도 손 가 락 사 이 로 빠 져 나 가,두옷기억넘쳐잡아보려해도가슴에맞아도상관없는사이로벗어나가,1.0,0.42857142857142855,,1,27,0,28
+KO-Tenor-1__glissando__technique__총맞은것처럼__0004,KO-Tenor-1,glissando,technique,심 장 이 멈 춰 도 이 렇 게 아 플 것 같 진 않 아,심장이멋처럼이정히부르기아프게가진않아,1.0,0.6875,,1,15,0,16
+KO-Tenor-1__glissando__technique__총맞은것처럼__0005,KO-Tenor-1,glissando,technique,어 떻 게 좀 해 줘 날 좀 치 료 해 줘 이 러 다 내 가 슴 다 망 가 져 구 멍 난 가 슴 이,어떻게조회전원조치워줘이러다나갈수없단말가,1.0,0.6785714285714286,,1,27,0,28
+KO-Tenor-1__glissando__technique__총맞은것처럼__0006,KO-Tenor-1,glissando,technique,총 맞 은 것 처 럼 정 말 가 슴 이,정말진거처럼정말가슴,1.0,0.45454545454545453,,1,10,0,11
+KO-Tenor-1__glissando__technique__총맞은것처럼__0007,KO-Tenor-1,glissando,technique,너 무 아 파 이 렇 게 아 픈 데,이너무아파이렇게아픈데,1.0,0.1,,1,9,0,10
+KO-Tenor-1__glissando__technique__총맞은것처럼__0008,KO-Tenor-1,glissando,technique,이 렇 게 아 픈 데 살 수 가 있 다 는 게 이 상 해,이렇게아픈데살수가있다누워갈이산해,1.0,0.25,,1,15,0,16
+KO-Tenor-1__glissando__technique__향기만_남아__0000,KO-Tenor-1,glissando,technique,멀 리 서 불 어 와 날 스 쳐 지 나 는,머리솔불어와다씨초진하늘,1.0,0.6666666666666666,,1,11,0,12
+KO-Tenor-1__glissando__technique__향기만_남아__0001,KO-Tenor-1,glissando,technique,너 를 떠 올 리 게 하 는 익 숙 한 향 기 아 직 까,너를떠리게하는익숙한약이아직,1.0,0.25,,1,15,0,16
+KO-Tenor-1__glissando__technique__향기만_남아__0002,KO-Tenor-1,glissando,technique,지 널 잊 지 못 하 는 걸 보 니 바 보 같 아 언 젠 가 는 저 바 람 처 럼 흩 어 지 겠 지,지널잊지못하는것만이바보같아언젠가는저바람처럼희떠,1.0,0.2857142857142857,,1,27,0,28
+KO-Tenor-1__glissando__technique__향기만_남아__0003,KO-Tenor-1,glissando,technique,향 기 만 남 아 서 나 를 괴 롭 히 는 데,한귀만이나마순하루그늘리던데,1.0,0.9230769230769231,,1,12,0,13
+KO-Tenor-1__glissando__technique__향기만_남아__0004,KO-Tenor-1,glissando,technique,무 뎌 진 기 억 너 머 로 너 를 그 리 다 쓸 쓸,매우진기억너모로너를그리나슬슬한바람에,1.0,0.6666666666666666,,1,14,0,15
+KO-Tenor-1__glissando__technique__향기만_남아__0005,KO-Tenor-1,glissando,technique,한 바 람 에 휘 날 리 는 추 억 이 렇 게 슬 플 땐 누 가 나 를 위 로 해 주 나,남을후덜리는주옥이렇게슬슬힘들며가날로위로해준다,1.0,0.64,,1,24,0,25
+KO-Tenor-1__glissando__technique__향기만_남아__0006,KO-Tenor-1,glissando,technique,어 느 새 하 루 가 저 물 어 가 네 짙 은,어느새하루가져물어가네,1.0,0.23076923076923078,,1,12,0,13
+KO-Tenor-1__glissando__technique__향기만_남아__0007,KO-Tenor-1,glissando,technique,추 억 만 남 기 고 멀 어 져 가 네 혹 시 라 도 니,디는추억만느기고멀어져가네혹시라도네가,1.0,0.3125,,1,15,0,16
+KO-Tenor-1__glissando__technique__향기만_남아__0008,KO-Tenor-1,glissando,technique,가 또 생 각 날 까 봐 아 무 렇 지 않 게 하 루 를 살 아,다둘생각을해봐아무렇지않그하루를살,1.0,0.3333333333333333,,1,17,0,18
+KO-Tenor-1__mixed_falsetto__technique__일년을_하루_같이__0000,KO-Tenor-1,mixed_falsetto,technique,바 람 이 불 어 오 면 은 바 람 이 부 는 이 유 로 비 가 내 리 면 술 한 잔 생 각 이 나 서 눈 이 부 시 게 햇 살 이 날 비 추 면 왜 인 지 도 모 르 게,바람이불어오면바람이불어내려도비가내리면순가지생각이나도누리부시게햇살이나비추면왠지도모른게,1.0,0.3333333333333333,,1,47,0,48
+KO-Tenor-1__mixed_falsetto__technique__일년을_하루_같이__0001,KO-Tenor-1,mixed_falsetto,technique,밤 하 늘 어 느 별 하 나 너 를 닮 은 것 같 아 흘 러 가 는 구 름 조 차 너 인 것 같 아 셀 수 조 차 도 없 이 많 은 이 유 로 니 가 보 고 싶 구 나,밤하늘오른 별하날너를담으고가다흘러가는구름조차도인고가다세수저도없이많은이유로네가보고싶구나,1.0,0.3404255319148936,,2,45,0,47
+KO-Tenor-1__mixed_falsetto__technique__일년을_하루_같이__0002,KO-Tenor-1,mixed_falsetto,technique,너 무 사 랑 했 나 봐 아 직 사 랑 하 나 봐 오 직 너 만 사 랑 하 게 태 어 났 나 봐 일 년 을 하 루 같 이 아 무 것 도 못 하 고 너 만 생 각 하 고 있 잖 아,너만사랑했나봐아직사랑했나봐오직너만사랑하게태어났나봐일년은하루까지아무것도못하고너만상각하고있잖아,1.0,0.12,,1,49,0,50
+KO-Tenor-1__mixed_falsetto__technique__일년을_하루_같이__0000,KO-Tenor-1,mixed_falsetto,technique,바 람 이 불 어 오 면 은 바 람 이 부 는 이 유 로 비 가 내 리 면 술 한 잔 생 각 이 나 서 눈 이 부 시 게 햇 살 이 날 비 추 면 왜 인 지 도 모 르 게,바람이불어오면널바람이불어내으로빛깔이내면순가지생각이났어눈이부시게햇살이나비추면왠지도모르게,1.0,0.3541666666666667,,1,47,0,48
+KO-Tenor-1__mixed_falsetto__technique__일년을_하루_같이__0001,KO-Tenor-1,mixed_falsetto,technique,밤 하 늘 어 느 별 하 나 너 를 닮 은 것 같 아 흘 러 가 는 구 름 조 차 너 인 것 같 아 셀 수 조 차 도 없 이 많 은 이 유 로 니 가 보 고 싶 구 나,밤하늘어른 별하나너를담으것같아흘러가는구름조차너인것같아셀수조차도없이많은일로네가보고싶을까,1.0,0.1702127659574468,,2,45,0,47
+KO-Tenor-1__mixed_falsetto__technique__일년을_하루_같이__0002,KO-Tenor-1,mixed_falsetto,technique,너 무 사 랑 했 나 봐 아 직 사 랑 하 나 봐 오 직 너 만 사 랑 하 게 태 어 났 나 봐 일 년 을 하 루 같 이 아 무 것 도 못 하 고 너 만 생 각 하 고 있 잖 아,너무�cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc,1.0,0.96,,1,49,0,50
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0000,KO-Tenor-1,mixed_falsetto,technique,총 맞 은 것 처 럼 정 신 이 너 무 없 어,첫맞춘것처럼전신이너무없어,1.0,0.23076923076923078,,1,12,0,13
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0001,KO-Tenor-1,mixed_falsetto,technique,웃 음 만 나 와 서 그 냥 웃 었 어 그 냥 웃 었 어 그 냥,웃음이 나와서그냥웃었어그냥웃었어그냥,1.0,0.05555555555555555,,2,16,0,18
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0002,KO-Tenor-1,mixed_falsetto,technique,구 멍 난 가 슴 에 우 리 추 억 이 흘 러 넘 쳐,그많은가슴에우리적이흘러넘쳐,1.0,0.3333333333333333,,1,14,0,15
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0003,KO-Tenor-1,mixed_falsetto,technique,잡 아 보 려 해 도 가 슴 을 막 아 도 손 가 락 사 이 로 빠 져 나 가,잡아보려해도가슴만 막아도손가락사이로마저나가,1.0,0.13636363636363635,,2,20,0,22
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0004,KO-Tenor-1,mixed_falsetto,technique,심 장 이 멈 춰 도 이 렇 게 아 플 것,심장이못져도이정,1.0,0.5833333333333334,,1,11,0,12
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0005,KO-Tenor-1,mixed_falsetto,technique,같 진 않 아 어 떻 게 좀 해 줘 날 좀,갈것같지않아어떻게,1.0,0.6666666666666666,,1,11,0,12
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0006,KO-Tenor-1,mixed_falsetto,technique,치 료 해 줘 이 러 다 내 가 슴 다 망 가 져 구 멍 난 가 슴 이,지워해줘이렇게나갈수있을만할가져그만난가슴이,1.0,0.65,,1,19,0,20
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0007,KO-Tenor-1,mixed_falsetto,technique,어 떻 게 너 를 잊 어 내 가 그 런 건 나,어떻게너를잊혀나가그런걸,1.0,0.3076923076923077,,1,12,0,13
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0008,KO-Tenor-1,mixed_falsetto,technique,는 몰 라 몰 라 가 슴 이 뚫 려 울 수 없 어 서 죽 을 만 큼 아 프 기 만 해,는몰라몰라가슴이변대면잘볼수없어서조금마저아픈긴만해,1.0,0.4583333333333333,,1,23,0,24
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0000,KO-Tenor-1,mixed_falsetto,technique,총 맞 은 것 처 럼 정 신 이 너 무 없 어,총맞춘것처럼정신이너물없어,1.0,0.15384615384615385,,1,12,0,13
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0001,KO-Tenor-1,mixed_falsetto,technique,웃 음 만 나 와 서 그 냥 웃 었 어 그 냥 웃 었 어 그 냥,웃어 만나왔어그냥웃었어그냥웃었어그냥,1.0,0.16666666666666666,,2,16,0,18
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0002,KO-Tenor-1,mixed_falsetto,technique,구 멍 난 가 슴 에 우 리 추 억 이 흘 러 넘 쳐,많은가슴에우리적이흘러넘쳐,1.0,0.3333333333333333,,1,14,0,15
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0003,KO-Tenor-1,mixed_falsetto,technique,잡 아 보 려 해 도 가 슴 을 막 아 도 손 가 락 사 이 로 빠 져 나 가,잡아보려해도가슴에막아둔손가락사이로받쳐나가,1.0,0.18181818181818182,,1,21,0,22
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0004,KO-Tenor-1,mixed_falsetto,technique,심 장 이 멈 춰 도 이 렇 게 아 플 것,시장이멋져던이역,1.0,0.75,,1,11,0,12
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0005,KO-Tenor-1,mixed_falsetto,technique,같 진 않 아 어 떻 게 좀 해 줘 날 좀,가진않나어떻게,1.0,0.5833333333333334,,1,11,0,12
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0006,KO-Tenor-1,mixed_falsetto,technique,치 료 해 줘 이 러 다 내 가 슴 다 망 가 져 구 멍 난 가 슴 이,지워해줘이러다나갔을때 말해줘고만난가슴이,1.0,0.55,,2,18,0,20
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0007,KO-Tenor-1,mixed_falsetto,technique,어 떻 게 너 를 잊 어 내 가 그 런 건 나,어떻게너를잃어나가그런건,1.0,0.23076923076923078,,1,12,0,13
+KO-Tenor-1__mixed_falsetto__technique__총맞은것처럼__0008,KO-Tenor-1,mixed_falsetto,technique,는 몰 라 몰 라 가 슴 이 뚫 려 울 수 없 어 서 죽 을 만 큼 아 프 기 만 해,는모라모라가슴이변대면잘울수없어서조금 마음아픈기만해,1.0,0.4583333333333333,,2,22,0,24
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0000,KO-Tenor-1,mixed_falsetto,technique,멀 리 서 불 어 와 날 스 쳐 지 나 는,멀리서걸러가던시처지나는너는,1.0,0.6666666666666666,,1,11,0,12
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0001,KO-Tenor-1,mixed_falsetto,technique,너 를 떠 올 리 게 하 는 익 숙 한 향 기 아 직 까 지,떠린그아래있어하나깐아직까지,1.0,0.7058823529411765,,1,16,0,17
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0002,KO-Tenor-1,mixed_falsetto,technique,널 잊 지 못 하 는 걸 보 니 바 보 같 아 언 젠 가 는 저 바 람 처 럼 흩 어 지 겠 지,몰랐는걸보니바보같아언젠가는저바람처럼흩어질거지,1.0,0.25925925925925924,,1,26,0,27
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0003,KO-Tenor-1,mixed_falsetto,technique,향 기 만 남 아 서 나 를 괴,한길만남았어나는,1.0,0.6666666666666666,,1,8,0,9
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0004,KO-Tenor-1,mixed_falsetto,technique,롭 히 는 데 무 뎌 진 기 억 너 머 로 너 를 그 리 다 쓸 쓸 한 바 람 에,끝날빛엔던멀어진기억을너를너리킬게슬슬한바람을,1.0,0.6956521739130435,,1,22,0,23
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0005,KO-Tenor-1,mixed_falsetto,technique,휘 날 리 는 추 억 이 렇 게 슬 플 땐 누 가 나 를 위 로 해 주 나,빛날린그추억이렇게슬슬팠는가나를위로하지마,1.0,0.42857142857142855,,1,20,0,21
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0006,KO-Tenor-1,mixed_falsetto,technique,어 느 새 하 루 가 저 물 어 가 네,어느새하루가조금으로가네,1.0,0.36363636363636365,,1,10,0,11
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0007,KO-Tenor-1,mixed_falsetto,technique,짙 은 추 억 만 남 기 고 멀 어 져 가 네 혹 시 라,지난추억만느끼고멀어져가는홀씨를,1.0,0.5,,1,15,0,16
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0008,KO-Tenor-1,mixed_falsetto,technique,도 니 가 또 생 각 날 까 봐 아 무 렇 지 않 게 하 루 를 살 아,돈이가더스윙하는가버아무렇지않고한눈에살아,1.0,0.65,,1,19,0,20
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0000,KO-Tenor-1,mixed_falsetto,technique,멀 리 서 불 어 와 날 스 쳐 지 나 는,머리소불로와나시처진하늘,1.0,0.75,,1,11,0,12
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0001,KO-Tenor-1,mixed_falsetto,technique,너 를 떠 올 리 게 하 는 익 숙 한 향 기 아 직 까 지,너를떠리게하는익수안에길아직까지,1.0,0.29411764705882354,,1,16,0,17
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0002,KO-Tenor-1,mixed_falsetto,technique,널 잊 지 못 하 는 걸 보 니 바 보 같 아 언 젠 가 는 저 바 람 처 럼 흩 어 지 겠 지,놀리지못하는건보이바보같아언젠가는저바람처럼엘더던지그지,1.0,0.2962962962962963,,1,26,0,27
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0003,KO-Tenor-1,mixed_falsetto,technique,향 기 만 남 아 서 나 를 괴,안그많은마수나를그래버리는데,1.0,1.3333333333333333,,1,8,0,9
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0004,KO-Tenor-1,mixed_falsetto,technique,롭 히 는 데 무 뎌 진 기 억 너 머 로 너 를 그 리 다 쓸 쓸 한 바 람 에,맞춰진기억은모든너를그리다슬슬한바람을,1.0,0.5217391304347826,,1,22,0,23
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0005,KO-Tenor-1,mixed_falsetto,technique,휘 날 리 는 추 억 이 렇 게 슬 플 땐 누 가 나 를 위 로 해 주 나,날리던추억이렇게슬슬픈누가내리도하지나,1.0,0.47619047619047616,,1,20,0,21
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0006,KO-Tenor-1,mixed_falsetto,technique,어 느 새 하 루 가 저 물 어 가 네,어느새하루가저무려가,1.0,0.2727272727272727,,1,10,0,11
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0007,KO-Tenor-1,mixed_falsetto,technique,짙 은 추 억 만 남 기 고 멀 어 져 가 네 혹 시 라,이내지난추억만나기고멀어져가네혹시라도,1.0,0.375,,1,15,0,16
+KO-Tenor-1__mixed_falsetto__technique__향기만_남아__0008,KO-Tenor-1,mixed_falsetto,technique,도 니 가 또 생 각 날 까 봐 아 무 렇 지 않 게 하 루 를 살 아,두니깐또생각난가봐아무렇지않고하루를살아,1.0,0.25,,1,19,0,20
+KO-Tenor-1__pharyngeal__technique__일년을_하루_같이__0000,KO-Tenor-1,pharyngeal,technique,바 람 이 불 어 오 면 은 바 람 이 부 는 이 유 로 비 가 내 리 면 술 한 잔 생 각 이 나 서 눈 이 부 시 게 햇 살 이 날 비 추 면 왜 인 지 도 모 르 게,바람이불어오면바람이불어들어도비가내리면순간에생각이나서눈이버시게햇살이나 비추면왠지도모르게,1.0,0.2708333333333333,,2,46,0,48
+KO-Tenor-1__pharyngeal__technique__일년을_하루_같이__0001,KO-Tenor-1,pharyngeal,technique,밤 하 늘 어 느 별 하 나 너 를 닮 은 것 같 아 흘 러 가 는 구 름 조 차 너 인 것 같 아 셀 수 조 차 도 없 이 많 은 이 유 로 니 가 보 고 싶 구 나,밤하늘오른별하나너를닮은것같아흘러가는구름조차너인것같아새소조차도없이많은이울로네가보고싶구나,1.0,0.1276595744680851,,1,46,0,47
+KO-Tenor-1__pharyngeal__technique__일년을_하루_같이__0002,KO-Tenor-1,pharyngeal,technique,너 무 사 랑 했 나 봐 아 직 사 랑 하 나 봐 오 직 너 만 사 랑 하 게 태 어 났 나 봐 일 년 을 하 루 같 이 아 무 것 도 못 하 고 너 만 생 각 하 고 있 잖 아,너무바라했나봐아직사랑했나봐어제너만사랑하게대안했나봐이런흘러가지아무것도못하구너만상각하고있잖아,1.0,0.34,,1,49,0,50
+KO-Tenor-1__pharyngeal__technique__총맞은것처럼__0000,KO-Tenor-1,pharyngeal,technique,총 맞 은 것 처 럼 정 신 이 너 무 없 어,첫말친거처럼정신이너무없어웃어,1.0,0.46153846153846156,,1,12,0,13
+KO-Tenor-1__pharyngeal__technique__총맞은것처럼__0001,KO-Tenor-1,pharyngeal,technique,웃 음 만 나 와 서 그 냥 웃 었 어 그 냥 웃 었 어 그 냥,에너와버렷게금방나와서그냥웃어서그냥웃어서그냥,1.0,0.6666666666666666,,1,17,0,18
+KO-Tenor-1__pharyngeal__technique__총맞은것처럼__0002,KO-Tenor-1,pharyngeal,technique,허 탈 하 게 웃 으 며 하 나 만 묻 자,하타나게웃으며하나만문,1.0,0.4166666666666667,,1,11,0,12
+KO-Tenor-1__pharyngeal__technique__총맞은것처럼__0003,KO-Tenor-1,pharyngeal,technique,했 어 우 리 왜 헤 어 져 어 떻 게 헤 어 져 어 떻 게 헤 어 져 어 떻 게,했어우리왜헤어져어떻게헤어져어떻게헤어져어떻게,1.0,0.0,,1,22,0,23
+KO-Tenor-1__pharyngeal__technique__총맞은것처럼__0004,KO-Tenor-1,pharyngeal,technique,구 멍 난 가 슴 에 우 리 추,그많은가슴에우리,1.0,0.4444444444444444,,1,8,0,9
+KO-Tenor-1__pharyngeal__technique__총맞은것처럼__0005,KO-Tenor-1,pharyngeal,technique,억 이 흘 러 넘 쳐 잡 아 보 려 해 도 가 슴 을 막 아 도 손 가 락 사 이 로 빠 져 나 가,저기후로넘쳐잡아보려해도가슴에맞아도손가락사이로벗어나가,1.0,0.2857142857142857,,1,27,0,28
+KO-Tenor-1__pharyngeal__technique__총맞은것처럼__0006,KO-Tenor-1,pharyngeal,technique,심 장 이 멈 춰 도 이 렇 게 아 플 것 같 진 않 아,심장이멋져도이젠아프게가진나,1.0,0.5625,,1,15,0,16
+KO-Tenor-1__pharyngeal__technique__총맞은것처럼__0007,KO-Tenor-1,pharyngeal,technique,어 떻 게 좀 해 줘 날 좀 치 료 해 줘 이 러 다 내 가 슴 다 망 가 져 구 멍 난 가 슴 이,어떻게해줘납쳐줘줘이럴떠나갈수록말가져그만나갔음이,1.0,0.6428571428571429,,1,27,0,28
+KO-Tenor-1__pharyngeal__technique__총맞은것처럼__0008,KO-Tenor-1,pharyngeal,technique,총 맞 은 것 처 럼 정 말 가 슴 이,첫맞춘것처럼정말가슴,1.0,0.2727272727272727,,1,10,0,11
+KO-Tenor-1__pharyngeal__technique__총맞은것처럼__0009,KO-Tenor-1,pharyngeal,technique,너 무 아 파 이 렇 게 아 픈 데,너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너너�너����������.이�.이�.이.아.아.아.아.아.아.아.아.아.,1.0,18.0,,1,9,0,10
+KO-Tenor-1__pharyngeal__technique__총맞은것처럼__0010,KO-Tenor-1,pharyngeal,technique,이 렇 게 아 픈 데 살 수 가 있 다 는 게 이 상 해,이렇게아픈데살수가있다는게이상해,1.0,0.0,,1,15,0,16
+KO-Tenor-1__pharyngeal__technique__향기만_남아__0000,KO-Tenor-1,pharyngeal,technique,향 기 만 남 아 서 나 를 괴 롭 히 는 데,한길만한멋있는나는그,1.0,0.8461538461538461,,1,12,0,13
+KO-Tenor-1__pharyngeal__technique__향기만_남아__0001,KO-Tenor-1,pharyngeal,technique,무 뎌 진 기 억 너 머 로 너 를 그 리 다 쓸 쓸,지우진그어른어를너를그리나슬,1.0,0.6666666666666666,,1,14,0,15
+KO-Tenor-1__pharyngeal__technique__향기만_남아__0002,KO-Tenor-1,pharyngeal,technique,한 바 람 에 휘 날 리 는 추 억 이 렇 게 슬 플 땐 누 가 나 를 위 로 해 주 나,란 바람에미너를이뤄줘이렇게슬퍼든누가내리도해줄나,1.0,0.56,,2,23,0,25
+KO-Tenor-1__pharyngeal__technique__향기만_남아__0003,KO-Tenor-1,pharyngeal,technique,멀 어 지 는 널 붙 잡 고 싶 지 만 언 제 나 그,멀어지던 널붙잡고싶지만어전날그대만나를,1.0,0.5333333333333333,,2,13,0,15
+KO-Tenor-1__pharyngeal__technique__향기만_남아__0004,KO-Tenor-1,pharyngeal,technique,랬 듯 이 너 를 잊 고 살 겠 지,미래듯이노래를걸사가지,1.0,0.8,,1,9,0,10
+KO-Tenor-1__pharyngeal__technique__향기만_남아__0005,KO-Tenor-1,pharyngeal,technique,아 련 했 던 너 의 기 억 아 름 다 웠 던 그 추 억 아 직 도 널 닮 은 향 기 만 남 아,어른인던너의기억아름다웠던의기억아주떠난달의향기만나마,1.0,0.4444444444444444,,1,26,0,27
+KO-Tenor-1__pharyngeal__technique__향기만_남아__0006,KO-Tenor-1,pharyngeal,technique,어 느 새 하 루 가 저 물 어 가 네 짙 은,어느새하루가잠을어가네이런,1.0,0.3076923076923077,,1,12,0,13
+KO-Tenor-1__pharyngeal__technique__향기만_남아__0007,KO-Tenor-1,pharyngeal,technique,추 억 만 남 기 고 멀 어 져 가 네 혹 시 라 도 니,추억만나기고모르줄가는혹시라도네,1.0,0.375,,1,15,0,16
+KO-Tenor-1__pharyngeal__technique__향기만_남아__0008,KO-Tenor-1,pharyngeal,technique,가 또 생 각 날 까 봐 아 무 렇 지 않 게 하 루 를 살 아,가두세갈을가벗아무렇지않게하던우리사랑,1.0,0.6111111111111112,,1,17,0,18
+KO-Tenor-1__vibrato__technique__일년을_하루_같이__0000,KO-Tenor-1,vibrato,technique,바 람 이 불 어 오 면 은 바 람 이 부 는 이 유 로 비 가 내 리 면 술 한 잔 생 각 이 나 서 눈 이 부 시 게 햇 살 이 날 비 추 면 왜 인 지 도 모 르 게,바람이불어오면바람이불어내으로비가내리면서가자생각이나서눈이부슬게해산이랄비추며왠지도모르게,1.0,0.3125,,1,47,0,48
+KO-Tenor-1__vibrato__technique__일년을_하루_같이__0001,KO-Tenor-1,vibrato,technique,밤 하 늘 어 느 별 하 나 너 를 닮 은 것 같 아 흘 러 가 는 구 름 조 차 너 인 것 같,밤하늘오름별하나너를담은것같다흘러가는구름조차,1.0,0.2962962962962963,,1,26,0,27
+KO-Tenor-1__vibrato__technique__일년을_하루_같이__0002,KO-Tenor-1,vibrato,technique,아 셀 수 조 차 도 없 이 많 은 이 유 로 니 가 보 고 싶 구 나,다세수조차도없이많은이용리내가보고싶구나,1.0,0.25,,1,19,0,20
+KO-Tenor-1__vibrato__technique__일년을_하루_같이__0003,KO-Tenor-1,vibrato,technique,너 무 사 랑 했 나 봐 아 직 사 랑 하 나 봐 오 직 너 만 사 랑 하 게 태 어 났 나 봐,너무�cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc,1.0,0.9259259259259259,,1,26,0,27
+KO-Tenor-1__vibrato__technique__일년을_하루_같이__0004,KO-Tenor-1,vibrato,technique,일 년 을 하 루 같 이 아 무 것 도 못 하 고 너 만 생 각 하 고 있 잖 아,이련눈을하루가지아무것도못하거너만상상하고있잖아,1.0,0.34782608695652173,,1,22,0,23
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0000,KO-Tenor-1,vibrato,technique,총 맞 은 것 처 럼 정 신 이 너 무 없,참아준것처럼정신이너물,1.0,0.4166666666666667,,1,11,0,12
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0001,KO-Tenor-1,vibrato,technique,어 웃 음 만 나 와 서 그 냥 웃 었 어 그 냥 웃 었 어 그 냥,여우제 만나왔어그냥웃었어그냥웃었어그냥,1.0,0.2631578947368421,,2,17,0,19
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0002,KO-Tenor-1,vibrato,technique,허 탈 하 게 웃 으 며 하 나 만 묻 자,아탈하게웃으며하나마무잘,1.0,0.3333333333333333,,1,11,0,12
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0003,KO-Tenor-1,vibrato,technique,했 어 우 리 왜 헤 어 져 어 떻 게 헤 어 져 어 떻 게 헤 어 져 어 떻 게,라했어우리왜헤어져어떻게헤어져어떻게헤어져어떻게,1.0,0.043478260869565216,,1,22,0,23
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0004,KO-Tenor-1,vibrato,technique,구 멍 난 가 슴 에 우 리 추,고만난가슴에우리조,1.0,0.3333333333333333,,1,8,0,9
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0005,KO-Tenor-1,vibrato,technique,억 이 흘 러 넘 쳐 잡 아 보 려 해 도,두깨우름넘쳐잡아보려해도,1.0,0.3333333333333333,,1,11,0,12
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0006,KO-Tenor-1,vibrato,technique,가 슴 을 막 아 도 손 가 락 사 이 로 빠 져 나 가,가슴에맡아도손가락사이로바려나가,1.0,0.25,,1,15,0,16
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0007,KO-Tenor-1,vibrato,technique,심 장 이 멈 춰 도 이 렇 게 아 플 것 같 진 않 아,심장이 멈춰도이적에아프고까지하나,1.0,0.5,,2,14,0,16
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0008,KO-Tenor-1,vibrato,technique,어 떻 게 좀 해 줘 날 좀 치 료 해 줘 이 러 다 내 가 슴 다 망 가 져 구 멍 난 가 슴 이,어떻게해줘나조치워해줘이러다가서담마가져그만난가슴이,1.0,0.35714285714285715,,1,27,0,28
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0009,KO-Tenor-1,vibrato,technique,총 맞 은 것 처 럼 정 말 가 슴 이 너,첫눈에깔색이란걸까맣이번에본인,1.0,1.1666666666666667,,1,11,0,12
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0010,KO-Tenor-1,vibrato,technique,무 아 파 이 렇 게 아 픈 데 이 렇 게 아 픈 데 살 수 가 있 다 는 게 이 상 해,무나밤이렇게아픈데이렇게아픈데살수가있다는게인상해,1.0,0.12,,1,24,0,25
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0011,KO-Tenor-1,vibrato,technique,어 떻 게 너 를 잊 어 내 가 그 런 건 나 는 몰 라 몰 라 가,어떻게너를잊어내가끝난걸 나를모라모라,1.0,0.3684210526315789,,2,17,0,19
+KO-Tenor-1__vibrato__technique__총맞은것처럼__0012,KO-Tenor-1,vibrato,technique,슴 이 뚫 려 울 수 없 어 서 죽 을 만 큼 아 프 기 만 해,가슴이안들면잘울수없어서조금만큼아프기만해,1.0,0.3888888888888889,,1,17,0,18
+KO-Tenor-1__vibrato__technique__향기만_남아__0000,KO-Tenor-1,vibrato,technique,멀 리 서 불 어 와 날 스 쳐 지 나 는 너 를,멀리서불어가던쉽죠지나는너를떠리려하는익수하나길,1.0,1.0,,1,13,0,14
+KO-Tenor-1__vibrato__technique__향기만_남아__0001,KO-Tenor-1,vibrato,technique,떠 올 리 게 하 는 익 숙 한 향 기 아 직 까 지 널,지아직까지널잊지못하는건번히바보가다언젠가는,1.0,1.25,,1,15,0,16
+KO-Tenor-1__vibrato__technique__향기만_남아__0002,KO-Tenor-1,vibrato,technique,잊 지 못 하 는 걸 보 니 바 보 같 아 언 젠 가 는 저 바 람 처 럼 흩 어 지 겠 지,저바람처럼했더지그지,1.0,0.7307692307692307,,1,25,0,26
+KO-Tenor-1__vibrato__technique__향기만_남아__0003,KO-Tenor-1,vibrato,technique,향 기 만 남 아 서 나 를 괴 롭 히 는 데,한긴만나마서나를그래버리듯해,1.0,0.7692307692307693,,1,12,0,13
+KO-Tenor-1__vibrato__technique__향기만_남아__0004,KO-Tenor-1,vibrato,technique,무 뎌 진 기 억 너 머 로 너 를 그 리 다 쓸 쓸 한 바 람 에,맞은지기의느낌으로너를그립다슬슬한밤람을,1.0,0.631578947368421,,1,18,0,19
+KO-Tenor-1__vibrato__technique__향기만_남아__0005,KO-Tenor-1,vibrato,technique,휘 날 리 는 추 억 이 렇 게 슬 플 땐 누 가 나 를 위 로 해 주 나,지날린한추억이렇게슬픈데누가내누이로해줄나,1.0,0.42857142857142855,,1,20,0,21
+KO-Tenor-1__vibrato__technique__향기만_남아__0006,KO-Tenor-1,vibrato,technique,멀 어 지 는 널 붙 잡 고 싶 지 만 언 제 나 그 랬 듯 이 너 를 잊 고 살 겠 지,멀어지는너부잡고싶지만오저날끼리듯이너를잊고살겠지,1.0,0.28,,1,24,0,25
+KO-Tenor-1__vibrato__technique__향기만_남아__0007,KO-Tenor-1,vibrato,technique,아 련 했 던 너 의 기 억 아 름 다 웠 던 그 추 억 아 직 도 널,아련했던 너의기억아름다웠던그추억아주더라도,1.0,0.2,,2,18,0,20
+KO-Tenor-1__vibrato__technique__향기만_남아__0008,KO-Tenor-1,vibrato,technique,닮 은 향 기 만 남 아,감은향기남았나,1.0,0.5714285714285714,,1,6,0,7
+KO-Tenor-1__vibrato__technique__향기만_남아__0009,KO-Tenor-1,vibrato,technique,어 느 새 하 루 가 저 물 어 가 네,어느새하루가전문을,1.0,0.45454545454545453,,1,10,0,11
+KO-Tenor-1__vibrato__technique__향기만_남아__0010,KO-Tenor-1,vibrato,technique,짙 은 추 억 만 남 기 고 멀 어 져 가 네 혹 시,나는지난추억만남기고모르죠가�,1.0,0.6666666666666666,,1,14,0,15
+KO-Tenor-1__vibrato__technique__향기만_남아__0011,KO-Tenor-1,vibrato,technique,라 도 니 가 또 생 각 날 까 봐 아 무 렇 지 않 게 하 루 를 살 아,다둘이가또생겼는가봐아무렇지않게하루를살아,1.0,0.2857142857142857,,1,20,0,21

@@ -19,6 +19,7 @@ Per language, the planned comparisons (same test clips, paired):
   CA     vs C       the same with NO real technique take (zero-resource)
   CA     vs CA_v1   v2 vs v1 in the zero-resource setting
   RC     vs CA      how far synthesis is from real technique takes
+  R      vs C       technique takes vs control takes of the same phrases
 
 reported as mean difference (song-bootstrap 95 % CI) and a Wilcoxon
 signed-rank p-value on per-clip errors, Holm-corrected within each language.
@@ -52,7 +53,8 @@ from alt.text import ISO_TO_LANGUAGE, primary_metric  # noqa: E402
 FT = REPO / "results" / "finetune"
 RUNS = ["E0", "R", "RC", "RCA", "RCA_v1", "R20C", "R20CA", "C", "CA", "CA_v1"]
 COMPARISONS = [("R", "E0"), ("RC", "R"), ("RCA", "RC"), ("RCA", "RCA_v1"),
-               ("R20CA", "R20C"), ("CA", "C"), ("CA", "CA_v1"), ("RC", "CA")]
+               ("R20CA", "R20C"), ("CA", "C"), ("CA", "CA_v1"), ("RC", "CA"),
+               ("R", "C")]
 N_BOOT = 2000
 
 

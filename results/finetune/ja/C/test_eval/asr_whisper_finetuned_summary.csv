@@ -1,0 +1,2 @@
+n,metric,wer,cer,per,hallucination_rate,cer_no_halluc
+345,cer,1.0,0.17124126700389908,,0.002898550724637681,0.16883208464053834

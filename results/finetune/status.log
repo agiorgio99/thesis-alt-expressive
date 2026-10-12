@@ -192,3 +192,90 @@
 2026-10-11 18:34:43  [en/C] training exit 0 after 0.19 h
 2026-10-11 18:37:07  [en/C] evaluation exit 0
 2026-10-11 18:37:07  [en/CA] train: --mode recipe --language en --run-name CA --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_aug_auto/English --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 19:04:56  [en/CA] training exit 0 after 0.46 h
+2026-10-11 19:06:16  [en/CA] evaluation exit 0
+2026-10-11 19:06:17  [en/CA_v1] train: --mode recipe --language en --run-name CA_v1 --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_Augmented/English --aug-max 2235 --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 19:33:50  [en/CA_v1] training exit 0 after 0.46 h
+2026-10-11 19:34:58  [en/CA_v1] evaluation exit 0
+2026-10-11 19:35:03  [en] statistics updated → results/finetune/summary.md
+2026-10-11 19:35:03  [ru/C] train: --mode recipe --language ru --run-name C --real-frac 0 --with-control --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 19:43:18  [ru/C] training exit 0 after 0.14 h
+2026-10-11 19:43:49  [ru/C] evaluation exit 0
+2026-10-11 19:43:49  [ru/CA] train: --mode recipe --language ru --run-name CA --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_aug_auto/Russian --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 20:00:38  [ru/CA] training exit 0 after 0.28 h
+2026-10-11 20:01:24  [ru/CA] evaluation exit 0
+2026-10-11 20:01:25  [ru/CA_v1] train: --mode recipe --language ru --run-name CA_v1 --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_Augmented/Russian --aug-max 1308 --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 20:17:42  [ru/CA_v1] training exit 0 after 0.27 h
+2026-10-11 20:18:26  [ru/CA_v1] evaluation exit 0
+2026-10-11 20:18:32  [ru] statistics updated → results/finetune/summary.md
+2026-10-11 20:18:32  [it/C] train: --mode recipe --language it --run-name C --real-frac 0 --with-control --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 20:26:42  [it/C] training exit 0 after 0.14 h
+2026-10-11 20:27:23  [it/C] evaluation exit 0
+2026-10-11 20:27:23  [it/CA] train: --mode recipe --language it --run-name CA --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_aug_auto/Italian --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 20:45:56  [it/CA] training exit 0 after 0.31 h
+2026-10-11 20:46:44  [it/CA] evaluation exit 0
+2026-10-11 20:46:45  [it/CA_v1] train: --mode recipe --language it --run-name CA_v1 --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_Augmented/Italian --aug-max 1443 --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 21:05:15  [it/CA_v1] training exit 0 after 0.31 h
+2026-10-11 21:06:05  [it/CA_v1] evaluation exit 0
+2026-10-11 21:06:11  [it] statistics updated → results/finetune/summary.md
+2026-10-11 21:06:11  [ja/C] train: --mode recipe --language ja --run-name C --real-frac 0 --with-control --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 21:14:02  [ja/C] training exit 0 after 0.13 h
+2026-10-11 21:14:49  [ja/C] evaluation exit 0
+2026-10-11 21:14:49  [ja/CA] train: --mode recipe --language ja --run-name CA --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_aug_auto/Japanese --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 21:34:45  [ja/CA] training exit 0 after 0.33 h
+2026-10-11 21:35:36  [ja/CA] evaluation exit 0
+2026-10-11 21:35:37  [ja/CA_v1] train: --mode recipe --language ja --run-name CA_v1 --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_Augmented/Japanese --aug-max 1515 --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 21:55:24  [ja/CA_v1] training exit 0 after 0.33 h
+2026-10-11 21:56:15  [ja/CA_v1] evaluation exit 0
+2026-10-11 21:56:21  [ja] statistics updated → results/finetune/summary.md
+2026-10-11 21:56:21  [ko/C] train: --mode recipe --language ko --run-name C --real-frac 0 --with-control --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 22:05:35  [ko/C] training exit 0 after 0.15 h
+2026-10-11 22:06:37  [ko/C] evaluation exit 0
+2026-10-11 22:06:37  [ko/CA] train: --mode recipe --language ko --run-name CA --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_aug_auto/Korean --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 22:30:25  [ko/CA] training exit 0 after 0.40 h
+2026-10-11 22:31:44  [ko/CA] evaluation exit 0
+2026-10-11 22:31:46  [ko/CA_v1] train: --mode recipe --language ko --run-name CA_v1 --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_Augmented/Korean --aug-max 1857 --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 22:56:01  [ko/CA_v1] training exit 0 after 0.40 h
+2026-10-11 22:57:14  [ko/CA_v1] evaluation exit 0
+2026-10-11 22:57:21  [ko] statistics updated → results/finetune/summary.md
+2026-10-11 22:57:21  [fr/C] train: --mode recipe --language fr --run-name C --real-frac 0 --with-control --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 23:07:46  [fr/C] training exit 0 after 0.17 h
+2026-10-11 23:08:50  [fr/C] evaluation exit 0
+2026-10-11 23:08:50  [fr/CA] train: --mode recipe --language fr --run-name CA --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_aug_auto/French --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 23:33:51  [fr/CA] training exit 0 after 0.42 h
+2026-10-11 23:34:51  [fr/CA] evaluation exit 0
+2026-10-11 23:34:52  [fr/CA_v1] train: --mode recipe --language fr --run-name CA_v1 --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_Augmented/French --aug-max 2025 --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-11 23:59:29  [fr/CA_v1] training exit 0 after 0.41 h
+2026-10-12 00:00:29  [fr/CA_v1] evaluation exit 0
+2026-10-12 00:00:36  [fr] statistics updated → results/finetune/summary.md
+2026-10-12 00:00:36  [es/C] train: --mode recipe --language es --run-name C --real-frac 0 --with-control --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-12 00:11:36  [es/C] training exit 0 after 0.18 h
+2026-10-12 00:12:43  [es/C] evaluation exit 0
+2026-10-12 00:12:43  [es/CA] train: --mode recipe --language es --run-name CA --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_aug_auto/Spanish --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-12 00:39:22  [es/CA] training exit 0 after 0.44 h
+2026-10-12 00:40:23  [es/CA] evaluation exit 0
+2026-10-12 00:40:25  [es/CA_v1] train: --mode recipe --language es --run-name CA_v1 --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_Augmented/Spanish --aug-max 2217 --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-12 01:07:11  [es/CA_v1] training exit 0 after 0.45 h
+2026-10-12 01:08:14  [es/CA_v1] evaluation exit 0
+2026-10-12 01:08:21  [es] statistics updated → results/finetune/summary.md
+2026-10-12 01:08:21  [de/C] train: --mode recipe --language de --run-name C --real-frac 0 --with-control --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-12 01:20:37  [de/C] training exit 0 after 0.20 h
+2026-10-12 01:21:54  [de/C] evaluation exit 0
+2026-10-12 01:21:54  [de/CA] train: --mode recipe --language de --run-name CA --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_aug_auto/German --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-12 01:53:53  [de/CA] training exit 0 after 0.53 h
+2026-10-12 01:55:04  [de/CA] evaluation exit 0
+2026-10-12 01:55:05  [de/CA_v1] train: --mode recipe --language de --run-name CA_v1 --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_Augmented/German --aug-max 2607 --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-12 02:26:59  [de/CA_v1] training exit 0 after 0.53 h
+2026-10-12 02:28:06  [de/CA_v1] evaluation exit 0
+2026-10-12 02:28:14  [de] statistics updated → results/finetune/summary.md
+2026-10-12 02:28:14  [zh/C] train: --mode recipe --language zh --run-name C --real-frac 0 --with-control --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-12 02:49:08  [zh/C] training exit 0 after 0.35 h
+2026-10-12 02:51:27  [zh/C] evaluation exit 0
+2026-10-12 02:51:27  [zh/CA] train: --mode recipe --language zh --run-name CA --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_aug_auto/Chinese --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-12 03:53:42  [zh/CA] training exit 0 after 1.04 h
+2026-10-12 03:55:56  [zh/CA] evaluation exit 0
+2026-10-12 03:55:59  [zh/CA_v1] train: --mode recipe --language zh --run-name CA_v1 --real-frac 0 --with-control --with-aug --aug-src /home/antonello/Desktop/thesis-alt-expressive/data/GTSinger_Augmented/Chinese --aug-max 5319 --optim adamw_8bit --gradient-checkpointing --epochs 3 --batch-size 8 --seed 42
+2026-10-12 04:58:00  [zh/CA_v1] training exit 0 after 1.03 h
+2026-10-12 05:00:10  [zh/CA_v1] evaluation exit 0
+2026-10-12 05:00:18  [zh] statistics updated → results/finetune/summary.md
+2026-10-12 05:00:18  matrix finished

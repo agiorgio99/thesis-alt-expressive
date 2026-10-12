@@ -65,7 +65,9 @@ TECH_ORDER = list(GROUPS.values())
 INK, MUTED, GRID = "#0b0b0b", "#52514e", "#e4e3df"
 BLUE, ORANGE = "#2a78d6", "#eb6834"
 RUN_COLORS = {"E0": "#8c8b87", "R": "#2a78d6", "RC": "#1f9e89", "RCA": "#eb6834",
-              "RCA_v1": "#b54414", "R20C": "#7e57c2", "R20CA": "#d6409f"}
+              "RCA_v1": "#b54414", "R20C": "#7e57c2", "R20CA": "#d6409f",
+              # Zero-resource runs (no real technique take).
+              "C": "#5b8c2a", "CA": "#e0a526", "CA_v1": "#8a6d1a"}
 plt.rcParams.update({"font.size": 9, "axes.edgecolor": MUTED, "axes.labelcolor": INK,
                      "xtick.color": MUTED, "ytick.color": MUTED,
                      "axes.spines.top": False, "axes.spines.right": False})
@@ -376,11 +378,18 @@ def plot_ft_relative(summ: pd.DataFrame, comp: pd.DataFrame, out: Path) -> pd.Da
     return rel
 
 
-def plot_ft_comparisons(comp: pd.DataFrame, out: Path) -> None:
-    """Forest plot of the planned paired comparisons, per language."""
-    order = [c for c in ["R vs E0", "RC vs R", "RCA vs RC", "RCA vs RCA_v1", "R20CA vs R20C",
-                         "CA vs C", "CA vs CA_v1", "RC vs CA"] if c in set(comp["comparison"])]
-    fig, axes = plt.subplots(1, len(order), figsize=(2.4 * len(order), 3.8), sharey=True,
+def plot_ft_comparisons(comp: pd.DataFrame, out: Path, wanted: list[str]) -> None:
+    """Forest plot of some planned paired comparisons, per language.
+
+    Args:
+        comp:   comparisons.csv of finetune_stats.py.
+        out:    Output PNG.
+        wanted: Comparison names, one panel each, in this order.
+    """
+    order = [c for c in wanted if c in set(comp["comparison"])]
+    if not order:
+        return
+    fig, axes = plt.subplots(1, len(order), figsize=(2.4 * len(order) + 0.6, 3.8), sharey=True,
                              squeeze=False)
     axes = axes[0]
     for ax, name in zip(axes, order):
@@ -433,13 +442,15 @@ def ft_by_technique() -> pd.DataFrame:
 
 def plot_ft_by_technique(d: pd.DataFrame, out: Path) -> pd.DataFrame:
     """Median (over languages) relative change vs E0 per technique and run."""
-    runs = ["R", "RC", "RCA", "RCA_v1"]
+    runs = [r for r in ["R", "RC", "RCA", "RCA_v1", "C", "CA"] if r in set(d["run"])]
     t = (d[d["run"].isin(runs)].groupby(["technique", "run"])["rel_vs_E0"].median()
          .unstack().reindex(index=TECH_ORDER, columns=runs) * 100)
     fig, ax = plt.subplots(figsize=(7.2, 3.6))
     w = 0.2
     for k, run in enumerate(runs):
-        ax.bar(np.arange(len(t)) + (k - 1.5) * w, t[run], w, color=RUN_COLORS[run], label=run)
+        w = 0.8 / len(runs)
+        ax.bar(np.arange(len(t)) + (k - (len(runs) - 1) / 2) * w, t[run], w,
+               color=RUN_COLORS[run], label=run)
     ax.axhline(0, color=INK, lw=0.8)
     ax.set_xticks(range(len(t)), t.index)
     ax.set_ylabel("change vs E0 (%, median over languages)")
@@ -523,7 +534,12 @@ def main() -> None:
     summ, comp = pd.read_csv(ft / "summary.csv"), pd.read_csv(ft / "comparisons.csv")
     plot_ft_runs(summ, FIG / "ft_runs.png")
     rel = plot_ft_relative(summ, comp, FIG / "ft_relative.png")
-    plot_ft_comparisons(comp, FIG / "ft_comparisons.png")
+    # Main ablation (real technique takes available) and zero-resource runs
+    # (no real technique take) as two figures.
+    plot_ft_comparisons(comp, FIG / "ft_comparisons.png",
+                        ["R vs E0", "RC vs R", "RCA vs RC", "RCA vs RCA_v1", "R20CA vs R20C"])
+    plot_ft_comparisons(comp, FIG / "ft_zero_resource.png",
+                        ["R vs C", "CA vs C", "CA vs CA_v1"])
     by_tech = ft_by_technique()
     by_tech.to_csv(OUT / "ft_by_technique.csv", index=False)
     t = plot_ft_by_technique(by_tech, FIG / "ft_by_technique.png")
@@ -534,6 +550,8 @@ def main() -> None:
            rel.round(1).to_markdown(), "",
            "![relative](figures/ft_relative.png)", "",
            "![comparisons](figures/ft_comparisons.png)", "",
+           "Zero-resource runs (no real technique take; C = control takes only):", "",
+           "![zero-resource](figures/ft_zero_resource.png)", "",
            "Per technique (median over languages of the change vs E0, %):", "",
            t.round(1).to_markdown(), "",
            "![by technique](figures/ft_by_technique.png)", ""]

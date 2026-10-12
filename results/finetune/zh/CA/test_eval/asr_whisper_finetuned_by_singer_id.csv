@@ -1,0 +1,3 @@
+n,metric,wer,cer,per,hallucination_rate,cer_no_halluc,singer_id
+585,cer,1.0,0.11410619924921761,,0.0,0.11410619924921761,ZH-Alto-1
+646,cer,1.0,0.07745929718809932,,0.0,0.07745929718809932,ZH-Tenor-1
