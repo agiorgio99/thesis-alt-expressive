@@ -36,7 +36,16 @@ FIELDS = ["timestamp", "rater", "session_seed", "trial", "language", "group",
           "source", "variant", "clip", "naturalness", "technique_heard"]
 
 
-def build_trials(rater: str, n: int = 40, languages: list[str] | None = None) -> list[dict]:
+# Technique groups of the pilot and their answer label in the rating form.
+GROUP_LABELS = {"Vibrato_Group": "vibrato", "Breathy_Group": "breathy",
+                "Glissando_Group": "glissando", "Pharyngeal_Group": "pharyngeal",
+                "Falsetto_Group": "falsetto", "Mixed_Voice_Group": "mixed voice"}
+# Hard to hear for a non-expert listener: left out of the session by default.
+DEFAULT_EXCLUDED = ["Pharyngeal_Group", "Mixed_Voice_Group"]
+
+
+def build_trials(rater: str, n: int = 40, languages: list[str] | None = None,
+                 groups: list[str] | None = None) -> list[dict]:
     """Balanced, seeded trial list for one rater.
 
     Sources per phrase: the real technique take, the control take and the
@@ -47,6 +56,7 @@ def build_trials(rater: str, n: int = 40, languages: list[str] | None = None) ->
         rater:     Rater ID (seeds the order, so a rater can resume).
         n:         Number of clips in the session.
         languages: Restrict to these languages (default: all in the pilot).
+        groups:    Restrict to these technique groups (default: all).
 
     Returns:
         Trial dicts (clip path + hidden metadata).
@@ -54,6 +64,8 @@ def build_trials(rater: str, n: int = 40, languages: list[str] | None = None) ->
     man = pd.read_csv(MANIFEST)
     if languages:
         man = man[man.language.isin(languages)]
+    if groups:
+        man = man[man.group.isin(groups)]
     typical = man[man.variant == "v1"]
     items = []
     for _, r in typical.iterrows():
@@ -124,10 +136,20 @@ def build(demo: gr.Blocks) -> None:
         "how natural it sounds and which technique you hear. The same ID "
         "always gets the same clip order.\n\n*Pilot clips are needed: run "
         "`scripts/build_pilot.py` first.*")
+    langs = (sorted(pd.read_csv(MANIFEST, usecols=["language"]).language.unique())
+             if MANIFEST.exists() else [])
     with gr.Row():
         rater = gr.Textbox(label="Rater ID")
         n_trials = gr.Slider(10, 120, value=40, step=5, label="Clips in session")
         start = gr.Button("Start", variant="primary")
+    with gr.Row():
+        # Session filters: languages the rater understands, techniques they
+        # can tell apart by ear.
+        lang_sel = gr.CheckboxGroup(langs, value=langs, label="Languages")
+        group_sel = gr.CheckboxGroup(
+            [(lab, g) for g, lab in GROUP_LABELS.items()],
+            value=[g for g in GROUP_LABELS if g not in DEFAULT_EXCLUDED],
+            label="Techniques in the session")
     progress = gr.Markdown()
     audio = gr.Audio(label="Clip", interactive=False, autoplay=True)
     natural = gr.Radio([1, 2, 3, 4, 5], label="Naturalness (1 = robotic … 5 = real singer)")
@@ -139,13 +161,21 @@ def build(demo: gr.Blocks) -> None:
         table = gr.Dataframe(summary)
         refresh = gr.Button("Refresh")
 
-    def on_start(r, n):
+    def on_start(r, n, ls, gs):
+        keep = gr.update()
         if not r.strip():
-            return [], 0, "⚠️ Enter a rater ID.", None
+            return [], 0, "⚠️ Enter a rater ID.", None, keep
         if not MANIFEST.exists():
-            return [], 0, "⚠️ No pilot manifest found.", None
-        trials = build_trials(r.strip(), int(n))
-        return trials, 0, f"Clip 1 / {len(trials)}", _audio(trials[0])
+            return [], 0, "⚠️ No pilot manifest found.", None, keep
+        if not ls or not gs:
+            return [], 0, "⚠️ Select at least one language and one technique.", None, keep
+        trials = build_trials(r.strip(), int(n), languages=ls, groups=gs)
+        if not trials:
+            return [], 0, "⚠️ No clips for this selection.", None, keep
+        # Answer options = the techniques in the session + "none".
+        choices = [GROUP_LABELS[g] for g in GROUP_LABELS if g in gs] + [TECHNIQUES[-1]]
+        return (trials, 0, f"Clip 1 / {len(trials)}", _audio(trials[0]),
+                gr.update(choices=choices, value=None))
 
     def on_submit(r, trials, idx, nat, tech):
         if not trials or idx >= len(trials):
@@ -164,7 +194,8 @@ def build(demo: gr.Blocks) -> None:
             return idx, "✅ Session finished — thank you!", None, None, None
         return idx, f"Clip {idx + 1} / {len(trials)}", _audio(trials[idx]), None, None
 
-    start.click(on_start, [rater, n_trials], [trials_state, idx_state, progress, audio])
+    start.click(on_start, [rater, n_trials, lang_sel, group_sel],
+                [trials_state, idx_state, progress, audio, heard])
     submit.click(on_submit, [rater, trials_state, idx_state, natural, heard],
                  [idx_state, progress, audio, natural, heard])
     refresh.click(summary, None, table)
