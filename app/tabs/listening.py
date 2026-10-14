@@ -40,8 +40,8 @@ FIELDS = ["timestamp", "rater", "session_seed", "trial", "language", "group",
 GROUP_LABELS = {"Vibrato_Group": "vibrato", "Breathy_Group": "breathy",
                 "Glissando_Group": "glissando", "Pharyngeal_Group": "pharyngeal",
                 "Falsetto_Group": "falsetto", "Mixed_Voice_Group": "mixed voice"}
-# Hard to hear for a non-expert listener: left out of the session by default.
-DEFAULT_EXCLUDED = ["Pharyngeal_Group", "Mixed_Voice_Group"]
+# Techniques left out of a session by default (none: all six are rated).
+DEFAULT_EXCLUDED: list[str] = []
 
 
 def build_trials(rater: str, n: int = 40, languages: list[str] | None = None,
