@@ -1,0 +1,91 @@
+timestamp,rater,session_seed,trial,language,group,source,variant,clip,naturalness,technique_heard
+2026-10-14T16:58:12.650702+00:00,0,4108050209,0,english,Vibrato_Group,control,,data/GTSinger/English/EN-Alto-2/Vibrato/A Thousand Years/Control_Group/0006.wav,5,none (plain singing)
+2026-10-14T16:58:48.871255+00:00,0,4108050209,1,chinese,Glissando_Group,psola,v1,data/pilot/chinese/Glissando_Group/psola/ZH-Alto-1__时间煮雨__0017__v1.wav,2,glissando
+2026-10-14T16:59:12.732496+00:00,0,4108050209,2,italian,Glissando_Group,real,,"data/GTSinger/Italian/IT-Bass-1/Glissando/Di Provenza il mar, il suol/Glissando_Group/0015.wav",3,glissando
+2026-10-14T16:59:24.126213+00:00,0,4108050209,3,english,Falsetto_Group,real,,data/GTSinger/English/EN-Alto-2/Mixed_Voice_and_Falsetto/My Love/Falsetto_Group/0003.wav,5,falsetto
+2026-10-14T16:59:54.008051+00:00,0,4108050209,4,english,Pharyngeal_Group,world_v2,v1,data/pilot/english/Pharyngeal_Group/world_v2/EN-Alto-2__Dream_It_Possible__0000__v1.wav,1,falsetto
+2026-10-14T17:00:12.559508+00:00,0,4108050209,5,french,Falsetto_Group,control,,data/GTSinger/French/FR-Tenor-1/Mixed_Voice_and_Falsetto/manon/Control_Group/0002.wav,5,vibrato
+2026-10-14T17:00:23.840593+00:00,0,4108050209,6,english,Glissando_Group,legacy,v1,data/pilot/english/Glissando_Group/legacy/EN-Alto-2__Dream_It_Possible__0003__v1.wav,1,glissando
+2026-10-14T17:00:38.488201+00:00,0,4108050209,7,japanese,Breathy_Group,legacy,v1,data/pilot/japanese/Breathy_Group/legacy/JA-Tenor-1__ブルーバード__0004__v1.wav,2,breathy
+2026-10-14T17:00:46.231665+00:00,0,4108050209,8,spanish,Glissando_Group,legacy,v1,data/pilot/spanish/Glissando_Group/legacy/ES-Bass-1__Memoria__0005__v1.wav,1,glissando
+2026-10-14T17:01:00.316486+00:00,0,4108050209,9,japanese,Vibrato_Group,legacy,v1,data/pilot/japanese/Vibrato_Group/legacy/JA-Soprano-1__heartful_song__0001__v1.wav,3,vibrato
+2026-10-14T17:01:12.899820+00:00,0,4108050209,10,italian,Breathy_Group,real,,"data/GTSinger/Italian/IT-Bass-1/Breathy/Di Provenza il mar, il suol/Breathy_Group/0012.wav",5,breathy
+2026-10-14T17:01:28.590504+00:00,0,4108050209,11,french,Vibrato_Group,psola,v1,data/pilot/french/Vibrato_Group/psola/FR-Soprano-1__eden_eden__0008__v1.wav,5,pharyngeal
+2026-10-14T17:01:41.254330+00:00,0,4108050209,12,russian,Breathy_Group,real,,data/GTSinger/Russian/RU-Alto-1/Breathy/Поезд/Breathy_Group/0001.wav,3,breathy
+2026-10-14T17:01:56.106025+00:00,0,4108050209,13,italian,Vibrato_Group,legacy,v1,data/pilot/italian/Vibrato_Group/legacy/IT-Bass-1__Musica_proibita__0010__v1.wav,4,vibrato
+2026-10-14T17:02:07.911454+00:00,0,4108050209,14,french,Pharyngeal_Group,world_v2,v1,data/pilot/french/Pharyngeal_Group/world_v2/FR-Soprano-1__guel_ennui__0002__v1.wav,2,mixed voice
+2026-10-14T17:02:19.493130+00:00,0,4108050209,15,french,Vibrato_Group,psola,v1,data/pilot/french/Vibrato_Group/psola/FR-Tenor-1__o_souverain__0017__v1.wav,4,vibrato
+2026-10-14T17:02:31.147618+00:00,0,4108050209,16,japanese,Falsetto_Group,psola,v1,data/pilot/japanese/Falsetto_Group/psola/JA-Soprano-1__风になる__0005__v1.wav,1,mixed voice
+2026-10-14T17:02:48.033618+00:00,0,4108050209,17,german,Mixed_Voice_Group,world_v2,v1,data/pilot/german/Mixed_Voice_Group/world_v2/DE-Soprano-1__Ich_Gehör_Nur_Mir__0004__v1.wav,1,falsetto
+2026-10-14T17:03:08.954025+00:00,0,4108050209,18,japanese,Breathy_Group,real,,data/GTSinger/Japanese/JA-Tenor-1/Breathy/未来へ/Breathy_Group/0000.wav,4,breathy
+2026-10-14T17:03:16.457973+00:00,0,4108050209,19,german,Glissando_Group,world_v2,v1,data/pilot/german/Glissando_Group/world_v2/DE-Soprano-1__Copilot__0004__v1.wav,1,none (plain singing)
+2026-10-14T17:03:30.880827+00:00,0,4108050209,20,korean,Vibrato_Group,control,,data/GTSinger/Korean/KO-Soprano-1/Vibrato/chantey/Control_Group/0001.wav,5,none (plain singing)
+2026-10-14T17:03:55.138118+00:00,0,4108050209,21,chinese,Falsetto_Group,control,,data/GTSinger/Chinese/ZH-Alto-1/Mixed_Voice_and_Falsetto/我们的明天/Control_Group/0004.wav,4,none (plain singing)
+2026-10-14T17:04:20.091696+00:00,0,4108050209,22,french,Falsetto_Group,psola,v1,data/pilot/french/Falsetto_Group/psola/FR-Soprano-1__eviter_les_roses__0002__v1.wav,4,breathy
+2026-10-14T17:04:47.110272+00:00,0,4108050209,23,french,Pharyngeal_Group,control,,data/GTSinger/French/FR-Soprano-1/Pharyngeal/l'amour/Control_Group/0003.wav,4,falsetto
+2026-10-14T17:05:19.787339+00:00,0,4108050209,24,english,Pharyngeal_Group,real,,data/GTSinger/English/EN-Tenor-1/Pharyngeal/Long Live/Pharyngeal_Group/0000.wav,4,none (plain singing)
+2026-10-14T17:05:38.316494+00:00,0,4108050209,25,russian,Falsetto_Group,world_v2,v1,data/pilot/russian/Falsetto_Group/world_v2/RU-Alto-1__Если_тебя_со_мною_не__0004__v1.wav,4,breathy
+2026-10-14T17:18:24.309345+00:00,0,4108050209,26,korean,Breathy_Group,control,,data/GTSinger/Korean/KO-Soprano-2/Breathy/ur/Control_Group/0000.wav,5,pharyngeal
+2026-10-14T17:18:42.411357+00:00,0,4108050209,27,italian,Glissando_Group,psola,v1,data/pilot/italian/Glissando_Group/psola/IT-Bass-1__Musica_proibita__0007__v1.wav,4,vibrato
+2026-10-14T17:18:51.421838+00:00,0,4108050209,28,french,Glissando_Group,legacy,v1,data/pilot/french/Glissando_Group/legacy/FR-Tenor-1__o_souverain__0012__v1.wav,1,none (plain singing)
+2026-10-14T17:19:13.983480+00:00,0,4108050209,29,italian,Breathy_Group,world_v2,v1,data/pilot/italian/Breathy_Group/world_v2/IT-Bass-1__Ombra_mai_fu__0004__v1.wav,4,vibrato
+2026-10-14T17:47:39.426899+00:00,antonello_en,1070000482,0,english,Pharyngeal_Group,legacy,v1,data/pilot/english/Pharyngeal_Group/legacy/EN-Alto-2__Dream_It_Possible__0000__v1.wav,3,glissando
+2026-10-14T17:47:57.884515+00:00,antonello_en,1070000482,1,english,Glissando_Group,world_v2,v1,data/pilot/english/Glissando_Group/world_v2/EN-Alto-1__my_love__0012__v1.wav,2,mixed voice
+2026-10-14T17:48:07.239236+00:00,antonello_en,1070000482,2,english,Breathy_Group,control,,data/GTSinger/English/EN-Alto-1/Breathy/treasure/Control_Group/0001.wav,4,none (plain singing)
+2026-10-14T17:48:12.755444+00:00,antonello_en,1070000482,3,english,Vibrato_Group,legacy,v1,data/pilot/english/Vibrato_Group/legacy/EN-Alto-2__Young_And_Beautiful__0004__v1.wav,1,vibrato
+2026-10-14T17:48:23.519955+00:00,antonello_en,1070000482,4,english,Falsetto_Group,real,,data/GTSinger/English/EN-Alto-2/Mixed_Voice_and_Falsetto/Love Me Like You Do/Falsetto_Group/0007.wav,5,breathy
+2026-10-14T17:48:33.877271+00:00,antonello_en,1070000482,5,english,Falsetto_Group,real,,data/GTSinger/English/EN-Alto-2/Mixed_Voice_and_Falsetto/My Love/Falsetto_Group/0003.wav,5,falsetto
+2026-10-14T17:48:43.692932+00:00,antonello_en,1070000482,6,english,Pharyngeal_Group,real,,data/GTSinger/English/EN-Tenor-1/Pharyngeal/Long Live/Pharyngeal_Group/0000.wav,5,vibrato
+2026-10-14T17:48:55.129391+00:00,antonello_en,1070000482,7,english,Vibrato_Group,psola,v1,data/pilot/english/Vibrato_Group/psola/EN-Tenor-1__Enchanted__0002__v1.wav,5,vibrato
+2026-10-14T17:49:09.400937+00:00,antonello_en,1070000482,8,english,Vibrato_Group,psola,v1,data/pilot/english/Vibrato_Group/psola/EN-Tenor-1__Stay__0000__v1.wav,5,vibrato
+2026-10-14T17:49:22.691192+00:00,antonello_en,1070000482,9,english,Glissando_Group,world_v2,v1,data/pilot/english/Glissando_Group/world_v2/EN-Alto-2__Dream_It_Possible__0003__v1.wav,1,none (plain singing)
+2026-10-14T17:49:35.971310+00:00,antonello_en,1070000482,10,english,Mixed_Voice_Group,real,,data/GTSinger/English/EN-Alto-2/Mixed_Voice_and_Falsetto/My Love/Mixed_Voice_Group/0004.wav,5,breathy
+2026-10-14T17:49:46.740658+00:00,antonello_en,1070000482,11,english,Falsetto_Group,control,,data/GTSinger/English/EN-Alto-2/Mixed_Voice_and_Falsetto/Hey Jude/Control_Group/0004.wav,5,pharyngeal
+2026-10-14T17:49:56.487675+00:00,antonello_en,1070000482,12,english,Breathy_Group,control,,data/GTSinger/English/EN-Alto-1/Breathy/who says/Control_Group/0007.wav,4,mixed voice
+2026-10-14T17:50:08.313289+00:00,antonello_en,1070000482,13,english,Glissando_Group,psola,v1,data/pilot/english/Glissando_Group/psola/EN-Alto-2__Someone_You_Loved__0002__v1.wav,1,none (plain singing)
+2026-10-14T17:50:16.086273+00:00,antonello_en,1070000482,14,english,Falsetto_Group,real,,data/GTSinger/English/EN-Alto-2/Mixed_Voice_and_Falsetto/Hello/Falsetto_Group/0007.wav,5,falsetto
+2026-10-14T17:50:30.040900+00:00,antonello_en,1070000482,15,english,Glissando_Group,psola,v1,data/pilot/english/Glissando_Group/psola/EN-Alto-1__my_love__0012__v1.wav,3,glissando
+2026-10-14T17:50:39.251729+00:00,antonello_en,1070000482,16,english,Breathy_Group,world_v2,v1,data/pilot/english/Breathy_Group/world_v2/EN-Alto-2__Dream_It_Possible__0002__v1.wav,3,pharyngeal
+2026-10-14T17:50:51.752511+00:00,antonello_en,1070000482,17,english,Vibrato_Group,world_v2,v1,data/pilot/english/Vibrato_Group/world_v2/EN-Tenor-1__Stay__0000__v1.wav,5,vibrato
+2026-10-14T17:51:02.511618+00:00,antonello_en,1070000482,18,english,Vibrato_Group,world_v2,v1,data/pilot/english/Vibrato_Group/world_v2/EN-Alto-2__Young_And_Beautiful__0004__v1.wav,4,mixed voice
+2026-10-14T17:51:21.080398+00:00,antonello_en,1070000482,19,english,Pharyngeal_Group,legacy,v1,data/pilot/english/Pharyngeal_Group/legacy/EN-Tenor-1__Million_Reasons__0003__v1.wav,4,none (plain singing)
+2026-10-14T17:51:48.105379+00:00,antonello_en,1070000482,20,english,Falsetto_Group,control,,data/GTSinger/English/EN-Alto-2/Mixed_Voice_and_Falsetto/Love Me Like You Do/Control_Group/0007.wav,5,none (plain singing)
+2026-10-14T17:52:04.272294+00:00,antonello_en,1070000482,21,english,Vibrato_Group,control,,data/GTSinger/English/EN-Tenor-1/Vibrato/Someone Like You/Control_Group/0000.wav,5,mixed voice
+2026-10-14T17:52:39.146371+00:00,antonello_en,1070000482,22,english,Vibrato_Group,psola,v1,data/pilot/english/Vibrato_Group/psola/EN-Tenor-1__Someone_Like_You__0000__v1.wav,4,mixed voice
+2026-10-14T17:52:54.851960+00:00,antonello_en,1070000482,23,english,Falsetto_Group,psola,v1,data/pilot/english/Falsetto_Group/psola/EN-Alto-2__My_Love__0003__v1.wav,3,mixed voice
+2026-10-14T17:53:01.197183+00:00,antonello_en,1070000482,24,english,Vibrato_Group,legacy,v1,data/pilot/english/Vibrato_Group/legacy/EN-Tenor-1__Someone_Like_You__0000__v1.wav,1,vibrato
+2026-10-14T17:53:14.736520+00:00,antonello_en,1070000482,25,english,Mixed_Voice_Group,real,,data/GTSinger/English/EN-Alto-2/Mixed_Voice_and_Falsetto/Dream It Possible/Mixed_Voice_Group/0002.wav,4,none (plain singing)
+2026-10-14T17:53:27.007054+00:00,antonello_en,1070000482,26,english,Breathy_Group,world_v2,v1,data/pilot/english/Breathy_Group/world_v2/EN-Alto-2__What_Are_Words__0000__v1.wav,5,pharyngeal
+2026-10-14T17:53:40.927066+00:00,antonello_en,1070000482,27,english,Pharyngeal_Group,control,,data/GTSinger/English/EN-Alto-2/Pharyngeal/What Are Words/Control_Group/0005.wav,5,none (plain singing)
+2026-10-14T17:53:48.951971+00:00,antonello_en,1070000482,28,english,Vibrato_Group,legacy,v1,data/pilot/english/Vibrato_Group/legacy/EN-Alto-1__memory__0005__v1.wav,1,vibrato
+2026-10-14T17:53:59.453668+00:00,antonello_en,1070000482,29,english,Breathy_Group,legacy,v1,data/pilot/english/Breathy_Group/legacy/EN-Alto-2__Yesterday_Once_More__0007__v1.wav,2,breathy
+2026-10-14T17:55:12.042528+00:00,antonello_it,1846632212,0,italian,Vibrato_Group,real,,data/GTSinger/Italian/IT-Bass-1/Vibrato/Non ti amo più/Vibrato_Group/0001.wav,5,vibrato
+2026-10-14T17:55:29.057678+00:00,antonello_it,1846632212,1,italian,Pharyngeal_Group,control,,data/GTSinger/Italian/IT-Bass-1/Pharyngeal/Ombra mai fu/Control_Group/0000.wav,5,mixed voice
+2026-10-14T17:56:05.296315+00:00,antonello_it,1846632212,2,italian,Mixed_Voice_Group,world_v2,v1,data/pilot/italian/Mixed_Voice_Group/world_v2/IT-Soprano-1__Giunse_alfin_il_momento__0004__v1.wav,4,falsetto
+2026-10-14T17:56:35.615271+00:00,antonello_it,1846632212,3,italian,Falsetto_Group,psola,v1,data/pilot/italian/Falsetto_Group/psola/IT-Soprano-1__Donde_lieta__0000__v1.wav,4,vibrato
+2026-10-14T17:56:54.454221+00:00,antonello_it,1846632212,4,italian,Pharyngeal_Group,real,,data/GTSinger/Italian/IT-Bass-2/Pharyngeal/Per la gloria d'adorarvi/Pharyngeal_Group/0000.wav,4,vibrato
+2026-10-14T17:57:18.993359+00:00,antonello_it,1846632212,5,italian,Falsetto_Group,world_v2,v1,data/pilot/italian/Falsetto_Group/world_v2/IT-Soprano-1__Una_donna_a_quindici_anni__0001__v1.wav,5,mixed voice
+2026-10-14T17:57:35.631230+00:00,antonello_it,1846632212,6,italian,Glissando_Group,psola,v1,data/pilot/italian/Glissando_Group/psola/IT-Bass-2__Per_la_gloria_d'adorarvi__0000__v1.wav,3,glissando
+2026-10-14T17:57:45.038569+00:00,antonello_it,1846632212,7,italian,Falsetto_Group,legacy,v1,data/pilot/italian/Falsetto_Group/legacy/IT-Bass-1__Musica_proibita__0009__v1.wav,3,breathy
+2026-10-14T17:58:01.049941+00:00,antonello_it,1846632212,8,italian,Falsetto_Group,world_v2,v1,data/pilot/italian/Falsetto_Group/world_v2/IT-Soprano-1__Giunse_alfin_il_momento__0006__v1.wav,5,falsetto
+2026-10-14T17:58:16.288428+00:00,antonello_it,1846632212,9,italian,Pharyngeal_Group,real,,data/GTSinger/Italian/IT-Bass-2/Pharyngeal/Aprile/Pharyngeal_Group/0001.wav,3,none (plain singing)
+2026-10-14T17:58:32.454966+00:00,antonello_it,1846632212,10,italian,Falsetto_Group,psola,v1,"data/pilot/italian/Falsetto_Group/psola/IT-Bass-1__Pietà,_Signore__0009__v1.wav",1,falsetto
+2026-10-14T17:58:47.428294+00:00,antonello_it,1846632212,11,italian,Vibrato_Group,psola,v1,data/pilot/italian/Vibrato_Group/psola/IT-Bass-1__Musica_proibita__0010__v1.wav,5,vibrato
+2026-10-14T17:58:57.241584+00:00,antonello_it,1846632212,12,italian,Falsetto_Group,real,,data/GTSinger/Italian/IT-Soprano-1/Mixed_Voice_and_Falsetto/Quando men vo/Falsetto_Group/0002.wav,5,falsetto
+2026-10-14T17:59:16.008565+00:00,antonello_it,1846632212,13,italian,Pharyngeal_Group,legacy,v1,data/pilot/italian/Pharyngeal_Group/legacy/IT-Bass-1__Ombra_mai_fu__0000__v1.wav,4,breathy
+2026-10-14T17:59:26.304695+00:00,antonello_it,1846632212,14,italian,Vibrato_Group,psola,v1,data/pilot/italian/Vibrato_Group/psola/IT-Bass-2__Per_la_gloria_d'adorarvi__0008__v1.wav,4,pharyngeal
+2026-10-14T17:59:36.336895+00:00,antonello_it,1846632212,15,italian,Breathy_Group,world_v2,v1,data/pilot/italian/Breathy_Group/world_v2/IT-Bass-1__Con_ardore__0004__v1.wav,4,pharyngeal
+2026-10-14T17:59:51.994843+00:00,antonello_it,1846632212,16,italian,Breathy_Group,legacy,v1,data/pilot/italian/Breathy_Group/legacy/IT-Bass-1__Non_ti_amo_più__0008__v1.wav,3,breathy
+2026-10-14T18:00:21.838323+00:00,antonello_it,1846632212,17,italian,Mixed_Voice_Group,real,,data/GTSinger/Italian/IT-Bass-1/Mixed_Voice_and_Falsetto/Con ardore/Mixed_Voice_Group/0009.wav,5,none (plain singing)
+2026-10-14T18:00:32.173234+00:00,antonello_it,1846632212,18,italian,Mixed_Voice_Group,real,,data/GTSinger/Italian/IT-Bass-2/Mixed_Voice_and_Falsetto/Mio caro/Mixed_Voice_Group/0003.wav,4,vibrato
+2026-10-14T18:00:49.403597+00:00,antonello_it,1846632212,19,italian,Glissando_Group,psola,v1,data/pilot/italian/Glissando_Group/psola/IT-Bass-1__Musica_proibita__0007__v1.wav,4,vibrato
+2026-10-14T18:01:12.199017+00:00,antonello_it,1846632212,20,italian,Falsetto_Group,control,,data/GTSinger/Italian/IT-Soprano-1/Mixed_Voice_and_Falsetto/Una donna a quindici anni/Control_Group/0001.wav,4,mixed voice
+2026-10-14T18:01:24.513712+00:00,antonello_it,1846632212,21,italian,Breathy_Group,legacy,v1,"data/pilot/italian/Breathy_Group/legacy/IT-Bass-1__Di_Provenza_il_mar,_il_suol__0012__v1.wav",2,breathy
+2026-10-14T18:01:37.991413+00:00,antonello_it,1846632212,22,italian,Breathy_Group,world_v2,v1,data/pilot/italian/Breathy_Group/world_v2/IT-Bass-1__Musica_proibita__0012__v1.wav,5,vibrato
+2026-10-14T18:01:57.825112+00:00,antonello_it,1846632212,23,italian,Breathy_Group,world_v2,v1,data/pilot/italian/Breathy_Group/world_v2/IT-Bass-2__Mio_caro__0004__v1.wav,4,glissando
+2026-10-14T18:02:15.567462+00:00,antonello_it,1846632212,24,italian,Glissando_Group,control,,"data/GTSinger/Italian/IT-Bass-1/Glissando/Di Provenza il mar, il suol/Control_Group/0015.wav",5,none (plain singing)
+2026-10-14T18:02:31.187319+00:00,antonello_it,1846632212,25,italian,Vibrato_Group,legacy,v1,data/pilot/italian/Vibrato_Group/legacy/IT-Bass-1__Mio_caro__0005__v1.wav,4,vibrato
+2026-10-14T18:03:05.766126+00:00,antonello_it,1846632212,26,italian,Vibrato_Group,legacy,v1,data/pilot/italian/Vibrato_Group/legacy/IT-Bass-1__Ombra_mai_fu__0000__v1.wav,4,vibrato
+2026-10-14T18:03:20.833796+00:00,antonello_it,1846632212,27,italian,Glissando_Group,control,,data/GTSinger/Italian/IT-Bass-2/Glissando/Per la gloria d'adorarvi/Control_Group/0000.wav,5,glissando
+2026-10-14T18:03:40.203146+00:00,antonello_it,1846632212,28,italian,Vibrato_Group,control,,data/GTSinger/Italian/IT-Bass-1/Vibrato/Musica proibita/Control_Group/0010.wav,5,mixed voice
+2026-10-14T18:04:08.240619+00:00,antonello_it,1846632212,29,italian,Falsetto_Group,control,,"data/GTSinger/Italian/IT-Bass-1/Mixed_Voice_and_Falsetto/Pietà, Signore/Control_Group/0009.wav",4,mixed voice
